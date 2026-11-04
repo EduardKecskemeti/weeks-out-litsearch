@@ -1,0 +1,72 @@
+{
+  "database": "OpenAlex (https://api.openalex.org/works)",
+  "search_field": "title_and_abstract.search",
+  "filters": "publication_year:2016-2025,language:en,type:article|review|conference-paper|book-chapter",
+  "retrieved": "2026-10-17/2026-10-19",
+  "final": [
+    {
+      "block": "b1v3",
+      "question": "Q1 body composition from 2D images",
+      "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\")",
+      "hits": 804
+    },
+    {
+      "block": "b1",
+      "question": "Q1 (original, narrower; subset of b1v3, kept only as a label)",
+      "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional)",
+      "hits": 436
+    },
+    {
+      "block": "b2",
+      "question": "Q2 body composition during contest preparation",
+      "query": "(bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") AND (\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\")",
+      "hits": 294
+    },
+    {
+      "block": "b3v4",
+      "question": "Q3 learning order or progression from images",
+      "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") AND (image OR images OR photograph OR imaging)",
+      "hits": 138
+    },
+    {
+      "block": "b4",
+      "question": "AI applied to bodybuilding (links Q1 and Q2)",
+      "query": "(bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") AND (\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\")",
+      "hits": 18
+    }
+  ],
+  "union_unique_records": 1251,
+  "scrapped": [
+    {
+      "version": "run 1 (b1, b2, b3 original)",
+      "change": "filter type:article|review|book-chapter only",
+      "hits": "881 union; b1 302",
+      "reason": "Conference papers are a separate OpenAlex type and were excluded; conference-paper added to the filter."
+    },
+    {
+      "version": "b1 without third concept",
+      "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\")",
+      "hits": 3991,
+      "reason": "Far over the 1,500-record limit, mostly clinical and apparel noise."
+    },
+    {
+      "version": "b3 original",
+      "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"relative attribute\" OR \"temporal order\" OR \"image ordering\" OR siamese) AND (longitudinal OR progression OR \"disease stage\" OR \"temporal change\" OR \"age estimation\") AND (image OR images OR photograph OR \"deep learning\")",
+      "hits": 292,
+      "reason": "Bare 'siamese' matched Thai/Siam studies; 'progression' without an image term matched oncology."
+    },
+    {
+      "version": "b3v2",
+      "query": null,
+      "description": "b3 with the third concept replaced by a required neural-network term (\"deep learning\" / \"neural network\" family). Exact wording not preserved.",
+      "hits": 46,
+      "reason": "Too narrow; lost known Q3 papers."
+    },
+    {
+      "version": "b3v3",
+      "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\")",
+      "hits": 703,
+      "reason": "No image concept, so most hits were non-imaging; image concept added in b3v4."
+    }
+  ]
+}

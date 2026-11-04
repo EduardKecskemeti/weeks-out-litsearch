@@ -1,0 +1,90 @@
+"""The screened relevant set: (OpenAlex id, theme, why it matters for the paper)."""
+
+THEMES = {
+    'A': 'Body composition from ordinary photos (validation against DXA / multi-compartment models)',
+    'B': 'Body shape, weight and BMI from images (computer vision)',
+    'C': 'Body composition during contest preparation in physique athletes',
+    'D': 'Learning order, rank or progression from images',
+    'E': 'AI applied to bodybuilding',
+}
+
+REL = [
+    # A
+    ('W4283698854', 'A', 'Smartphone-photo adiposity estimation validated against DXA; the main precedent for photo-based body fat.'),
+    ('W4406560775', 'A', 'Recent AI 2D-photo body-fat method; shows current error levels of absolute %BF estimation.'),
+    ('W4307983833', 'A', 'Single-image smartphone ML estimate of total and abdominal fat; same input type as the paper.'),
+    ('W4405130883', 'A', 'ShapedNet: single-image deep regression of body composition; closest deep-learning baseline.'),
+    ('W4298009065', 'A', 'Compares smartphone visual methods with a 4-compartment model; reference-method accuracy.'),
+    ('W4310945073', 'A', 'Mobile imaging trained on a 4C model; validity and reliability of photo-based estimates.'),
+    ('W4210408071', 'A', 'Agreement of 2D smartphone-image and impedance-scale estimates with criterion methods.'),
+    ('W3136997174', 'A', 'Body volume from 2D images inside a 3-compartment model; how image methods are validated.'),
+    ('W3204454242', 'A', '2D image-based 3C model versus DXA; agreement statistics to compare against.'),
+    ('W4391319367', 'A', 'Agreement of 2D image estimates across different environmental conditions; relevant to photos taken outside the lab.'),
+    ('W3134607774', 'A', '2D image system applied to athletes (collegiate rowers); links image-based body composition to performance.'),
+    ('W4388132198', 'A', 'Digital imaging versus BIA and DXA for fat mass; another validation point.'),
+    ('W3088241220', 'A', 'Predicts 3D shape and body composition from conventional 2D photos.'),
+    ('W4288725097', 'A', 'Silhouettes estimate fat distribution at UK Biobank scale; shape-only signal is informative.'),
+    # B
+    ('W2921366310', 'B', 'Body weight analysis from full-body images; core computer-vision precedent.'),
+    ('W4210506757', 'B', 'Estimating weight from a single image; method and dataset design.'),
+    ('W2604892024', 'B', 'Face-to-BMI on social-media photos; in-the-wild image data and its biases.'),
+    ('W4414140955', 'B', 'SinBMI: BMI from a single image; recent single-image regression.'),
+    ('W2562703451', 'B', 'HS-Nets: body shape from silhouettes with CNNs.'),
+    ('W4312809617', 'B', 'Accurate 3D body shape regression from images using attributes; strong shape baseline.'),
+    ('W4403428415', 'B', 'Detects body-shape changes for obesity monitoring with image processing; tracking change rather than absolute values.'),
+    ('W4316813278', 'B', 'AInBody: deep model tracking body measurements from photos; consumer progress-tracking setting.'),
+    ('W3090535222', 'B', 'Predicts body measures from 2D images with CNNs.'),
+    # C
+    ('W4318924240', 'C', 'Systematic review of bodybuilders’ body composition with recommendations; reference values for contest leanness.'),
+    ('W2884416564', 'C', 'Tracks body composition through prep, two competitions and recovery; the trajectory the paper models.'),
+    ('W2885154880', 'C', 'Fat-free mass of muscular physique athletes; what the very lean end looks like.'),
+    ('W2916033170', 'C', 'Compares DXA and other methods with a 4C model in bodybuilders; reference error at very low fat.'),
+    ('W2743499154', 'C', 'Case study of physiological change during natural contest prep; timeline of weekly changes.'),
+    ('W3083020748', 'C', 'Body composition, RMR and strength changes across prep in natural bodybuilders.'),
+    ('W4416427900', 'C', 'Case series of lean mass changes through prep and recovery; recent longitudinal data.'),
+    ('W4395475252', 'C', 'Elite versus amateur natural physique athletes on competition day; what stage-ready means.'),
+    ('W2550035262', 'C', 'Diet, body composition and cycle changes through prep and recovery (female).'),
+    ('W2617815591', 'C', 'Review of low energy availability in natural male bodybuilding; context for the final weeks.'),
+    ('W3170010726', 'C', 'Evidence-based peak week recommendations; short-term appearance changes near the show.'),
+    ('W2791762432', 'C', 'Physiological implications of preparing for natural bodybuilding; overview of the prep period.'),
+    # D
+    ('W3014080415', 'D', 'Siamese networks for continuous severity and change detection; the pairwise idea the paper uses.'),
+    ('W2440214111', 'D', 'Ordinal regression with multiple-output CNN (age estimation); classic ordinal baseline.'),
+    ('W3097760447', 'D', 'CORAL rank-consistent ordinal regression; a direct alternative to pairwise ranking.'),
+    ('W2949208911', 'D', 'Soft labels for ordinal regression; simple, strong ordinal baseline.'),
+    ('W4312771329', 'D', 'Moving window regression for ordinal estimation; refines predictions via comparisons.'),
+    ('W7133198852', 'D', 'OrdinalCLIP: language-guided rank prompts; ordinal learning with foundation models.'),
+    ('W4400262610', 'D', 'Learning-to-rank from relative annotations for severity; pairwise labels instead of absolute grades.'),
+    ('W4404531451', 'D', 'Made to Order: self-supervised ordering discovers monotonic temporal change.'),
+    ('W3082445835', 'D', 'Temporal-order discrimination in longitudinal images; ordering as a training signal.'),
+    # E
+    ('W4411569237', 'E', 'Systematic review of AI in bodybuilding; maps the field and confirms the gap.'),
+    ('W4406860654', 'E', 'Deep-learning classification of bodybuilders (steroid vs non-steroid); one of the few ML studies on bodybuilders.'),
+]
+
+# Seed papers found during Scholar Labs refinement but missed by the OpenAlex queries
+# (wording outside the query terms). Metadata retrieved from OpenAlex by title.
+SNOWBALL = [
+    dict(id='W2798655965', doi='10.1109/cvpr.2018.00093', title='A Constrained Deep Neural Network for Ordinal Regression',
+         year=2018, type='conference-paper', source='IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)',
+         source_type='conference', publisher='IEEE', authors=['Yanzhu Liu', 'Adams Wai-Kin Kong', 'Chi Keong Goh'],
+         cited_by=69, volume=None, issue=None, first_page='831', last_page='839', theme='D',
+         why='Deep ordinal regression trained on pairs of samples; close to the paper’s pairwise formulation.'),
+    dict(id='W4388998386', doi='10.1038/s41598-023-48055-y', title='Equations for smartphone prediction of adiposity and appendicular lean mass in youth soccer players',
+         year=2023, type='article', source='Scientific Reports', source_type='journal', publisher='Nature Portfolio',
+         authors=['Marco Alessandro Minetto', 'Angelo Pietrobelli', 'Andrea Ferraris', 'Chiara Busso', 'Massimo Magistrali',
+                  'Chiara Vignati', 'Breck A. Sieglinger', 'David Bruner', 'J. Shepherd', 'Steven B. Heymsfield'],
+         cited_by=8, volume='13', issue='1', first_page='20734', last_page='20734', theme='A',
+         why='Smartphone body-composition equations for lean athletes; a population closer to physique athletes.'),
+    dict(id='W3135987593', doi='10.3390/nu13041075', title='Come Back Skinfolds, All Is Forgiven: A Narrative Review of the Efficacy of Common Body Composition Methods in Applied Sports Practice',
+         year=2021, type='review', source='Nutrients', source_type='journal', publisher='MDPI',
+         authors=['Andreas M. Kasper', 'Carl Langan-Evans', 'James F. Hudson', 'Thomas E. Brownlee', 'Liam D. Harper',
+                  'Robert Joseph Naughton', 'James Peter Morton', 'Graeme Leonard Close'],
+         cited_by=195, volume='13', issue='4', first_page='1075', last_page='1075', theme='C',
+         why='Reviews the accuracy of common body-composition methods in applied sport; context for why absolute %BF is hard to measure in athletes.'),
+    dict(id='W4388946775', doi='10.1038/s41592-023-02083-8', title='Uncovering developmental time and tempo using deep learning',
+         year=2023, type='article', source='Nature Methods', source_type='journal', publisher='Nature Portfolio',
+         authors=['Nikan Toulany', 'Hernán Andrés Morales-Navarrete', 'Daniel Čapek', 'Jannis Grathwohl', 'Murat Ünalan', 'Patrick Müller'],
+         cited_by=29, volume='20', issue='12', first_page='2000', last_page='2010', theme='D',
+         why='Estimates developmental time and tempo from embryo images with deep learning; an analogue of estimating apparent weeks-out.'),
+]

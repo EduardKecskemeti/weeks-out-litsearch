@@ -1,0 +1,1174 @@
+TY  - JOUR
+TI  - Advances in the estimation of body fat percentage using an artificial intelligence 2D-photo method
+AU  - Tathiany Jéssica Ferreira
+AU  - Igor C. Salvador
+AU  - Carolina Ribeiro Pessanha
+AU  - Renata R. M. da Silva
+AU  - Aline D’Ávila Pereira
+AU  - Maria Aderuza Horst
+AU  - Denise Pires de Carvalho
+AU  - Josely Correa Koury
+AU  - Anna Paola Trindade Rocha Pierucci
+PY  - 2025
+JO  - npj Digital Medicine
+PB  - Nature Portfolio
+VL  - 8
+IS  - 1
+SP  - 43
+EP  - 43
+DO  - 10.1038/s41746-024-01380-6
+UR  - https://openalex.org/W4406560775
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - New advances in body composition assessment with ShapedNet: A single image deep regression approach
+AU  - Navar Medeiros M. Nascimento
+AU  - Pedro Cavalcante de Sousa
+AU  - Pedro Yuri Rodrigues Nunes
+AU  - Suane Pires P. da Silva
+AU  - Luiz Lannes Loureiro
+AU  - Victor Zaban Bittencourt
+AU  - Valden Luís Matos Capistrano
+AU  - Pedro Pedrosa Rebouças Filho
+PY  - 2024
+JO  - Pattern Recognition Letters
+PB  - Elsevier BV
+VL  - 188
+SP  - 88
+EP  - 94
+DO  - 10.1016/j.patrec.2024.11.029
+AB  - We introduce a novel technique called ShapedNet to enhance body composition assessment. This method employs a deep neural network capable of estimating Body Fat Percentage (BFP), performing individual identification, and enabling localization using a single photograph. The accuracy of ShapedNet is validated through comprehensive comparisons against the gold standard method, Dual-Energy X-ray Absorptiometry (DXA), utilizing 1273 healthy adults spanning various ages, sexes, and BFP levels. The results demonstrate that ShapedNet outperforms in 19.5% state of the art computer vision-based approaches for body fat estimation, achieving a Mean Absolute Percentage Error (MAPE) of 4.91% and Mean Absolute Error (MAE) of 1.42. The study evaluates both gender-based and Gender-neutral approaches, with the latter showcasing superior performance. The method estimates BFP with 95% confidence within an error margin of 4.01% to 5.81%. This research advances multi-task learning and body composition assessment theory through ShapedNet.
+KW  - body composition assessment
+KW  - multi-task learning
+KW  - individual identification
+KW  - body part localization
+KW  - dual-energy X-ray absorptiometry comparison
+UR  - https://openalex.org/W4405130883
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Body composition estimates using a 2D image analysis system across different environmental conditions: An agreement study
+AU  - Casey J. Metoyer
+AU  - Katherine W. Sullivan
+AU  - Lee J. Winchester
+AU  - Mark T. Richardson
+AU  - Michael R. Esco
+AU  - Michael Vernon Fedewa
+PY  - 2024
+JO  - Journal of Biophotonics
+PB  - Wiley
+VL  - 17
+IS  - 4
+SP  - e202300518
+EP  - e202300518
+DO  - 10.1002/jbio.202300518
+UR  - https://openalex.org/W4391319367
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Fluid-Dependent Single-Frequency Bioelectrical Impedance Fat Mass Estimates Compared to Digital Imaging and Dual X-ray Absorptiometry
+AU  - Lexa Nescolarde
+AU  - Carmine Orlandi
+AU  - Gian Luca Farina
+AU  - Niccolo’ Gori
+AU  - Henry C. Lukaski
+PY  - 2023
+JO  - Nutrients
+PB  - Multidisciplinary Digital Publishing Institute
+VL  - 15
+IS  - 21
+SP  - 4638
+EP  - 4638
+DO  - 10.3390/nu15214638
+UR  - https://openalex.org/W4388132198
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Equations for smartphone prediction of adiposity and appendicular lean mass in youth soccer players
+AU  - Marco Alessandro Minetto
+AU  - Angelo Pietrobelli
+AU  - Andrea Ferraris
+AU  - Chiara Busso
+AU  - Massimo Magistrali
+AU  - Chiara Vignati
+AU  - Breck A. Sieglinger
+AU  - David Bruner
+AU  - J. Shepherd
+AU  - Steven B. Heymsfield
+PY  - 2023
+JO  - Scientific Reports
+PB  - Nature Portfolio
+VL  - 13
+IS  - 1
+SP  - 20734
+EP  - 20734
+DO  - 10.1038/s41598-023-48055-y
+UR  - https://openalex.org/W4388998386
+N1  - Search blocks: snowball
+ER  - 
+
+TY  - JOUR
+TI  - Smartphone camera based assessment of adiposity: a validation study
+AU  - Maulik D. Majmudar
+AU  - Siddhartha Chandra
+AU  - Kiran Yakkala
+AU  - Samantha Kennedy
+AU  - Amit Agrawal
+AU  - Mark Sippel
+AU  - Prakash Ramu
+AU  - Apoorv Chaudhri
+AU  - Brooke Smith
+AU  - Antonio Criminisi
+AU  - Steven B. Heymsfield
+AU  - Fatima Cody Stanford
+PY  - 2022
+JO  - npj Digital Medicine
+PB  - Nature Portfolio
+VL  - 5
+IS  - 1
+SP  - 79
+EP  - 79
+DO  - 10.1038/s41746-022-00628-3
+UR  - https://openalex.org/W4283698854
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Digital Single-Image Smartphone Assessment of Total Body Fat and Abdominal Fat Using Machine Learning
+AU  - Gian Luca Farina
+AU  - Carmine Orlandi
+AU  - Henry C. Lukaski
+AU  - Lexa Nescolarde
+PY  - 2022
+JO  - Sensors
+PB  - Multidisciplinary Digital Publishing Institute
+VL  - 22
+IS  - 21
+SP  - 8365
+EP  - 8365
+DO  - 10.3390/s22218365
+AB  - Background: Obesity is chronic health problem. Screening for the obesity phenotype is limited by the availability of practical methods. Methods: We determined the reproducibility and accuracy of an automated machine-learning method using smartphone camera-enabled capture and analysis of single, two-dimensional (2D) standing lateral digital images to estimate fat mass (FM) compared to dual X-ray absorptiometry (DXA) in females and males. We also report the first model to predict abdominal FM using 2D digital images. Results: Gender-specific 2D estimates of FM were significantly correlated (p < 0.001) with DXA FM values and not different (p > 0.05). Reproducibility of FM estimates was very high (R2 = 0.99) with high concordance (R2 = 0.99) and low absolute pure error (0.114 to 0.116 kg) and percent error (1.3 and 3%). Bland−Altman plots revealed no proportional bias with limits of agreement of 4.9 to −4.3 kg and 3.9 to −4.9 kg for females and males, respectively. A novel 2D model to estimate abdominal (lumbar 2−5) FM produced high correlations (R2 = 0.99) and concordance (R2 = 0.99) compared to DXA abdominal FM values. Conclusions: A smartphone camera trained with machine learning and automated processing of 2D lateral standing digital images is an objective and valid method to estimate FM and, with proof of concept, to determine abdominal FM. It can facilitate practical identification of the obesity phenotype in adults.
+KW  - body fat estimation
+KW  - total body fat
+KW  - abdominal fat
+KW  - obesity screening
+KW  - smartphone camera imaging
+KW  - machine learning
+KW  - dual-energy X-ray absorptiometry
+KW  - reproducibility
+KW  - obesity phenotypes
+UR  - https://openalex.org/W4307983833
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Visual body composition assessment methods: A 4-compartment model comparison of smartphone-based artificial intelligence for body composition estimation in healthy adults
+AU  - Austin J. Graybeal
+AU  - Caleb F. Brandner
+AU  - Grant M. Tinsley
+PY  - 2022
+JO  - Clinical Nutrition
+PB  - Elsevier BV
+VL  - 41
+IS  - 11
+SP  - 2464
+EP  - 2472
+DO  - 10.1016/j.clnu.2022.09.014
+UR  - https://openalex.org/W4298009065
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Validity and reliability of a mobile digital imaging analysis trained by a four‐compartment model
+AU  - Austin J. Graybeal
+AU  - Caleb F. Brandner
+AU  - Grant M. Tinsley
+PY  - 2022
+JO  - Journal of Human Nutrition and Dietetics
+PB  - Wiley
+VL  - 36
+IS  - 3
+SP  - 905
+EP  - 911
+DO  - 10.1111/jhn.13113
+UR  - https://openalex.org/W4310945073
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Agreement of anthropometric and body composition measures predicted from 2D smartphone images and body impedance scales with criterion methods
+AU  - Alisa Nana
+AU  - Jonathan M. D. Staynor
+AU  - S. Arlai
+AU  - Amar A. El-Sallam
+AU  - N. Dhungel
+AU  - Marc K. Smith
+PY  - 2022
+JO  - Obesity Research & Clinical Practice
+PB  - Elsevier BV
+VL  - 16
+IS  - 1
+SP  - 37
+EP  - 43
+DO  - 10.1016/j.orcp.2021.12.006
+UR  - https://openalex.org/W4210408071
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Silhouette images enable estimation of body fat distribution and associated cardiometabolic risk
+AU  - Marcus D. R. Klarqvist
+AU  - Saaket Agrawal
+AU  - Nathaniel Diamant
+AU  - Patrick T. Ellinor
+AU  - Anthony Philippakis
+AU  - Kenney Ng
+AU  - Puneet Batra
+AU  - Amit V. Khera
+PY  - 2022
+JO  - npj Digital Medicine
+PB  - Nature Portfolio
+VL  - 5
+IS  - 1
+SP  - 105
+EP  - 105
+DO  - 10.1038/s41746-022-00654-1
+AB  - ABSTRACT Background Inter-individual variation in fat distribution is increasingly recognized as clinically important but is not routinely assessed in clinical practice because quantification requires medical imaging. Objectives We hypothesized that a deep learning model trained on an individual’s body shape outline – or “silhouette” – would enable accurate estimation of specific fat depots, including visceral (VAT), abdominal subcutaneous (ASAT), and gluteofemoral (GFAT) adipose tissue volumes, and VAT/ASAT ratio. We additionally set out to study whether silhouette-estimated VAT/ASAT ratio may stratify risk of cardiometabolic diseases independent of body mass index (BMI) and waist circumference. Methods Two-dimensional coronal and sagittal silhouettes were constructed from whole-body magnetic resonance images in 40,032 participants of the UK Biobank and used to train a convolutional neural network to predict VAT, ASAT, and GFAT volumes, and VAT/ASAT ratio. Logistic and Cox regressions were used to determine the independent association of silhouette-predicted VAT/ASAT ratio with type 2 diabetes and coronary artery disease. Results Mean age of the study participants was 65 years and 51% were female. A deep learning model trained on silhouettes enabled accurate estimation of VAT, ASAT, and GFAT volumes (R 2 : 0.88, 0.93, and 0.93, respectively), outperforming a comparator model combining anthropometric and bioimpedance measures (ΔR 2 = 0.05-0.13). Next, we studied VAT/ASAT ratio, a nearly BMI- and waist circumference-independent marker of unhealthy fat distribution. While the comparator model poorly predicted VAT/ASAT ratio (R 2 : 0.17-0.26), a silhouette-based model enabled significant improvement (R 2 : 0.50-0.55). Silhouette-predicted VAT/ASAT ratio was associated with increased prevalence of type 2 diabetes and coronary artery disease. Conclusions Body silhouette images can estimate important measures of fat distribution, laying the scientific foundation for population-based assessment.
+KW  - body fat distribution
+KW  - visceral adipose tissue
+KW  - subcutaneous abdominal fat
+KW  - cardiometabolic risk
+KW  - type 2 diabetes
+KW  - coronary artery disease
+KW  - deep learning prediction
+KW  - convolutional neural networks
+KW  - magnetic resonance imaging
+KW  - UK Biobank
+UR  - https://openalex.org/W4288725097
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Validity of a 3-compartment body composition model using body volume derived from a novel 2-dimensional image analysis program
+AU  - Katherine W. Sullivan
+AU  - Bjoern Hornikel
+AU  - Clifton J. Holmes
+AU  - Michael R. Esco
+AU  - Michael Vernon Fedewa
+PY  - 2021
+JO  - European Journal of Clinical Nutrition
+PB  - Springer Nature
+VL  - 76
+IS  - 1
+SP  - 111
+EP  - 118
+DO  - 10.1038/s41430-021-00899-1
+UR  - https://openalex.org/W3136997174
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Agreement Between A 2-Dimensional Digital Image-Based 3-Compartment Body Composition Model and Dual Energy X-Ray Absorptiometry for The Estimation of Relative Adiposity
+AU  - Katherine W. Sullivan
+AU  - Casey J. Metoyer
+AU  - Bjoern Hornikel
+AU  - Clifton J. Holmes
+AU  - Brett S. Nickerson
+AU  - Michael R. Esco
+AU  - Michael Vernon Fedewa
+PY  - 2021
+JO  - Journal of Clinical Densitometry
+PB  - Elsevier BV
+VL  - 25
+IS  - 2
+SP  - 244
+EP  - 251
+DO  - 10.1016/j.jocd.2021.08.004
+UR  - https://openalex.org/W3204454242
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Utilizing a Novel 2D Image Processing System for Relating Body Composition Metrics to Performance in Collegiate Female Rowers
+AU  - Michael R. Esco
+AU  - Clifton J. Holmes
+AU  - Katherine W. Sullivan
+AU  - Bjoern Hornikel
+AU  - Michael Vernon Fedewa
+PY  - 2021
+JO  - International Journal of Environmental Research and Public Health
+PB  - Multidisciplinary Digital Publishing Institute
+VL  - 18
+IS  - 5
+SP  - 2413
+EP  - 2413
+DO  - 10.3390/ijerph18052413
+UR  - https://openalex.org/W3134607774
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Predicting 3D body shape and body composition from conventional 2D photography
+AU  - Isaac Y. Tian
+AU  - Bennett K. Ng
+AU  - M. C. Wong
+AU  - Samantha Kennedy
+AU  - Phoenix Hwaung
+AU  - Nisa N. Kelly
+AU  - En Liu
+AU  - Andrea K. Garber
+AU  - Brian Curless
+AU  - Steven B. Heymsfield
+AU  - J. Shepherd
+PY  - 2020
+JO  - Medical Physics
+PB  - Wiley
+VL  - 47
+IS  - 12
+SP  - 6232
+EP  - 6245
+DO  - 10.1002/mp.14492
+UR  - https://openalex.org/W3088241220
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - SinBMI: Estimating BMI from a Single Image
+AU  - Tzvi Tal Noy
+AU  - Ido Sagi
+AU  - Nurit Spingarn
+PY  - 2025
+T2  - IEEE International Conference on Multimedia and Expo workshops
+SP  - 1
+EP  - 2
+DO  - 10.1109/icmew68306.2025.11152053
+UR  - https://openalex.org/W4414140955
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Detection of body shape changes in obesity monitoring using image processing techniques
+AU  - Uçman Ergün
+AU  - Elif Aktepe
+AU  - Yavuz Bahadır Koca
+PY  - 2024
+JO  - Scientific Reports
+PB  - Nature Portfolio
+VL  - 14
+IS  - 1
+SP  - 24178
+EP  - 24178
+DO  - 10.1038/s41598-024-73270-6
+UR  - https://openalex.org/W4403428415
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - JOUR
+TI  - AInBody: Are you in shape? - An integrated deep learning model that tracks your body measurement
+AU  - Nakyung Lee
+AU  - Youngsun Cho
+AU  - Minseong Son
+AU  - Sungkeun Kwak
+AU  - Jihwan Woo
+PY  - 2023
+JO  - Electronic Imaging
+VL  - 35
+IS  - 9
+SP  - 297
+EP  - 1
+DO  - 10.2352/ei.2023.35.9.ipas-297
+AB  - This paper presents AInBody, a novel deep learning-based body shape measurement solution. We have devised a user-centered design that automatically tracks the progress of the body by adequately integrating various methods, including human parsing, instance segmentation, and image matting. Our system guides a user's pose when taking photos by displaying the outline of the latest picture of the user, divides the human body into several parts, and compares before and after photos of the body part level. The parsing performance has been improved through an ensemble approach and a denoising phase in our main module, Advanced Human Parser. In evaluation, the proposed method is 0.1% to 4.8% better than the other best-performing model in average precision in 3 out of 5 parts, and 1.4% and 2.4% superior in mAP and mean IoU, respectively. Furthermore, the inference time of our framework takes approximately three seconds to process one HD image, demonstrating that our structure can be applied to real-time applications.
+KW  - body shape measurement
+KW  - human parsing
+KW  - instance segmentation
+KW  - image matting
+KW  - ensemble learning
+KW  - user-centered design
+KW  - real-time inference
+KW  - body part segmentation
+UR  - https://openalex.org/W4316813278
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Estimating Human Weight From a Single Image
+AU  - Zhi Juan Jin
+AU  - Junjia Huang
+AU  - Wenjin Wang
+AU  - Aolin Xiong
+AU  - Xiaojun Tan
+PY  - 2022
+JO  - IEEE Transactions on Multimedia
+PB  - Institute of Electrical and Electronics Engineers
+VL  - 25
+SP  - 2515
+EP  - 2527
+DO  - 10.1109/tmm.2022.3147945
+AB  - Body weight, as one of the biometric traits, has been studied in both the forensic and medical domains. However, estimating weight directly from 2-D images is particularly challenging since visual inspection is rather sensitive to the distance between the subject and camera, even for frontal view images. In this case, the widely used body mass index (BMI), which is associated with body height and weight, can be employed as a measure of weight to indicate health conditions. Previous works on the estimation of BMI have predominantly focused on using multiple 2-D images, 3-D images, or facial images; however, these cues are not always available. To address this issue, we explore the feasibility of obtaining BMI from a single 2-D body image with the dual-branch regression framework proposed in this work. More specifically, the framework comprises an anthropometric feature computation branch and a deep learning-based feature extraction branch. One aggregation layer maps all the features to an estimated BMI value. In addition, a new public 2-D image-to-BMI dataset, which contains 4189 images (1477 males and 2712 females) from approximately 3000 subjects with attributes including gender, age, height, and weight, was collected and released to facilitate the study. Extensive experiments confirm that the proposed framework combining anthropometric features and deep features outperforms the single-type feature approaches to BMI estimation in most cases.
+KW  - body weight estimation
+KW  - body mass index estimation
+KW  - anthropometric features
+KW  - forensic biometrics
+UR  - https://openalex.org/W4210506757
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - Accurate 3D Body Shape Regression using Metric and Semantic Attributes
+AU  - Vasileios Choutas
+AU  - Lea Müller
+AU  - Chun-Hao P. Huang
+AU  - Siyu Tang
+AU  - Dimitrios Tzionas
+AU  - Michael J. Black
+PY  - 2022
+T2  - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+PB  - Institute of Electrical and Electronics Engineers
+SP  - 2708
+EP  - 2718
+DO  - 10.1109/cvpr52688.2022.00274
+UR  - https://openalex.org/W4312809617
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - Predicting body measures from 2D images using Convolutional Neural Networks
+AU  - João Wellington M. Souza
+AU  - Gabriel Bandeira Holanda
+AU  - Roberto Fernandes Ivo
+AU  - Shara S. A. Alves
+AU  - Suane P. P. da Silva
+AU  - Virgínia Xavier Nunes
+AU  - Luiz Lannes Loureiro
+AU  - C. H. Dias-Silva
+AU  - Pedro P. Rebouças Filho
+PY  - 2020
+T2  - International Joint Conference on Neural Networks (IJCNN)
+PB  - IEEE
+SP  - 1
+EP  - 6
+DO  - 10.1109/ijcnn48605.2020.9207330
+UR  - https://openalex.org/W3090535222
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Body Weight Analysis From Human Body Images
+AU  - Min Jiang
+AU  - Guodong Guo
+PY  - 2019
+JO  - IEEE Transactions on Information Forensics and Security
+PB  - Institute of Electrical and Electronics Engineers
+VL  - 14
+IS  - 10
+SP  - 2676
+EP  - 2688
+DO  - 10.1109/tifs.2019.2904840
+UR  - https://openalex.org/W2921366310
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - Face-to-BMI: Using Computer Vision to Infer Body Mass Index on Social Media
+AU  - Enes Kocabey
+AU  - Mustafa Camurcu
+AU  - Ferda Ofli
+AU  - Yusuf Aytar
+AU  - Javier Marín
+AU  - Antonio B. Torralba
+AU  - Ingmar G. Weber
+PY  - 2017
+T2  - Proceedings of the International AAAI Conference on Web and Social Media
+PB  - Association for the Advancement of Artificial Intelligence
+VL  - 11
+IS  - 1
+SP  - 572
+EP  - 575
+DO  - 10.1609/icwsm.v11i1.14923
+UR  - https://openalex.org/W2604892024
+N1  - Search blocks: b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - HS-Nets: Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks
+AU  - Endri Dibra
+AU  - Himanshu Jain
+AU  - Cengiz Öztireli
+AU  - Remo Ziegler
+AU  - Markus H. Groß
+PY  - 2016
+T2  - International Conference on 3D Vision (3DV)
+SP  - 108
+EP  - 117
+DO  - 10.1109/3dv.2016.19
+UR  - https://openalex.org/W2562703451
+N1  - Search blocks: b1+b1v3
+ER  - 
+
+TY  - JOUR
+TI  - Lean body mass and maximal strength changes during physique contest preparation and recovery: A case series
+AU  - Vebjørn Nettum
+AU  - Therese Fostervold Mathisen
+AU  - Gary Slater
+AU  - Olivier Seynnes
+AU  - Gøran Paulsen
+PY  - 2025
+JO  - Performance Enhancement & Health
+PB  - Elsevier BV
+VL  - 14
+IS  - 1
+SP  - 100404
+EP  - 100404
+DO  - 10.1016/j.peh.2025.100404
+AB  - This study aimed to investigate changes in lean body mass (LBM) and maximal strength during preparation for a physique contest season and one month post-season. Three drug-free male physique athletes were observed. Laboratory tests were conducted at various intervals: immediately before starting weight loss, 2 months, 1 month, and 1 week before their first contest, 1 week before their last contest, and 1 month post-season. Body composition was assessed using Dual-energy X-ray absorptiometry (DXA), bioimpedance (BIA), and skinfold (SK) measurements. Muscle thickness (MT) of the elbow flexors and muscle cross-sectional area (CSA) of the vastus lateralis were evaluated via ultrasound. Strength assessments (isometric and isokinetic peak torque) were measured using a dynamometer. Blood biomarkers and dietary intake were also tracked. During the preparation phase, LBM decreased in all athletes: 1.7–5.3 kg (DXA), 4.3–8.5 kg (BIA), and 7.0–9.5 kg (SK). One month into recovery, LBM rapidly increased: 2.5–3.4 kg (DXA), 4.1–4.6 kg (BIA), and 3.4–5.5 kg (SK). Both MT and CSA decreased during preparation but increased during recovery. Maximal strength performance remained within expected day-to-day variation for isometric peak torque and isokinetic peak torque at 60°/s, but isokinetic peak torque at 240°/s exceeded expected variation, only partially restored post-contest. Testosterone levels decreased and sex-hormone binding globulin increased during preparation, with varying recovery. Reductions in LBM, MT, and CSA during caloric restriction were followed by rapid increases post-contest, resulting in negligible net changes from baseline. This provides evidence that highly trained individuals are able to retain contractile tissue during substantial weight loss following a daily caloric deficit of 500 kcal.
+KW  - lean body mass
+KW  - maximal strength
+KW  - weight loss
+KW  - caloric restriction
+KW  - muscle cross-sectional area
+KW  - muscle thickness
+KW  - testosterone
+KW  - sex hormone-binding globulin
+KW  - recovery
+KW  - body composition
+KW  - isokinetic peak torque
+KW  - isometric peak torque
+UR  - https://openalex.org/W4416427900
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Do Muscle Mass and Body Fat Differ Between Elite and Amateur Natural Physique Athletes on Competition Day? A Preliminary, Cross-Sectional, Anthropometric Study
+AU  - Henar González-Cano
+AU  - Juan J. Martín-Olmedo
+AU  - Eneko Baz-Valle
+AU  - Carlos Contreras
+AU  - Brad Jon Schoenfeld
+AU  - Amador García‐Ramos
+AU  - Pablo Jiménez‐Martínez
+AU  - Carlos Alix‐Fages
+PY  - 2024
+JO  - The Journal of Strength and Conditioning Research
+PB  - Lippincott Williams & Wilkins
+VL  - 38
+IS  - 5
+SP  - 951
+EP  - 956
+DO  - 10.1519/jsc.0000000000004697
+AB  - ABSTRACT: González-Cano, H, Martín-Olmedo, JJ, Baz-Valle, E, Contreras, C, Schoenfeld, BJ, García-Ramos, A, Jiménez-Martínez, P, and Alix-Fages, C. Do muscle mass and body fat differ between elite and amateur natural physique athletes on competition day? A preliminary, cross-sectional, anthropometric study. J Strength Cond Res 38(5): 951-956, 2024-Natural physique athletes strive to achieve low body fat levels while promoting muscle mass hypertrophy for competition day. This study aimed to compare the anthropometric characteristics of natural amateur (AMA) and professional (PRO) World Natural Bodybuilding Federation (WNBF) competitors. Eleven male natural physique athletes (6 PRO and 5 AMA; age = 24.8 ± 2.3 years) underwent a comprehensive anthropometric evaluation following the International Society for the Advancement of Kinanthropometry protocol within a 24-hour time frame surrounding the competition. The 5-component fractionation method was used to obtain the body composition profile of the muscle, adipose, bone, skin, and residual tissues. Five physique athletes exceeded the 5.2 cutoff point of muscle-to-bone ratio (MBR) for natural athletes. Professional physique athletes were older than AMA physique athletes (p = 0.05), and they also presented larger thigh girths (p = 0.005) and bone mass (p = 0.019) compared with AMA physique athletes. Although no statistically significant between-group differences were observed in body mass, height, or body fat levels, PRO physique athletes exhibited a higher body mass index (BMI; AMA: 24.45 ± 0.12; PRO: 25.52 ± 1.01; p = 0.048), lean body mass (LBM; AMA: 64.49 ± 2.35; PRO: 69.80 ± 3.78; p = 0.024), fat-free mass (FFM; AMA: 71.23 ± 3.21; PRO: 76.52 ± 4.31; p = 0.05), LBM index (LBMI; AMA: 20.65 ± 0.52; PRO: 21.74 ± 0.85; p = 0.034), and fat-free mass index index (FFMI; AMA: 22.80 ± 0.22; PRO: 23.83 ± 0.90; p = 0.037) compared with AMA physique athletes. These findings highlight the unique characteristics and anthropometric differences between PRO and AMA natural physique athletes on competition day, emphasizing the significance of age, thigh girth, bone mass, BMI, LBM, FFM, and FFMI in distinguishing these 2 groups. Based on our findings, the established boundaries for muscle mass in natural physique athletes, based on FFMI and MBR, warrant reconsideration.
+KW  - bodybuilding
+KW  - muscle mass
+KW  - fat mass
+KW  - body composition
+KW  - lean body mass
+KW  - fat-free mass
+KW  - muscle:bone ratio
+KW  - bone mass
+KW  - elite vs amateur athletes
+KW  - body mass index
+KW  - thigh girth
+KW  - anthropometry
+KW  - kinanthropometry
+KW  - muscle hypertrophy
+UR  - https://openalex.org/W4395475252
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Body Composition of Competitive Bodybuilders: A Systematic Review of Published Data and Recommendations for Future Work
+AU  - Pascal Bauer
+AU  - Alan Majisik
+AU  - Benedikt Mitter
+AU  - Robert Csapo
+AU  - Harald Tschan
+AU  - Patria Anne Hume
+AU  - Alejandro Martínez‐Rodríguez
+AU  - Bojan Makivić
+PY  - 2023
+JO  - The Journal of Strength and Conditioning Research
+PB  - Lippincott Williams & Wilkins
+VL  - 37
+IS  - 3
+SP  - 726
+EP  - 732
+DO  - 10.1519/jsc.0000000000004155
+AB  - ABSTRACT: Bauer, P, Majisik, A, Mitter, B, Csapo, R, Tschan, H, Hume, P, Martínez-Rodríguez, A, and Makivic, B. Body composition of competitive bodybuilders: a systematic review of published data and recommendations for future work. J Strength Cond Res 37(3): 726-732, 2023-The purpose of this review was to systematically summarize studies measuring the body composition of competitive bodybuilding athletes to provide recommended values for preparation and during competition. The protocol was preregistered with PROSPERO (CRD42020197921) and followed the guidelines of the Preferred Reported Items for Systematic Reviews and Meta-Analysis. A search of 5 electronic databases (PubMed, Web of Science, SportDiscus, CINAHL, and Scopus) was conducted to retrieve all relevant publications from January 1, 2000, up to June 13, 2021. Of 16 studies meeting the inclusion criteria, 6 presented longitudinal data on competition preparation and were discussed in detail. In the general preparation phase, body fat levels of bodybuilding athletes ranged between 15.3 and 25.2% (female) and from 9.6 to 16.3% (male). Close to competition, however, body fat levels were substantially lower, ranging from 8.1 to 18.3% for female and 5.8-10.7% for male athletes. All studies comparing relative body fat values at various time points during competition preparation found significant reductions between 30 and 60% in relative body fat, whereas lean mass was mostly maintained. Findings from the studies included in this review suggest that most bodybuilding competitors keep resistance training volume high while increasing aerobic training volume when preparing for competition. Findings on energy intake and macronutrient distribution were unclear and should be addressed in future studies. Further research, especially on contest preparation, is warranted and should include more details about training programs, nutritional strategies, psychosocial situation, anabolic androgen steroid, and supplement use as well as measurement protocols and preparation.
+KW  - body composition
+KW  - body fat percentage
+KW  - lean body mass
+KW  - competition preparation
+KW  - resistance training
+KW  - aerobic exercise
+KW  - energy intake
+KW  - macronutrient distribution
+KW  - anabolic steroids
+KW  - supplements
+KW  - sex differences
+UR  - https://openalex.org/W4318924240
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Peak week recommendations for bodybuilders: an evidence based approach
+AU  - Guillermo Escalante
+AU  - Scott Walter Stevenson
+AU  - Christopher Barakat
+AU  - Alan Albert Aragon
+AU  - Brad Jon Schoenfeld
+PY  - 2021
+JO  - BMC Sports Science Medicine and Rehabilitation
+PB  - BioMed Central
+VL  - 13
+IS  - 1
+SP  - 68
+EP  - 68
+DO  - 10.1186/s13102-021-00296-y
+AB  - Bodybuilding is a competitive endeavor where a combination of muscle size, symmetry, "conditioning" (low body fat levels), and stage presentation are judged. Success in bodybuilding requires that competitors achieve their peak physique during the day of competition. To this end, competitors have been reported to employ various peaking interventions during the final days leading to competition. Commonly reported peaking strategies include altering exercise and nutritional regimens, including manipulation of macronutrient, water, and electrolyte intake, as well as consumption of various dietary supplements. The primary goals for these interventions are to maximize muscle glycogen content, minimize subcutaneous water, and reduce the risk abdominal bloating to bring about a more aesthetically pleasing physique. Unfortunately, there is a dearth of evidence to support the commonly reported practices employed by bodybuilders during peak week. Hence, the purpose of this article is to critically review the current literature as to the scientific support for pre-contest peaking protocols most commonly employed by bodybuilders and provide evidence-based recommendations as safe and effective strategies on the topic.
+KW  - bodybuilding
+KW  - muscle glycogen
+KW  - bloating
+KW  - dietary supplements
+KW  - macronutrient intake
+KW  - electrolyte consumption
+KW  - water intake
+KW  - exercise regimen
+KW  - fat loss
+UR  - https://openalex.org/W3170010726
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Come Back Skinfolds, All Is Forgiven: A Narrative Review of the Efficacy of Common Body Composition Methods in Applied Sports Practice
+AU  - Andreas M. Kasper
+AU  - Carl Langan-Evans
+AU  - James F. Hudson
+AU  - Thomas E. Brownlee
+AU  - Liam D. Harper
+AU  - Robert Joseph Naughton
+AU  - James Peter Morton
+AU  - Graeme Leonard Close
+PY  - 2021
+JO  - Nutrients
+PB  - MDPI
+VL  - 13
+IS  - 4
+SP  - 1075
+EP  - 1075
+DO  - 10.3390/nu13041075
+UR  - https://openalex.org/W3135987593
+N1  - Search blocks: snowball
+ER  - 
+
+TY  - JOUR
+TI  - Alterations in Body Composition, Resting Metabolic Rate, Muscular Strength, and Eating Behavior in Response to Natural Bodybuilding Competition Preparation: A Case Study
+AU  - Brad Jon Schoenfeld
+AU  - Andrew Alto
+AU  - Jozo Grgić
+AU  - Grant M. Tinsley
+AU  - Cody T. Haun
+AU  - Bill I Campbell
+AU  - Guillermo Escalante
+AU  - Gül Sönmez
+AU  - Gilda Cote
+AU  - Aston Francis
+AU  - Eric T. Trexler
+PY  - 2020
+JO  - The Journal of Strength and Conditioning Research
+PB  - Lippincott Williams & Wilkins
+VL  - 34
+IS  - 11
+SP  - 3124
+EP  - 3138
+DO  - 10.1519/jsc.0000000000003816
+AB  - Schoenfeld, BJ, Alto, A, Grgic, J, Tinsley, G, Haun, CT, Campbell, BI, Escalante, G, Sonmez, GT, Cote, G, Francis, A, and Trexler, ET. Alterations in body composition, resting metabolic rate, muscular strength, and eating behavior in response to natural bodybuilding competition preparation: A case study. J Strength Cond Res 34(11): 3124-3138, 2020-We carried out a prospective case study in a high-level amateur natural male bodybuilder throughout preparation for 4 competitions and during the ensuing postcontest recovery period. Laboratory testing was conducted monthly over a 1-year period, which included the following assessments: B-mode ultrasound evaluation of muscle thickness (MT), multifrequency bioelectrical impedance analysis, blood pressure and heart rate assessment, resting metabolic rate via indirect calorimetry, skinfold testing, vertical jump height, isometric lower-body strength testing, and a 3-factor eating questionnaire. Blood work (including testosterone, thyroid hormone, sex hormone binding globulin, glomerular filtration rate, blood urea nitrogen, aspartate aminotransferase, alanine aminotransferase, white blood count, albumin to globulin ratio, and lipoprotein A) was obtained separately from an outside laboratory at 4 time points. We also assessed the effectiveness of a carbohydrate (carb) deplete and carb load peaking strategy employed immediately before competition. The subject employed a high-volume, high-frequency, whole-body training program throughout the study period. Average daily nutritional intakes ranged from 1,953 to 3,415 kcal: 104-386 g carb; 253-263 g protein, and; 57-95 g lipid. Body fat was reduced to very low levels (∼5%) immediately before competition, but this corresponded with a loss of lean mass. Alterations in metabolism, hormonal status, explosive strength, and psychological aspects of eating were observed during precontest preparation; however, all of these variables recovered quickly postcompetition. The implementation of a carb depleteand carb load peaking strategy acutely increased MT and thus may be a viable precontest approach to maximize muscular aesthetics.
+KW  - competition preparation
+KW  - body composition
+KW  - resting metabolic rate
+KW  - muscle strength
+KW  - dietary habits
+KW  - muscle thickness
+KW  - carbohydrate loading
+KW  - carbohydrate depletion
+KW  - lean mass loss
+KW  - hormonal status
+KW  - sex hormone-binding globulin
+KW  - testosterone
+KW  - vertical jump
+KW  - explosive strength
+KW  - nutritional intake
+UR  - https://openalex.org/W3083020748
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Changes in Body Composition and Neuromuscular Performance Through Preparation, 2 Competitions, and a Recovery Period in an Experienced Female Physique Athlete
+AU  - Grant M. Tinsley
+AU  - Eric T. Trexler
+AU  - Abbie E. Smith‐Ryan
+AU  - Antonio Paoli
+AU  - Austin J. Graybeal
+AU  - Bill I Campbell
+AU  - Brad Jon Schoenfeld
+PY  - 2018
+JO  - The Journal of Strength and Conditioning Research
+PB  - Lippincott Williams & Wilkins
+VL  - 33
+IS  - 7
+SP  - 1823
+EP  - 1839
+DO  - 10.1519/jsc.0000000000002758
+AB  - Tinsley, GM, Trexler, ET, Smith-Ryan, AE, Paoli, A, Graybeal, AJ, Campbell, BI, and Schoenfeld, BJ. Changes in body composition and neuromuscular performance through preparation, two competitions, and a recovery period in an experienced female physique athlete. J Strength Cond Res 33(7): 1823-1839, 2019-This prospective case study evaluated an experienced female figure competitor during contest preparation, 2 competitions, and a recovery period. Twelve laboratory sessions were conducted over 8 months. At each visit, body composition was assessed by 4-compartment model, resting metabolic rate (RMR) by indirect calorimetry, and neuromuscular performance by peak force and rate of force development (RFD) on a mechanized squat device. Caloric intake ranged from 965 to 1,610 kcal·d (16.1-24.8 kcal·kg·BM; 18.2-31.1 kcal·kg·FFM), with varying macronutrient intakes (CHO: 0.3-4.8 g·kg; PRO: 1.7-3.0 g·kg; and FAT: 0.2-0.5 g·kg). Body fat was reduced from 20.3 to 12.2% before the first competition and declined to 11.6% before the second competition. Fat-free mass increased by 2.1% before the first competition and peaked at 4.6% above baseline in the recovery period. Resting metabolic rate decreased from 1,345 kcal·d at baseline to a low value of 1,119 kcal·d between competitions. By the end of recovery, RMR increased to 1,435 kcal·d. Concentric and eccentric peak forces declined by up to 19% before the first competition, experienced perturbations in the inter-competition and recovery periods, and remained 5-8% below baseline at study termination. Similarly, RFD decreased by up to 57% before the first competition, was partially recovered, but remained 39% lower than baseline at study termination. Despite favorable body composition changes, neuromuscular performance was impaired during and after the competitive season in an experienced female physique competitor.
+KW  - body composition
+KW  - neuromuscular performance
+KW  - convalescence
+KW  - resting metabolic rate
+KW  - fat-free mass
+KW  - fat loss
+KW  - energy intake
+KW  - macronutrient intake
+KW  - rate of force development
+KW  - peak force
+KW  - squatting
+UR  - https://openalex.org/W2884416564
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Fat-free Mass Characteristics of Muscular Physique Athletes
+AU  - Grant M. Tinsley
+AU  - Austin J. Graybeal
+AU  - Michael Lane Moore
+AU  - Brett S. Nickerson
+PY  - 2018
+JO  - Medicine & Science in Sports & Exercise
+PB  - Lippincott Williams & Wilkins
+VL  - 51
+IS  - 1
+SP  - 193
+EP  - 201
+DO  - 10.1249/mss.0000000000001749
+AB  - PURPOSE: Simple body composition models, such as two-compartment models, use assumptions which may be violated in specific athletic populations (e.g., the constancy of fat-free mass density [DFFM] and hydration [TBW:FFM]). The present analysis examined FFM characteristics of muscular physique athletes. METHODS: Twenty-six athletes (16 males: 94.5 ± 9.9 kg, 12.2% ± 4.2% fat; 10 females: 63.8 ± 5.7 kg, 19.7% ± 4.9% fat) completed duplicate assessments of dual-energy x-ray absorptiometry (DXA), bioimpedance spectroscopy (BIS), and single-frequency and multifrequency bioelectrical impedance analysis (SFBIA; MFBIA). Fat-free mass was calculated via five-compartment (5C) model, and FFM characteristics (i.e. , DFFM, TBW: FFM, FFM mineral, FFM protein) were compared between sexes and between the sample and reference values (RV) from cadaver analysis. TBWBIS: FFM5C was designated as the reference TBW:FFM model, and alternate models were produced using BIS, MFBIA, SFBIA, impedance-based equations, and DXA output. RESULTS: Males had lower TBW:FFM and FFM mineral, but higher FFM protein than females (P < 0.05). DFFM was significantly lower than RV in males (1.096 ± 0.006 g·cm, RV: 1.103 ± 0.013 g·cm; P < 0.001) and appeared higher in females (1.093 ± 0.012 g·cm, RV: 1.087 ± 0.021 g·cm; P = 0.17). TBW:FFM did not differ from RV in females (75.3% ± 4.0%; RV, 75.7% ± 4.4%; P = 0.74) or males (72.7% ± 1.9%; RV, 72.7% ± 3.1%; P = 0.97). Fat-free mass mineral was lower than RV in males (5.5% ± 0.4%; RV, 6.8% ± 0.8%; P < 0.001) and higher in females (6.5% ± 0.5%; RV, 6.1% ± 0.8%; P = 0.04). Fat-free mass protein was significantly greater than RV in males (21.9% ± 1.8%; RV, 20.6% ± 2.6%; P = 0.014), but the difference from RV in females was not statistically significant (18.3% ± 4.1%; RV, 17.1% ± 4.5%; P = 0.39). Alternate TBW:FFM models varied substantially in their agreement with RV. CONCLUSIONS: The FFM characteristics were shown to differ between male and female physique athletes. These results may have implications for optimal body composition assessment methods when atypical physique characteristics are present.
+KW  - fat-free mass
+KW  - body composition
+KW  - total body water
+KW  - sex differences
+KW  - five-compartment model
+KW  - bioimpedance spectroscopy
+KW  - bioelectrical impedance analysis
+KW  - dual-energy X-ray absorptiometry
+KW  - hydration
+KW  - muscle mass
+KW  - body fat percentage
+KW  - body height
+UR  - https://openalex.org/W2885154880
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Body Composition Assessment in Male and Female Bodybuilders: A 4-Compartment Model Comparison of Dual-Energy X-Ray Absorptiometry and Impedance-Based Devices
+AU  - Austin J. Graybeal
+AU  - Michael Lane Moore
+AU  - Megan R. Cruz
+AU  - Grant M. Tinsley
+PY  - 2018
+JO  - The Journal of Strength and Conditioning Research
+PB  - Lippincott Williams & Wilkins
+VL  - 34
+IS  - 6
+SP  - 1676
+EP  - 1689
+DO  - 10.1519/jsc.0000000000002831
+AB  - Graybeal, AJ, Moore, ML, Cruz, MR, and Tinsley, GM. Body composition assessment in male and female bodybuilders: a 4-compartment model comparison of dual-energy x-ray absorptiometry and impedance-based devices. J Strength Cond Res 34(6): 1676-1689, 2020-The purpose of this study was to examine the group and individual accuracy of body composition estimates obtained from multicompartment models, dual-energy x-ray absorptiometry (DXA), and several impedance-based devices in male and female bodybuilders. Twenty-seven male (n = 17; 4-compartment [4C] model fat-free mass index [FFMI]: 25.1 ± 1.8 kg·m; 4C body fat: 11.8 ± 4.4%) and female (n = 10; 4C FFMI: 18.3 ± 1.4 kg·m; 4C body fat: 19.7 ± 4.9%) bodybuilders underwent duplicate assessments using DXA, bioimpedance spectroscopy (BIS), electrical impedance myography (EIM), and 3 bioelectrical impedance analysis (BIA) devices. In addition to utilizing standard output, multicompartment models were generated. For each method, body fat %, FFM, and fat mass were compared with the reference 4C model for the evaluation of group and individual errors. The 3-compartment model with a BIS body water estimate produced the lowest standard error of the estimate, total error (TE), and 95% limits of agreement (LOA) for all variables, although some alternative methods had lower constant error (CE). In general, multicompartment models with BIS or multifrequency BIA body water estimates produced more accurate body composition estimates than single assessment techniques (i.e., DXA, BIS, EIM, and BIA). Single assessment techniques produced low CE and TE for some body composition variables. However, proportional bias was observed for DXA and BIS. All single assessment techniques produced LOA large enough to make the utility of these methods questionable in individual athletes. Appropriate caution should be used when interpreting and utilizing body composition estimates in muscular physique athletes, particularly at the individual level.
+KW  - body composition assessment
+KW  - bodybuilders
+KW  - dual-energy X-ray absorptiometry
+KW  - bioimpedance spectroscopy
+KW  - electrical impedance myography
+KW  - bioelectrical impedance analysis
+KW  - 4-compartment model
+KW  - fat-free mass
+KW  - body fat percentage
+KW  - measurement accuracy
+KW  - limits of agreement
+KW  - sex differences
+UR  - https://openalex.org/W2916033170
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Physiological implications of preparing for a natural male bodybuilding competition
+AU  - Lachlan Mitchell
+AU  - Gary Slater
+AU  - Daniel A. Hackett
+AU  - Nathan Anthony Johnson
+AU  - Helen T O'Connor
+PY  - 2018
+JO  - European Journal of Sport Science
+PB  - Taylor & Francis
+VL  - 18
+IS  - 5
+SP  - 619
+EP  - 629
+DO  - 10.1080/17461391.2018.1444095
+AB  - Abstract This study aimed to describe the body composition and physiological changes which take place during the in‐season and recovery periods of a group of natural bodybuilders. Natural male bodybuilders (n = 9) were assessed 16 (PRE16), 8 (PRE8), and 1 (PRE1) week(s) before, and 4 (POST4) weeks after a bodybuilding competition. Assessments included body composition, resting metabolic rate (RMR), serum hormones, and 7‐day weighed food and training diaries. Change in parameters was assessed using repeated‐measures analysis of variance. Dietary protein intake remained high throughout the study period (2.8–3.1 g kg−1 d−1). Fat mass (FM) was significantly reduced from PRE16 to PRE1 (8.8 ± 3.1 vs. 5.3 ± 2.4 kg, P < .01). There was a small decrease in lean mass (LM) from PRE8 to PRE1 (71.8 ± 9.1 vs. 70.9 ± 9.1 kg, P < .05). No changes in RMR were observed (P > .05). Large reductions in total and free testosterone (16.4 ± 4.4 vs. 10.1 ± 3.6 nmol L−1, P < .05; 229.3 ± 72.4 vs. 116.8 ± 76.9 pmol L−1, P < .05), and insulin‐like growth factor‐1 (IGF‐1) (27.0 ± 7.7 vs. 19.9 ± 7.6 nmol L−1, P < .05) occurred between PRE16 and PRE1. LM and IGF‐1 increased from PRE1 to POST4 (70.9 ± 9.1 vs. 72.5 ± 8.5 kg, P < .05; 19.9 ± 7.6 vs. 25.4 ± 9.3 nmol L−1, P < .05). Despite substantial reductions in FM, participants maintained almost all of their LM. The reduction in anabolic hormone concentration is likely attributable to the prolonged negative energy balance, despite a high dietary protein intake.
+KW  - body composition
+KW  - fat mass
+KW  - lean body mass
+KW  - resting metabolic rate
+KW  - testosterone
+KW  - free testosterone
+KW  - insulin-like growth factor I
+KW  - anabolic hormones
+KW  - negative energy balance
+KW  - protein intake
+KW  - convalescence
+KW  - in-season training
+UR  - https://openalex.org/W2791762432
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Case Study: Unfavorable But Transient Physiological Changes During Contest Preparation in a Drug-Free Male Bodybuilder
+AU  - Andrew Pardue
+AU  - Eric T. Trexler
+AU  - Lisa K. Sprod
+PY  - 2017
+JO  - International Journal of Sport Nutrition and Exercise Metabolism
+PB  - Human Kinetics
+VL  - 27
+IS  - 6
+SP  - 550
+EP  - 559
+DO  - 10.1123/ijsnem.2017-0064
+AB  - Extreme body composition demands of competitive bodybuilding have been associated with unfavorable physiological changes, including alterations in metabolic rate and endocrine profile. The current case study evaluated the effects of contest preparation (8 months), followed by recovery (5 months), on a competitive drug-free male bodybuilder over 13 months (M1-M13). Serum testosterone, triiodothyronine (T3), thyroxine (T4), cortisol, leptin, and ghrelin were measured throughout the study. Body composition (BodPod, dualenergy x-ray absorptiometry [DXA]), anaerobic power (Wingate test), and resting metabolic rate (RMR) were assessed monthly. Sleep was assessed monthly via the Pittsburgh Sleep Quality Index (PSQI) and actigraphy. From M1 to M8, testosterone (623–173 ng∙dL-1), T3 (123–40 ng∙dL-1), and T4 (5.8–4.1 mg∙dL-1) decreased, while cortisol (25.2–26.5 mg∙dL-1) and ghrelin (383–822 pg∙mL-1) increased. The participant lost 9.1 kg before competition as typical energy intake dropped from 3,860 to 1,724 kcal∙day-1; BodPod estimates of body fat percentage were 13.4% at M1, 9.6% at M8, and 14.9% at M13; DXA estimates were 13.8%, 5.1%, and 13.8%, respectively. Peak anaerobic power (753.0 to 536.5 Watts) and RMR (107.2% of predicted to 81.2% of predicted) also decreased throughout preparation. Subjective sleep quality decreased from M1 to M8, but objective measures indicated minimal change. By M13, physiological changes were largely, but not entirely, reversed. Contest preparation may yield transient, unfavorable changes in endocrine profile, power output, RMR, and subjective sleep outcomes. Research with larger samples must identify strategies that minimize unfavorable adaptations and facilitate recovery following competition.
+KW  - competitive bodybuilding
+KW  - testosterone
+KW  - triiodothyronine
+KW  - thyroxine
+KW  - cortisol
+KW  - ghrelin
+KW  - leptin
+KW  - resting metabolic rate
+KW  - anaerobic power
+KW  - body composition
+KW  - caloric restriction
+KW  - sleep quality
+KW  - hormonal profile
+UR  - https://openalex.org/W2743499154
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Negative Consequences of Low Energy Availability in Natural Male Bodybuilding: A Review
+AU  - Petter Fagerberg
+PY  - 2017
+JO  - International Journal of Sport Nutrition and Exercise Metabolism
+PB  - Human Kinetics
+VL  - 28
+IS  - 4
+SP  - 385
+EP  - 402
+DO  - 10.1123/ijsnem.2016-0332
+AB  - Energy availability (EA) is a scientific concept describing how much energy is available for basic metabolic functions such as reproduction, immunity, and skeletal homeostasis. Carefully controlled studies on women have shown pathological effects of EA < 30 kcal/kg fat-free mass (FFM), and this state has been labeled low EA (LEA). Bodybuilding is a sport in which athletes compete to show muscular definition, symmetry, and low body fat (BF). The process of contest preparation in bodybuilding includes months of underfeeding, thus increasing the risk of LEA and its negative health consequences. As no well-controlled studies have been conducted in natural male bodybuilders on effects of LEA, the aim of this review was to summarize what can be extrapolated from previous relevant research findings in which EA can be calculated. The reviewed literature indicates that a prolonged EA < 25 kcal/kg FFM results in muscle loss, hormonal imbalances, psychological problems, and negatively affects the cardiovascular system when approaching the lower limits of BF (∼4%-5%) among males. Case studies on natural male bodybuilders who prepare for contest show muscle loss (>40% of total weight loss) with EA < 20 kcal/kg FFM, and in the study with the lowest observed BF (∼4 kg), major mood disturbance and hormonal imbalances co-occurred. Studies also underline the problem of BF overshoot during refeeding after extremes of LEA among males. A more tempered approach (EA > 25 kcal/kg FFM) might result in less muscle loss among natural male bodybuilders who prepare for contest, but more research is needed.
+KW  - energy availability
+KW  - low energy availability
+KW  - underfeeding
+KW  - fat-free mass
+KW  - muscle mass loss
+KW  - hormonal imbalance
+KW  - mood disturbance
+KW  - cardiovascular effects
+KW  - fat mass
+KW  - refeeding
+UR  - https://openalex.org/W2617815591
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Dietary Intake, Body Composition, and Menstrual Cycle Changes during Competition Preparation and Recovery in a Drug-Free Figure Competitor: A Case Study
+AU  - Tanya M. Halliday
+AU  - Jeremy P. Loenneke
+AU  - Brenda Marie Davy
+PY  - 2016
+JO  - Nutrients
+PB  - Multidisciplinary Digital Publishing Institute
+VL  - 8
+IS  - 11
+SP  - 740
+EP  - 740
+DO  - 10.3390/nu8110740
+AB  - Physique competitions are events in which competitors are judged on muscular appearance and symmetry. The purpose of this retrospective case study was to describe changes in dietary intake, body mass/composition, and the menstrual cycle during the 20-week competition preparation (PREP) and 20-week post competition recovery (REC) periods of a drug-free amateur female figure competitor (age = 26-27, BMI = 19.5 kg/m²). Dietary intake (via weighed food records) and body mass were assessed daily and averaged weekly. Body composition was estimated via Dual-energy X-ray absorptiometry (DXA) and 7-site skinfold measurements. Energy intake, body mass and composition, and energy availability decreased during the 20-week PREP period (changes of ~298 kcals, 5.1 kg, 6.5% body fat, and 5.4 kcal/kg fat free mass, respectively) and returned to baseline values by end of the 20-week REC period. Menstrual cycle irregularity was reported within the first month of PREP and the last menstruation was reported at week 11 of PREP. Given the potentially adverse health outcomes associated with caloric restriction, future, prospective cohort studies on the physiological response to PREP and REC are warranted in drug-free, female physique competitors.
+KW  - body composition
+KW  - menstrual cycle
+KW  - caloric restriction
+KW  - energy availability
+KW  - dietary intake
+KW  - post-competition recovery
+KW  - female athletes
+KW  - body fat percentage
+KW  - fat-free mass
+KW  - menstrual irregularity
+UR  - https://openalex.org/W2550035262
+N1  - Search blocks: b2
+ER  - 
+
+TY  - JOUR
+TI  - Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
+AU  - Takeaki Kadota
+AU  - Hideaki Hayashi
+AU  - Ryoma Bise
+AU  - Kiyohito Tanaka
+AU  - Seiichi Uchida
+PY  - 2024
+JO  - Medical Image Analysis
+PB  - Elsevier BV
+VL  - 97
+SP  - 103262
+EP  - 103262
+DO  - 10.1016/j.media.2024.103262
+UR  - https://openalex.org/W4400262610
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - CPAPER
+TI  - Made to Order: Discovering Monotonic Temporal Changes via Self-supervised Video Ordering
+AU  - Charig Yang
+AU  - Weidi Xie
+AU  - Andrew Zisserman
+PY  - 2024
+T2  - Lecture notes in computer science
+PB  - Springer Science+Business Media
+SP  - 268
+EP  - 286
+DO  - 10.1007/978-3-031-72904-1_16
+UR  - https://openalex.org/W4404531451
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - JOUR
+TI  - Uncovering developmental time and tempo using deep learning
+AU  - Nikan Toulany
+AU  - Hernán Andrés Morales-Navarrete
+AU  - Daniel Čapek
+AU  - Jannis Grathwohl
+AU  - Murat Ünalan
+AU  - Patrick Müller
+PY  - 2023
+JO  - Nature Methods
+PB  - Nature Portfolio
+VL  - 20
+IS  - 12
+SP  - 2000
+EP  - 2010
+DO  - 10.1038/s41592-023-02083-8
+UR  - https://openalex.org/W4388946775
+N1  - Search blocks: snowball
+ER  - 
+
+TY  - CPAPER
+TI  - Moving Window Regression: A Novel Approach to Ordinal Regression
+AU  - Nyeong-Ho Shin
+AU  - Seon‐Ho Lee
+AU  - Chang‐Su Kim
+PY  - 2022
+T2  - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+PB  - Institute of Electrical and Electronics Engineers
+SP  - 18739
+EP  - 18748
+DO  - 10.1109/cvpr52688.2022.01820
+UR  - https://openalex.org/W4312771329
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - CPAPER
+TI  - OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression
+AU  - Wanhua Li
+AU  - Xiaoke Huang
+AU  - Zheng Zhu
+AU  - Yansong Tang
+AU  - Xiu Li
+AU  - Jie Zhou
+AU  - Jiwen Lu
+PY  - 2022
+T2  - neural information processing systems
+SP  - 35313
+EP  - 35325
+DO  - 10.52202/068431-2559
+UR  - https://openalex.org/W7133198852
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - JOUR
+TI  - Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging
+AU  - Matthew Li
+AU  - Ken Chang
+AU  - Benjamin Bearce
+AU  - Connie Y. Chang
+AU  - Ambrose J. Huang
+AU  - J. Peter Campbell
+AU  - James M. Brown
+AU  - Praveer Singh
+AU  - Katharina Hoebel
+AU  - Deniz Erdogmus B
+AU  - Stratis Ioannidis
+AU  - William E. Palmer
+AU  - Michael F. Chiang
+AU  - Jayashree Kalpathy–Cramer
+PY  - 2020
+JO  - npj Digital Medicine
+PB  - Nature Portfolio
+VL  - 3
+IS  - 1
+SP  - 48
+EP  - 48
+DO  - 10.1038/s41746-020-0255-1
+AB  - Abstract Using medical images to evaluate disease severity and change over time is a routine and important task in clinical decision making. Grading systems are often used, but are unreliable as domain experts disagree on disease severity category thresholds. These discrete categories also do not reflect the underlying continuous spectrum of disease severity. To address these issues, we developed a convolutional Siamese neural network approach to evaluate disease severity at single time points and change between longitudinal patient visits on a continuous spectrum. We demonstrate this in two medical imaging domains: retinopathy of prematurity (ROP) in retinal photographs and osteoarthritis in knee radiographs. Our patient cohorts consist of 4861 images from 870 patients in the Imaging and Informatics in Retinopathy of Prematurity (i-ROP) cohort study and 10,012 images from 3021 patients in the Multicenter Osteoarthritis Study (MOST), both of which feature longitudinal imaging data. Multiple expert clinician raters ranked 100 retinal images and 100 knee radiographs from excluded test sets for severity of ROP and osteoarthritis, respectively. The Siamese neural network output for each image in comparison to a pool of normal reference images correlates with disease severity rank (ρ = 0.87 for ROP and ρ = 0.89 for osteoarthritis), both within and between the clinical grading categories. Thus, this output can represent the continuous spectrum of disease severity at any single time point. The difference in these outputs can be used to show change over time. Alternatively, paired images from the same patient at two time points can be directly compared using the Siamese neural network, resulting in an additional continuous measure of change between images. Importantly, our approach does not require manual localization of the pathology of interest and requires only a binary label for training (same versus different). The location of disease and site of change detected by the algorithm can be visualized using an occlusion sensitivity map-based approach. For a longitudinal binary change detection task, our Siamese neural networks achieve test set receiving operator characteristic area under the curves (AUCs) of up to 0.90 in evaluating ROP or knee osteoarthritis change, depending on the change detection strategy. The overall performance on this binary task is similar compared to a conventional convolutional deep-neural network trained for multi-class classification. Our results demonstrate that convolutional Siamese neural networks can be a powerful tool for evaluating the continuous spectrum of disease severity and change in medical imaging.
+KW  - Siamese network
+KW  - disease severity assessment
+KW  - change detection
+KW  - retinopathy of prematurity
+KW  - knee osteoarthritis
+KW  - fundus images
+KW  - knee radiographs
+UR  - https://openalex.org/W3014080415
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - JOUR
+TI  - Rank consistent ordinal regression for neural networks with application to age estimation
+AU  - Wenzhi Cao
+AU  - Vahid Mirjalili
+AU  - Sebastian Raschka
+PY  - 2020
+JO  - Pattern Recognition Letters
+PB  - Elsevier BV
+VL  - 140
+SP  - 325
+EP  - 331
+DO  - 10.1016/j.patrec.2020.11.008
+AB  - In many real-world prediction tasks, class labels include information about the relative ordering between labels, which is not captured by commonly-used loss functions such as multi-category cross-entropy. Recently, the deep learning community adopted ordinal regression frameworks to take such ordering information into account. Neural networks were equipped with ordinal regression capabilities by transforming ordinal targets into binary classification subtasks. However, this method suffers from inconsistencies among the different binary classifiers. To resolve these inconsistencies, we propose the COnsistent RAnk Logits (CORAL) framework with strong theoretical guarantees for rank-monotonicity and consistent confidence scores. Moreover, the proposed method is architecture-agnostic and can extend arbitrary state-of-the-art deep neural network classifiers for ordinal regression tasks. The empirical evaluation of the proposed rank-consistent method on a range of face-image datasets for age prediction shows a substantial reduction of the prediction error compared to the reference ordinal regression network.
+KW  - ordinal regression
+KW  - rank consistency
+KW  - age estimation
+KW  - confidence calibration
+KW  - face classification
+KW  - loss functions
+UR  - https://openalex.org/W3097760447
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - CPAPER
+TI  - Longitudinal Image Registration with Temporal-Order and Subject-Specificity Discrimination
+AU  - Qianye Yang
+AU  - Yunguan Fu
+AU  - Francesco Giganti
+AU  - Nooshin Ghavami
+AU  - Qingchao Chen
+AU  - J. Alison Noble
+AU  - Tom K. Vercauteren
+AU  - Dean C. Barratt
+AU  - Yipeng Hu
+PY  - 2020
+T2  - Lecture notes in computer science
+PB  - Springer Science+Business Media
+SP  - 243
+EP  - 252
+DO  - 10.1007/978-3-030-59716-0_24
+UR  - https://openalex.org/W3082445835
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - CPAPER
+TI  - Soft Labels for Ordinal Regression
+AU  - Raúl Díaz
+AU  - Amit Marathe
+PY  - 2019
+T2  - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+PB  - Institute of Electrical and Electronics Engineers
+SP  - 4733
+EP  - 4742
+DO  - 10.1109/cvpr.2019.00487
+UR  - https://openalex.org/W2949208911
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - CPAPER
+TI  - A Constrained Deep Neural Network for Ordinal Regression
+AU  - Yanzhu Liu
+AU  - Adams Wai-Kin Kong
+AU  - Chi Keong Goh
+PY  - 2018
+T2  - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+PB  - IEEE
+SP  - 831
+EP  - 839
+DO  - 10.1109/cvpr.2018.00093
+UR  - https://openalex.org/W2798655965
+N1  - Search blocks: snowball
+ER  - 
+
+TY  - CPAPER
+TI  - Ordinal Regression with Multiple Output CNN for Age Estimation
+AU  - Zhenxing Niu
+AU  - Mo Zhou
+AU  - Le Wang
+AU  - Xinbo Gao
+AU  - Gang Hua
+PY  - 2016
+T2  - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings
+PB  - Institute of Electrical and Electronics Engineers
+SP  - 4920
+EP  - 4928
+DO  - 10.1109/cvpr.2016.532
+UR  - https://openalex.org/W2440214111
+N1  - Search blocks: b3v4
+ER  - 
+
+TY  - JOUR
+TI  - The Role of Artificial Intelligence in Bodybuilding: A Systematic Review of Applications, Challenges, and Future Prospects
+AU  - Mahmood A. Al-Shareeda
+AU  - Ahmed J. Obaid
+AU  - Amjad Abdul Hamed ALMAJID
+PY  - 2025
+JO  - Jordanian Journal of Informatics and Computing
+VL  - 2025
+IS  - 1
+SP  - 16
+EP  - 26
+DO  - 10.63180/jjic.thestap.2025.1.3
+AB  - Artificial Intelligence (AI) is making more and more impact on bodybuilding and helps providing data driven insights for improved training, nutrition, performance analytics, injury prevention and supplementation. This article systematically reviews the impact of AI on five key aspects of bodybuilding. For example, the adaptive workout plans and real-time training feedback in AI-Based Training Optimization improve progressive overload and movement accuracy. Second, it is AI-Driven Nutrition & Diet Planning that will refine macronutrient tracking, each meal customization, and genetics-based diet optimization. Thirdly, AI in Performance Monitoring & Biomechanics uses wearables and computer vision to correct exercise form and analyze body composition. The fourth challenge AI solves is in Injury Prevention & Recovery - using world-class predictive models for muscle strain detection, personalized rehabilitation, and optimized rest protocols. Finally, it forms a part of the AI in Supplementation & Pharmacology encompassing supplement initiatives, hormonal regulation, performance-enhancing drugs, and its detection. However, existing AI systems encounter difficulties, including limited adaptability to individual physiology, inherent dataset biases, privacy issues, and the absence of regulatory frameworks for AI-assisted supplementation and doping detection. Looking ahead, we will have smart gym gear, hybrid AI and human coaches, nutrigenomics supported by AI, and regenerative medicine methodologies. This review highlights the excesses of bodybuilding and the potentiality of AI in moderating bodybuilding under the normative edges of ethics, regulations, and human expertise.
+KW  - artificial intelligence
+KW  - bodybuilding
+KW  - progressive overload
+KW  - body composition assessment
+KW  - wearable sensors
+KW  - computer vision
+KW  - injury prevention
+KW  - personalized rehabilitation
+KW  - diet planning
+KW  - nutrigenomics
+KW  - performance-enhancing drugs
+KW  - doping detection
+KW  - AI ethics and regulation
+UR  - https://openalex.org/W4411569237
+N1  - Search blocks: b2+b4+b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - Steroid and Non-Steroid Bodybuilder Classification Using Deep-Learning
+AU  - Safa Ahmed
+AU  - Md. Tahmid Obayed
+AU  - Mohammad Monirujjaman Khan
+PY  - 2024
+T2  - IEEE International Conference on Computational Intelligence and Communication Networks (CICN)
+SP  - 490
+EP  - 497
+DO  - 10.1109/cicn63059.2024.10847504
+UR  - https://openalex.org/W4406860654
+N1  - Search blocks: b4
+ER  - 
+

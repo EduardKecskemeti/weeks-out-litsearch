@@ -1,0 +1,23 @@
+name: reproduce
+
+# Rebuilds every result file from the raw snapshot on each push and checks it
+# against CHECKSUMS.sha256. A green tick means the published datasets follow
+# exactly from data/raw/ and the scripts in this repository.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild from raw snapshot and verify
+        run: python scripts/verify.py --rebuild
+      - name: Fail if any committed result changed
+        run: git diff --exit-code -- results/
