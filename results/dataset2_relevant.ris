@@ -18,7 +18,19 @@ SP  - 43
 EP  - 43
 DO  - 10.1038/s41746-024-01380-6
 UR  - https://openalex.org/W4406560775
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W4406560775); search blocks: b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - Multimodal AI for Body Fat Estimation: Computer Vision and Anthropometry with DEXA Benchmarks
+AU  - Rayan A.L. Dajani
+PY  - 2025
+T2  - Proceedings - 2025 IEEE International Conference on Collaborative Advances in Software and Computing, CASCON 2025
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SP  - 579
+EP  - 580
+DO  - 10.1109/cascon66301.2025.00093
+N1  - Found in scopus+wos (2-s2.0-105033233271); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -45,7 +57,7 @@ KW  - individual identification
 KW  - body part localization
 KW  - dual-energy X-ray absorptiometry comparison
 UR  - https://openalex.org/W4405130883
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W4405130883); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -65,26 +77,7 @@ SP  - e202300518
 EP  - e202300518
 DO  - 10.1002/jbio.202300518
 UR  - https://openalex.org/W4391319367
-N1  - Search blocks: b1v3
-ER  - 
-
-TY  - JOUR
-TI  - Fluid-Dependent Single-Frequency Bioelectrical Impedance Fat Mass Estimates Compared to Digital Imaging and Dual X-ray Absorptiometry
-AU  - Lexa Nescolarde
-AU  - Carmine Orlandi
-AU  - Gian Luca Farina
-AU  - Niccolo’ Gori
-AU  - Henry C. Lukaski
-PY  - 2023
-JO  - Nutrients
-PB  - Multidisciplinary Digital Publishing Institute
-VL  - 15
-IS  - 21
-SP  - 4638
-EP  - 4638
-DO  - 10.3390/nu15214638
-UR  - https://openalex.org/W4388132198
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W4391319367); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -108,7 +101,7 @@ SP  - 20734
 EP  - 20734
 DO  - 10.1038/s41598-023-48055-y
 UR  - https://openalex.org/W4388998386
-N1  - Search blocks: snowball
+N1  - Found in snowball (W4388998386); search blocks: snowball
 ER  - 
 
 TY  - JOUR
@@ -134,7 +127,7 @@ SP  - 79
 EP  - 79
 DO  - 10.1038/s41746-022-00628-3
 UR  - https://openalex.org/W4283698854
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W4283698854); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -162,7 +155,7 @@ KW  - dual-energy X-ray absorptiometry
 KW  - reproducibility
 KW  - obesity phenotypes
 UR  - https://openalex.org/W4307983833
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W4307983833); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -179,7 +172,7 @@ SP  - 2464
 EP  - 2472
 DO  - 10.1016/j.clnu.2022.09.014
 UR  - https://openalex.org/W4298009065
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W4298009065); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -196,7 +189,7 @@ SP  - 905
 EP  - 911
 DO  - 10.1111/jhn.13113
 UR  - https://openalex.org/W4310945073
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus (W4310945073); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -216,7 +209,7 @@ SP  - 37
 EP  - 43
 DO  - 10.1016/j.orcp.2021.12.006
 UR  - https://openalex.org/W4210408071
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W4210408071); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -249,7 +242,7 @@ KW  - convolutional neural networks
 KW  - magnetic resonance imaging
 KW  - UK Biobank
 UR  - https://openalex.org/W4288725097
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W4288725097); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -268,7 +261,7 @@ SP  - 111
 EP  - 118
 DO  - 10.1038/s41430-021-00899-1
 UR  - https://openalex.org/W3136997174
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W3136997174); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -289,7 +282,7 @@ SP  - 244
 EP  - 251
 DO  - 10.1016/j.jocd.2021.08.004
 UR  - https://openalex.org/W3204454242
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W3204454242); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -308,7 +301,7 @@ SP  - 2413
 EP  - 2413
 DO  - 10.3390/ijerph18052413
 UR  - https://openalex.org/W3134607774
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W3134607774); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -333,7 +326,7 @@ SP  - 6232
 EP  - 6245
 DO  - 10.1002/mp.14492
 UR  - https://openalex.org/W3088241220
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W3088241220); search blocks: b1v3
 ER  - 
 
 TY  - CPAPER
@@ -347,7 +340,7 @@ SP  - 1
 EP  - 2
 DO  - 10.1109/icmew68306.2025.11152053
 UR  - https://openalex.org/W4414140955
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W4414140955); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -364,7 +357,7 @@ SP  - 24178
 EP  - 24178
 DO  - 10.1038/s41598-024-73270-6
 UR  - https://openalex.org/W4403428415
-N1  - Search blocks: b1v3
+N1  - Found in openalex (W4403428415); search blocks: b1v3
 ER  - 
 
 TY  - JOUR
@@ -391,7 +384,7 @@ KW  - user-centered design
 KW  - real-time inference
 KW  - body part segmentation
 UR  - https://openalex.org/W4316813278
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus (W4316813278); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -414,7 +407,7 @@ KW  - body mass index estimation
 KW  - anthropometric features
 KW  - forensic biometrics
 UR  - https://openalex.org/W4210506757
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W4210506757); search blocks: b1+b1v3
 ER  - 
 
 TY  - CPAPER
@@ -432,28 +425,7 @@ SP  - 2708
 EP  - 2718
 DO  - 10.1109/cvpr52688.2022.00274
 UR  - https://openalex.org/W4312809617
-N1  - Search blocks: b1+b1v3
-ER  - 
-
-TY  - CPAPER
-TI  - Predicting body measures from 2D images using Convolutional Neural Networks
-AU  - João Wellington M. Souza
-AU  - Gabriel Bandeira Holanda
-AU  - Roberto Fernandes Ivo
-AU  - Shara S. A. Alves
-AU  - Suane P. P. da Silva
-AU  - Virgínia Xavier Nunes
-AU  - Luiz Lannes Loureiro
-AU  - C. H. Dias-Silva
-AU  - Pedro P. Rebouças Filho
-PY  - 2020
-T2  - International Joint Conference on Neural Networks (IJCNN)
-PB  - IEEE
-SP  - 1
-EP  - 6
-DO  - 10.1109/ijcnn48605.2020.9207330
-UR  - https://openalex.org/W3090535222
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W4312809617); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -469,7 +441,7 @@ SP  - 2676
 EP  - 2688
 DO  - 10.1109/tifs.2019.2904840
 UR  - https://openalex.org/W2921366310
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W2921366310); search blocks: b1v3
 ER  - 
 
 TY  - CPAPER
@@ -490,7 +462,7 @@ SP  - 572
 EP  - 575
 DO  - 10.1609/icwsm.v11i1.14923
 UR  - https://openalex.org/W2604892024
-N1  - Search blocks: b1v3
+N1  - Found in openalex+scopus+wos (W2604892024); search blocks: b1v3
 ER  - 
 
 TY  - CPAPER
@@ -506,7 +478,7 @@ SP  - 108
 EP  - 117
 DO  - 10.1109/3dv.2016.19
 UR  - https://openalex.org/W2562703451
-N1  - Search blocks: b1+b1v3
+N1  - Found in openalex+scopus+wos (W2562703451); search blocks: b1+b1v3
 ER  - 
 
 TY  - JOUR
@@ -538,7 +510,7 @@ KW  - body composition
 KW  - isokinetic peak torque
 KW  - isometric peak torque
 UR  - https://openalex.org/W4416427900
-N1  - Search blocks: b2
+N1  - Found in openalex+wos (W4416427900); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -575,7 +547,7 @@ KW  - anthropometry
 KW  - kinanthropometry
 KW  - muscle hypertrophy
 UR  - https://openalex.org/W4395475252
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W4395475252); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -609,7 +581,7 @@ KW  - anabolic steroids
 KW  - supplements
 KW  - sex differences
 UR  - https://openalex.org/W4318924240
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W4318924240); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -638,7 +610,7 @@ KW  - water intake
 KW  - exercise regimen
 KW  - fat loss
 UR  - https://openalex.org/W3170010726
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W3170010726); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -660,7 +632,7 @@ SP  - 1075
 EP  - 1075
 DO  - 10.3390/nu13041075
 UR  - https://openalex.org/W3135987593
-N1  - Search blocks: snowball
+N1  - Found in snowball (W3135987593); search blocks: snowball
 ER  - 
 
 TY  - JOUR
@@ -701,7 +673,7 @@ KW  - vertical jump
 KW  - explosive strength
 KW  - nutritional intake
 UR  - https://openalex.org/W3083020748
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W3083020748); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -734,7 +706,7 @@ KW  - rate of force development
 KW  - peak force
 KW  - squatting
 UR  - https://openalex.org/W2884416564
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W2884416564); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -765,7 +737,7 @@ KW  - muscle mass
 KW  - body fat percentage
 KW  - body height
 UR  - https://openalex.org/W2885154880
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus (W2885154880); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -796,39 +768,7 @@ KW  - measurement accuracy
 KW  - limits of agreement
 KW  - sex differences
 UR  - https://openalex.org/W2916033170
-N1  - Search blocks: b2
-ER  - 
-
-TY  - JOUR
-TI  - Physiological implications of preparing for a natural male bodybuilding competition
-AU  - Lachlan Mitchell
-AU  - Gary Slater
-AU  - Daniel A. Hackett
-AU  - Nathan Anthony Johnson
-AU  - Helen T O'Connor
-PY  - 2018
-JO  - European Journal of Sport Science
-PB  - Taylor & Francis
-VL  - 18
-IS  - 5
-SP  - 619
-EP  - 629
-DO  - 10.1080/17461391.2018.1444095
-AB  - Abstract This study aimed to describe the body composition and physiological changes which take place during the in‐season and recovery periods of a group of natural bodybuilders. Natural male bodybuilders (n = 9) were assessed 16 (PRE16), 8 (PRE8), and 1 (PRE1) week(s) before, and 4 (POST4) weeks after a bodybuilding competition. Assessments included body composition, resting metabolic rate (RMR), serum hormones, and 7‐day weighed food and training diaries. Change in parameters was assessed using repeated‐measures analysis of variance. Dietary protein intake remained high throughout the study period (2.8–3.1 g kg−1 d−1). Fat mass (FM) was significantly reduced from PRE16 to PRE1 (8.8 ± 3.1 vs. 5.3 ± 2.4 kg, P < .01). There was a small decrease in lean mass (LM) from PRE8 to PRE1 (71.8 ± 9.1 vs. 70.9 ± 9.1 kg, P < .05). No changes in RMR were observed (P > .05). Large reductions in total and free testosterone (16.4 ± 4.4 vs. 10.1 ± 3.6 nmol L−1, P < .05; 229.3 ± 72.4 vs. 116.8 ± 76.9 pmol L−1, P < .05), and insulin‐like growth factor‐1 (IGF‐1) (27.0 ± 7.7 vs. 19.9 ± 7.6 nmol L−1, P < .05) occurred between PRE16 and PRE1. LM and IGF‐1 increased from PRE1 to POST4 (70.9 ± 9.1 vs. 72.5 ± 8.5 kg, P < .05; 19.9 ± 7.6 vs. 25.4 ± 9.3 nmol L−1, P < .05). Despite substantial reductions in FM, participants maintained almost all of their LM. The reduction in anabolic hormone concentration is likely attributable to the prolonged negative energy balance, despite a high dietary protein intake.
-KW  - body composition
-KW  - fat mass
-KW  - lean body mass
-KW  - resting metabolic rate
-KW  - testosterone
-KW  - free testosterone
-KW  - insulin-like growth factor I
-KW  - anabolic hormones
-KW  - negative energy balance
-KW  - protein intake
-KW  - convalescence
-KW  - in-season training
-UR  - https://openalex.org/W2791762432
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W2916033170); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -859,7 +799,7 @@ KW  - caloric restriction
 KW  - sleep quality
 KW  - hormonal profile
 UR  - https://openalex.org/W2743499154
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W2743499154); search blocks: b2
 ER  - 
 
 TY  - JOUR
@@ -885,35 +825,21 @@ KW  - cardiovascular effects
 KW  - fat mass
 KW  - refeeding
 UR  - https://openalex.org/W2617815591
-N1  - Search blocks: b2
+N1  - Found in openalex+scopus+wos (W2617815591); search blocks: b2
 ER  - 
 
-TY  - JOUR
-TI  - Dietary Intake, Body Composition, and Menstrual Cycle Changes during Competition Preparation and Recovery in a Drug-Free Figure Competitor: A Case Study
-AU  - Tanya M. Halliday
-AU  - Jeremy P. Loenneke
-AU  - Brenda Marie Davy
-PY  - 2016
-JO  - Nutrients
-PB  - Multidisciplinary Digital Publishing Institute
-VL  - 8
-IS  - 11
-SP  - 740
-EP  - 740
-DO  - 10.3390/nu8110740
-AB  - Physique competitions are events in which competitors are judged on muscular appearance and symmetry. The purpose of this retrospective case study was to describe changes in dietary intake, body mass/composition, and the menstrual cycle during the 20-week competition preparation (PREP) and 20-week post competition recovery (REC) periods of a drug-free amateur female figure competitor (age = 26-27, BMI = 19.5 kg/m²). Dietary intake (via weighed food records) and body mass were assessed daily and averaged weekly. Body composition was estimated via Dual-energy X-ray absorptiometry (DXA) and 7-site skinfold measurements. Energy intake, body mass and composition, and energy availability decreased during the 20-week PREP period (changes of ~298 kcals, 5.1 kg, 6.5% body fat, and 5.4 kcal/kg fat free mass, respectively) and returned to baseline values by end of the 20-week REC period. Menstrual cycle irregularity was reported within the first month of PREP and the last menstruation was reported at week 11 of PREP. Given the potentially adverse health outcomes associated with caloric restriction, future, prospective cohort studies on the physiological response to PREP and REC are warranted in drug-free, female physique competitors.
-KW  - body composition
-KW  - menstrual cycle
-KW  - caloric restriction
-KW  - energy availability
-KW  - dietary intake
-KW  - post-competition recovery
-KW  - female athletes
-KW  - body fat percentage
-KW  - fat-free mass
-KW  - menstrual irregularity
-UR  - https://openalex.org/W2550035262
-N1  - Search blocks: b2
+TY  - CPAPER
+TI  - RANKING-AWARE ADAPTER FOR TEXT-DRIVEN IMAGE ORDERING WITH CLIP
+AU  - Wei-Hsiang Yu
+AU  - Yen-Yu Lin
+AU  - Ming-Hsuan Yang
+AU  - Yi-Hsuan Tsai
+PY  - 2025
+T2  - 13th International Conference on Learning Representations, ICLR 2025
+PB  - International Conference on Learning Representations, ICLR
+SP  - 50965
+EP  - 50984
+N1  - Found in scopus (2-s2.0-105010231457); search blocks: b3v4
 ER  - 
 
 TY  - JOUR
@@ -931,7 +857,7 @@ SP  - 103262
 EP  - 103262
 DO  - 10.1016/j.media.2024.103262
 UR  - https://openalex.org/W4400262610
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W4400262610); search blocks: b3v4
 ER  - 
 
 TY  - CPAPER
@@ -946,7 +872,7 @@ SP  - 268
 EP  - 286
 DO  - 10.1007/978-3-031-72904-1_16
 UR  - https://openalex.org/W4404531451
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus (W4404531451); search blocks: b3v4
 ER  - 
 
 TY  - JOUR
@@ -966,7 +892,7 @@ SP  - 2000
 EP  - 2010
 DO  - 10.1038/s41592-023-02083-8
 UR  - https://openalex.org/W4388946775
-N1  - Search blocks: snowball
+N1  - Found in snowball (W4388946775); search blocks: snowball
 ER  - 
 
 TY  - CPAPER
@@ -981,7 +907,7 @@ SP  - 18739
 EP  - 18748
 DO  - 10.1109/cvpr52688.2022.01820
 UR  - https://openalex.org/W4312771329
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W4312771329); search blocks: b3v4
 ER  - 
 
 TY  - CPAPER
@@ -999,7 +925,7 @@ SP  - 35313
 EP  - 35325
 DO  - 10.52202/068431-2559
 UR  - https://openalex.org/W7133198852
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W7133198852); search blocks: b3v4
 ER  - 
 
 TY  - JOUR
@@ -1035,7 +961,7 @@ KW  - knee osteoarthritis
 KW  - fundus images
 KW  - knee radiographs
 UR  - https://openalex.org/W3014080415
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W3014080415); search blocks: b3v4
 ER  - 
 
 TY  - JOUR
@@ -1058,7 +984,7 @@ KW  - confidence calibration
 KW  - face classification
 KW  - loss functions
 UR  - https://openalex.org/W3097760447
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W3097760447); search blocks: b3v4
 ER  - 
 
 TY  - CPAPER
@@ -1079,7 +1005,7 @@ SP  - 243
 EP  - 252
 DO  - 10.1007/978-3-030-59716-0_24
 UR  - https://openalex.org/W3082445835
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus (W3082445835); search blocks: b3v4
 ER  - 
 
 TY  - CPAPER
@@ -1093,7 +1019,7 @@ SP  - 4733
 EP  - 4742
 DO  - 10.1109/cvpr.2019.00487
 UR  - https://openalex.org/W2949208911
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W2949208911); search blocks: b3v4
 ER  - 
 
 TY  - CPAPER
@@ -1108,7 +1034,7 @@ SP  - 831
 EP  - 839
 DO  - 10.1109/cvpr.2018.00093
 UR  - https://openalex.org/W2798655965
-N1  - Search blocks: snowball
+N1  - Found in snowball (W2798655965); search blocks: snowball
 ER  - 
 
 TY  - CPAPER
@@ -1125,7 +1051,24 @@ SP  - 4920
 EP  - 4928
 DO  - 10.1109/cvpr.2016.532
 UR  - https://openalex.org/W2440214111
-N1  - Search blocks: b3v4
+N1  - Found in openalex+scopus+wos (W2440214111); search blocks: b3v4
+ER  - 
+
+TY  - JOUR
+TI  - A new image-based immersive tool for dementia diagnosis using pairwise ranking and learning
+AU  - Wei Huang
+AU  - Shuru Zeng
+AU  - Jing Li
+AU  - Guang Chen
+PY  - 2016
+JO  - Multimedia Tools and Applications
+PB  - Springer New York LLC
+VL  - 75
+IS  - 9
+SP  - 5359
+EP  - 5376
+DO  - 10.1007/s11042-015-2826-8
+N1  - Found in scopus+wos (2-s2.0-84938517255); search blocks: b3v4
 ER  - 
 
 TY  - JOUR
@@ -1155,7 +1098,18 @@ KW  - performance-enhancing drugs
 KW  - doping detection
 KW  - AI ethics and regulation
 UR  - https://openalex.org/W4411569237
-N1  - Search blocks: b2+b4+b1v3
+N1  - Found in openalex (W4411569237); search blocks: b2+b4+b1v3
+ER  - 
+
+TY  - CPAPER
+TI  - Deep Learning Based Pageant Placement System
+AU  - Vaishali Vijayarajan
+AU  - Mohamed Mansoor Roomi Sindha
+PY  - 2025
+T2  - Proceedings of 2025 International Conference on Signal Processing, Computation, Electronics, Power and Telecommunication, IConSCEPT 2025
+PB  - Institute of Electrical and Electronics Engineers Inc.
+DO  - 10.1109/iconscept66142.2025.11436820
+N1  - Found in scopus (2-s2.0-105036592018); search blocks: b1v3
 ER  - 
 
 TY  - CPAPER
@@ -1169,6 +1123,6 @@ SP  - 490
 EP  - 497
 DO  - 10.1109/cicn63059.2024.10847504
 UR  - https://openalex.org/W4406860654
-N1  - Search blocks: b4
+N1  - Found in openalex+scopus+wos (W4406860654); search blocks: b4
 ER  - 
 

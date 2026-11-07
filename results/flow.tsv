@@ -1,0 +1,10 @@
+stage	step	records
+identified	OpenAlex (title_and_abstract.search)	1251
+identified	Scopus (TITLE-ABS)	810
+identified	Web of Science (TI/AB)	566
+identified	Snowballing (Scholar Labs seeds)	4
+identified	Total records	2631
+deduplicated	Unique works after matching DOI and title	1338
+screened-out	Works found only by OpenAlex and removed by R1-R7	63
+screened-out	Removed by D1-D4 (Scopus/WoS records)	6
+included	Dataset 1	1269

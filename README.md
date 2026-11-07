@@ -5,33 +5,37 @@
 The bibliographic search behind a paper on estimating **"apparent weeks out"**
 (how close to contest condition a physique competitor looks) from ordinary
 photos, using **pairwise ranking**. Built for *Methodology of Research*,
-Assignment 2 (Eduard Kecskemeti, October 2026).
+Assignment 2 (Eduard Kecskemeti, October–November 2026).
 
-This repository holds the queries, the raw search results, the scripts that
-turn them into the two datasets, and checksums. **Anyone can rebuild every
-result file from the raw data and get byte-identical output.**
+The same four queries were run in **OpenAlex, Scopus and Web of Science**. This
+repository holds the queries, the raw search results (for Scopus and WoS:
+identifiers and citation fields only, see Licence), the scripts that turn them
+into the two datasets, and checksums. **Anyone can rebuild every result file from
+the raw data and get byte-identical output.**
 
 ## Results
 
-| | Records | File |
+| Step | Records | |
 |---|---|---|
-| Retrieved by the four final queries | 1,251 | `data/raw/blockmap_v2.txt` |
-| Removed by cleaning rules | −84 | `results/removed_records.tsv` |
-| Added by snowballing (seed papers the queries missed) | +4 | `scripts/relevant.py` |
-| **Dataset 1: broad** (limit 1,500) | **1,171** | `results/dataset1_broad_openalex.csv` / `.bib` / `.ris` |
+| Identified | 2,631 | OpenAlex 1,251 · Scopus 810 · Web of Science 566 · snowballing 4 |
+| After de-duplication (DOI, then title) | 1,338 | 488 works are in all three databases |
+| Removed: OpenAlex-only works, rules R1–R7 | −63 | `results/removed_records.tsv` |
+| Removed: Scopus/WoS records, rules D1–D4 | −6 | `results/removed_records.tsv` |
+| **Dataset 1: broad** (limit 1,500) | **1,269** | `results/dataset1_broad.csv` / `.bib` / `.ris` |
 | **Dataset 2: relevant** (limit about 50) | **50** | `results/dataset2_relevant.csv` / `.bib` / `.ris` |
 
-Dataset 1: 879 articles, 17 reviews, 242 conference papers, 33 book chapters;
-English; 2016–2025. Dataset 2 is a screened subset with a theme and a reason
-for each paper:
+The flow is also in `results/flow.tsv`. Dataset 1: 931 articles, 20 reviews, 283
+conference papers, 35 book chapters; English; 2016–2025. Each record lists the
+databases that found it and its Scopus EID / WoS UT. Dataset 2 is a screened subset
+with a theme and a reason for each paper:
 
 | Theme | Papers |
 |---|---|
 | A. Body composition from ordinary photos | 15 |
-| B. Body shape, weight and BMI from images | 9 |
-| C. Body composition during contest preparation | 13 |
-| D. Learning order, rank or progression from images | 11 |
-| E. AI applied to bodybuilding | 2 |
+| B. Body shape, weight and BMI from images | 8 |
+| C. Body composition during contest preparation | 11 |
+| D. Learning order, rank or progression from images | 13 |
+| E. AI applied to bodybuilding | 3 |
 
 ## Verify it yourself
 
@@ -49,7 +53,7 @@ This rebuilds `results/` from `data/raw/`, then checks:
 2. **Assignment criteria:** record limits, allowed types (article, review,
    conference paper, book chapter), years 2016–2025, no duplicate IDs or DOIs,
    and that dataset 2 is a subset of dataset 1;
-3. **Counts:** retrieved − removed + snowballed = dataset 1.
+3. **Counts:** the record flow in `results/flow.tsv` adds up to dataset 1.
 
 It ends with `ALL CHECKS PASSED`. GitHub Actions runs the same check on every
 push (badge above).
@@ -66,6 +70,10 @@ re-indexing records, so a later run returns most of the archived records plus
 some new ones. It won't match exactly. Set `OPENALEX_API_KEY` and/or
 `OPENALEX_MAILTO` if you hit rate limits.
 
+Scopus and Web of Science need an institutional subscription. Their exact query
+strings are in `search/queries.json`; the EIDs and UTs they returned are in
+`data/raw/scopus_ta.tsv` and `data/raw/wos_ta.tsv` for comparison.
+
 ## Search strategy
 
 - **Question:** how has progress toward contest leanness, or body composition
@@ -75,29 +83,36 @@ some new ones. It won't match exactly. Set `OPENALEX_API_KEY` and/or
   - Q3 learning an order or progression from images without absolute labels
 - **Term refinement:** Google Scholar Labs, one natural-language prompt per
   sub-question, used only for vocabulary and seed papers.
-- **Database:** OpenAlex, `title_and_abstract.search`. Web of Science login
-  failed and Scopus access was pending. Google Scholar has no type or language
-  filters and no export.
-- **Filters:** `publication_year:2016-2025, language:en, type:article|review|conference-paper|book-chapter`
+- **Databases**, all searching title and abstract:
+  - OpenAlex, `title_and_abstract.search` (17–19 Oct 2026);
+  - Scopus, `TITLE-ABS(...)` (7 Nov 2026, through the university library);
+  - Web of Science Core Collection, `(TI=(...) OR AB=(...))` per concept (7 Nov 2026).
 
-| Block | Question | Hits | |
-|---|---|---|---|
-| b1v3 | Q1 | 804 | final |
-| b2 | Q2 | 294 | final |
-| b3v4 | Q3 | 138 | final |
-| b4 | AI in bodybuilding | 18 | final |
-| b1 | Q1, narrower | 436 | subset of b1v3; used only as a label |
-| run 1 | all, no conference papers | 881 | scrapped: conference papers missing |
-| b1 without 3rd concept | Q1 | 3,991 | scrapped: too broad |
-| b3 original | Q3 | 292 | scrapped: "siamese" matched Thai/Siam studies |
-| b3v2 | Q3 | 46 | scrapped: too narrow |
-| b3v3 | Q3 | 703 | scrapped: no image term, off-topic |
+  Google Scholar has no type or language filters and no export.
+- **Filters:** 2016–2025; English; article, review, conference paper, book chapter
+  (each database's own syntax, see `search/queries.json`).
+
+| Block | Question | OpenAlex | Scopus | WoS | |
+|---|---|---|---|---|---|
+| b1v3 | Q1 | 804 | 534 | 345 | final |
+| b2 | Q2 | 294 | 176 | 137 | final |
+| b3v4 | Q3 | 138 | 90 | 75 | final |
+| b4 | AI in bodybuilding | 18 | 10 | 9 | final |
+| Scopus/WoS with keywords | all | | 1,422 | 766 | scrapped: about 1,970 works after merging, over 1,500 |
+| b1 | Q1, narrower | 436 | | | subset of b1v3; used only as a label |
+| run 1 | all, no conference papers | 881 | | | scrapped: conference papers missing |
+| b1 without 3rd concept | Q1 | 3,991 | | | scrapped: too broad |
+| b3 original | Q3 | 292 | | | scrapped: "siamese" matched Thai/Siam studies |
+| b3v2 | Q3 | 46 | | | scrapped: too narrow |
+| b3v3 | Q3 | 703 | | | scrapped: no image term, off-topic |
 
 Full query strings: [`search/queries.json`](search/queries.json) (machine
 readable) and [`search/search_queries.pdf`](search/search_queries.pdf).
 Reasoning for each change: [`search/search_log.md`](search/search_log.md).
 
-### Cleaning rules (`scripts/clean.py`)
+### Cleaning rules
+
+OpenAlex records (`scripts/clean.py`):
 
 | Rule | Removed |
 |---|---|
@@ -109,18 +124,30 @@ Reasoning for each change: [`search/search_log.md`](search/search_log.md).
 | R6 non-English titles despite the "en" tag | 5 |
 | R7 duplicate titles (kept the version with DOI and venue) | 9 |
 
-Every removed record and its rule: `results/removed_records.tsv`.
+Scopus and WoS records that are not in the cleaned OpenAlex set (`scripts/merge_db.py`):
+
+| Rule | Removed |
+|---|---|
+| D1 year outside 2016–2025 (WoS early access dated 2026) | 1 |
+| D2 retracted (WoS "Retracted Publication"; two had been kept from OpenAlex) | 3 |
+| D3 same work as an OpenAlex record removed by R1, R2, R3 or R6 | 1 |
+| D4 not a research contribution (encyclopedia entry) | 1 |
+
+Works dropped from OpenAlex under R4/R5 come back when Scopus or WoS index the
+published version. Every removed record and its rule: `results/removed_records.tsv`.
 
 ## Repository layout
 
 ```
-data/raw/            raw OpenAlex snapshot (never edited) + SNAPSHOT.md provenance
+data/raw/            raw OpenAlex snapshot, Scopus/WoS identifier tables (never edited) + SNAPSHOT.md
 scripts/
   merge.py           raw snapshot -> one record per search hit
   clean.py           cleaning rules R1–R7
+  merge_db.py        add Scopus + WoS, de-duplicate, rules D1–D4, record flow
+  extract_db.py      licensed Scopus/WoS exports -> public identifier tables (author only)
   relevant.py        dataset 2: chosen papers, themes, reasons; snowballed seeds
   build.py           CSV / BibTeX / RIS export
-  reproduce.sh       runs the three steps above
+  reproduce.sh       runs merge, clean, merge_db and build
   verify.py          checksums + criteria + counts
   fetch_openalex.py  live re-run against OpenAlex and comparison
   queries_pdf.py     builds search/search_queries.pdf
@@ -142,14 +169,21 @@ CHECKSUMS.sha256     SHA-256 of raw and result files
   was not saved. Its structure and hit count are recorded.
 - **Years** are OpenAlex publication years (first online publication). A few
   journal papers carry the year before their print issue.
-- **Abstracts** exist only for records from run 1. 30 of the 50 relevant
-  papers have none.
+- **Abstracts** exist only for OpenAlex records from run 1; Scopus/WoS abstracts
+  are licensed and not published here. 32 of the 50 relevant papers have none in
+  the public files.
 - **Screening** for dataset 2 was done by hand. The reasons are in
   `scripts/relevant.py` and the `why_relevant` column.
-- **Next:** re-run the same four queries in Scopus / Web of Science when access
-  is approved, then merge by DOI.
+- **Scopus/WoS exports are not in the repository.** `scripts/extract_db.py`
+  documents how the public tables were made from them; anyone with access can
+  re-run the queries and compare EIDs / UTs.
+- **De-duplication** uses DOI and exact normalised title. Works without a DOI
+  whose titles differ between databases may appear twice.
 
 ## Licence
 
-Code: MIT (see `LICENSE`). Bibliographic data: from OpenAlex, released under
-CC0.
+Code: MIT (see `LICENSE`). Bibliographic data: OpenAlex records are CC0. For
+Scopus (Elsevier) and Web of Science (Clarivate) only identifiers and basic
+citation fields are published; abstracts, keywords and cited references from those
+exports are licensed and are kept out of the repository (`licensed/` is
+git-ignored).

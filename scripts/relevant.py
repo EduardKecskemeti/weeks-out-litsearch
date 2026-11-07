@@ -1,4 +1,5 @@
-"""The screened relevant set: (OpenAlex id, theme, why it matters for the paper)."""
+"""The screened relevant set: (record id, theme, why it matters for the paper).
+Record ids are OpenAlex ids (W...), or Scopus EIDs (2-s2.0-...) for works only Scopus/WoS found."""
 
 THEMES = {
     'A': 'Body composition from ordinary photos (validation against DXA / multi-compartment models)',
@@ -21,7 +22,6 @@ REL = [
     ('W3204454242', 'A', '2D image-based 3C model versus DXA; agreement statistics to compare against.'),
     ('W4391319367', 'A', 'Agreement of 2D image estimates across different environmental conditions; relevant to photos taken outside the lab.'),
     ('W3134607774', 'A', '2D image system applied to athletes (collegiate rowers); links image-based body composition to performance.'),
-    ('W4388132198', 'A', 'Digital imaging versus BIA and DXA for fat mass; another validation point.'),
     ('W3088241220', 'A', 'Predicts 3D shape and body composition from conventional 2D photos.'),
     ('W4288725097', 'A', 'Silhouettes estimate fat distribution at UK Biobank scale; shape-only signal is informative.'),
     # B
@@ -33,7 +33,6 @@ REL = [
     ('W4312809617', 'B', 'Accurate 3D body shape regression from images using attributes; strong shape baseline.'),
     ('W4403428415', 'B', 'Detects body-shape changes for obesity monitoring with image processing; tracking change rather than absolute values.'),
     ('W4316813278', 'B', 'AInBody: deep model tracking body measurements from photos; consumer progress-tracking setting.'),
-    ('W3090535222', 'B', 'Predicts body measures from 2D images with CNNs.'),
     # C
     ('W4318924240', 'C', 'Systematic review of bodybuilders’ body composition with recommendations; reference values for contest leanness.'),
     ('W2884416564', 'C', 'Tracks body composition through prep, two competitions and recovery; the trajectory the paper models.'),
@@ -43,10 +42,8 @@ REL = [
     ('W3083020748', 'C', 'Body composition, RMR and strength changes across prep in natural bodybuilders.'),
     ('W4416427900', 'C', 'Case series of lean mass changes through prep and recovery; recent longitudinal data.'),
     ('W4395475252', 'C', 'Elite versus amateur natural physique athletes on competition day; what stage-ready means.'),
-    ('W2550035262', 'C', 'Diet, body composition and cycle changes through prep and recovery (female).'),
     ('W2617815591', 'C', 'Review of low energy availability in natural male bodybuilding; context for the final weeks.'),
     ('W3170010726', 'C', 'Evidence-based peak week recommendations; short-term appearance changes near the show.'),
-    ('W2791762432', 'C', 'Physiological implications of preparing for natural bodybuilding; overview of the prep period.'),
     # D
     ('W3014080415', 'D', 'Siamese networks for continuous severity and change detection; the pairwise idea the paper uses.'),
     ('W2440214111', 'D', 'Ordinal regression with multiple-output CNN (age estimation); classic ordinal baseline.'),
@@ -57,8 +54,13 @@ REL = [
     ('W4400262610', 'D', 'Learning-to-rank from relative annotations for severity; pairwise labels instead of absolute grades.'),
     ('W4404531451', 'D', 'Made to Order: self-supervised ordering discovers monotonic temporal change.'),
     ('W3082445835', 'D', 'Temporal-order discrimination in longitudinal images; ordering as a training signal.'),
+    # added after the Scopus / Web of Science search (not indexed by the OpenAlex queries)
+    ('2-s2.0-105033233271', 'A', 'Multimodal AI combining computer vision and anthropometry, benchmarked against DEXA; most recent photo-based body-fat estimate.'),
+    ('2-s2.0-84938517255', 'D', 'Pairwise ranking learned from images (dementia diagnosis); early example of training on relative comparisons of images.'),
+    ('2-s2.0-105010231457', 'D', 'Ranking-aware CLIP adapter for ordering images (ICLR 2025); ordinal ranking with foundation models.'),
     # E
     ('W4411569237', 'E', 'Systematic review of AI in bodybuilding; maps the field and confirms the gap.'),
+    ('2-s2.0-105036592018', 'E', 'Deep-learning placement prediction for pageant contestants from images; the closest analogue to predicting judged placings.'),
     ('W4406860654', 'E', 'Deep-learning classification of bodybuilders (steroid vs non-steroid); one of the few ML studies on bodybuilders.'),
 ]
 

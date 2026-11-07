@@ -1,6 +1,7 @@
 # Search log — "How Many Weeks Out Do You Look?"
 
-Author: Eduard Kecskemeti. Started 17 Oct 2026; datasets built 19 Oct 2026.
+Author: Eduard Kecskemeti. Started 17 Oct 2026; OpenAlex datasets built 19 Oct 2026;
+Scopus and Web of Science added 7 Nov 2026 (section 5b).
 
 ## 1. Goal and questions
 
@@ -93,7 +94,7 @@ Invisible formatting characters and private-use symbols carried over from OpenAl
 author names were removed, and one missing venue (IJCNN 2020) was filled in from the
 DOI.
 
-**Dataset 1 (broad):** 1,171 records — the 1,167 cleaned search records plus the 4
+**Dataset 1, OpenAlex version (19 Oct, superseded by section 5b):** 1,171 records — the 1,167 cleaned search records plus the 4
 snowballed seed papers (block `snowball`), so that dataset 2 is a subset of dataset 1.
 879 articles, 17 reviews, 242 conference papers, 33 book chapters; 2016–2025. It is
 deliberately not screened: block b1v3 is broad and contains off-topic medical-imaging
@@ -104,6 +105,63 @@ and were kept.
 (online) publication date. A few journal papers therefore carry the year before their
 print issue (e.g. Tinsley et al., online 2018, issue 33(7) 2019). The 2016–2025 filter
 was applied to this year.
+
+## 5b. Scopus and Web of Science (7 Nov 2026)
+
+Access came through the university's e-nformation account (library proxy; Scopus
+export needs a personal Elsevier sign-in on top). The four final blocks were run
+with the same concept groups and the same filters (years 2016–2025, English;
+article, review, conference paper / proceedings paper, book chapter).
+
+**First run, title + abstract + keywords (scrapped).** Scopus `TITLE-ABS-KEY` gave
+974 / 219 / 216 / 13 hits (b1v3 / b2 / b3v4 / b4; 1,422 unique) and WoS `TS=` gave
+453 / 199 / 105 / 9 (766 unique). Merged with OpenAlex this came to about 1,970
+works, over the 1,500 limit, so the field was narrowed to title and abstract.
+
+**Final run, title + abstract only.** Scopus `TITLE-ABS(...)`; WoS each concept as
+`(TI=(...) OR AB=(...))`. This is also the field OpenAlex searches, so the three
+databases now search the same thing.
+
+| Block | OpenAlex | Scopus | WoS |
+|---|---|---|---|
+| b1v3 | 804 | 534 | 345 |
+| b2 | 294 | 176 | 137 |
+| b3v4 | 138 | 90 | 75 |
+| b4 | 18 | 10 | 9 |
+| unique | 1,251 | 810 | 566 |
+
+Exact strings: `queries.json` (`scopus_wos`). Each string was checked character by
+character against the query the database actually ran (checksum of the query
+stored by Scopus and of the WoS search history).
+
+**Merging.** Records were grouped when they share a DOI or the same normalised title
+(letters and digits only). OpenAlex metadata is kept when a work is in OpenAlex
+(it carries abstracts); otherwise Scopus, otherwise WoS. Of 2,631 records
+(1,251 + 810 + 566 + 4 snowballed) there are 1,338 distinct works; 488 are in all
+three databases.
+
+**Cleaning of Scopus / WoS records** (on top of R1–R7):
+
+| Rule | Removed |
+|---|---|
+| D1 year outside 2016–2025 (WoS early-access record dated 2026) | 1 |
+| D2 retracted (flagged "Retracted Publication" in WoS; two had been kept from OpenAlex) | 3 |
+| D3 same work as an OpenAlex record removed by R1, R2, R3 or R6 | 1 |
+| D4 not a research contribution (encyclopedia entry) | 1 |
+
+Works removed from OpenAlex under R4/R5 (repository copies, preprints, no venue)
+were kept when Scopus or WoS index the published version, with that metadata.
+
+**Record flow:** 2,631 identified → 1,338 after de-duplication → −63 OpenAlex-only
+works removed by R1–R7 → −6 removed by D1–D4 → **dataset 1: 1,269 records**
+(931 articles, 20 reviews, 283 conference papers, 35 book chapters). 101 works come
+only from Scopus and/or WoS. The flow is in `results/flow.tsv`.
+
+**Licensing.** Scopus and WoS exports are licensed. The repository holds only
+identifiers (EID, WoS UT, DOI) and citation fields (`data/raw/scopus_ta.tsv`,
+`data/raw/wos_ta.tsv`); abstracts, keywords and cited references stay in the
+git-ignored `licensed/` folder. Records found only through Scopus/WoS therefore have
+no abstract in the public files.
 
 ## 6. Screening for the relevant set
 
@@ -128,23 +186,33 @@ abstracts.
 | Theme | n |
 |---|---|
 | A. Body composition from ordinary photos (validation) | 15 |
-| B. Body shape, weight and BMI from images | 9 |
-| C. Body composition during contest preparation | 13 |
-| D. Learning order, rank or progression from images | 11 |
-| E. AI applied to bodybuilding | 2 |
+| B. Body shape, weight and BMI from images | 8 |
+| C. Body composition during contest preparation | 11 |
+| D. Learning order, rank or progression from images | 13 |
+| E. AI applied to bodybuilding | 3 |
 
-46 come from the database search and 4 from snowballing the Scholar Labs seeds
-(Liu et al. 2018 CVPR; Minetto et al. 2023 Sci. Rep.; Kasper et al. 2021
-Nutrients; Toulany et al. 2023 Nat. Methods). The reason for each inclusion is in the
-`why_relevant` column.
+42 were found by OpenAlex (34 of them also by Scopus and WoS), 4 only by Scopus
+and/or WoS, and 4 by snowballing the Scholar Labs seeds (Liu et al. 2018 CVPR;
+Minetto et al. 2023 Sci. Rep.; Kasper et al. 2021 Nutrients; Toulany et al. 2023
+Nat. Methods). The reason for each inclusion is in the `why_relevant` column.
+
+Re-screening after Scopus/WoS (7 Nov) added four works the OpenAlex queries missed:
+a multimodal computer-vision body-fat estimate benchmarked against DEXA (CASCON 2025),
+pairwise ranking from images for dementia diagnosis (Multimedia Tools and
+Applications 2016), a ranking-aware CLIP adapter for image ordering (ICLR 2025) and a
+deep-learning pageant placement system (IConSCEPT 2025). To stay at 50, four weaker
+entries were dropped: a generic CNN body-measure paper, a second digital-imaging
+validation study, a female prep study on diet and menstrual-cycle changes and a
+general overview of natural contest preparation.
 
 ## 8. Files
 
 | File | Content |
 |---|---|
-| `dataset1_broad_openalex.csv / .bib / .ris` | 1,171 records (abstracts where OpenAlex has them, search block per record) |
+| `dataset1_broad.csv / .bib / .ris` | 1,269 records: search blocks, source databases, Scopus EID / WoS UT, abstracts where OpenAlex has them |
 | `dataset2_relevant.csv / .bib / .ris` | 50 relevant records with theme, reason and how found |
-| `removed_records.tsv` | 84 removed records and the rule that removed each |
+| `removed_records.tsv` | removed records and the rule that removed each (R1–R7 OpenAlex, D1–D4 Scopus/WoS) |
+| `flow.tsv` | PRISMA-style record flow |
 | `search_log.md` | this log |
 
 The .ris and .bib files import directly into Zotero, Mendeley or EndNote.

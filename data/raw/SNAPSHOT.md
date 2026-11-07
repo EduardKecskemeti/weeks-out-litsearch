@@ -4,9 +4,10 @@ Everything in `results/` is generated from the files in this folder by
 `scripts/reproduce.sh`. Nothing in this folder is edited by hand. Its SHA-256
 checksums are in `CHECKSUMS.sha256` at the repository root.
 
-All records come from the **OpenAlex API** (`https://api.openalex.org/works`).
-OpenAlex data is released under CC0. The searches were run from a web browser,
-because OpenAlex was the only search database reachable from the tools used.
+Records come from the **OpenAlex API** (`https://api.openalex.org/works`, CC0),
+**Scopus** and **Web of Science Core Collection**. The OpenAlex searches were run
+from a web browser on 17–19 Oct 2026; Scopus and WoS on 7 Nov 2026 through the
+university library proxy (e-nformation.ro).
 
 ## Files
 
@@ -14,12 +15,31 @@ because OpenAlex was the only search database reachable from the tools used.
 |---|---|---|
 | `openalex_broad_2016-2025.json` | 881 | **Run 1**, exported 2026-10-19 15:10 UTC. Full records, including abstracts and keywords. Queries b1, b2 and b3 (original), filter `type:article\|book-chapter\|review` (conference papers missing). The queries and filter are stored in the file's `meta` field. |
 | `blockmap_v2.txt` | 1,251 | **Run 2**, same day: the final four queries (b1v3, b2, b3v4, b4, plus b1 as a label) with the corrected filter that includes conference papers. One token per record: `<OpenAlex ID>:<blocks that matched it>`. This file defines which records are in the search result. |
+| `scopus_ta.tsv` | 810 | Scopus, final title + abstract queries (`TITLE-ABS`), 7 Nov 2026. One row per EID: DOI, title, authors, year, document type, source, publisher, volume, issue, pages, cited-by count at export, blocks that matched it. |
+| `wos_ta.tsv` | 566 | Web of Science Core Collection, final `TI`/`AB` queries, 7 Nov 2026. Same columns, one row per UT (`WOS:…`). Document type is WoS's own (e.g. "Article; Retracted Publication"). |
 | `new_chunk0.txt` … `new_chunk5.txt` | 559 | Records in run 2 that were not already in run 1. One record per line, 15 fields separated by `¦`: id, DOI, title, year, type, source, source type, publisher, authors (`; `), cited-by count, volume, issue, first page, last page, blocks. Abstracts were not exported for these. |
 
 `scripts/merge.py` builds the run-2 result set: for each of the 1,251 IDs in
 `blockmap_v2.txt` it takes the full run-1 record if there is one (692 records)
 and the `new_chunk` record otherwise (559 records). The 189 run-1 records that
 the final queries no longer match are left out.
+
+## Scopus and Web of Science
+
+Exported as Scopus CSV ("all information", no truncation) and WoS tab-delimited
+("Full Record and Cited References"), one file per block. Those exports include
+abstracts, keywords and cited references, which are licensed by Elsevier and
+Clarivate, so they stay in the git-ignored `licensed/` folder. `scripts/extract_db.py`
+reduced them to the two tables above; its printout:
+
+```
+Scopus: hits per block {'b1v3': 534, 'b2': 176, 'b3v4': 90, 'b4': 10}, unique records 810
+Web of Science: hits per block {'b1v3': 345, 'b2': 137, 'b3v4': 75, 'b4': 9}, unique records 566
+```
+
+The per-block counts equal the hit counts the databases showed. An earlier run
+with keywords (Scopus `TITLE-ABS-KEY`, WoS `TS=`) is described in
+`search/search_log.md` but not used.
 
 ## How the run-2 records were transferred
 
@@ -51,7 +71,8 @@ CVPR paper.
 
 ## How to check it independently
 
-- Every record has an OpenAlex ID: `https://openalex.org/W…` opens the record.
+- OpenAlex records: `https://openalex.org/W…` opens the record.
+- Scopus records: the EID (`2-s2.0-…`); WoS records: the UT (`WOS:…`), searchable in each database.
 - Most records have a DOI: `https://doi.org/…` opens the publisher's page.
 - `scripts/fetch_openalex.py` re-runs the final queries live and reports how
   many archived records come back. The index grows over time, so expect a

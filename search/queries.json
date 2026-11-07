@@ -1,72 +1,147 @@
 {
-  "database": "OpenAlex (https://api.openalex.org/works)",
-  "search_field": "title_and_abstract.search",
-  "filters": "publication_year:2016-2025,language:en,type:article|review|conference-paper|book-chapter",
-  "retrieved": "2026-10-17/2026-10-19",
+ "database": "OpenAlex (https://api.openalex.org/works)",
+ "search_field": "title_and_abstract.search",
+ "filters": "publication_year:2016-2025,language:en,type:article|review|conference-paper|book-chapter",
+ "retrieved": "2026-10-17/2026-10-19",
+ "final": [
+  {
+   "block": "b1v3",
+   "question": "Q1 body composition from 2D images",
+   "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\")",
+   "hits": 804
+  },
+  {
+   "block": "b1",
+   "question": "Q1 (original, narrower; subset of b1v3, kept only as a label)",
+   "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional)",
+   "hits": 436
+  },
+  {
+   "block": "b2",
+   "question": "Q2 body composition during contest preparation",
+   "query": "(bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") AND (\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\")",
+   "hits": 294
+  },
+  {
+   "block": "b3v4",
+   "question": "Q3 learning order or progression from images",
+   "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") AND (image OR images OR photograph OR imaging)",
+   "hits": 138
+  },
+  {
+   "block": "b4",
+   "question": "AI applied to bodybuilding (links Q1 and Q2)",
+   "query": "(bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") AND (\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\")",
+   "hits": 18
+  }
+ ],
+ "union_unique_records": 1251,
+ "scrapped": [
+  {
+   "version": "run 1 (b1, b2, b3 original)",
+   "change": "filter type:article|review|book-chapter only",
+   "hits": "881 union; b1 302",
+   "reason": "Conference papers are a separate OpenAlex type and were excluded; conference-paper added to the filter."
+  },
+  {
+   "version": "b1 without third concept",
+   "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\")",
+   "hits": 3991,
+   "reason": "Far over the 1,500-record limit, mostly clinical and apparel noise."
+  },
+  {
+   "version": "b3 original",
+   "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"relative attribute\" OR \"temporal order\" OR \"image ordering\" OR siamese) AND (longitudinal OR progression OR \"disease stage\" OR \"temporal change\" OR \"age estimation\") AND (image OR images OR photograph OR \"deep learning\")",
+   "hits": 292,
+   "reason": "Bare 'siamese' matched Thai/Siam studies; 'progression' without an image term matched oncology."
+  },
+  {
+   "version": "b3v2",
+   "query": null,
+   "description": "b3 with the third concept replaced by a required neural-network term (\"deep learning\" / \"neural network\" family). Exact wording not preserved.",
+   "hits": 46,
+   "reason": "Too narrow; lost known Q3 papers."
+  },
+  {
+   "version": "b3v3",
+   "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\")",
+   "hits": 703,
+   "reason": "No image concept, so most hits were non-imaging; image concept added in b3v4."
+  }
+ ],
+ "scopus_wos": {
+  "retrieved": "2026-11-07, through the university library proxy (e-nformation.ro)",
+  "note": "Same concept groups as the OpenAlex blocks. Exports are licensed; only identifiers and citation fields are in data/raw/.",
   "final": [
-    {
-      "block": "b1v3",
-      "question": "Q1 body composition from 2D images",
-      "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\")",
-      "hits": 804
-    },
-    {
-      "block": "b1",
-      "question": "Q1 (original, narrower; subset of b1v3, kept only as a label)",
-      "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional)",
-      "hits": 436
-    },
-    {
-      "block": "b2",
-      "question": "Q2 body composition during contest preparation",
-      "query": "(bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") AND (\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\")",
-      "hits": 294
-    },
-    {
-      "block": "b3v4",
-      "question": "Q3 learning order or progression from images",
-      "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") AND (image OR images OR photograph OR imaging)",
-      "hits": 138
-    },
-    {
-      "block": "b4",
-      "question": "AI applied to bodybuilding (links Q1 and Q2)",
-      "query": "(bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") AND (\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\")",
-      "hits": 18
-    }
+   {
+    "block": "b1v3",
+    "scopus": "TITLE-ABS((\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\")) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+    "scopus_hits": 534,
+    "wos": "(TI=(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) OR AB=(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric)) AND (TI=(photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") OR AB=(photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\")) AND (TI=(\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\") OR AB=(\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\")) AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+    "wos_hits": 345
+   },
+   {
+    "block": "b2",
+    "scopus": "TITLE-ABS((bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") AND (\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\")) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+    "scopus_hits": 176,
+    "wos": "(TI=(bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") OR AB=(bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\")) AND (TI=(\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\") OR AB=(\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\")) AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+    "wos_hits": 137
+   },
+   {
+    "block": "b3v4",
+    "scopus": "TITLE-ABS((\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") AND (image OR images OR photograph OR imaging)) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+    "scopus_hits": 90,
+    "wos": "(TI=(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") OR AB=(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\")) AND (TI=(longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") OR AB=(longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\")) AND (TI=(image OR images OR photograph OR imaging) OR AB=(image OR images OR photograph OR imaging)) AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+    "wos_hits": 75
+   },
+   {
+    "block": "b4",
+    "scopus": "TITLE-ABS((bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") AND (\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\")) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+    "scopus_hits": 10,
+    "wos": "(TI=(bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") OR AB=(bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\")) AND (TI=(\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\") OR AB=(\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\")) AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+    "wos_hits": 9
+   }
   ],
-  "union_unique_records": 1251,
-  "scrapped": [
+  "final_unique": {
+   "scopus": 810,
+   "wos": 566
+  },
+  "scrapped": {
+   "reason": "Searching keywords as well (Scopus TITLE-ABS-KEY, WoS TS) gave 1,422 Scopus + 766 WoS unique records; merged with OpenAlex this was about 1,970 works, over the 1,500 limit. Restricted to title and abstract, which is also the field OpenAlex searches.",
+   "queries": [
     {
-      "version": "run 1 (b1, b2, b3 original)",
-      "change": "filter type:article|review|book-chapter only",
-      "hits": "881 union; b1 302",
-      "reason": "Conference papers are a separate OpenAlex type and were excluded; conference-paper added to the filter."
+     "block": "b1v3",
+     "scopus": "TITLE-ABS-KEY((\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\")) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+     "scopus_hits": 974,
+     "wos": "TS=(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND TS=(photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\") AND TS=(\"deep learning\" OR \"machine learning\" OR \"neural network\" OR convolutional OR \"artificial intelligence\" OR \"computer vision\" OR automated OR \"2D image\" OR \"two-dimensional\") AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+     "wos_hits": 453
     },
     {
-      "version": "b1 without third concept",
-      "query": "(\"body fat\" OR \"body composition\" OR adiposity OR \"body shape\" OR physique OR \"body mass index\" OR anthropometry OR anthropometric) AND (photograph OR photo OR \"2D image\" OR \"single image\" OR \"RGB image\" OR smartphone OR \"computer vision\" OR \"image-based\" OR silhouette OR \"digital anthropometry\")",
-      "hits": 3991,
-      "reason": "Far over the 1,500-record limit, mostly clinical and apparel noise."
+     "block": "b2",
+     "scopus": "TITLE-ABS-KEY((bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") AND (\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\")) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+     "scopus_hits": 219,
+     "wos": "TS=(bodybuilder OR bodybuilding OR \"physique athlete\" OR \"physique competitor\" OR \"physique competition\" OR \"contest preparation\" OR \"competition preparation\") AND TS=(\"body composition\" OR \"body fat\" OR \"fat loss\" OR \"weight loss\" OR \"energy restriction\" OR \"lean mass\" OR \"fat mass\") AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+     "wos_hits": 199
     },
     {
-      "version": "b3 original",
-      "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"relative attribute\" OR \"temporal order\" OR \"image ordering\" OR siamese) AND (longitudinal OR progression OR \"disease stage\" OR \"temporal change\" OR \"age estimation\") AND (image OR images OR photograph OR \"deep learning\")",
-      "hits": 292,
-      "reason": "Bare 'siamese' matched Thai/Siam studies; 'progression' without an image term matched oncology."
+     "block": "b3v4",
+     "scopus": "TITLE-ABS-KEY((\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") AND (image OR images OR photograph OR imaging)) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+     "scopus_hits": 216,
+     "wos": "TS=(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND TS=(longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\") AND TS=(image OR images OR photograph OR imaging) AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+     "wos_hits": 105
     },
     {
-      "version": "b3v2",
-      "query": null,
-      "description": "b3 with the third concept replaced by a required neural-network term (\"deep learning\" / \"neural network\" family). Exact wording not preserved.",
-      "hits": 46,
-      "reason": "Too narrow; lost known Q3 papers."
-    },
-    {
-      "version": "b3v3",
-      "query": "(\"ordinal regression\" OR \"learning to rank\" OR \"pairwise ranking\" OR \"siamese network\" OR \"siamese neural network\" OR \"temporal order\" OR \"image ordering\") AND (longitudinal OR progression OR \"age estimation\" OR \"temporal change\" OR \"disease severity\")",
-      "hits": 703,
-      "reason": "No image concept, so most hits were non-imaging; image concept added in b3v4."
+     "block": "b4",
+     "scopus": "TITLE-ABS-KEY((bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") AND (\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\")) AND PUBYEAR > 2015 AND PUBYEAR < 2026 AND LANGUAGE(english) AND (DOCTYPE(ar) OR DOCTYPE(re) OR DOCTYPE(cp) OR DOCTYPE(ch))",
+     "scopus_hits": 13,
+     "wos": "TS=(bodybuilding OR bodybuilder OR \"physique athlete\" OR \"physique competitor\") AND TS=(\"computer vision\" OR \"deep learning\" OR \"machine learning\" OR \"artificial intelligence\" OR \"pose estimation\") AND PY=(2016-2025) AND LA=(English) AND DT=(Article OR Review OR \"Proceedings Paper\" OR \"Book Chapter\")",
+     "wos_hits": 9
     }
-  ]
+   ],
+   "unique": {
+    "scopus": 1422,
+    "wos": 766
+   }
+  }
+ }
 }

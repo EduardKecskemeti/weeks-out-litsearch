@@ -2,7 +2,7 @@
 import json, csv, re, os, unicodedata, collections
 from relevant import REL, SNOWBALL, THEMES
 
-R = json.load(open('build/clean_v2.json', encoding='utf-8'))
+R = json.load(open('build/combined.json', encoding='utf-8'))
 
 def tidy(s):
     """Drop invisible/private-use characters from OpenAlex strings; U+FFFD only occurs in a hyphenated initial."""
@@ -23,6 +23,8 @@ for r in R:
     if r['id'] in VENUE_FIX:
         r['source'], r['source_type'], r['publisher'] = VENUE_FIX[r['id']]
 by = {r['id']: r for r in R}
+r_db = lambda i: by[i]['databases']
+oa_url = lambda r: ('https://openalex.org/' + r['openalex_id']) if r.get('openalex_id') else ''
 os.makedirs('results', exist_ok=True)
 
 TYPE_RIS = {'article': 'JOUR', 'review': 'JOUR', 'conference-paper': 'CPAPER', 'book-chapter': 'CHAP'}
@@ -52,7 +54,8 @@ def bibesc(s):
 
 def write_all(rows, stem, extra_cols=()):
     cols = ['id', 'doi', 'title', 'authors', 'year', 'type', 'source', 'source_type', 'publisher',
-            'volume', 'issue', 'pages', 'cited_by', 'blocks', 'keywords', 'abstract', *extra_cols, 'openalex_url', 'doi_url']
+            'volume', 'issue', 'pages', 'cited_by', 'blocks', 'databases', 'scopus_eid', 'wos_ut', 'keywords', 'abstract',
+            *extra_cols, 'openalex_url', 'doi_url']
     with open(f'results/{stem}.csv', 'w', newline='', encoding='utf-8-sig') as f:
         w = csv.writer(f)
         w.writerow(cols)
@@ -61,8 +64,9 @@ def write_all(rows, stem, extra_cols=()):
                         year=r['year'], type=r['type'], source=r['source'] or '', source_type=r['source_type'] or '',
                         publisher=r['publisher'] or '', volume=r['volume'] or '', issue=r['issue'] or '',
                         pages=pages(r).replace('--', '-'), cited_by=r['cited_by'], blocks='+'.join(r['blocks']),
+                        databases=r['databases'], scopus_eid=r['scopus_eid'], wos_ut=r['wos_ut'],
                         keywords='; '.join(r.get('keywords') or []), abstract=r.get('abstract') or '',
-                        openalex_url='https://openalex.org/' + r['id'],
+                        openalex_url=oa_url(r),
                         doi_url=('https://doi.org/' + r['doi']) if r['doi'] else '')
             for c in extra_cols:
                 base[c] = r.get(c, '')
@@ -75,7 +79,8 @@ def write_all(rows, stem, extra_cols=()):
             fl = [('title', '{' + bibesc(r['title']) + '}'), ('author', bibesc(' and '.join(r['authors']))),
                   ('year', str(r['year'])), (venue, bibesc(r['source'])), ('publisher', bibesc(r['publisher'])),
                   ('volume', r['volume']), ('number', r['issue']), ('pages', pages(r)), ('doi', r['doi']),
-                  ('url', 'https://openalex.org/' + r['id']), ('note', 'OpenAlex ' + r['id'] + '; blocks ' + '+'.join(r['blocks']))]
+                  ('url', oa_url(r) or (('https://doi.org/' + r['doi']) if r['doi'] else '')),
+                  ('note', 'Found in ' + r['databases'] + ' (' + r['id'] + '); blocks ' + '+'.join(r['blocks']))]
             if r.get('abstract'):
                 fl.append(('abstract', bibesc(re.sub(r'\s+', ' ', r['abstract']))))
             f.write(f'@{t}{{{key(r, used)},\n')
@@ -96,29 +101,28 @@ def write_all(rows, stem, extra_cols=()):
                 f.write('AB  - ' + re.sub(r'\s+', ' ', r['abstract']) + '\n')
             for kw in r.get('keywords') or []:
                 f.write(f'KW  - {kw}\n')
-            f.write(f"UR  - https://openalex.org/{r['id']}\n")
-            f.write(f"N1  - Search blocks: {'+'.join(r['blocks'])}\n")
+            if oa_url(r):
+                f.write(f"UR  - {oa_url(r)}\n")
+            f.write(f"N1  - Found in {r['databases']} ({r['id']}); search blocks: {'+'.join(r['blocks'])}\n")
             f.write('ER  - \n\n')
 
-SNOW = [dict(s, language='en', keywords=[], abstract=None, blocks=['snowball']) for s in SNOWBALL]
-
-# Broad set: all cleaned search records plus the 4 snowballed seeds (so dataset 2 is a subset),
+# Broad set: OpenAlex + Scopus + WoS + the 4 snowballed seeds (merged by merge_db.py),
 # sorted by block then citations
 order = {'b2': 0, 'b4': 1, 'b1': 2, 'b1v3': 3, 'b3v4': 4, 'snowball': 5}
-broad = sorted(R + SNOW, key=lambda r: (min(order[b] for b in r['blocks']), -(r['cited_by'] or 0)))
+broad = sorted(R, key=lambda r: (min(order[b] for b in r['blocks']), -(r['cited_by'] or 0), r['id']))
 assert len({r['id'] for r in broad}) == len(broad)
-write_all(broad, 'dataset1_broad_openalex')
+write_all(broad, 'dataset1_broad')
 
 # Relevant set
 rel = []
 missing = [i for i, _, _ in REL if i not in by]
 assert not missing, missing
 for i, th, why in REL:
-    r = dict(by[i]); r['theme'] = th; r['theme_name'] = THEMES[th]; r['why_relevant'] = why; r['found_by'] = 'database search'
+    r = dict(by[i]); r['theme'] = th; r['theme_name'] = THEMES[th]; r['why_relevant'] = why; r['found_by'] = 'database search (' + r['databases'] + ')'
     rel.append(r)
-for s in SNOW:
-    r = dict(s, theme_name=THEMES[s['theme']], why_relevant=s['why'],
-             found_by='snowballing (Scholar Labs seed, not matched by queries)')
+for s in SNOWBALL:
+    r = dict(by[s['id']], theme=s['theme'], theme_name=THEMES[s['theme']], why_relevant=s['why'],
+             found_by='snowballing (Scholar Labs seed)' + ('' if r_db(s['id']) == 'snowball' else '; also in ' + r_db(s['id'])))
     rel.append(r)
 assert {r['id'] for r in rel} <= {r['id'] for r in broad}
 assert len({r['id'] for r in rel}) == len(rel) <= 50
