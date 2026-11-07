@@ -55,12 +55,12 @@ REL = [
     ('W4404531451', 'D', 'Made to Order: self-supervised ordering discovers monotonic temporal change.'),
     ('W3082445835', 'D', 'Temporal-order discrimination in longitudinal images; ordering as a training signal.'),
     # added after the Scopus / Web of Science search (not indexed by the OpenAlex queries)
-    ('2-s2.0-105033233271', 'A', 'Multimodal AI combining computer vision and anthropometry, benchmarked against DEXA; most recent photo-based body-fat estimate.'),
+    ('2-s2.0-105033233271', 'A', 'Body-fat estimation from frontal body photos with a ResNet (and from anthropometry); notes that no public dataset exists for this task.'),
     ('2-s2.0-84938517255', 'D', 'Pairwise ranking learned from images (dementia diagnosis); early example of training on relative comparisons of images.'),
     ('2-s2.0-105010231457', 'D', 'Ranking-aware CLIP adapter for ordering images (ICLR 2025); ordinal ranking with foundation models.'),
     # E
     ('W4411569237', 'E', 'Systematic review of AI in bodybuilding; maps the field and confirms the gap.'),
-    ('2-s2.0-105036592018', 'E', 'Deep-learning placement prediction for pageant contestants from images; the closest analogue to predicting judged placings.'),
+    ('2-s2.0-105036592018', 'E', 'Scores beauty-pageant contestants from ramp-walk videos with deep learning; the closest analogue to learning a judged, appearance-based ranking.'),
     ('W4406860654', 'E', 'Deep-learning classification of bodybuilders (steroid vs non-steroid); one of the few ML studies on bodybuilders.'),
 ]
 

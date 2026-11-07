@@ -197,10 +197,10 @@ Minetto et al. 2023 Sci. Rep.; Kasper et al. 2021 Nutrients; Toulany et al. 2023
 Nat. Methods). The reason for each inclusion is in the `why_relevant` column.
 
 Re-screening after Scopus/WoS (7 Nov) added four works the OpenAlex queries missed:
-a multimodal computer-vision body-fat estimate benchmarked against DEXA (CASCON 2025),
+body-fat estimation from frontal body photos (CASCON 2025),
 pairwise ranking from images for dementia diagnosis (Multimedia Tools and
 Applications 2016), a ranking-aware CLIP adapter for image ordering (ICLR 2025) and a
-deep-learning pageant placement system (IConSCEPT 2025). To stay at 50, four weaker
+deep-learning scoring of beauty-pageant contestants from ramp-walk videos (IConSCEPT 2025). To stay at 50, four weaker
 entries were dropped: a generic CNN body-measure paper, a second digital-imaging
 validation study, a female prep study on diet and menstrual-cycle changes and a
 general overview of natural contest preparation.
