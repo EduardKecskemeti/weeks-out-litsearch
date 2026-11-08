@@ -1,0 +1,28 @@
+label	replace by
+bodybuilders	bodybuilding
+bodybuilder	bodybuilding
+body building	bodybuilding
+cnn	convolutional neural network
+cnns	convolutional neural network
+convolutional neural networks	convolutional neural network
+convolutional neural network (cnn)	convolutional neural network
+deep neural networks	deep neural network
+neural networks	neural network
+siamese networks	siamese network
+siamese neural network	siamese network
+siamese neural networks	siamese network
+bmi	body mass index
+body mass index (bmi)	body mass index
+physique athletes	physique athlete
+athlete	athletes
+anthropometric measurements	anthropometric measurement
+anthropometrics	anthropometry
+3d reconstruction	3d human reconstruction
+smpl	smpl model
+dxa	dual-energy x-ray absorptiometry
+dexa	dual-energy x-ray absorptiometry
+learning-to-rank	learning to rank
+ordinal classification	ordinal regression
+energy deficit	energy restriction
+caloric restriction	energy restriction
+calorie restriction	energy restriction

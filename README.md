@@ -136,6 +136,28 @@ Scopus and WoS records that are not in the cleaned OpenAlex set (`scripts/merge_
 Works dropped from OpenAlex under R4/R5 come back when Scopus or WoS index the
 published version. Every removed record and its rule: `results/removed_records.tsv`.
 
+## Bibliometric analysis (Scopus, task 2)
+
+The quantitative analysis uses **Scopus as primary database** (title + abstract
+queries, 2016–2025, exported 7 Nov 2026).
+
+| Step | Records |
+|---|---|
+| Retrieved (4 blocks, unique EIDs) | 810 |
+| Excluded at title/abstract screening | −507 |
+| **Screened set** | **303** |
+
+- `bibliometric/keyword_matrix.md`: keyword matrices with MeSH and ACM CCS mapping
+- `bibliometric/screening_decisions.py`: inclusion criteria, exclusion codes, decisions
+- `results/screening_scopus.tsv`: decision per record (EID, title, reason code)
+- `results/bibliometrics/`: performance metrics (TP, NCA, TC, h, g, i10 …), year,
+  country, source, author, keyword tables, citation links between blocks, figures
+- `bibliometric/vosviewer/thesaurus_keywords.txt`: first keyword thesaurus for VOSviewer
+
+`bibliometric/screen.py`, `metrics.py` and `export_for_tools.py` need the licensed
+Scopus exports in `licensed/`, which are not distributed. They are not part of the
+CI rebuild; their outputs are committed as they were produced.
+
 ## Repository layout
 
 ```

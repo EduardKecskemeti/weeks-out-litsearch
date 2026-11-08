@@ -1,0 +1,811 @@
+eid	year	blocks	decision	per_block	title
+2-s2.0-85105827985	2021	b1v3	include	b1v3:include	Body Weight Estimation using 2D Body Image
+2-s2.0-85085112542	2020	b1v3	E2	b1v3:E2	Prediction of hypertension, hyperglycemia and dyslipidemia from retinal fundus photographs via deep learning: A cross-sectional study of chronic diseases in central China
+2-s2.0-85115029391	2022	b1v3	E2	b1v3:E2	Automatic segmentation of whole-body adipose tissue from magnetic resonance fat fraction images based on machine learning
+2-s2.0-85141316733	2022	b1v3	E4	b1v3:E4	Deep generation of 3D articulated models and animations from 2D stick figures
+2-s2.0-85186842556	2024	b1v3	E3	b1v3:E3	Enhancing 3D human pose estimation with NIR single-pixel imaging and time-of-flight technology: a deep learning approach
+2-s2.0-85096481796	2020	b1v3	E4	b1v3:E4	A Pixel-Based Framework for Data-Driven Clothing
+2-s2.0-105010912925	2025	b1v3	E6	b1v3:E6	Defining Clinically Meaningful Subgroups in Patients Undergoing Arthroscopic Rotator Cuff Repair Using Unsupervised Machine Learning
+2-s2.0-85113550559	2021	b1v3	E1	b1v3:E1	A CNN Based Model for Venomous and Non-venomous Snake Classification
+2-s2.0-85216531497	2024	b1v3	E2	b1v3:E2	Implementing Deep Learning Pipeline Toward Explainable Osteoporosis Detection Using Knee Radiographs
+2-s2.0-85202754194	2024	b1v3	include	b1v3:include	AdaBoost algorithm for the recognition of young women’s body shapes based on 2D images; [Algoritmul AdaBoost pentru recunoașterea formelor corpului persoanelor tinere de sex feminin pe baza imaginilor 2D]
+2-s2.0-85077964813	2019	b1v3	E2	b1v3:E2	Muscle segmentation of L3 slice in abdomen CT images based on fully convolutional networks
+2-s2.0-85176560752	2023	b1v3	include	b1v3:include	Fluid-Dependent Single-Frequency Bioelectrical Impedance Fat Mass Estimates Compared to Digital Imaging and Dual X-ray Absorptiometry
+2-s2.0-85093868541	2020	b1v3	include	b1v3:include	3D Human Body Shape and Pose Estimation from Depth Image
+2-s2.0-85073598453	2019	b1v3	E6	b1v3:E6	A study on 3D virtual body formation and deformation by body shape analysis
+2-s2.0-85122047279	2021	b1v3	E3	b1v3:E3	MeTRAbs: Metric-Scale Truncation-Robust Heatmaps for Absolute 3D Human Pose Estimation
+2-s2.0-85101692692	2021	b1v3	include	b1v3:include	Utilizing a novel 2d image processing system for relating body composition metrics to performance in collegiate female rowers
+2-s2.0-85117134424	2022	b1v3	E3	b1v3:E3	A 3D Mesh-Based Lifting-And-Projection Network for Human Pose Transfer
+2-s2.0-85078967756	2020	b1v3	include	b1v3:include	3D female upper body modelling based on 2D images
+2-s2.0-85219042109	2024	b1v3	E6	b1v3:E6	Computational Forensics & Machine Learning: Leveraging AI and Machine Learning for Intergenerational Analysis of Craniofacial Heritability of the Indian families using photographs
+2-s2.0-85196301765	2024	b1v3	E3	b1v3:E3	A hybrid deep approach to recognizing student activity and monitoring health physique based on accelerometer data from smartphones
+2-s2.0-85148001361	2022	b1v3	include	b1v3:include	Estimate Height Weight and Body Mass Index From Face Image Using Machine Learning
+2-s2.0-85132038718	2022	b1v3	E5	b1v3:E5	Evaluation of Dietary Management Using Artificial Intelligence and Human Interventions: Nonrandomized Controlled Trial
+2-s2.0-85068569620	2019	b1v3	E6	b1v3:E6	Implementation of biometric data on information security systems
+2-s2.0-85196674099	2024	b1v3	E3	b1v3:E3	Human Body Full-body Motion Gesture Image Feature Capture in Mobile Sensor Networks
+2-s2.0-85079883802	2020	b1v3	E3	b1v3:E3	Motion-to-bmi: Using motion sensors to predict the body mass index of smartphone users
+2-s2.0-85186831649	2024	b1v3	E5	b1v3:E5	Detection of food allergy using deep learning
+2-s2.0-85195959482	2024	b1v3	E3	b1v3:E3	Development of a Low-Cost Markerless Optical Motion Capture System for Gait Analysis and Anthropometric Parameter Quantification
+2-s2.0-105032707745	2025	b1v3	E4	b1v3:E4	Fashion Fit: Dress Recommendation For Different Body Shape Using Efficient-NetB3 Model
+2-s2.0-85170369799	2023	b1v3	include	b1v3:include	NutriAI: AI-Powered Child Malnutrition Assessment in Low-Resource Environments
+2-s2.0-85115114960	2021	b1v3	E6	b1v3:E6	Independent sign language recognition with 3d body, hands, and face reconstruction
+2-s2.0-105041709699	2025	b1v3	E6	b1v3:E6	Optimal NIPT Timing Selection and Fetal Abnormality Detection Based on Clustering Multi-Objective Optimization and Machine Learning
+2-s2.0-85133407988	2022	b1v3	E5	b1v3:E5	The effects of a smartphone-enhanced nurse-facilitated self-care intervention for Chinese hypertensive patients: A randomised controlled trial
+2-s2.0-85053853370	2019	b1v3	include	b1v3:include	A mobilized automatic human body measure system using neural network
+2-s2.0-105024121694	2025	b1v3	E2	b1v3:E2	Relationship between systemic indicators and retinal vessel caliber in patients with stable angina
+2-s2.0-85101348418	2020	b1v3	include	b1v3:include	Body Shape Privacy in Images: Understanding Privacy and Preventing Automatic Shape Extraction
+2-s2.0-85122942221	2021	b1v3	include	b1v3:include	BMI estimation from facial images using residual regression model
+2-s2.0-85120601695	2021	b1v3	E6	b1v3:E6	SPEC: Seeing People in the Wild with an Estimated Camera
+2-s2.0-105031612744	2025	b1v3	E6	b1v3:E6	Predicting Anthropometric Dimensions Using Machine Learning for Biomedical Anthropometric Wearable Devices
+2-s2.0-85202348726	2024	b1v3	E2	b1v3:E2	Metadata information and fundus image fusion neural network for hyperuricemia classification in diabetes
+2-s2.0-85099459255	2020	b1v3	E4	b1v3:E4	Incorporating Human Body Shape Guidance for Cloth Warping in Model to Person Virtual Try-on Problems
+2-s2.0-85092386904	2021	b1v3	E2	b1v3:E2	A deep-learning system for the assessment of cardiovascular disease risk via the measurement of retinal-vessel calibre
+2-s2.0-85055111864	2018	b1v3	include	b1v3:include	BodyNet: Volumetric inference of 3D human body shapes
+2-s2.0-105000557318	2024	b1v3	E5	b1v3:E5	Machine Learning-Based Automatic Classification of Gastrointestinal Categories from Food Images
+2-s2.0-85124239051	2023	b1v3	include	b1v3:include	Estimating Human Weight From a Single Image
+2-s2.0-85118643645	2022	b1v3	include	b1v3:include	Agreement Between A 2-Dimensional Digital Image-Based 3-Compartment Body Composition Model and Dual Energy X-Ray Absorptiometry for The Estimation of Relative Adiposity
+2-s2.0-85142698400	2022	b1v3	E6	b1v3:E6	DANBO: Disentangled Articulated Neural Body Representations via Graph Neural Networks
+2-s2.0-105024386452	2025	b1v3	include	b1v3:include	Artificial intelligence-driven anthropometric assessment for young children: evaluating the accuracy and practicality of a digital image-based length and weight prediction tool
+2-s2.0-85070724849	2019	b1v3	E3	b1v3:E3	Assessing physical activity and functional fitness level using convolutional neural networks
+2-s2.0-105007762527	2025	b1v3	include	b1v3:include	Assessing Full-Body Measurement Accuracy of a Remote Body Scanner to Enhance PPE Fit for U.S. Female Firefighters
+2-s2.0-85191021088	2024	b1v3	include	b1v3:include	BMI Estimation via Facial Image Analysis
+2-s2.0-105020911093	2025	b1v3	E6	b1v3:E6	Artificial intelligence for obesity management: A review of applications, opportunities, and challenges
+2-s2.0-105014632740	2025	b1v3	E1	b1v3:E1	Simple and Effective Techniques for Automatic Fish Species Classification Using Image Processing and Deep Learning
+2-s2.0-85177873793	2023	b1v3	E3	b1v3:E3	Learning Clothing and Pose Invariant 3D Shape Representation for Long-Term Person Re-Identification
+2-s2.0-85184155464	2024	b1v3	include	b1v3:include	Artificial intelligence for the practical assessment of nutritional status in emergencies
+2-s2.0-85084836284	2020	b1v3	E6	b1v3:E6	Advanced 2D image processing technique to predict hip fracture risk in an older population based on single DXA scans
+2-s2.0-85099414476	2021	b1v3	include	b1v3:include	Smartfit: Smartphone application for garment fit detection
+2-s2.0-85175868934	2020	b1v3	E3	b1v3:E3	Synthetic Training for Accurate 3D Human Pose and Shape Estimation in the Wild
+2-s2.0-85055185047	2019	b1v3	E6	b1v3:E6	Comparative Assessment of a Novel Photo-Anthropometric Landmark-Positioning Approach for the Analysis of Facial Structures on Two-Dimensional Images
+2-s2.0-105033236167	2025	b1v3	E6	b1v3:E6	Modeling Interphalangeal Joints for Swelling Assessment in Psoriatic Arthritis via Smartphone Photographs
+2-s2.0-85168754595	2023	b1v3	E3	b1v3:E3	Human-pose estimation based on weak supervision
+2-s2.0-105023093105	2025	b1v3	E6	b1v3:E6	Automatic Apparent Nasal Index from Single Facial Photographs Using a Lightweight Deep Learning Pipeline: A Pilot Study
+2-s2.0-85070445314	2019	b1v3	E3	b1v3:E3	Uniform and variational deep learning for RGB-D object recognition and person re-identification
+2-s2.0-85097096233	2020	b1v3	E3	b1v3:E3	3D Human Shape and Pose from a Single Low-Resolution Image with Self-Supervised Learning
+2-s2.0-105007468817	2025	b1v3	E1	b1v3:E1	Morphological feature assessment of Larimichthys crocea for quality grading: a computer vision approach
+2-s2.0-85147573449	2023	b1v3	E6	b1v3:E6	Identifying congenital generalized lipodystrophy using deep learning-DEEPLIPO
+2-s2.0-85112659407	2022	b1v3	E4	b1v3:E4	Detailed Avatar Recovery From Single Image
+2-s2.0-85055671987	2017	b1v3	include	b1v3:include	Imaging method: Technological and computing innovations
+2-s2.0-85172794793	2023	b1v3	include	b1v3:include	Survey on Estimation of Body Mass Index Using Facial Images
+2-s2.0-105036511951	2025	b1v3	include	b1v3:include	Predictive Modeling of Body Fat Percentage with Machine Learning Techniques
+2-s2.0-85207391562	2024	b1v3	E6	b1v3:E6	Forensic facial identification – reconstruction of facial geometry and shape from dental dimensions
+2-s2.0-85209792505	2025	b1v3	E3	b1v3:E3	HUMOS: Human Motion Model Conditioned on Body Shape
+2-s2.0-85097531242	2020	b1v3	include	b1v3:include	Anthropometric landmarks extraction and dimensions measurement based on ResNet
+2-s2.0-105015702134	2025	b1v3	E3	b1v3:E3	TrackletGait: A Robust Framework for Gait Recognition in the Wild
+2-s2.0-85081067114	2019	b1v3	E3	b1v3:E3	Gait Recognition from Markerless 3D Motion Capture
+2-s2.0-85176281071	2023	b1v3	E6	b1v3:E6	Prediction for blood lactate during exercise using an artificial intelligence—Enabled electrocardiogram: a feasibility study
+2-s2.0-85203543160	2024	b1v3	E3	b1v3:E3	Real-Time Calibration-Free Musculotendon Kinematics for Neuromusculoskeletal Models
+2-s2.0-85070239360	2019	b1v3	E6	b1v3:E6	Automatic cephalometric landmarks detection on frontal faces: An approach based on supervised learning techniques
+2-s2.0-105025805911	2025	b1v3	E5	b1v3:E5	An Artificial Intelligence-Assisted Smartphone Application for Improving Dietary Quality Among Frail Older Adults: A Quasi-Experimental Study
+2-s2.0-105004790114	2025	b1v3	include	b1v3:include	Predicting Post-Liposuction Body Shape Using RGB Image-to-Image Translation
+2-s2.0-85210302627	2024	b1v3	E3	b1v3:E3	AF-CPACNet: AnchorFree Crowd Parsing Attention-Based Characteristic Segmentation Network
+2-s2.0-105034941269	2025	b1v3	include	b1v3:include	Trustworthy Data Science Framework for Non-Invasive Nutritional Screening Using Computer Vision
+2-s2.0-105010278353	2025	b1v3	E3	b1v3:E3	Evaluating Non-Invasive Computer Vision-Based Quantification of Neonatal Movement as a Marker of Development in Preterm Infants: A Pilot Study
+2-s2.0-85093857575	2020	b1v3	E6	b1v3:E6	Predicting Magnetization Directions Using Convolutional Neural Networks
+2-s2.0-85086802456	2020	b1v3	E6	b1v3:E6	Fully automatic smartphone-based photogrammetric 3D modelling of infant's heads for cranial deformation analysis
+2-s2.0-85097210593	2020	b1v3	E6	b1v3:E6	Validation of an Overnight Wireless High-Resolution Oximeter plus Cloud-Based Algorithm for the Diagnosis of Obstructive Sleep Apnea
+2-s2.0-105023839734	2025	b1v3	E6	b1v3:E6	GlucoSense: Non-Invasive Glucose Monitoring using Mobile Devices
+2-s2.0-85209641318	2024	b1v3	E3	b1v3:E3	Société de Biomécanique young investigator award 2023: Estimation of intersegmental load at L5-S1 during lifting/lowering tasks using force plate free markerless motion capture
+2-s2.0-85128643754	2023	b1v3	E4	b1v3:E4	DeepCloth: Neural Garment Representation for Shape and Style Editing
+2-s2.0-85083311988	2019	b1v3	E3	b1v3:E3	Aggregate Channel Features Based on Local Phase, Color, Texture, and Gradient Features for People Localization
+2-s2.0-105007749017	2025	b1v3	E6	b1v3:E6	Assessing Vision Obstruction and Safety in E-Scooter Accidents: An Integrated Approach Using Digital Human Modeling and Computer Vision
+2-s2.0-85112407218	2021	b1v3	E6	b1v3:E6	Comparative Analysis between Linear Measures from Bidimensional and Three-dimensional Images of the Face for Human Identification Purpose: A Pilot Study
+2-s2.0-85075652334	2019	b1v3	E1	b1v3:E1	Superfetation reduces the negative effects of pregnancy on the fast-start escape performance in live-bearing fish
+2-s2.0-85181205934	2024	b1v3	include	b1v3:include	A methodology for realistic human shape reconstruction from 2D images
+2-s2.0-85049014185	2019	b1v3	E4	b1v3:E4	Determination of leg cross-sectional curvatures and application in pressure prediction for lower body compression garments
+2-s2.0-85103345893	2022	b1v3	include	b1v3:include	Validity of a 3-compartment body composition model using body volume derived from a novel 2-dimensional image analysis program
+2-s2.0-85090074509	2020	b1v3	E1	b1v3:E1	Comparison of data analytics strategies in computer vision systems to predict pig body composition traits from 3D images
+2-s2.0-85102971016	2021	b1v3	include	b1v3:include	Three-step alignment approach for fitting a normalized mask of a person rotating in A-Pose or T-Pose essential for 3D reconstruction based on 2D images and CGI derived reference target pose
+2-s2.0-85127814280	2021	b1v3	E3	b1v3:E3	EventHPE: Event-based 3D Human Pose and Shape Estimation
+2-s2.0-85040342886	2018	b1v3	E2	b1v3:E2	Associations of leptin, insulin and lipids with retinal microvasculature in children and adolescents
+2-s2.0-85173856955	2023	b1v3	E2	b1v3:E2	Direct deep learning-based survival prediction from pre-interventional CT prior to transcatheter aortic valve replacement
+2-s2.0-85163347916	2023	b1v3	E3	b1v3:E3	Physique- Based Human Activity Recognition Using Deep Learning Approaches and Smartphone Sensors
+2-s2.0-85195171113	2024	b1v3	E4	b1v3:E4	Machine learning-based clothing recommendation system for women: case study of Lady's confecciones
+2-s2.0-85137933638	2022	b1v3	E3	b1v3:E3	Infant upper body 3D kinematics estimated using a commercial RGB-D sensor and a deep neural network tracking processing tool
+2-s2.0-85126132294	2022	b1v3	E4	b1v3:E4	Creating and Reenacting Controllable 3D Humans with Differentiable Rendering
+2-s2.0-85170702978	2024	b1v3	include	b1v3:include	An innovative method for human height estimation combining video images and 3D laser scanning
+2-s2.0-105000695419	2025	b1v3	E4	b1v3:E4	GRD: Garment Reconstruction and Draping with Preserved Design Based on 2D Image
+2-s2.0-85122920518	2021	b1v3	E6	b1v3:E6	Computer Vision Approach for Detecting Adulteration of Ghee with Foreign Fats - A Survey
+2-s2.0-85184745901	2024	b1v3	E5	b1v3:E5	Smartphone Applications to Prevent Type 2 Diabetes: A Systematic Review and Meta-Analysis
+2-s2.0-85169703567	2023	b1v3	E5	b1v3:E5	Protocol of a parallel, randomized controlled trial on the effects of a novel personalized nutrition approach by artificial intelligence in real world scenario
+2-s2.0-85083318256	2019	b1v3	E1	b1v3:E1	Image-Based Classification of Snake Species Using Convolutional Neural Network
+2-s2.0-85137126237	2022	b1v3	E6	b1v3:E6	Introduction of a Low-Cost and Automated Four-Dimensional Assessment System of the Face
+2-s2.0-85108275021	2021	b1v3	E3	b1v3:E3	MoVi: A large multi-purpose human motion and video dataset
+2-s2.0-105028967670	2025	b1v3	E6	b1v3:E6	Proximity Based Real Time Alert System for Construction Sites Using Monocular Depth Estimation
+2-s2.0-85184281063	2024	b1v3	include	b1v3:include	Mass Estimation in Body Photography for Obesity Assessment Using Deep Learning and Linear Regression
+2-s2.0-85057223955	2018	b1v3	include	b1v3:include	Using computer vision to study the effects of BMI on online popularity and weight-based homophily
+2-s2.0-85097313731	2020	b1v3	include	b1v3:include	Efficient Body Registration Using Single-View Range Imaging and Generic Shape Templates
+2-s2.0-85120346239	2022	b1v3	E5	b1v3:E5	Practical Computer Vision Application to Compute Total Body Surface Area Burn: Reappraising a Fundamental Burn Injury Formula in the Modern Era
+2-s2.0-85206872428	2024	b1v3	E6	b1v3:E6	Sleep prediction using data from oximeter, accelerometer and snoring for portable monitor obstructive sleep apnea diagnosis
+2-s2.0-85113258269	2021	b1v3	E6	b1v3:E6	Foot-surface-structure analysis using a smartphone-based 3D foot scanner
+2-s2.0-105004407860	2025	b1v3	E3	b1v3:E3	MNCL: Empirical Development of Human Action Recognition Based on Postures Using Modified Neural Classification Logic
+2-s2.0-85122510216	2021	b1v3	include	b1v3:include	Height Estimation of Children under Five Years using Depth Images
+2-s2.0-85200512078	2024	b1v3	E6	b1v3:E6	Managing safety of the human on the factory floor: a computer vision fusion approach
+2-s2.0-85216076253	2024	b1v3	include	b1v3:include	Distilling CLIP with Dual Guidance for Learning Discriminative Human Body Shape Representation
+2-s2.0-85175076542	2022	b1v3	include	b1v3:include	Automatic Estimation of Anthropometric Human Body Measurements
+2-s2.0-85218423016	2024	b1v3	E3	b1v3:E3	Yoga Pose Detection and Correction Using 3D Pose Estimation and Machine Learning
+2-s2.0-105009121084	2025	b1v3	include	b1v3:include	Inferring Body Measurements from 2D Images: A Comprehensive Review
+2-s2.0-85135235562	2022	b1v3	include	b1v3:include	Dense-Pose2SMPL: 3D Human Body Shape Estimation From a Single and Multiple Images and Its Performance Study
+2-s2.0-85087335213	2021	b1v3	include	b1v3:include	Building High-Fidelity Human Body Models from User-Generated Data
+2-s2.0-85102821090	2020	b1v3	E6	b1v3:E6	Facial anthropometric measurements and photographs - An interdisciplinary study
+2-s2.0-85105880210	2021	b1v3	E6	b1v3:E6	The Influence of Different Light Angles During Standardized Patient Photographic Assessment on the Aesthetic Perception of the Face
+2-s2.0-85183850077	2024	b1v3	include	b1v3:include	Body composition estimates using a 2D image analysis system across different environmental conditions: An agreement study
+2-s2.0-85174450764	2023	b1v3	include	b1v3:include	Machine Learning-Based Human Body Mass Index Prediction Using Facial Features
+2-s2.0-85207674233	2024	b1v3	E6	b1v3:E6	Estimation of Fractal Dimension and Segmentation of Body Regions for Deep Learning-Based Gender Recognition
+2-s2.0-85193236230	2024	b1v3	E6	b1v3:E6	Ischemic attack and cerebrovascular accident prediction analysis using machine learning approaches
+2-s2.0-85128628267	2023	b1v3	E3	b1v3:E3	3D Human Pose and Shape Reconstruction From Videos via Confidence-Aware Temporal Feature Aggregation
+2-s2.0-105003973461	2025	b1v3	include	b1v3:include	An integrated 3D point cloud and 2D image-based approach for generating individualized female prototype pattern
+2-s2.0-105024759380	2025	b1v3	E4	b1v3:E4	Threads in the Matrix: Revolutionizing Fashion with Offline Virtual Fitting Room
+2-s2.0-85137444589	2022	b1v3	E6	b1v3:E6	Validation of an overnight wireless high-resolution oximeter for the diagnosis of obstructive sleep apnea at home
+2-s2.0-85070332143	2019	b1v3	include	b1v3:include	On visual BMI analysis from facial images
+2-s2.0-85114867410	2021	b1v3	E3	b1v3:E3	HPOF:3D human pose recovery from monocular video with optical flow
+2-s2.0-85075534801	2019	b1v3	E1	b1v3:E1	Body dimension measurements of qinchuan cattle with transfer learning from liDAR sensing
+2-s2.0-85210120612	2025	b1v3	E3	b1v3:E3	Quantifying performance and joint kinematics in functional tasks crucial for anterior cruciate ligament rehabilitation using smartphone video and pose detection
+2-s2.0-85127686030	2022	b1v3	E3	b1v3:E3	Towards an end-to-end isolated and continuous deep gesture recognition process
+2-s2.0-105003373668	2025	b1v3	E2	b1v3:E2	Relationships Between Retinal Vascular Characteristics and Systemic Indicators in Patients With Diabetes Mellitus
+2-s2.0-105017858569	2025	b1v3	E6	b1v3:E6	Short-Term 3D Human Mesh Recovery with Virtual Markers Disentanglement
+2-s2.0-85100784196	2021	b1v3	E6	b1v3:E6	Human mesh reconstruction with generative adversarial networks from single rgb images
+2-s2.0-85186743062	2024	b1v3	E6	b1v3:E6	Machine learning–based detection of sarcopenic obesity and association with adverse outcomes in patients undergoing surgical treatment for spinal metastases
+2-s2.0-85114121127	2021	b1v3	include	b1v3:include	Deep 3D Body Landmarks Estimation for Smart Garments Design
+2-s2.0-105012397290	2025	b1v3	E3	b1v3:E3	Human Shoulder Posture Anthropometry System for Detecting Scoliosis Using Mediapipe Library
+2-s2.0-85141640084	2022	b1v3	include	b1v3:include	Digital Single-Image Smartphone Assessment of Total Body Fat and Abdominal Fat Using Machine Learning
+2-s2.0-85132262898	2022	b1v3	E2	b1v3:E2	Artificial Intelligence in Predicting Systemic Parameters and Diseases From Ophthalmic Imaging
+2-s2.0-85157992179	2023	b1v3	E6	b1v3:E6	The Utilization of Fresh Frozen Cartilage in Asian Rhinoplasty: A New Approach
+2-s2.0-85098162419	2020	b1v3	E6	b1v3:E6	3D Articulated Body Model Using Anthropometric Control Points and an Articulation Video
+2-s2.0-85193012481	2023	b1v3	E5	b1v3:E5	Salt Reduction Using a Smartphone Application Based on an Artificial Intelligence System for Dietary Assessment in Patients with Chronic Kidney Disease: A Single-Center Retrospective Cohort Study
+2-s2.0-85186204536	2024	b1v3	E6	b1v3:E6	Machine learning applications in spine biomechanics
+2-s2.0-85206376813	2025	b1v3	E3	b1v3:E3	Mask as Supervision: Leveraging Unified Mask Information for Unsupervised 3D Pose Estimation
+2-s2.0-85205511335	2024	b1v3	include	b1v3:include	RightSizing: Disentangling Generative Models of Human Body Shapes with Metric Constraints
+2-s2.0-85134617023	2022	b1v3	E2	b1v3:E2	MIMIR: Deep Regression for Automated Analysis of UK Biobank MRI Scans
+2-s2.0-85181977196	2024	b1v3	E3	b1v3:E3	Single-Image 3D Human Pose and Shape Estimation Enhanced by Clothed 3D Human Reconstruction
+2-s2.0-85163613213	2023	b1v3	E6	b1v3:E6	Health Monitoring with Smartphone Sensors and Machine Learning Techniques
+2-s2.0-85130718713	2021	b1v3	E6	b1v3:E6	Center of Mass Trajectory: An Image Descriptor for Baseball Swing Analysis Based on Single Low-Cost Camera
+2-s2.0-85124511619	2022	b1v3	E6	b1v3:E6	Reliability and Accuracy of 2D Photogrammetry: A Comparison With Direct Measurement
+2-s2.0-105010023208	2025	b1v3	E3	b1v3:E3	Eliminating Semantic Ambiguity in Human Pose Estimation via Stable Feature Upsampling
+2-s2.0-85076990039	2019	b1v3	include	b1v3:include	Detailed human shape estimation from a single image by hierarchical MESH deformation
+2-s2.0-85199927173	2023	b1v3	include	b1v3:include	Development of Contactless Anthropometric Body Measurement Using MediaPipe
+2-s2.0-85040316507	2018	b1v3	include	b1v3:include	Automated Fiducial Points Detection Using Human Body Segmentation
+2-s2.0-85169059029	2023	b1v3	E4	b1v3:E4	DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering
+2-s2.0-85121019746	2021	b1v3	E3	b1v3:E3	Hierarchical Kinematic Probability Distributions for 3D Human Shape and Pose Estimation from Images in the Wild
+2-s2.0-105054822174	2025	b1v3	E6	b1v3:E6	MeshMamba: State Space Models for Articulated 3D Mesh Generation and Reconstruction
+2-s2.0-85047967856	2018	b1v3	E6	b1v3:E6	Investigating the link between television viewing and men's preferences for female body size and shape in rural Nicaragua
+2-s2.0-85064638995	2019	b1v3	include	b1v3:include	Human body shape reconstruction from binary silhouette images
+2-s2.0-85105508080	2021	b1v3	E3	b1v3:E3	A Shape-Aware Retargeting Approach to Transfer Human Motion and Appearance in Monocular Videos
+2-s2.0-105022521431	2025	b1v3	E6	b1v3:E6	A novel approach of developing machine learning based models for the prediction of facial dimensions from dental parameters
+2-s2.0-85121341294	2021	b1v3	include	b1v3:include	Monocular 3d body shape reconstruction under clothing
+2-s2.0-85141832653	2022	b1v3	include	b1v3:include	Anthropometric Measurements with 2D Images
+2-s2.0-85100314259	2022	b1v3	E5	b1v3:E5	Differential associations between body mass index with diabetes and vision-threatening diabetic retinopathy in an adult Chinese population
+2-s2.0-85105115996	2022	b1v3	include	b1v3:include	3DBodyNet: Fast Reconstruction of 3D Animatable Human Body Shape from a Single Commodity Depth Camera
+2-s2.0-85121414116	2021	b1v3	E3	b1v3:E3	Unsupervised Human Pose Estimation through Transforming Shape Templates
+2-s2.0-85089233411	2020	b1v3	E6	b1v3:E6	A Minimal Personalization of Dynamic Binaural Synthesis with Mixed Structural Modeling and Scattering Delay Networks
+2-s2.0-85101549746	2021	b1v3	E6	b1v3:E6	Towards secure fitness framework based on iot-enabled blockchain network integrated with machine learning algorithms
+2-s2.0-85056260002	2018	b1v3	E6	b1v3:E6	Symbolic dynamics to enhance diagnostic ability of portable oximetry from the Phone Oximeter in the detection of paediatric sleep apnoea
+2-s2.0-85086005616	2020	b1v3	E4	b1v3:E4	Generation of 3D human models and animations using simple sketches
+2-s2.0-85204538620	2024	b1v3	E6	b1v3:E6	Calculation of the Forearm and Hand Three-Dimensional Anthropometry Based on Two-Dimensional Image Feature Extraction: An Approach for Cock-up Splint Design
+2-s2.0-85095851757	2020	b1v3	E2	b1v3:E2	Low-Cost Office-Based Cardiovascular Risk Stratification Using Machine Learning and Focused Carotid Ultrasound in an Asian-Indian Cohort
+2-s2.0-85084012371	2018	b1v3	E6	b1v3:E6	Deep textured 3D reconstruction of human bodies
+2-s2.0-85147092977	2023	b1v3	E6	b1v3:E6	Computer vision syndrome in lebanese male adolescents: Correlates with mental health and mediating effect of stress
+2-s2.0-85098648691	2020	b1v3	include	b1v3:include	See Through Occlusions: Detailed Human Shape Estimation from A Single Image with Occlusions
+2-s2.0-85192010076	2024	b1v3	E3	b1v3:E3	A Hybrid Deep Learning Framework for Estimating Human 3D Pose from 2D Joint Positions
+2-s2.0-85174418844	2023	b1v3	include	b1v3:include	Quantifying shape similarity of female upper body silhouettes based on 2D images
+2-s2.0-85091025695	2020	b1v3	E6	b1v3:E6	Prediction of Patient Demographics using 3D Craniofacial Scans and Multi-view CNNs
+2-s2.0-105005995003	2025	b1v3	E1	b1v3:E1	Evaluation of chest circumference in 3D lateral images of dairy cattle farming for body mass prediction
+2-s2.0-105025916773	2025	b1v3	E6	b1v3:E6	A Systematic Review of Glove Construction Based on Hand Anthropometric Measurements and Finite Element Simulations
+2-s2.0-85209391335	2024	b1v3	include	b1v3:include	Two-dimensional Non-contact Anthropometry based on Deep Learning
+2-s2.0-85062988702	2019	b1v3	E5	b1v3:E5	Ontrack: Development and feasibility of a smartphone app designed to predict and prevent dietary lapses
+2-s2.0-85198912503	2024	b1v3	E6	b1v3:E6	Automated 3D Perioral Landmark Detection Using High-Resolution Network: Artificial Intelligence–based Anthropometric Analysis
+2-s2.0-85143611735	2022	b1v3	include	b1v3:include	OPEN: Order-preserving Pointcloud Encoder Decoder Network for Body Shape Refinement
+2-s2.0-105021542327	2025	b1v3	E3	b1v3:E3	Unsupervised machine learning models reveal two distinct post-operative physical activity profiles among joint arthroplasty patients: a United Kingdom biobank cohort study
+2-s2.0-85202897667	2024	b1v3	E5	b1v3:E5	Validation of Breast Idea Volume Estimator Application in Transfeminine People
+2-s2.0-85094807821	2020	b1v3	E6	b1v3:E6	TetraTSDF: 3D Human Reconstruction from a Single Image with a Tetrahedral Outer Shell
+2-s2.0-85052097383	2019	b1v3	E3	b1v3:E3	Innovations in crowd management: An integration of visual closure, anthropometry, and computer vision
+2-s2.0-105010547409	2025	b1v3	E2	b1v3:E2	CT Biomarkers for Phenotypic Biological Aging: Emerging Concepts and Advantages
+2-s2.0-105022623103	2025	b1v3	E6	b1v3:E6	SMPL Normal Map Is All You Need for Single-view Textured Human Reconstruction
+2-s2.0-85090506869	2020	b1v3	E6	b1v3:E6	Improving preoperative risk-of-death prediction in surgery congenital heart defects using artificial intelligence model: A pilot study
+2-s2.0-85103684784	2021	b1v3	E6	b1v3:E6	Using a convolutional neural network for human recognition in a staff dose management software for fluoroscopic interventional procedures
+2-s2.0-85076901112	2020	b1v3	E5	b1v3:E5	Validity and reliability of three-dimensional costal cartilage imaging for donor-site assessment and clinical application in microtia reconstruction patients: A prospective study of 22 cases
+2-s2.0-85150842945	2022	b1v3	E3	b1v3:E3	Attention-Guided Video Inference for 3D Human posture estimation
+2-s2.0-85172695609	2023	b1v3	E6	b1v3:E6	Automatic Detection of Facial Landmarks for Denture Models
+2-s2.0-85161287301	2023	b1v3	E6	b1v3:E6	Self-helped detection of obstructive sleep apnea based on automated facial recognition and machine learning
+2-s2.0-105000433408	2023	b1v3	E2	b1v3:E2	CT image-based biomarkers acquired by AI-based algorithms for the opportunistic prediction of falls
+2-s2.0-85169561190	2023	b1v3	include	b1v3:include	AInBody: Are You in Shape?- An Integrated Deep Learning Model that Tracks Your Body Measurement
+2-s2.0-85103477618	2020	b1v3	E6	b1v3:E6	Medication event monitoring
+2-s2.0-85178647956	2023	b1v3	E6	b1v3:E6	Validity and reliability analysis on video-based self-learning of yoga in children
+2-s2.0-85124810674	2022	b1v3	include	b1v3:include	Anthropometric salient points and convolutional neural network (CNN) for 3D human body classification
+2-s2.0-85210770741	2024	b1v3	include	b1v3:include	Beyond Body Mass Index: Accurate Metabolic Disease-Risk Phenotyping With 3D Smartphone Application
+2-s2.0-85136095737	2022	b1v3	E6	b1v3:E6	Harnessing the Power of Artificial Intelligence to Teach Cleft Lip Surgery
+2-s2.0-105020416547	2025	b1v3	E1	b1v3:E1	Deep learning on field photography reveals the morphometric diversity of Colombian freshwater fish
+2-s2.0-85151338658	2023	b1v3	E6	b1v3:E6	Use of a Three-dimensional Smartphone Scanner in the Quantitative Analysis of Repaired Unilateral Cleft Lip during the Coronavirus Disease Pandemic
+2-s2.0-85091816458	2020	b1v3	include	b1v3:include	body2vec: 3D Point Cloud Reconstruction for Precise Anthropometry with Handheld Devices
+2-s2.0-85065748168	2020	b1v3	E5	b1v3:E5	Knowledge-based hybrid decision model using neural network for nutrition management
+2-s2.0-85191226506	2024	b1v3	E6	b1v3:E6	AI Assisted Interactive Aanli Mirror
+2-s2.0-85103803325	2021	b1v3	E6	b1v3:E6	Image-based 3d object reconstruction: State-of-the-art and trends in the deep learning era
+2-s2.0-85097134060	2019	b1v3	E6	b1v3:E6	Achieving rapid blood pressure control with digital therapeutics: Retrospective cohort and machine learning study
+2-s2.0-105029653253	2025	b1v3	include	b1v3:include	Systematic Review of AI-Based Approaches for Anthropometric and Fashion Landmark Detection in Body Measurement Estimation
+2-s2.0-85134338267	2022	b1v3	E4	b1v3:E4	Virtual try-on based on attention U-Net
+2-s2.0-85059670522	2019	b1v3	E2	b1v3:E2	Nonlinear model for the carotid artery disease 10-year risk prediction by fusing conventional cardiovascular factors to carotid ultrasound image phenotypes: A Japanese diabetes cohort study
+2-s2.0-85194061858	2024	b1v3	E6	b1v3:E6	Novel Machine Learning Identifies 5 Asthma Phenotypes Using Cluster Analysis of Real-World Data
+2-s2.0-85131180747	2022	b1v3	include	b1v3:include	Prediction of human height, weight and BMI from face images using machine learning algorithms
+2-s2.0-85078818430	2020	b1v3	E2	b1v3:E2	Association of reduced inner retinal thicknesses with chronic kidney disease
+2-s2.0-85074784772	2020	b1v3	E2	b1v3:E2	Associations of cardiovascular risk factors and retinal vessel dimensions at present and their evolution over time in a healthy working population
+2-s2.0-85179554825	2023	b1v3	E3	b1v3:E3	Exploring Shape Embedding for Cloth-Changing Person Re-Identification via 2D-3D Correspondences
+2-s2.0-105015215037	2025	b1v3	E6	b1v3:E6	Objective Severity Classification of Unilateral Cleft Lip Nasal Deformity Using Nostril Width, Alar Facial Symmetry Ratio, and Columellar Angle to Justify Surgical Outcomes
+2-s2.0-105018472536	2025	b1v3	include	b1v3:include	Assistive System for Monitoring Malnutrition in Children: MalnoCare
+2-s2.0-85182576616	2023	b1v3	include	b1v3:include	Malnutrition Detection using Deep Learning Models
+2-s2.0-85047965761	2019	b1v3	include	b1v3:include	3-D Reconstruction of Human Body Shape from a Single Commodity Depth Camera
+2-s2.0-85128531710	2023	b1v3	E6	b1v3:E6	3D human body reconstruction based on SMPL model
+2-s2.0-85161462353	2022	b1v3	include	b1v3:include	Inception Network for Anthropometric Body Measurements Estimation from Structured Point Clouds
+2-s2.0-85165943829	2024	b1v3	include	b1v3:include	Adjustable method based on body parts for improving the accuracy of 3D reconstruction in visually important body parts from silhouettes
+2-s2.0-85142329656	2022	b1v3	E2	b1v3:E2	Development of a Spine X-Ray-Based Fracture Prediction Model Using a Deep Learning Algorithm
+2-s2.0-85060843175	2018	b1v3	E3	b1v3:E3	Gait recognition by deformable registration
+2-s2.0-85193806106	2023	b1v3	include	b1v3:include	Human Body Shape Completion with Implicit Shape and Flow Learning
+2-s2.0-105005723858	2025	b1v3	E6	b1v3:E6	3D human mesh recovery with learned gradient
+2-s2.0-85118188258	2021	b1v3	include	b1v3:include	Parametric Shape Estimation of Human Body under Wide Clothing
+2-s2.0-85175365213	2023	b1v3	E6	b1v3:E6	Using Generative Artificial Intelligence Tools in Cosmetic Surgery: A Study on Rhinoplasty, Facelifts, and Blepharoplasty Procedures
+2-s2.0-85072621016	2019	b1v3	include	b1v3:include	BMIMatic: Body mass index derivation from captured images
+2-s2.0-105000358020	2025	b1v3	include	b1v3:include	Non-contact body measurement for garment customization based on 2D images: A systematic review
+2-s2.0-85126015008	2022	b1v3	E3	b1v3:E3	e-BMI: A gait based smart remote BMI monitoring framework implementing edge computing and incremental machine learning
+2-s2.0-85204978593	2024	b1v3	include	b1v3:include	Estimating anthropometric measurements through 2D images using machine learning with gender-based analysis
+2-s2.0-85131963363	2020	b1v3	E6	b1v3:E6	Smartphones in Medical Photography
+2-s2.0-85095870235	2021	b1v3	E6	b1v3:E6	New aspects in digital breast assessment: further refinement of a method for automated digital anthropometry
+2-s2.0-85096451109	2020	b1v3	E5	b1v3:E5	An automated structured education intervention based on a smartphone app in Chinese patients with type 1 diabetes: a protocol for a single-blinded randomized controlled trial
+2-s2.0-85151293363	2023	b1v3	E6	b1v3:E6	Deep learning of image-derived measures of body composition in pediatric, adolescent, and young adult lymphoma: association with late treatment effects
+2-s2.0-85167061913	2022	b1v3	E6	b1v3:E6	Machine learning-based identification of craniosynostosis in newborns[Formula presented]
+2-s2.0-86000427800	2025	b1v3	E3	b1v3:E3	AttMOT: Improving Multiple-Object Tracking by Introducing Auxiliary Pedestrian Attributes
+2-s2.0-85093105795	2020	b1v3	E2	b1v3:E2	Large-scale biometry with interpretable neural network regression on UK Biobank body MRI
+2-s2.0-85139291007	2022	b1v3	include	b1v3:include	Visual body composition assessment methods: A 4-compartment model comparison of smartphone-based artificial intelligence for body composition estimation in healthy adults
+2-s2.0-85123186206	2022	b1v3	E1	b1v3:E1	Ecology of fear in highly invasive fish revealed by robots
+2-s2.0-85190383631	2024	b1v3	include	b1v3:include	Implementation of Cloth Estimation in 2D-3D Human Body Regression Model
+2-s2.0-85074858387	2019	b1v3	E3	b1v3:E3	Virtually trying on new clothing with arbitrary poses
+2-s2.0-105017856412	2025	b1v3	E6	b1v3:E6	Condimen: Conditional Multi-Person Mesh Recovery
+2-s2.0-105013460992	2025	b1v3	E3	b1v3:E3	Enhancing Fall Detection in Assisted Living Using Deep Learning Approach
+2-s2.0-85196917910	2023	b1v3	E6	b1v3:E6	The Hartufo toolkit for machine learning with HRTF data
+2-s2.0-85208129502	2025	b1v3	include	b1v3:include	Predicting bone mineral content from smartphone digital anthropometrics: evaluation of an existing application and the development of new prediction models
+2-s2.0-85117953315	2021	b1v3	include	b1v3:include	3D Human Reconstruction: A Comparison between Images-Based and Point Cloud-Based Method
+2-s2.0-85042096705	2018	b1v3	E6	b1v3:E6	Evaluation and optimization of a vibrotactile signal in an autonomous driving context
+2-s2.0-85145440386	2022	b1v3	include	b1v3:include	Image-based 2-D non-contact human data measurement and its application to automotive seats
+2-s2.0-85099236698	2021	b1v3	include	b1v3:include	Detailed 3D Human Body Reconstruction from a Single Image Based on Mesh Deformation
+2-s2.0-105036592018	2025	b1v3	include	b1v3:include	Deep Learning Based Pageant Placement System
+2-s2.0-85099210165	2021	b1v3	include	b1v3:include	Obesity of politicians and corruption in post-Soviet countries
+2-s2.0-85074552670	2019	b1v3	E6	b1v3:E6	Computer Vision Technology in the Differential Diagnosis of Cushing's Syndrome
+2-s2.0-85056338769	2018	b1v3	E6	b1v3:E6	Evaluating the accuracy of facial models obtained from volume wrapping: 2D images on CBCT versus 3D on CBCT
+2-s2.0-85175068507	2023	b1v3	include	b1v3:include	Pose-Independent Digital Anthropometry Based on Perpendicular Two-Dimensional Imagery
+2-s2.0-85114765469	2021	b1v3	E6	b1v3:E6	Automatic detection and monitoring of abnormal skull shape in children with deformational plagiocephaly using deep learning
+2-s2.0-85107636857	2021	b1v3	E2	b1v3:E2	A Two-Phase Approach using Mask R-CNN and 3D U-Net for High-Accuracy Automatic Segmentation of Pancreas in CT Imaging
+2-s2.0-85083030862	2019	b1v3	include	b1v3:include	A Methodology for Extracting Anthropometric Measurements from 2D Images
+2-s2.0-105017981211	2025	b1v3	E2	b1v3:E2	International Validation of Echocardiographic Artificial Intelligence Amyloid Detection Algorithm
+2-s2.0-85141560003	2022	b1v3	E5	b1v3:E5	A Smartphone Healthcare Application, CALO mama Plus, to Promote Weight Loss: A Randomized Controlled Trial
+2-s2.0-105006453445	2025	b1v3	E2	b1v3:E2	Exchange of Quantitative Computed Tomography Assessed Body Composition Data Using Fast Healthcare Interoperability Resources as a Necessary Step Toward Interoperable Integration of Opportunistic Screening Into Clinical Practice: Methodological Development Study
+2-s2.0-105033233271	2025	b1v3	include	b1v3:include	Multimodal AI for Body Fat Estimation: Computer Vision and Anthropometry with DEXA Benchmarks
+2-s2.0-85196419574	2024	b1v3	E3	b1v3:E3	GaitRA: triple-branch multimodal gait recognition with larger effective receptive fields and mixed attention
+2-s2.0-85127515866	2022	b1v3	E6	b1v3:E6	Automated 3D thorax model generation using handheld video-footage
+2-s2.0-85127471524	2020	b1v3	E6	b1v3:E6	Single-Shot 3D Mesh Estimation via Adversarial Domain Adaptation: Learning Directly from Synthetic Data
+2-s2.0-85186894531	2024	b1v3	include	b1v3:include	Mobile phone applications for 3-dimensional scanning and digital anthropometry: a precision comparison with traditional scanners
+2-s2.0-85091198021	2020	b1v3	E2	b1v3:E2	Prediction of systemic biomarkers from retinal photographs: development and validation of deep-learning algorithms
+2-s2.0-85093830822	2020	b1v3	include	b1v3:include	Predicting body measures from 2D images using Convolutional Neural Networks
+2-s2.0-105026337913	2025	b1v3	E6	b1v3:E6	Integration of Color QR-Code Technology in Biometric Data Encoding and Facial Identity Systems
+2-s2.0-85081190003	2020	b1v3	E6	b1v3:E6	Modified deep learning method for body postures recognition
+2-s2.0-105032188920	2025	b1v3	E6	b1v3:E6	Automated Orthopedic Sole Fabrication Using Gradient Boost-Based Anthropometric Prediction and CNC G-code Generation
+2-s2.0-105010693288	2025	b1v3	include	b1v3:include	Multi-Output and Single-Output Regression Models for Body Fitness Analysis in FitnessBody
+2-s2.0-85195048568	2024	b1v3	include	b1v3:include	A compact mathematical representation of human body silhouettes from frontal and lateral views
+2-s2.0-85066862797	2019	b1v3	E1	b1v3:E1	Estimation of Muscle Scores of Live Pigs Using a Kinect Camera
+2-s2.0-85064732073	2018	b1v3	E4	b1v3:E4	Development of a technology for interactive design of garments using add-ons of a virtual mannequin
+2-s2.0-85218215006	2024	b1v3	E5	b1v3:E5	An AI-Driven Framework for Personalized Diet Generation and Nutrition Suggestions Using Machine Leaming, Computer Vision and NLP
+2-s2.0-105021008104	2025	b1v3	E2	b1v3:E2	The Use of Computer Vision for Localization of Vertebrae on Midsagittal Computed Tomography Slices
+2-s2.0-85075024090	2019	b1v3	include	b1v3:include	Towards Accurate 3D Human Body Reconstruction from Silhouettes
+2-s2.0-85191501568	2025	b1v3	E6	b1v3:E6	Automated facial landmark measurement using machine learning: A feasibility study
+2-s2.0-85185557331	2023	b1v3	include	b1v3:include	RGB-D Image-Based Deep Neural Network Body Shape Classifier
+2-s2.0-85130503947	2022	b1v3	E6	b1v3:E6	Unintended Consequences when the Engineering Design Team is Noninclusive: An Exploration of the Literature
+2-s2.0-85097082605	2020	b1v3	include	b1v3:include	3D Human Shape Reconstruction from a Polarization Image
+2-s2.0-85136725514	2022	b1v3	E1	b1v3:E1	Using dorsal surface for individual identification of dairy calves through 3D deep learning algorithms
+2-s2.0-85114753465	2021	b1v3	E2	b1v3:E2	Quantitative assessment of fundus tessellated density and associated factors in fundus images using artificial intelligence
+2-s2.0-105026756347	2025	b1v3	E2	b1v3:E2	Data-driven abdominal phenotypes of type 2 diabetes in lean, overweight, and obese cohorts from computed tomography
+2-s2.0-105019582604	2025	b1v3	E1	b1v3:E1	AI-Based Image Profiling and Detection for the Beetle Byte Quintet Using Vision Transformer (ViT) in Advanced Stored Product Infestation Monitoring
+2-s2.0-85064521715	2019	b1v3	E5	b1v3:E5	Comparing self-monitoring strategies for weight loss in a smartphone app: Randomized controlled trial
+2-s2.0-85105304770	2021	b1v3	E4	b1v3:E4	NOVA: Rendering Virtual Worlds with Humans for Computer Vision Tasks
+2-s2.0-85208115890	2024	b1v3	E6	b1v3:E6	Differences in metabolic syndrome severity and prevalence across nine waist circumference measurements collected from smartphone digital anthropometrics
+2-s2.0-85205895810	2024	b1v3	E1	b1v3:E1	Accelerated Data Engine: A faster dataset construction workflow for computer vision applications in commercial livestock farms
+2-s2.0-85110906555	2021	b1v3	include	b1v3:include	Can computer vision be used for anthropometry? A feasibility study of a smart mobile application
+2-s2.0-85126259942	2022	b1v3	include	b1v3:include	Anthropometric Measurement Technology Using 2D Images
+2-s2.0-85160503664	2023	b1v3	E6	b1v3:E6	Scan2Weave: Connecting Digital Anthropometry with 3D Weaving Technology
+2-s2.0-85110447471	2020	b1v3	E3	b1v3:E3	Vision-based multi-modal framework for action recognition
+2-s2.0-105006737039	2025	b1v3	E2	b1v3:E2	AI-based volumetric six-tissue body composition quantification from CT cardiac attenuation scans for mortality prediction: a multicentre study
+2-s2.0-85066497891	2019	b1v3	E6	b1v3:E6	Efficacy and safety of long pulse 1064 and 2940 nm lasers in noninvasive lipolysis and skin tightening
+2-s2.0-85116955281	2021	b1v3	E6	b1v3:E6	Three-Dimensional Anthropometry for Evaluating Reliability of Worm's Eye View Photographs of Unilateral Cleft Lip Nasal Deformity
+2-s2.0-85161120974	2023	b1v3	E1	b1v3:E1	Android Mobile Application for Cattle Body Condition Score Using Convolutional Neural Networks
+2-s2.0-105036559506	2021	b1v3	E6	b1v3:E6	Generating 3D Facial Expressions with Recurrent Neural Networks
+2-s2.0-85219148375	2025	b1v3	E2	b1v3:E2	Leg Muscle Volume, Intramuscular Fat and Force Generation: Insights From a Computer-Vision Model and Fat-Water MRI
+2-s2.0-85147257232	2022	b1v3	include	b1v3:include	Monocular Human Body Shape Estimation: A Generation-aid Approach
+2-s2.0-105044705554	2025	b1v3	E4	b1v3:E4	StyleSnap: Revolutionizing Fashion with Virtual Try-On Technology
+2-s2.0-85170640585	2023	b1v3	include	b1v3:include	Development and validation of an accurate smartphone application for measuring waist-to-hip circumference ratio
+2-s2.0-85186746325	2023	b1v3	include	b1v3:include	Refining Human 3D Reconstruction from 2D Images
+2-s2.0-85145030732	2023	b1v3	include	b1v3:include	A Template-Based Method for Automatic Anthropometric Measurements from Multiple 3D Scans
+2-s2.0-85107503070	2021	b1v3	E3	b1v3:E3	3D CNN for Human Action Recognition
+2-s2.0-85212694542	2024	b1v3	E6	b1v3:E6	Standardized evaluation of diabetic retinopathy using artificial intelligence and its association with metabolic dysfunction-associated steatotic liver disease in Japan: A cross-sectional study
+2-s2.0-85123737452	2022	b1v3	include	b1v3:include	Agreement of anthropometric and body composition measures predicted from 2D smartphone images and body impedance scales with criterion methods
+2-s2.0-85082503672	2019	b1v3	include	b1v3:include	What face and body shapes can tell us about height
+2-s2.0-85150507618	2023	b1v3	E2	b1v3:E2	Image-Based Biological Heart Age Estimation Reveals Differential Aging Patterns Across Cardiac Chambers
+2-s2.0-85091192956	2020	b1v3	E2	b1v3:E2	Association between metabolic risk factors and optic disc cupping identified by deep learning method
+2-s2.0-85179647216	2023	b1v3	include	b1v3:include	Facial Landmark based BMI Analysis for Pervasive Health Informatics
+2-s2.0-105022670964	2025	b1v3	E5	b1v3:E5	Aetiological clustering of newly diagnosed type 2 diabetes using machine learning: a retrospective cross-sectional study in Dubai, UAE
+2-s2.0-85064325503	2019	b1v3	E6	b1v3:E6	Novel approaches for geometrical model-based calculation of human body segment inertial parameter values
+2-s2.0-85192013870	2024	b1v3	E6	b1v3:E6	A Sequential Learning-based Approach for Monocular Human Performance Capture
+2-s2.0-105021934043	2025	b1v3	E6	b1v3:E6	Multimodal Deep Learning for Early PCOS Diagnosis: Review and Fusion Model Proposal
+2-s2.0-85159119822	2023	b1v3	E3	b1v3:E3	Sarcopenia Prediction for Elderly People Using Machine Learning: A Case Study on Physical Activity
+2-s2.0-85184320012	2024	b1v3	E6	b1v3:E6	HRTF Interpolation Using a Spherical Neural Process Meta-Learner
+2-s2.0-85124766514	2022	b1v3	E4	b1v3:E4	Virtual reconstruction of 3D articulated human shapes applied to garment try-on in a virtual fitting room
+2-s2.0-85131240693	2022	b1v3	E6	b1v3:E6	TOWARDS FAST AND CONVENIENT END-TO-END HRTF PERSONALIZATION
+2-s2.0-85214186304	2024	b1v3	E4	b1v3:E4	Generation of Warfighter Avatars from Weapon Training Scene Images for Blast Exposure Simulations
+2-s2.0-105041234651	2025	b1v3	E4	b1v3:E4	Digital Anthropometry and Automated Pattern Adjustment: Enhancing Garment Fit for Non-standard Body Shapes Using Digital Human Modelling
+2-s2.0-85196371070	2024	b1v3	E1	b1v3:E1	A randomised crossover trial on the effects of foot starting position on calf raise test outcomes: Position does matter
+2-s2.0-105011374076	2025	b1v3	E4	b1v3:E4	A computer-vision based framework for virtual 3D garment reconstruction
+2-s2.0-85192193160	2024	b1v3	E3	b1v3:E3	Human Action Recognition Based on Body Shape and Orbicular Grid
+2-s2.0-85102500988	2020	b1v3	include	b1v3:include	Al-based BMI Inference from Facial Images: An Application to Weight Monitoring
+2-s2.0-85059133625	2019	b1v3	E2	b1v3:E2	Which Two-dimensional Radiographic Measurements of Cam Femoroacetabular Impingement Best Describe the Three-dimensional Shape of the Proximal Femur?
+2-s2.0-105018893434	2025	b1v3	E5	b1v3:E5	Sodium Reduction Program Incorporating Genetic Profile and an AI-Based App: A Randomized Clinical Trial
+2-s2.0-85087336403	2020	b1v3	include	b1v3:include	A simple vision based anthropometric estimation system using webcam
+2-s2.0-85203699118	2024	b1v3	E3	b1v3:E3	Physique-Driven Human Activity Recognition with Ensemble Learning
+2-s2.0-85072976051	2018	b1v3	E6	b1v3:E6	Pellet shape classification using deep neural networks
+2-s2.0-85064122869	2018	b1v3	E6	b1v3:E6	In-situ shadowgraph imaging
+2-s2.0-85190849232	2024	b1v3	E2	b1v3:E2	Prediction of cardiovascular risk factors from retinal fundus photographs: Validation of a deep learning algorithm in a prospective non-interventional study in Kenya
+2-s2.0-85105984779	2022	b1v3	include	b1v3:include	Estimating somatotype from a single-camera 3D body scanning system
+2-s2.0-85138126698	2022	b1v3	include	b1v3:include	Liver Fat Assessment with Body Shape
+2-s2.0-85062839297	2018	b1v3	E6	b1v3:E6	Constitution Identification of Tongue Image Based on CNN
+2-s2.0-85120988884	2021	b1v3	E6	b1v3:E6	THUNDR: Transformer-based 3D HUmaN Reconstruction with Markers
+2-s2.0-85128638726	2022	b1v3	E6	b1v3:E6	Deep models of superficial face judgments
+2-s2.0-105009479245	2025	b1v3	E4	b1v3:E4	A Rule-Based Framework for Clothing Fit Recommendation from 3D Body Reconstruction
+2-s2.0-85183317669	2023	b1v3	E3	b1v3:E3	Comparative Performance Analysis of Deep Neural Networks for Human Activity Recognition
+2-s2.0-85141124982	2022	b1v3	E1	b1v3:E1	Genetic analysis of digital image derived morphometric traits of black tiger shrimp (Penaeus monodon) by incorporating G × E investigations
+2-s2.0-85136875946	2022	b1v3	E5	b1v3:E5	Exploring an Artificial Intelligence–Based, Gamified Phone App Prototype to Track and Improve Food Choices of Adolescent Girls in Vietnam: Acceptability, Usability, and Likeability Study
+2-s2.0-85141779773	2022	b1v3	include	b1v3:include	OSSO: Obtaining Skeletal Shape from Outside
+2-s2.0-85203531300	2025	b1v3	E1	b1v3:E1	Automated fish counting system based on instance segmentation in aquaculture
+2-s2.0-85212620568	2024	b1v3	include	b1v3:include	Anthropometric Landmark Detection Network via Geodesic Heatmap on 3D Human Scan
+2-s2.0-85125245770	2022	b1v3	E2	b1v3:E2	Dietary Vitamins A, C, and Potassium Intake Is Associated With Narrower Retinal Venular Caliber
+2-s2.0-85125313309	2021	b1v3	include	b1v3:include	A Convolutional Neural Network-based Framework for the Assessment of Human Muscles
+2-s2.0-85082475988	2019	b1v3	E6	b1v3:E6	HumanMeshNet: Polygonal mesh recovery of humans
+2-s2.0-85190697703	2024	b1v3	E3	b1v3:E3	POISE: Pose Guided Human Silhouette Extraction under Occlusions
+2-s2.0-85060534065	2019	b1v3	E5	b1v3:E5	Illustration of Measurement Error Models for Reducing Bias in Nutrition and Obesity Research Using 2-D Body Composition Data
+2-s2.0-85053120785	2018	b1v3	E1	b1v3:E1	Non-contact body measurement for qinchuan cattle with LiDAR sensor
+2-s2.0-105035985128	2025	b1v3	E4	b1v3:E4	Intelligent Algorithm for Human Feature Recognition in Clothing 3D Cutting Based on Intelligent System
+2-s2.0-85197907931	2024	b1v3	include	b1v3:include	FitCraft - Redefining Tailoring Precision Through Advanced Computer Vision and Machine Learning Integration
+2-s2.0-85181151685	2024	b1v3	E5	b1v3:E5	Analysis of Artificial Intelligence Technology and Its Application in Improving the Effectiveness of Physical Education Teaching
+2-s2.0-85131310075	2022	b1v3	E6	b1v3:E6	Facial imaging to screen for fetal alcohol spectrum disorder: A scoping review
+2-s2.0-85138718582	2022	b1v3	E6	b1v3:E6	The Prevalence and Risk Factors of Diabetic Retinopathy: Screening and Prophylaxis Project in 6 Provinces of China
+2-s2.0-85216339004	2025	b1v3	E6	b1v3:E6	3D face reconstruction for maxillofacial surgery based on morphable models and neural networks: A preliminary assessment for anthropometry accuracy
+2-s2.0-85138488940	2023	b1v3	E1	b1v3:E1	High-throughput phenotyping by deep learning to include body shape in the breeding program of pacu (Piaractus mesopotamicus)
+2-s2.0-85134879544	2022	b1v3	include	b1v3:include	Silhouette images enable estimation of body fat distribution and associated cardiometabolic risk
+2-s2.0-85093948137	2020	b1v3	E6	b1v3:E6	Prediction of Personal Cardiovascular Risk using Machine Learning for Smartphone Applications
+2-s2.0-85199491415	2024	b1v3	E6	b1v3:E6	An Embeddable Implicit IUVD Representation for Part-Based 3D Human Surface Reconstruction
+2-s2.0-105012446888	2025	b1v3	E1	b1v3:E1	Challenges for Mexican sheep production in the era of precision livestock farming and artificial intelligence
+2-s2.0-85113342631	2021	b1v3	include	b1v3:include	Deep Learning-Based Automated Extraction of Anthropometric Measurements from a Single 3-D Scan
+2-s2.0-85047478245	2018	b1v3	E2	b1v3:E2	Retinal vascular diameters in relation to physical activity in Danish children — The CHAMPS Eye Study
+2-s2.0-85210737559	2025	b1v3	E1	b1v3:E1	Universal bovine identification via depth data and deep metric learning
+2-s2.0-85053504535	2018	b1v3	E2	b1v3:E2	Airway increase after open bite closure with temporary anchorage devices for intrusion of the upper posteriors: Evidence from 2D cephalometric measurements and 3D magnetic resonance imaging
+2-s2.0-85181917116	2024	b1v3	include	b1v3:include	Development of a Non-Contact Sensor System for Converting 2D Images into 3D Body Data: A Deep Learning Approach to Monitor Obesity and Body Shape in Individuals in Their 20s and 30s
+2-s2.0-105008352769	2025	b1v3	E1	b1v3:E1	International Symposium on Ruminant Physiology: Leveraging computer vision, large language models, and multimodal machine learning for optimal decision making in dairy farming
+2-s2.0-85135289978	2021	b1v3	E6	b1v3:E6	Automated Generation of Custom Fit PPE Inserts: For Respiratory Masks Using 2D and 3D Anthropometric Data
+2-s2.0-85200228376	2024	b1v3	E6	b1v3:E6	AIM4FRAIL: The AI Based Approach for Early Detection and Management of Frailty Conditions
+2-s2.0-85120802381	2021	b1v3	E1	b1v3:E1	Workflow for segmentation of caenorhabditis elegans from fluorescence images for the quantitation of lipids
+2-s2.0-85082649244	2020	b1v3	E1	b1v3:E1	Automatic estimation of dairy cattle body condition score from depth image using ensemble model
+2-s2.0-105010652007	2025	b1v3	include	b1v3:include	Assessing Human Pose Estimation Models for Clinically Relevant Body Segment Measurements
+2-s2.0-85206947297	2024	b1v3	E6	b1v3:E6	A Hybrid approach for Deepfake Detection using CNN-RNN
+2-s2.0-85072103219	2019	b1v3	E6	b1v3:E6	Applying a single-notch metric to image-guided head-related transfer function selection for improved vertical localization
+2-s2.0-85195406327	2024	b1v3	E3	b1v3:E3	HGANet-23: a novel architecture for human gait analysis based on deep neural network and improved satin bowerbird optimization
+2-s2.0-85173569684	2023	b1v3	E3	b1v3:E3	Monocular 2D and 3D Human Pose Estimation Review
+2-s2.0-85111353215	2021	b1v3	include	b1v3:include	Generating 3D Model for Human Body Shapes from 2D images using Deep Learning
+2-s2.0-85089605951	2018	b1v3	E6	b1v3:E6	Reflecting health: smart mirrors for personalized medicine
+2-s2.0-85197176598	2024	b1v3	E6	b1v3:E6	Gender Estimation from Morphometric Measurements of Mandibular Lingula by Using Machine Learning Algorithms and Artificial Neural Networks
+2-s2.0-85215351267	2025	b1v3	E3	b1v3:E3	Health & Gait: a dataset for gait-based analysis
+2-s2.0-85202973698	2024	b1v3	E6	b1v3:E6	MobileDNN: Leveraging the Potential of Hybrid MobileNetV2-DNN for Advanced Image Analysis
+2-s2.0-85217812714	2024	b1v3	E3	b1v3:E3	3D Human Pose and Shape Estimation Based on SMPL Model
+2-s2.0-85101261637	2020	b1v3	E6	b1v3:E6	3D ear shape as an estimator of hrtf notch frequency
+2-s2.0-85137786751	2022	b1v3	E5	b1v3:E5	3D Grid Based Virtual Trial Room
+2-s2.0-105024195881	2025	b1v3	E5	b1v3:E5	Intelligent Expert System to Optimize Nutritional Care: Analysis Based on Machine Learning and Clinical Rules
+2-s2.0-85075535549	2019	b1v3	E1	b1v3:E1	Visual features based automated identification of fish species using deep convolutional neural networks
+2-s2.0-85215694088	2024	b1v3	include	b1v3:include	Estimation of Body Mass Index from Facial Image Using Modified ResNet and Ridge Regression
+2-s2.0-85084637338	2020	b1v3	include	b1v3:include	Visual BMI estimation from face images using a label distribution based method
+2-s2.0-105011514105	2025	b1v3	E6	b1v3:E6	Bio-impedance spectroscopy-based classification of mental acuity in university students via machine-learning and deep-learning approaches
+2-s2.0-85132335558	2023	b1v3	include	b1v3:include	Modification and refinement of three-dimensional reconstruction to estimate body volume from a simulated single-camera image
+2-s2.0-105005583451	2025	b1v3	E1	b1v3:E1	Genetic analysis of individual feed intake and efficiency in Atlantic salmon smolts using X-ray imaging
+2-s2.0-105020715711	2025	b1v3	include	b1v3:include	Interactive Measurement of Anthropometric Dimensions from Photo Image Based on Geodesic
+2-s2.0-105021851885	2025	b1v3	E6	b1v3:E6	Exploring GenAI Image Generation in Engineering: A Thematic Analysis of Ethical and Representational Biases
+2-s2.0-85116485243	2021	b1v3	E2	b1v3:E2	Uncertainty-aware body composition analysis with deep regression ensembles on UK Biobank MRI
+2-s2.0-85211588882	2025	b1v3	include	b1v3:include	New advances in body composition assessment with ShapedNet: A single image deep regression approach
+2-s2.0-85202429999	2024	b1v3	E6	b1v3:E6	A Human Body Simulation Using Semantic Segmentation and Image-Based Reconstruction Techniques for Personalized Healthcare
+2-s2.0-85089436498	2020	b1v3	E6	b1v3:E6	Hiding Private Information in Images from AI
+2-s2.0-85150985434	2023	b1v3	E6	b1v3:E6	TSCom-Net: Coarse-to-Fine 3D Textured Shape Completion Network
+2-s2.0-85090625003	2020	b1v3	E6	b1v3:E6	Face Classification in Adults and Minors: An Approach based on Facial Anthropometry
+2-s2.0-85180188731	2024	b1v3	E6	b1v3:E6	Three-dimensional body composition parameters using automatic volumetric segmentation allow accurate prediction of colorectal cancer outcomes
+2-s2.0-85167712778	2023	b1v3	E3	b1v3:E3	A Deep Learning Dual-Stream Framework for Fall Detection
+2-s2.0-85100647964	2021	b1v3	include	b1v3:include	3D standard avatar creation of Korean women in their twenties and thirties by body types for apparel industry
+2-s2.0-85072566113	2019	b1v3	E5	b1v3:E5	Human body reshaping and its application using multiple RGB-D sensors
+2-s2.0-105017112805	2025	b1v3	E4	b1v3:E4	PhyDeformer: High-Quality Non-Rigid Garment Registration with Physics-Awareness
+2-s2.0-85105864650	2021	b1v3	E3	b1v3:E3	Physique-Based Human Activity Recognition Using Ensemble Learning and Smartphone Sensors
+2-s2.0-85075400706	2019	b1v3	E6	b1v3:E6	Fingerprints classification through image analysis and machine learning method
+2-s2.0-85174503983	2023	b1v3	include	b1v3:include	3D Human Body Models: Parametric and Generative Methods Review
+2-s2.0-85081918366	2019	b1v3	E3	b1v3:E3	DenseRaC: Joint 3D pose and shape estimation by dense render-and-compare
+2-s2.0-85092715591	2020	b1v3	include	b1v3:include	Predicting 3D body shape and body composition from conventional 2D photography
+2-s2.0-85067666963	2019	b1v3	include	b1v3:include	Body Weight Analysis from Human Body Images
+2-s2.0-105001084550	2025	b1v3	E4	b1v3:E4	A mass customization framework and reclassification method for lower garments in E-commerce
+2-s2.0-85136276676	2021	b1v3	E6	b1v3:E6	An IoT Solution: A Fitness Trainer
+2-s2.0-105002269152	2025	b1v3	E6	b1v3:E6	Accurate-PGNet: Learning to Assemble Perceptual Body Parts for Accurate Human Skeleton Establishment
+2-s2.0-85193497608	2024	b1v3	E5	b1v3:E5	Effectiveness of artificial intelligence vs. human coaching in diabetes prevention: a study protocol for a randomized controlled trial
+2-s2.0-85122797094	2021	b1v3	include	b1v3:include	Estimation of Body Mass Index from photographs using deep Convolutional Neural Networks
+2-s2.0-85056497141	2018	b1v3	E5	b1v3:E5	Examining the Frequency and Contribution of Foods Eaten Away from Home in the Diets of 18- To 30-Year-Old Australians Using Smartphone Dietary Assessment (MYMeals): Protocol for a Cross-Sectional Study
+2-s2.0-85164184043	2023	b1v3	E6	b1v3:E6	Topology-preserved human reconstruction with details
+2-s2.0-105009850254	2025	b1v3	include	b1v3:include	Method for estimating real-scale 3D human body shape from an image based on 3D camera calibration and computer graphics-based reverse projection photogrammetry
+2-s2.0-85141266740	2022	b1v3	E3	b1v3:E3	Graph convolutional network with triplet attention learning for person re-identification
+2-s2.0-105012714237	2025	b1v3	include	b1v3:include	Facial Image-Based BMI Estimation Using ResNet50 for Obesity Screening
+2-s2.0-85126139655	2022	b1v3	E6	b1v3:E6	Digital Photogrammetry for Assessing Medial Canthal Tendon Laxity: Novel Standardized Three-Dimensional Versus Traditional Two-Dimensional Lateral Distraction Test
+2-s2.0-85171754283	2023	b1v3	E6	b1v3:E6	Experiment on digital anthropometric measurements of the hand using machine vision; [Experiment zur digitalen Erfassung anthropometrischer Maße der Hand mittels maschineller Bilderkennung]
+2-s2.0-85162841218	2023	b1v3	include	b1v3:include	Classification of female body shape based on two-dimensional image and computer vision technology
+2-s2.0-105017756440	2025	b1v3	include	b1v3:include	SinBMI: Estimating BMI from a Single Image
+2-s2.0-105029616563	2024	b1v3	E4	b1v3:E4	DiffusedWrinkles: A Diffusion-Based Model for Data-Driven Garment Animation
+2-s2.0-105033228495	2025	b1v3	E5	b1v3:E5	NutriFit: An Integrated Computational Approach to Personalized Wellness: Optimizing Nutrition and Exercise Through Machine Learning
+2-s2.0-85151357519	2022	b1v3	E6	b1v3:E6	Face Anthropometry Aware Audio-visual Age Verification
+2-s2.0-85107942163	2021	b1v3	E2	b1v3:E2	Deep-learning models for the detection and incidence prediction of chronic kidney disease and type 2 diabetes from retinal fundus images
+2-s2.0-85085506492	2020	b1v3	E3	b1v3:E3	Do as i do: Transferring human motion and appearance between monocular videos with spatial and temporal constraints
+2-s2.0-85207853473	2024	b1v3	include	b1v3:include	Deep Body Fitness
+2-s2.0-85146297942	2023	b1v3	include	b1v3:include	Validity and reliability of a mobile digital imaging analysis trained by a four-compartment model
+2-s2.0-85112863115	2021	b1v3	E6	b1v3:E6	Craniofacial Anthropometry of Healthy Turkish Young Adults: Outer Canthal, Inner Canthal, Palpebral Fissure, and Interpupillary Distances
+2-s2.0-85074955524	2019	b1v3	E3	b1v3:E3	AI-powered Posture Training: Application of machine learning in sitting posture recognition using the Lifechair smart cushion
+2-s2.0-105010692989	2025	b1v3	E4	b1v3:E4	FashionBody and SmartFashion: Innovative Components for a Fashion Recommendation System
+2-s2.0-85125981801	2020	b1v3	E6	b1v3:E6	Transfer learning for wearable computers
+2-s2.0-85187558845	2024	b1v3	E6	b1v3:E6	Autonomous Car Prototype Navigation Using Simultaneous Localization and Mapping System
+2-s2.0-85146323516	2022	b1v3	E1	b1v3:E1	DeepShapeKit: accurate 4D shape reconstruction of swimming fish
+2-s2.0-105044145010	2025	b1v3	E6	b1v3:E6	PHD: Personalized 3D Human Body Fitting with Point Diffusion
+2-s2.0-85192189040	2024	b1v3	include	b1v3:include	Image-Based Body Shape Estimation to Detect Malnutrition
+2-s2.0-85134649582	2022	b1v3	include	b1v3:include	Accurate 3D Body Shape Regression using Metric and Semantic Attributes
+2-s2.0-85175096908	2021	b1v3	E2	b1v3:E2	Reliability of anthropometric landmarks on body surface for estimating pelvic incidence without lateral X-ray
+2-s2.0-85097270124	2020	b1v3	E5	b1v3:E5	Protecting Mobile Food Diaries from Getting too Personal
+2-s2.0-86000207386	2024	b1v3	E3	b1v3:E3	Improved Real-time Yoga Pose Estimation with GAN Augmentation
+2-s2.0-85133137587	2022	b1v3	include	b1v3:include	Smartphone camera based assessment of adiposity: a validation study
+2-s2.0-85151389878	2023	b1v3	E2	b1v3:E2	Three-Dimensional Imaging of Commonly Performed Peripheral Blocks: Using a Handheld Point-of-Care Ultrasound System
+2-s2.0-105009270626	2025	b1v3	E3	b1v3:E3	Lightweight CNN-based head pose estimation using heatmaps and anthropometric facial measures
+2-s2.0-85089507305	2020	b1v3	E5	b1v3:E5	A digital biomarker of diabetes from smartphone-based vascular signals
+2-s2.0-85086629803	2020	b1v3	E4	b1v3:E4	CSSNet: Image-based clothing style switch
+2-s2.0-85088134415	2020	b1v3	E5	b1v3:E5	Validation of the effectiveness of a digital integrated healthcare platform utilizing an AI-based dietary management solution and a real-time continuous glucose monitoring system for diabetes management: A randomized controlled trial
+2-s2.0-85089677126	2020	b1v3	E6	b1v3:E6	Estimating sex and age from a face: a forensic approach using machine learning based on photo-anthropometric indexes of the Brazilian population
+2-s2.0-105010455249	2025	b1v3	E6	b1v3:E6	Using Fuzzy C-Means clustering and PCA in public health: A machine learning approach to combat CVD and obesity
+2-s2.0-85115196124	2021	b1v3	E3	b1v3:E3	A Feature Fusion Model for Person Identification Using Top-view Image
+2-s2.0-85079008463	2020	b1v3	include	b1v3:include	Categorization of lower body shapes of abdominal obese men using a script-based 3D body measurement software
+2-s2.0-85164819652	2023	b1v3	E6	b1v3:E6	Eyes as the windows into cardiovascular disease in the era of big data
+2-s2.0-85164490566	2023	b1v3	E6	b1v3:E6	Abdominal fat quantification using convolutional networks
+2-s2.0-85146276826	2023	b1v3	include	b1v3:include	Evaluation of automated anthropometrics produced by smartphone-based machine learning: a comparison with traditional anthropometric assessments
+2-s2.0-85218817459	2025	b1v3	E6	b1v3:E6	Functionally characterizing obesity-susceptibility genes using CRISPR/Cas9, in vivo imaging and deep learning
+2-s2.0-85218222008	2025	b1v3	include	b1v3:include	Advances in the estimation of body fat percentage using an artificial intelligence 2D-photo method
+2-s2.0-85123653777	2022	b1v3	E6	b1v3:E6	Novel Screening and Monitoring Techniques for Deformational Plagiocephaly: A Systematic Review
+2-s2.0-85049883060	2018	b1v3	E3	b1v3:E3	Convolutional recurrent neural networks for posture analysis in fall detection
+2-s2.0-85097329126	2020	b1v3	E4	b1v3:E4	A pixel-based framework for data-driven clothing
+2-s2.0-85096994893	2020	b1v3	E2	b1v3:E2	Kidney segmentation in neck-to-knee body MRI of 40,000 UK Biobank participants
+2-s2.0-85202452607	2024	b1v3	include	b1v3:include	Multiplatform Computer Vision System to Support Physical Fitness Assessments in Schoolchildren
+2-s2.0-85184939036	2023	b1v3	include	b1v3:include	PatchBMI-Net: Lightweight Facial Patch-based Ensemble for BMI Prediction
+2-s2.0-105018893155	2025	b1v3	E3	b1v3:E3	Anatomy-Based Assessment of Spinal Posture Using IMU Sensors and Machine Learning
+2-s2.0-85069267961	2019	b1v3	E2	b1v3:E2	Retinal microvasculature: Population epidemiology and concordance in Australian children aged 11-12 years and their parents
+2-s2.0-85160448990	2023	b1v3	E3	b1v3:E3	Scene-Aware 3D Multi-Human Motion Capture from a Single Camera
+2-s2.0-85133989946	2020	b1v3	E1	b1v3:E1	Software tools for behavioral phenotyping of zebrafish across the life span
+2-s2.0-85099883191	2020	b1v3	include	b1v3:include	Feature Bridging Networks for 3D Human Body Shape Estimation from a Single Depth Map
+2-s2.0-85185879028	2023	b1v3	include	b1v3:include	Cloth2Body: Generating 3D Human Body Mesh from 2D Clothing
+2-s2.0-85059861693	2019	b1v3	include	b1v3:include	A New Female Body Segmentation and Feature Localisation Method for Image-Based Anthropometry
+2-s2.0-85122896778	2022	b1v3	E3	b1v3:E3	Mobile Health App for Adolescents: Motion Sensor Data and Deep Learning Technique to Examine the Relationship between Obesity and Walking Patterns
+2-s2.0-85171432346	2023	b1v3	E6	b1v3:E6	Shoulder and Knee Abnormality Examination Based on Artificial Landmark Estimation
+2-s2.0-85078113333	2019	b1v3	include	b1v3:include	Anthropometric based Real Height Estimation using Multi layer peceptron ANN architecture in surveillance areas
+2-s2.0-105018736746	2025	b1v3	E4	b1v3:E4	Garment Recycle Training and Conditional Garment-Person Outline Attention-Guided Virtual Tryon
+2-s2.0-85067383404	2020	b1v3	E4	b1v3:E4	Parametric design for the construction of a corset surface based on historical female bodies
+2-s2.0-105010488047	2025	b1v3	E2	b1v3:E2	Comparison of Digital Breast Tomosynthesis and Mammography-based Radiomics for Breast Cancer Risk Assessment: Case-Control Study
+2-s2.0-85180788139	2023	b1v3	include	b1v3:include	BMI Prediction for Full Body Images Using PoseNet Embeddings
+2-s2.0-85079072079	2020	b1v3	E6	b1v3:E6	The Reliability and Concurrent Validity of PainMAP Software for Automated Quantification of Pain Drawings on Body Charts of Patients With Low Back Pain
+2-s2.0-85071696446	2019	b1v3	E5	b1v3:E5	Study Protocol for the Effects of Artificial Intelligence (AI)-Supported Automated Nutritional Intervention on Glycemic Control in Patients with Type 2 Diabetes Mellitus
+2-s2.0-85061487250	2018	b1v3	E6	b1v3:E6	Human Appearance Transfer
+2-s2.0-85100603629	2021	b1v3	E5	b1v3:E5	Clusters of people with type 2 diabetes in the general population: Unsupervised machine learning approach using national surveys in Latin America and the Caribbean
+2-s2.0-105023768315	2025	b1v3	E3	b1v3:E3	The effects of physical activity on diabetic retinopathy in type 2 diabetes using automated vascular analysis: a cohort study
+2-s2.0-84975296086	2016	b1v3	E5	b1v3:E5	Implementation of interval walking training in patients with type 2 diabetes in Denmark: Rationale, design, and baseline characteristics
+2-s2.0-84982131523	2016	b1v3	E6	b1v3:E6	Predictive ability of anthropomorphic metrics in determining age and sex of children
+2-s2.0-85046301277	2017	b1v3	E6	b1v3:E6	Elastic 3D shape analysis using square-root normal field representation
+2-s2.0-85014646117	2017	b1v3	include	b1v3:include	Individualizing women’s suit patterns using body measurements from two-dimensional images
+2-s2.0-85011310420	2016	b1v3	include	b1v3:include	HS-Nets: Estimating human body shape from silhouettes with convolutional neural networks
+2-s2.0-85055984304	2017	b1v3	E3	b1v3:E3	A framework for people re-identification in multi-camera surveillance systems
+2-s2.0-85030252167	2017	b1v3	E6	b1v3:E6	Improving elevation perception with a tool for image-guided head-related transfer function selection
+2-s2.0-85011277671	2016	b1v3	E3	b1v3:E3	Learning camera viewpoint using CNN to improve 3D body pose estimation
+2-s2.0-84962426706	2016	b1v3	E6	b1v3:E6	Single-camera automatic landmarking for people recognition with an ensemble of regression trees
+2-s2.0-84978639805	2017	b1v3	E3	b1v3:E3	Human activity recognition using segmented body part and body joint features with hidden Markov models
+2-s2.0-85019148902	2016	b1v3	include	b1v3:include	Predicting privileged information for height estimation
+2-s2.0-84986255641	2016	b1v3	E6	b1v3:E6	Linear shape deformation models with local support using graph-based structured matrix factorisation
+2-s2.0-85027858545	2017	b1v3	include	b1v3:include	Two-stage model fitting approach for human body shape estimation from a single depth image
+2-s2.0-85032348001	2017	b1v3	E6	b1v3:E6	Vision-based safety vest detection in a construction scene
+2-s2.0-84977097941	2016	b1v3	E3	b1v3:E3	Reconstruction of human behavior and movement feature recognition based on the video image
+2-s2.0-85008481896	2016	b1v3	E3	b1v3:E3	The effect of ongoing feedback on physical activity levels following an exercise intervention in older adults: A randomised controlled trial protocol
+2-s2.0-85018918545	2017	b1v3	E6	b1v3:E6	Three-dimensional surface scanners compared with standard anthropometric measurements for head shape
+2-s2.0-85027989893	2017	b1v3	E3	b1v3:E3	Tracking human poses in various scales with accurate appearance
+2-s2.0-85018550966	2017	b1v3	E3	b1v3:E3	Person re-identification dataset with RGB-D camera in a top-view configuration
+2-s2.0-85046874995	2017	b1v3	E6	b1v3:E6	Image-based clothes changing system
+2-s2.0-85014086104	2017	b1v3	E3	b1v3:E3	A robust approach for human activity recognition using 3-D body joint motion features with deep belief network
+2-s2.0-85002587406	2016	b1v3	E6	b1v3:E6	Human features extraction by using anatomical and low level image descriptors from whole body images
+2-s2.0-84969667382	2016	b1v3	include	b1v3:include	Feature Extraction from 2D Images for Body Composition Analysis
+2-s2.0-85021879725	2017	b1v3	E3	b1v3:E3	Multi-modal uniform deep learning for RGB-D person re-identification
+2-s2.0-85029160273	2017	b1v3	include	b1v3:include	Automatic measurement of anthropometric dimensions using frontal and lateral silhouettes
+2-s2.0-84959441365	2017	b1v3	include	b1v3:include	Template deformation-based 3-D reconstruction of full human body scans from low-cost depth cameras
+2-s2.0-85018379031	2016	b1v3	E6	b1v3:E6	A novel age estimation of facial image using KLT
+2-s2.0-85025697768	2017	b1v3	include	b1v3:include	Automatic RBG-depth-pressure anthropometric analysis and individualised sleep solution prescription
+2-s2.0-85009493289	2017	b1v3	include	b1v3:include	On the extraction of anthropometric parameters by visual and non-visual means
+2-s2.0-85013016911	2017	b1v3	E6	b1v3:E6	Comparative analysis of PRID algorithms based on results ambiguity evaluation
+2-s2.0-84952979054	2016	b1v3	E6	b1v3:E6	Normative anthropometric analysis and aesthetic indication of the ocular region for young Chinese adults
+2-s2.0-85006802570	2016	b1v3	E6	b1v3:E6	Show me your body: Gender classification from still images
+2-s2.0-85044446580	2017	b1v3	include	b1v3:include	Human shape from silhouettes using generative HKS descriptors and cross-Modal neural networks
+2-s2.0-85029413668	2017	b1v3	include	b1v3:include	Face-to-BMI: Using computer vision to infer body mass index on social media
+2-s2.0-86000509150	2025	b2	include	b2:include	Analysis of sleep quality and its impact on body composition on the pre-competition day in natural bodybuilders; [Análisis de la calidad del sueño y su impacto en la composición corporal en culturistas naturales el día previo a la competencia]
+2-s2.0-85148772663	2023	b2	include	b2:include	Body Composition of Competitive Bodybuilders: A Systematic Review of Published Data and Recommendations for Future Work
+2-s2.0-85104038176	2020	b2	include	b2:include	Can Blood Flow Restriction Used During Aerobic Training Enhance Body Composition in Physique Athletes?
+2-s2.0-85196537625	2025	b2	E7	b2:E7	Hepatotoxicity of usnic acid and underlying mechanisms
+2-s2.0-85065222756	2019	b2	E8	b2:E8	The combination of sport and sport-specific diet is associated with characteristics of gut microbiota: An observational study
+2-s2.0-85210562177	2025	b2	E6	b2:E6	Exploring the Confluence of Animal Medicine and its Implications for Human Health: A Systematic Literature Review
+2-s2.0-85080106887	2020	b2	include	b2:include	Nutritional Recommendations for Physique Athletes
+2-s2.0-85102965354	2021	b2	include	b2:include	Mitochondrial bioenergetic pathways in blood leukocyte transcriptome decrease after intensive weight loss but are rescued following weight regain in female physique athletes
+2-s2.0-85094844655	2020	b2	include	b2:include	Alterations in Body Composition, Resting Metabolic Rate, Muscular Strength, and Eating Behavior in Response to Natural Bodybuilding Competition Preparation: A Case Study
+2-s2.0-84994706829	2016	b2	E7	b2:E7	‘Gain with no pain’: Anabolic-androgenic steroids trafficking in the UK
+2-s2.0-85178498476	2023	b2	E1	b2:E1	Resistance exercise protects mice from protein-induced fat accretion
+2-s2.0-85046760075	2017	b2	include	b2:include	High resistance training volume and low caloric and protein intake are associated with detrimental alterations in body composition of an amateur bodybuilder using anabolic steroids: A case report
+2-s2.0-85217779547	2025	b2	include	b2:include	Description of body image perception and its relation to nutrient intake in bodybuilders
+2-s2.0-85129792084	2022	b2	E6	b2:E6	Pre-exhaustion Training, a Narrative Review of the Acute Responses and Chronic Adaptations
+2-s2.0-85056176616	2019	b2	E7	b2:E7	Median Arcuate Ligament Syndrome Related to Bodybuilding
+2-s2.0-85188140912	2023	b2	E10	b2:E10	Ephedra
+2-s2.0-85115048108	2021	b2	include	b2:include	Achieving an optimal fat loss phase in resistance-trained athletes: A narrative review
+2-s2.0-105019492474	2025	b2	include	b2:include	The effect of probiotic supplementation on anthropometric indices and body composition in unprofessional bodybuilders: a randomized, double-blind,: Placebo-Controlled clinical trial
+2-s2.0-85042926099	2018	b2	include	b2:include	Physiological implications of preparing for a natural male bodybuilding competition
+2-s2.0-85152666790	2023	b2	E7	b2:E7	Factitious thyrotoxicosis and thyroid hormone misuse or abuse; [Thyrotoxicose factice et abus de l'hormone thyroïdien]
+2-s2.0-85089839362	2020	b2	E7	b2:E7	Body building and aminotransferase elevations: A review
+2-s2.0-85056772455	2018	b2	include	b2:include	The effects of daily food ingestion on improved immune functions and health promotion of bodybuilding athletes
+2-s2.0-85153070494	2023	b2	include	b2:include	During bodybuilding preparation, is a greater energy deficit related to a lower body fat percentage?; [Lors d'une préparation à la musculation, un plus grand déficit énergétique est-il lié à un pourcentage de graisse corporelle plus faible ?]
+2-s2.0-85030650783	2017	b2	E6	b2:E6	Comparison of perceived exertion between bodybuilders and active individuals in different exercises and intensities
+2-s2.0-85089906037	2020	b2	E7	b2:E7	Development and Validation of HPLC/DAD Method for Simultaneously Determination of Six Prohibited Substances in Model Matrices
+2-s2.0-105011635785	2025	b2	include	b2:include	Dietary, Body Composition, and Blood Leptin Variations in Fit-Model Female Athletes During the Pre-Competition Period
+2-s2.0-85057594958	2019	b2	E7	b2:E7	Severe Hypoglycemia Due to Cryptic Insulin Use in a Bodybuilder
+2-s2.0-105019114942	2025	b2	include	b2:include	The harder the prep, the harder the recovery: a qualitative exploration of physique athlete perspectives on competition weight loss and restoration
+2-s2.0-85151575398	2023	b2	include	b2:include	Weight loss induces changes in adaptive thermogenesis in female and male physique athletes
+2-s2.0-85086917638	2020	b2	include	b2:include	Physiological, psychological and performance-related changes following physique competition: A case-series
+2-s2.0-85084120223	2021	b2	E7	b2:E7	Multi-Criteria Decision Analysis Model for Assessing the Risk from Multi-Ingredient Dietary Supplements (MIDS)
+2-s2.0-105005117602	2025	b2	include	b2:include	Hydration Strategies and Body Composition Differences in Male and Female Elite Bodybuilders During Competition
+2-s2.0-85132679112	2022	b2	E8	b2:E8	Quantifying frequency of use of methods of body mass loss in competing UK powerlifters
+2-s2.0-84957796921	2016	b2	E7	b2:E7	Rhabdomyolysis secondary to clenbuterol use and exercise
+2-s2.0-85047056262	2017	b2	E6	b2:E6	Current dietary supplement use of Australian military veterans of Middle East operations
+2-s2.0-85112595085	2021	b2	include	b2:include	Biopsychosocial Effects of Competition Preparation in Natural Bodybuilders
+2-s2.0-85184253358	2023	b2	include	b2:include	Effect of bodybuilding athletes’ weight loss method on performance factors and immune function
+2-s2.0-85179294989	2023	b2	E6	b2:E6	Dietary Supplements and Weight Management
+2-s2.0-85044178202	2018	b2	E1	b2:E1	The effects of whey and soy proteins on growth performance, gastrointestinal digestion, and selected physiological responses in rats
+2-s2.0-85074350227	2019	b2	include	b2:include	A narrative review on female physique athletes: The physiological and psychological implications of weight management practices
+2-s2.0-85150352232	2023	b2	E6	b2:E6	Occurrence, consumption level, fate and ecotoxicology risk of beta-agonist pharmaceuticals in a wastewater treatment plant in Eastern China
+2-s2.0-85103331292	2021	b2	E1	b2:E1	Oxidized Hyaluronic Acid Hydrogels as a Carrier for Constant-Release Clenbuterol Against High-Fat Diet-Induced Obesity in Mice
+2-s2.0-85065061676	2019	b2	include	b2:include	Should Competitive Bodybuilders Ingest More Protein than Current Evidence-Based Recommendations?
+2-s2.0-85046807782	2017	b2	E6	b2:E6	Bodybuilding links to Upper crossed syndrome
+2-s2.0-85042511501	2017	b2	include	b2:include	Case study: The effect of 32 weeks of figure-contest preparation on a self-proclaimed drug-free female’s lean body and bone mass
+2-s2.0-85153101823	2023	b2	include	b2:include	Evaluation of the reduction in micronutrient intake in bodybuilding athletes during a preparation; [Évaluation de la diminution des apports en micronutriments chez des athlètes pratiquant le culturisme au cours d'une préparation]
+2-s2.0-85138497120	2022	b2	include	b2:include	Resting metabolic rate in bodybuilding: Differences between indirect calorimetry and predictive equations
+2-s2.0-85049175422	2018	b2	E6	b2:E6	Physical exercise in gyms: Perspectives of the self-determination theory
+2-s2.0-85068966159	2020	b2	E6	b2:E6	The Additive Effects of Creatine Supplementation and Exercise Training in an Aging Population: A Systematic Review of Randomized Controlled Trials
+2-s2.0-85061563456	2018	b2	E8	b2:E8	Physical fitness of students practicing various artistic gymnastic routines
+2-s2.0-85085537655	2020	b2	include	b2:include	Body Composition Assessment in Male and Female Bodybuilders: A 4-Compartment Model Comparison of Dual-Energy X-Ray Absorptiometry and Impedance-Based Devices
+2-s2.0-85059280949	2019	b2	include	b2:include	Satiating effect of high protein diets on resistance-trained subjects in energy deficit
+2-s2.0-85176933831	2023	b2	E6	b2:E6	Exploring risk factors of drive for muscularity and muscle dysmorphia in male adolescents from a resource-limited setting in Burkina Faso
+2-s2.0-85122528756	2021	b2	include	b2:include	Anthropometrical changes of highly-skilled female bodybuilders during basic mesocycle of annual preparation
+2-s2.0-105009844916	2025	b2	include	b2:include	Sex- and sport-specific differences among elite strength and physique competitors
+2-s2.0-85163616284	2023	b2	include	b2:include	Alterations in Measures of Body Composition, Neuromuscular Performance, Hormonal Levels, Physiological Adaptations, and Psychometric Outcomes during Preparation for Physique Competition: A Systematic Review of Case Studies
+2-s2.0-85117922071	2021	b2	E6	b2:E6	Relationship between echocardiogram and physical parameters in experienced resistance trainers: A pilot study
+2-s2.0-85040670331	2018	b2	include	b2:include	Nutritional strategies of high level natural bodybuilders during competition preparation
+2-s2.0-85092926710	2021	b2	E7	b2:E7	2,4 dinitrophenol: It's not just for men
+2-s2.0-85106276865	2020	b2	include	b2:include	Effectiveness of Diet Refeeds and Diet Breaks as a Precontest Strategy
+2-s2.0-85009414523	2016	b2	E6	b2:E6	Biological, psychological, sociocultural factors contributing to the drive for muscularity in weight-training men
+2-s2.0-105005837862	2025	b2	E7	b2:E7	Off-label GLP-1 weight-loss medicine use among online bodybuilders: Folk pharmacology, risk and harm reduction
+2-s2.0-85164201658	2023	b2	E8	b2:E8	Serum irisin concentration and its association with muscle and fat mass in aerobic and anaerobic endurance athlete men and women
+2-s2.0-85190751769	2024	b2	E8	b2:E8	Circulating irisin and its connection with indices of body composition in aerobic and anaerobic endurance professional athletes: A case-control study; [Муса Нуман Ахмад, Далія Мохаммад Абу Аль Хайджа. Циркулюючий іризин та його зв’язок з індексами складу тіла у]; [Муса Нуман Ахмад, Далия Мохаммад Абу Аль Хайджа. Циркулирующий иризин и его связь с показателями состава тела у профессиональных спортсменов с аэробной и анаэробной выносливостью: исследование «случай-контроль»]
+2-s2.0-85074398471	2019	b2	E6	b2:E6	Disordered eating attitudes correlate with body dissatisfaction among Kuwaiti male college students
+2-s2.0-85067021165	2019	b2	include	b2:include	Molecular pathways mediating immunosuppression in response to prolonged intensive physical training, low-energy availability, and intensive weight loss
+2-s2.0-105003416234	2025	b2	include	b2:include	Effects of inspiratory muscle training on 1RM performance and body composition in professional natural bodybuilders
+2-s2.0-85102022492	2021	b2	include	b2:include	The effect of ginseng supplementation on anabolic index, muscle strength, body composition, and testosterone and cortisol response to acute resistance exercise in male bodybuilders; [Effets de la supplémentation en ginseng sur l'indice anabolique, la force musculaire, la composition corporelle et la réponse de la testostérone et du cortisol à un exercice aigu chez les culturistes masculins]
+2-s2.0-85034859999	2017	b2	include	b2:include	Physiological changes following competition in male and female physique athletes: A pilot study
+2-s2.0-85153980578	2023	b2	include	b2:include	Self-Reported Training and Supplementation Practices Between Performance-Enhancing Drug-User Bodybuilders Compared with Natural Bodybuilders
+2-s2.0-85090774669	2020	b2	E8	b2:E8	Pre-competition weight loss models in taekwondo: Identification, characteristics and risk of dehydration
+2-s2.0-85146786796	2023	b2	include	b2:include	Dietary Intake, Serum Hormone Concentrations, Amenorrhea and Bone Mineral Density of Physique Athletes and Active Gym Enthusiasts
+2-s2.0-85187951020	2024	b2	E6	b2:E6	Effectiveness of high-fat and high-carbohydrate diets on body composition and maximal strength after 15 weeks of resistance training
+2-s2.0-85054683339	2018	b2	E6	b2:E6	Muscle dysmorphia psychopathology: Critical analysis of the international literature; [Psychopathologie de la dysmorphie musculaire : analyse critique de la littérature internationale]
+2-s2.0-85037640415	2018	b2	E7	b2:E7	The use of steroids by gym athletes: An attempt to diagnose the problem scale and possible causes
+2-s2.0-105017464724	2025	b2	E7	b2:E7	Hepatotoxicity of Herbal and Dietary Supplements a Review of Diagnosis, Histologic Features, and Common Culprits: Bodybuilding and Weight Loss Supplements
+2-s2.0-85145355083	2022	b2	E6	b2:E6	Type of Training Recommendation Based on Body Fat Prediction Using LASSO Regression
+2-s2.0-85106344107	2021	b2	include	b2:include	Carbohydrate refeed does not modify GVT-performance following energy restriction in bodybuilders
+2-s2.0-85054752437	2019	b2	include	b2:include	Fat-free Mass Characteristics of Muscular Physique Athletes
+2-s2.0-105021630419	2025	b2	include	b2:include	Hormone Profiles After Planned Low Energy Availability Exposure in Naturally Menstruating and Hormonal Contraceptive Using Physique Athletes
+2-s2.0-85112333442	2020	b2	include	b2:include	Body composition and dietary patterns in professional and amateur bodybuilders
+2-s2.0-85034420270	2017	b2	E6	b2:E6	Anorexia nervosa in men; [Anorexie mentale masculine]
+2-s2.0-85122853124	2022	b2	include	b2:include	Weight loss practices and eating behaviours among female physique athletes: Acquiring the optimal body composition for competition
+2-s2.0-85107447899	2021	b2	include	b2:include	The role of age in the physiological adaptations and psychological responses in bikini-physique competitor contest preparation: a case series
+2-s2.0-85099994805	2020	b2	include	b2:include	The Ketogenic Diet for Bodybuilders and Physique Athletes
+2-s2.0-85105230998	2021	b2	E7	b2:E7	The effect of the clenbuterol—β2-adrenergic receptor agonist on the peripheral blood mononuclear cells proliferation, phenotype, functions, and reactive oxygen species production in race horses in vitro
+2-s2.0-85110715935	2021	b2	include	b2:include	A comparative analysis of body composition and dimensions of experienced olympic weightlifters, powerlifters and bodybuilders
+2-s2.0-85076372997	2020	b2	include	b2:include	Disordered eating behaviours in female physique athletes
+2-s2.0-85041025846	2018	b2	include	b2:include	Negative consequences of low energy availability in natural male bodybuilding: A review
+2-s2.0-85183418226	2024	b2	include	b2:include	Training, Pharmacological Ergogenic Aids, Dehydration, and Nutrition Strategies during a Peak Week in Competitive Brazilian Bodybuilders: An Observational Cross-Sectional Study in a Non-World Anti-Doping Agency Competitive Environment
+2-s2.0-85044245581	2017	b2	include	b2:include	Do bodybuilders use evidence-based nutrition strategies to manipulate physique?
+2-s2.0-85176267298	2024	b2	E7	b2:E7	The dichotomy between health and drug abuse in bodybuilding
+2-s2.0-85141374654	2022	b2	E6	b2:E6	Body Recomposition: would it be possible to induce fat loss and muscle hypertrophy at the same time?; [Recomposição Corporal: seria possível induzir emagrecimento e hipertrofia muscular ao mesmo tempo?]
+2-s2.0-85055632828	2017	b2	E8	b2:E8	Optimising physique for sports performance
+2-s2.0-85092370123	2020	b2	E6	b2:E6	High plasma soluble levels of the immune checkpoint HLA-G molecule among bodybuilders
+2-s2.0-85111721069	2021	b2	include	b2:include	Serum IGF-I concentrations are low in female bodybuilders in the pre-contest phase
+2-s2.0-85048351550	2018	b2	E6	b2:E6	Dietary Supplement Use in a Large, Representative Sample of the US Armed Forces
+2-s2.0-85129196607	2022	b2	include	b2:include	Without refeeding days, drastically reducing calories in the pre-competition phase may does not guarantee a better reduction in bodybuilder's body fat percentage
+2-s2.0-85192923886	2024	b2	E7	b2:E7	Acute effects of energy drink on arterial stiffness and endothelial function in young male bodybuilders with habitual caffeine consumption
+2-s2.0-85140760990	2022	b2	include	b2:include	Substantial Fat Loss in Physique Competitors Is Characterized by Increased Levels of Bile Acids, Very-Long Chain Fatty Acids, and Oxylipins
+2-s2.0-85019846521	2017	b2	E6	b2:E6	Correlates of muscle dysmorphia symptomatology in natural bodybuilders: Distinguishing factors in the pursuit of hyper-muscularity
+2-s2.0-85109402429	2021	b2	E7	b2:E7	A case study of an 87-year-old male bodybuilder with complex health conditions
+2-s2.0-85139954576	2022	b2	include	b2:include	Body Composition and Its Perception among Professional Female Volleyball Players and Fitness Athletes (Silesia, Poland)
+2-s2.0-85116537653	2021	b2	E6	b2:E6	Young people⇔s experiences of engaging with fitspiration on instagram: Gendered perspective
+2-s2.0-85062822362	2019	b2	E6	b2:E6	Personality Traits and Occupational Demands Are Linked to Dietary Supplement Use in Soldiers: A Cross-sectional Study of Sensation Seeking Behaviors
+2-s2.0-84969834728	2017	b2	E7	b2:E7	2,4-Dinitrophenol, the inferno drug: a netnographic study of user experiences in the quest for leanness
+2-s2.0-85060862745	2020	b2	E6	b2:E6	Beefing-up, slimming-down and the somatic self of Japanese men in time of metabolic syndrome
+2-s2.0-84981347681	2016	b2	E6	b2:E6	Assessment of alcohol production by uncoupling oxidative phosphorylation on some pollutants
+2-s2.0-85086158822	2020	b2	E7	b2:E7	Bodybuilding supplements leading to copper toxicity, encephalopathy, fulminant hepatic failure and rhabdomyolysis
+2-s2.0-85111975714	2021	b2	include	b2:include	Changes and differences in body composition and strength abilities of athletes in fitness and bodybuilding at different intervals of rest
+2-s2.0-85099814375	2020	b2	include	b2:include	Fasted Versus Nonfasted Aerobic Exercise on Body Composition: Considerations for Physique Athletes
+2-s2.0-85020220922	2017	b2	include	b2:include	Indicator amino acid-derived estimate of dietary protein requirement for male bodybuilders on a nontraining day is several-fold greater than the current recommended dietary allowance
+2-s2.0-105030535665	2018	b2	include	b2:include	BODYBUILDING
+2-s2.0-85042470918	2017	b2	include	b2:include	Case study: Unfavorable but transient physiological changes during contest preparation in a drug-free male bodybuilder
+2-s2.0-85137341615	2022	b2	include	b2:include	The character of adaptation changes in bodybuilders in conditions of sequential use of isolation and basic exercises
+2-s2.0-85074324514	2019	b2	include	b2:include	Towards a sustainable nutrition paradigm in physique sport: A narrative review
+2-s2.0-85202462811	2024	b2	E7	b2:E7	High Protein Diets and Glomerular Hyperfiltration in Athletes and Bodybuilders: Is Chronic Kidney Disease the Real Finish Line?
+2-s2.0-85055603429	2018	b2	E7	b2:E7	Liver Injury Associated with Sporting Activities
+2-s2.0-85203523560	2025	b2	include	b2:include	Changes in hormonal profiles during competition preparation in physique athletes
+2-s2.0-85145562499	2023	b2	include	b2:include	The greater calorie deficit applied to the bodybuilding athlete, the greater their loss of fat-free mass on the stage presentation?
+2-s2.0-85167581804	2021	b2	E6	b2:E6	Response of Inflammatory Biomarkers to 10 Weeks of Aerobic Resistance Training in Inactive Postmenopausal Women with Non-alcoholic Fatty Liver
+2-s2.0-85072721889	2019	b2	include	b2:include	Effects of Different Dietary Energy Intake following Resistance Training on Muscle Mass and Body Fat in Bodybuilders: A Pilot Study
+2-s2.0-85120657067	2022	b2	E7	b2:E7	Yohimbine Directly Induces Cardiotoxicity on Human-Induced Pluripotent Stem Cell-Derived Cardiomyocytes
+2-s2.0-84955720918	2016	b2	E7	b2:E7	Netnography of female use of the synthetic growth hormone CJC-1295: Pulses and potions
+2-s2.0-85191446656	2024	b2	include	b2:include	Do Muscle Mass and Body Fat Differ Between Elite and Amateur Natural Physique Athletes on Competition Day? A Preliminary, Cross-Sectional, Anthropometric Study
+2-s2.0-85055710067	2019	b2	include	b2:include	Visual Body Scale for Men (VBSM): Validation of a new figural rating scale to measure perceived-desired body discrepancy in men
+2-s2.0-85188795208	2024	b2	include	b2:include	anthropometric status of amateur bodybuilders in limpopo province: a profile of Polokwane Municipality athletes
+2-s2.0-85063449926	2019	b2	include	b2:include	Resting metabolic rate in muscular physique athletes: Validity of existing methods and development of new prediction equations
+2-s2.0-85124232624	2017	b2	E7	b2:E7	A Unique Presentation Of Thyroid Storm And Myopericarditis In A Young Muscular Man
+2-s2.0-85181528995	2024	b2	include	b2:include	Effects of fat loss and low energy availability on the serum cardiometabolic profile of physique athletes
+2-s2.0-85135627676	2022	b2	include	b2:include	After the spotlight: are evidence-based recommendations for refeeding post-contest energy restriction available for physique athletes? A scoping review
+2-s2.0-85128472541	2022	b2	include	b2:include	THE DIFFERENCE OF ANTHROPOMETRIC CHARACTERISTICS BETWEEN ELITE AND NOVICE BODYBUILDERS IN THAILAND; [РІЗНИЦЯ АНТРОПОМЕТРИЧНИХ ХАРАКТЕРИСТИК МІЖ ЕЛІТНИМИ БОДІБІЛДЕРАМИ ТА ПОЧАТКІВЦЯМИ В ТАЇЛАНДІ]
+2-s2.0-85062703259	2019	b2	E6	b2:E6	Chromium Supplementation in Human Health, Metabolic Syndrome, and Diabetes
+2-s2.0-85109728257	2019	b2	E6	b2:E6	A preparation cycle in strength training as a form of health training for adults
+2-s2.0-85052102407	2018	b2	E6	b2:E6	A fat mass and obesity-associated gene polymorphism influences fat mass in exercise-trained individuals
+2-s2.0-85152320466	2023	b2	include	b2:include	Bioimpedance Patterns and Bioelectrical Impedance Vector Analysis (BIVA) of Body Builders
+2-s2.0-85138270626	2020	b2	E7	b2:E7	NTP Developmental and Reproductive Toxicity Technical Report on the Prenatal Development Studies of Vinpocetine (CASRN 42971-09-5) in Sprague Dawley (Hsd:Sprague Dawley® SD®) Rats and New Zealand White (Hra:Nzw Spf) Rabbits (Gavage Studies)
+2-s2.0-85168100074	2023	b2	E8	b2:E8	The general nutrition practices of competitive powerlifters vary by competitive calibre and sex, weight, and age class
+2-s2.0-85135986942	2021	b2	E6	b2:E6	Perception and prevalence of dietary supplements among gym users in nasiriyah city: A cross-sectional pilot study in thi-qar provence, southern iraq
+2-s2.0-85210072123	2024	b2	include	b2:include	The associations between calorie tracking, body image dissatisfaction, eating disorders, and menstrual cycle characteristics in resistance-trained athletes
+2-s2.0-85041571630	2018	b2	include	b2:include	Case reports on well-trained bodybuilders: Two years on a high protein diet
+2-s2.0-85077846965	2020	b2	E6	b2:E6	Australia's Adonis: Understanding what motivates young men's lifestyle choices for enhancing their appearance
+2-s2.0-105002249287	2025	b2	E6	b2:E6	A Pilot 24-Week ‘Bulk and Cut’ Dietary Protocol Combined with Resistance Training Is Feasible and Improves Body Composition and TNF-α Concentrations in Untrained Adult Males
+2-s2.0-85139049188	2020	b2	E7	b2:E7	Clenbuterol-induced myocarditis: A case report
+2-s2.0-105028659380	2025	b2	include	b2:include	Expert Consensus on Weight Management Strategies for Strength and Physique Athletes Before and After Competition
+2-s2.0-85165768236	2023	b2	include	b2:include	Nutrition, Training, Supplementation, and Performance-Enhancing Drug Practices of Male and Female Physique Athletes Peaking for Competition
+2-s2.0-85154559730	2023	b2	include	b2:include	Nutrient Intake and Body Image Perception in Bodybuilding Athletes: A Narrative Review
+2-s2.0-85059291198	2018	b2	include	b2:include	Biochemical profile and body composition alteration of amateur bodybuilders during the pre-contest period
+2-s2.0-85073563316	2019	b2	include	b2:include	Nutrition recommendations for bodybuilders in the off-season: A narrative review
+2-s2.0-85107916898	2021	b2	include	b2:include	Peak week recommendations for bodybuilders: an evidence based approach
+2-s2.0-85140743551	2022	b2	include	b2:include	Intersection of Diet and Exercise with the Gut Microbiome and Circulating Metabolites in Male Bodybuilders: A Pilot Study
+2-s2.0-85214525182	2025	b2	include	b2:include	Assessment of Body Composition, Bone Density, and Biochemical Markers of a Natural Bodybuilder During Contest Preparation
+2-s2.0-105003668792	2025	b2	include	b2:include	Effects of caffeinated chewing gum-induced sympathetic activation and diuretic effect on the rapid rate of weight loss in bodybuilders: a double-blind crossover study
+2-s2.0-85046653281	2018	b2	E7	b2:E7	Would you use it with a seal of approval? Important attributes of 2,4-Dinitrophenol (2,4-DNP) as a hypothetical pharmaceutical product
+2-s2.0-84996551860	2016	b2	include	b2:include	Dietary intake, body composition, and menstrual cycle changes during competition preparation and recovery in a drug-free figure competitor: A case study
+2-s2.0-85208624617	2024	b2	E6	b2:E6	How do rest-pause and sarcoplasma stimulating training models affect metabolic and psychoaffective responses in bodybuilding athletes compared to traditional training?
+2-s2.0-85129277918	2022	b2	E7	b2:E7	Simultaneous determination of eight β-adrenergic agonists in human urine by an isotope dilution-online clean-up system coupled with liquid chromatography-tandem mass spectrometry
+2-s2.0-85053677280	2018	b2	include	b2:include	Effects of high versus low protein intake on body composition and maximal strength in aspiring female physique athletes engaging in an 8-week resistance training program
+2-s2.0-85028734516	2017	b2	E8	b2:E8	Promotion of healthy weight-control practices in young athletes
+2-s2.0-85071321656	2019	b2	include	b2:include	Nutritional strategies of British professional and amateur natural bodybuilders during competition preparation
+2-s2.0-85207484705	2024	b2	E8	b2:E8	Based on Sportomics: Comparison of Physiological Status of Collegiate Sprinters in Different Pre-Competition Preparation Periods
+2-s2.0-85051265300	2018	b2	E7	b2:E7	Clenbuterol toxicity in a young male athlete
+2-s2.0-85145184866	2023	b2	E8	b2:E8	Physical Fitness of Futsal Athletes in Competition Preparation
+2-s2.0-86000465498	2025	b2	E6	b2:E6	The Accumulation of Visceral Fat in Postmenopausal Women: The Combined Impact of Prenatal Genetics, Epigenetics, and Fat Depot Heterogeneity—A Descriptive Review
+2-s2.0-85201483162	2024	b2	include	b2:include	The effect of a bodybuilding carbohydrate-loading protocol on anthropometry: Preliminary findings from a randomized crossover trial
+2-s2.0-85058546131	2019	b2	include	b2:include	Changes in Body Composition and Neuromuscular Performance Through Preparation, 2 Competitions, and a Recovery Period in an Experienced Female Physique Athlete
+2-s2.0-85207688018	2024	b2	E6	b2:E6	Assessment of Paraoxonase 1 and Arylesterase Activities and Lipid Profile in Bodybuilders: A Comparative Study of Physical Activity and Anthropometry on Atherosclerosis
+2-s2.0-105010994100	2024	b2	include	b2:include	Eating Plans to Cut Body Fat, Gain Muscle, and Prepare for Competition
+2-s2.0-85133838997	2022	b2	include	b2:include	Can Bodybuilding Peak Week Manipulations Favorably Affect Muscle Size, Subcutaneous Thickness, and Related Body Composition Variables? A Case Study
+2-s2.0-85210498609	2024	b2	include	b2:include	From semi-starvation to the stage: a case report on indicators of low energy availability in a drug-free bodybuilder during contest preparation and peak week
+2-s2.0-86000267250	2025	b2	include	b2:include	Unveiling the impact of competition weight loss on gut microbiota: alterations in diversity, composition, and predicted metabolic functions
+2-s2.0-85064943063	2019	b2	include	b2:include	Oxidative stress, inflammation, psychological status, and severity of respiratory infections are negatively affected during the pre-contest period in amateur bodybuilders
+2-s2.0-85150881699	2023	b2	include	b2:include	Adaptive changes in bodybuilders in conditions of different energy supply modes and intensity of training load regimes using machine and free weight exercises
+2-s2.0-85182709632	2024	b2	E8	b2:E8	Monitoring training, performance, biomarkers, and psychological state throughout a competitive season: a case study of a triathlete
+2-s2.0-105012468708	2025	b2	include	b2:include	Competition preparation does not exacerbate mood states of university natural bodybuilders
+2-s2.0-85144875073	2023	b2	E7	b2:E7	Changes in Health-related Parameters Associated with Sports Performance Enhancement Drugs
+2-s2.0-85210812251	2025	b3v4	include	b3v4:include	Made to Order: Discovering Monotonic Temporal Changes via Self-supervised Video Ordering
+2-s2.0-85168006390	2023	b3v4	E6	b3v4:E6	An attention-based multiscale transformer network for remote sensing image change detection
+2-s2.0-85139795312	2022	b3v4	E9	b3v4:E9	A dynamic and expandable Digital 3D-Atlas MAKER for monitoring the temporal changes in tissue growth during hindbrain morphogenesis
+2-s2.0-85125894664	2022	b3v4	include	b3v4:include	Quantifying prognosis severity of COVID-19 patients from deep learning based analysis of CT chest images
+2-s2.0-85141538810	2022	b3v4	include	b3v4:include	Moving Window Regression: A Novel Approach to Ordinal Regression
+2-s2.0-85172924092	2023	b3v4	include	b3v4:include	DFU-Helper: An Innovative Framework for Longitudinal Diabetic Foot Ulcer Diseases Evaluation Using Deep Learning
+2-s2.0-105013627517	2025	b3v4	include	b3v4:include	Longitudinal CE-MRI-based Siamese network with machine learning to predict tumor response in HCC after DEB-TACE
+2-s2.0-85044254010	2017	b3v4	include	b3v4:include	Soft-margin mixture of regressions
+2-s2.0-105010700164	2025	b3v4	E9	b3v4:E9	A Novel MRI-Based Approach to Peripheral Refraction and Prediction of Myopia Progression
+2-s2.0-85218687376	2025	b3v4	E9	b3v4:E9	Enlarged perivascular spaces as vascular health indicators: correlations with clinical and imaging data in young and middle-age stroke patients
+2-s2.0-85092585639	2020	b3v4	include	b3v4:include	Convolutional neural network-based ordinal regression for brain age prediction from MRI scans
+2-s2.0-85197756654	2024	b3v4	include	b3v4:include	Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
+2-s2.0-85194413076	2024	b3v4	E6	b3v4:E6	A Multi-Information Fusion Method for Repetitive Tunnel Disease Detection
+2-s2.0-105031374707	2025	b3v4	include	b3v4:include	Lightweight Siamese CapsNet-LSTM Framework for Prognostic Pulmonary Disease Detection
+2-s2.0-85192624115	2024	b3v4	E9	b3v4:E9	CT abnormalities 3 and 12 months after hospitalization for COVID-19 and association with disease severity: A prospective cohort study
+2-s2.0-85130618600	2022	b3v4	E9	b3v4:E9	Integrated Health Record Viewers and Reduction in Duplicate Medical Imaging: Retrospective Observational Analysis
+2-s2.0-85212615923	2025	b3v4	include	b3v4:include	Multi-modal imaging-based pseudotime analysis of alzheimer progression∗
+2-s2.0-85191162014	2023	b3v4	include	b3v4:include	Learning-to-Rank Meets Language: Boosting Language-Driven Ordering Alignment for Ordinal Classification
+2-s2.0-85076089880	2019	b3v4	E9	b3v4:E9	Peripapillary sparing with near infrared autofluorescence correlates with electroretinographic findings in patients with Stargardt disease
+2-s2.0-85070205282	2019	b3v4	E9	b3v4:E9	Evaluation Of Atherosclerosis Severity Based On Carotid Artery Intima-Media Thickness Changes: A New Diagnostic Criterion
+2-s2.0-85078989302	2020	b3v4	E9	b3v4:E9	SIXTO OBRADOR SENEC PRIZE 2019: Utility of diffusion tensor imaging as a prognostic tool in moderate to severe traumatic brain injury. Part II: Longitudinal analysis of DTI metrics and its association with patient's outcome; [PREMIO SIXTO OBRADOR SENEC 2019: El uso de la secuencia Tensor de difusión como herramienta pronóstica en los pacientes con traumatismo craneoencefálico grave y moderado. Parte II: Análisis longitudinal de las características del Tensor de difusión y su relación con la evolución de los pacientes]
+2-s2.0-85086624543	2020	b3v4	E9	b3v4:E9	The dynamics of biomarkers across the clinical spectrum of Alzheimer's disease
+2-s2.0-105008285359	2025	b3v4	E9	b3v4:E9	Deep Medullary Vein Integrity and Relationships with Small Vessel Disease and Interstitial Diffusivity Measures in Patients with a Recent Small Subcortical Infarct
+2-s2.0-85187232952	2024	b3v4	include	b3v4:include	Prediction of Visual Field Progression with Baseline and Longitudinal Structural Measurements Using Deep Learning
+2-s2.0-85164825706	2023	b3v4	E9	b3v4:E9	The Natural Sequence in Which Subclinical Inflamed Joint Tissues Subside or Progress to Rheumatoid Arthritis: A Study of Serial MRIs in the TREAT EARLIER Trial
+2-s2.0-84986275803	2016	b3v4	include	b3v4:include	Ordinal regression with multiple output CNN for age estimation
+2-s2.0-85088418597	2020	b3v4	include	b3v4:include	Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging
+2-s2.0-105004575029	2025	b3v4	include	b3v4:include	Deep Learning Framework for Analysis of Longitudinal MRI Studies
+2-s2.0-105004033873	2025	b3v4	E6	b3v4:E6	Deep Learning Technology for Classification of Thyroid Nodules Using Multi-View Ultrasound Images: Potential Benefits and Challenges in Clinical Application
+2-s2.0-85200697934	2024	b3v4	include	b3v4:include	Age-Related Face Recognition Using Siamese Networks and Vision Transformers
+2-s2.0-85095969946	2020	b3v4	include	b3v4:include	Rank consistent ordinal regression for neural networks with application to age estimation
+2-s2.0-85162901518	2023	b3v4	E9	b3v4:E9	Cerebral arterial air emboli on immediate post-endovascular treatment CT are associated with poor short- and long-term clinical outcomes in acute ischaemic stroke patients
+2-s2.0-85073888338	2019	b3v4	include	b3v4:include	Efficient video indexing for monitoring disease activity and progression in the upper gastrointestinal tract
+2-s2.0-105054609845	2025	b3v4	include	b3v4:include	Multi-modal Siamese Ensemble for Neovascular AMD Classification and Prediction from Optical Coherence Tomography
+2-s2.0-85132027792	2022	b3v4	include	b3v4:include	Quantifying Inter-hemispheric Differences in Parkinson’s Disease Using Siamese Networks
+2-s2.0-85114079129	2020	b3v4	include	b3v4:include	Automated assessment and tracking of COVID-19 pulmonary disease severity on chest radiographs using convolutional siamese neural networks
+2-s2.0-105023169345	2025	b3v4	include	b3v4:include	EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting
+2-s2.0-85201438540	2024	b3v4	E9	b3v4:E9	Revolutionizing tumor detection and classification in multimodality imaging based on deep learning approaches: Methods, applications and limitations
+2-s2.0-85101773859	2022	b3v4	include	b3v4:include	Convolutional Ordinal Regression Forest for Image Ordinal Estimation
+2-s2.0-105016019817	2025	b3v4	E6	b3v4:E6	GSTM-SCD: Graph-enhanced spatio-temporal state space model for semantic change detection in multi-temporal remote sensing images
+2-s2.0-105007734062	2025	b3v4	include	b3v4:include	Development and validation of an MRI spatiotemporal interaction model for early noninvasive prediction of neoadjuvant chemotherapy response in breast cancer: a multicentre study
+2-s2.0-85133480610	2022	b3v4	include	b3v4:include	Face Attribute Analysis Method Based on Self-Supervised Siamese Network
+2-s2.0-85192793451	2024	b3v4	E6	b3v4:E6	Testing for longitudinal bidirectional associations between self-compassion, self-criticism, and positive body image components
+2-s2.0-85200867347	2024	b3v4	include	b3v4:include	A multi-view mask contrastive learning graph convolutional neural network for age estimation
+2-s2.0-85135933616	2022	b3v4	include	b3v4:include	Deep Bayesian Active-Learning-to-Rank for Endoscopic Image Data
+2-s2.0-85122539019	2021	b3v4	include	b3v4:include	An ensemble learning method based on ordinal regression for COVID-19 diagnosis from chest CT
+2-s2.0-85072747676	2019	b3v4	E9	b3v4:E9	Longitudinal analysis of corpus callosum diffusion tensor imaging metrics and its association with neurological outcome
+2-s2.0-85125736992	2022	b3v4	include	b3v4:include	Automatic Estimation of Ulcerative Colitis Severity by Learning to Rank with Calibration
+2-s2.0-85078796553	2019	b3v4	include	b3v4:include	Soft labels for ordinal regression
+2-s2.0-85169178839	2023	b3v4	E9	b3v4:E9	Racial, Ethnic, and Socioeconomic Disparities in Glaucoma Onset and Severity in a Diverse Nationwide Cohort in the United States
+2-s2.0-85126078877	2022	b3v4	include	b3v4:include	Prediction of knee osteoarthritis progression using radiological descriptors obtained from bone texture analysis and Siamese neural networks: data from OAI and MOST cohorts
+2-s2.0-85034584426	2018	b3v4	include	b3v4:include	Joint gender classification and age estimation by nearly orthogonalizing their semantic spaces
+2-s2.0-85164962968	2023	b3v4	E6	b3v4:E6	Repurposing Artificial Intelligence Tools for Disease Modeling: Case Study of Face Recognition Deficits in Neurodegenerative Diseases
+2-s2.0-85146055594	2023	b3v4	include	b3v4:include	Ensembling shallow siamese architectures to assess functional asymmetry in Alzheimer's disease progression
+2-s2.0-105010831296	2025	b3v4	E6	b3v4:E6	Surface Wave Multi-parameter Waveform Inversion Imaging Based on Partial Convolutional Siamese Network
+2-s2.0-84938517255	2016	b3v4	include	b3v4:include	A new image-based immersive tool for dementia diagnosis using pairwise ranking and learning
+2-s2.0-85103985426	2021	b3v4	E6	b3v4:E6	Diffusion property and functional connectivity of superior longitudinal fasciculus underpin human metacognition
+2-s2.0-85092733513	2020	b3v4	include	b3v4:include	Longitudinal Image Registration with Temporal-Order and Subject-Specificity Discrimination
+2-s2.0-85059799680	2018	b3v4	E9	b3v4:E9	Tomographic Biomarkers Predicting Progression to Fibrosis in Treated Neovascular Age-Related Macular Degeneration: A Multimodal Imaging Study
+2-s2.0-105037131135	2025	b3v4	E9	b3v4:E9	Automated Advanced Acne Lesion Analysis and Monitoring with Artificial Intelligence
+2-s2.0-85099312870	2020	b3v4	include	b3v4:include	Predicting Brain Degeneration with a Multimodal Siamese Neural Network *
+2-s2.0-84994123709	2016	b3v4	include	b3v4:include	Plus Disease in Retinopathy of Prematurity: Improving Diagnosis by Ranking Disease Severity and Using Quantitative Image Analysis
+2-s2.0-105007063071	2024	b3v4	include	b3v4:include	Regional deep atrophy: Using temporal information to automatically identify regions associated with Alzheimer’s disease progression from longitudinal MRI
+2-s2.0-85210274556	2025	b3v4	E9	b3v4:E9	Functional outcome after infectious encephalitis: a longitudinal multicentre prospective cohort study
+2-s2.0-85123223134	2021	b3v4	include	b3v4:include	Deep lesion tracker: Monitoring lesions in 4D longitudinal imaging studies
+2-s2.0-105012855764	2025	b3v4	include	b3v4:include	Longitudinal structural MRI-based deep learning and radiomics features for predicting Alzheimer’s disease progression
+2-s2.0-105010231457	2025	b3v4	include	b3v4:include	RANKING-AWARE ADAPTER FOR TEXT-DRIVEN IMAGE ORDERING WITH CLIP
+2-s2.0-85072935260	2019	b3v4	E9	b3v4:E9	Live cell imaging to assess the dynamics of metaphase timing and cell fate following mitotic spindle perturbations
+2-s2.0-85156140069	2022	b3v4	include	b3v4:include	OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression
+2-s2.0-105018255704	2025	b3v4	E9	b3v4:E9	Limited effects of non-steroidal anti-inflammatory drugs (NSAIDs) on imaging outcomes in osteoarthritis: observational data from the osteoarthritis initiative (OAI)
+2-s2.0-105013488128	2025	b3v4	E6	b3v4:E6	Long Range CCTV-Based Context-Aware Petroglyphs Surface Change Classification Using Dual Attention-Guided Pyramid Siamese Network
+2-s2.0-85161340357	2023	b3v4	include	b3v4:include	Using deep learning–derived image features in radiologic time series to make personalised predictions: proof of concept in colonic transit data
+2-s2.0-105005708913	2025	b3v4	E9	b3v4:E9	Validation of retroactively derived T1 relaxation values from 3D T1-weighted images with clinical and MRI measures of disability in multiple sclerosis
+2-s2.0-85178575474	2024	b3v4	include	b3v4:include	Leveraging Longitudinal Data for Cardiomegaly and Change Detection in Chest Radiography
+2-s2.0-85171540806	2023	b3v4	include	b3v4:include	DFU-SIAM a Novel Diabetic Foot Ulcer Classification With Deep Learning
+2-s2.0-85215664191	2025	b3v4	include	b3v4:include	The Benefits of Ordinal Regression Under Domain Shift
+2-s2.0-105010014410	2025	b3v4	E9	b3v4:E9	Arterial, Venous, and Cerebrospinal Fluid Flow and Pulsatility in Stroke-Related Cerebral Small Vessel Disease: A Longitudinal Analysis
+2-s2.0-105014852800	2025	b3v4	include	b3v4:include	Real-time age-range recognition and gender identification system through facial recognition
+2-s2.0-85099486716	2021	b3v4	include	b3v4:include	A Deep Learning Model for the Accurate and Reliable Classification of Disc Degeneration Based on MRI Data
+2-s2.0-85175332596	2023	b3v4	E6	b3v4:E6	Deep learning-based markerless lung tumor tracking in stereotactic radiotherapy using Siamese networks
+2-s2.0-85038571661	2017	b3v4	E6	b3v4:E6	Learning Dynamic Siamese Network for Visual Object Tracking
+2-s2.0-85185783580	2024	b3v4	E9	b3v4:E9	Live-cell imaging defines a threshold in CDK activity at the G2/M transition
+2-s2.0-85113290682	2021	b3v4	E9	b3v4:E9	Muscle architecture is associated with muscle fat replacement in Duchenne and Becker muscular dystrophies
+2-s2.0-85054563739	2018	b3v4	E9	b3v4:E9	Modeling and prediction of clinical symptom trajectories in Alzheimer’s disease using longitudinal data
+2-s2.0-85149267392	2023	b3v4	E9	b3v4:E9	Sequential structural and functional change in geographic atrophy on multimodal imaging in non-exudative age-related macular degeneration
+2-s2.0-85054356547	2018	b3v4	include	b3v4:include	Accurate age estimation using multi-task Siamese network-based deep metric learning for frontal face images
+2-s2.0-85179642986	2023	b3v4	include	b3v4:include	GIRUS-net: A Multimodal Deep Learning Model Identifying Imaging and Genetic Biomarkers Linked to Alzheimer's Disease Severity
+2-s2.0-85185623036	2024	b3v4	E9	b3v4:E9	Biomarker Changes during 20 Years Preceding Alzheimer's Disease
+2-s2.0-85159544230	2023	b3v4	E9	b3v4:E9	Dysconnectivity in Schizophrenia Revisited: Abnormal Temporal Organization of Dynamic Functional Connectivity in Patients With a First Episode of Psychosis
+2-s2.0-85049655532	2019	b3v4	E9	b3v4:E9	Follow-up infarct volume as a mediator of endovascular treatment effect on functional outcome in ischaemic stroke
+2-s2.0-105046506867	2025	b4	include	b4:include	Comparative analysis of tensiomyographic and isokinetic assessments of the rectus abdominis and erector spinae in bodybuilding trainees with nonspecific low back pain
+2-s2.0-105019346153	2025	b4	include	b4:include	Real-Time Biomechanical Squat and Deadlift Posture Analysis Using Google Machine Learning Kit
+2-s2.0-85116444421	2022	b4	include	b4:include	A Framework for Intelligent Fitness Guiding System
+2-s2.0-85200419358	2024	b4	include	b4:include	Method for Prediction of Motion Based on Recursive Least Squares Method with Time Warp Parameter and its Application to Physical Therapy
+2-s2.0-85198933354	2024	b4	E6	b4:E6	A user-friendly machine learning approach for cardiac structures assessment
+2-s2.0-85172882439	2023	b4	E8	b4:E8	Applying Data Mining and Machine Learning Techniques to Predict Powerlifting Results †
+2-s2.0-85106415505	2021	b4	E6	b4:E6	Visual Elicitation of Brand Perception
+2-s2.0-85218013980	2024	b4	include	b4:include	Steroid and Non-Steroid Bodybuilder Classification Using Deep-Learning
+2-s2.0-85191746244	2023	b4	E6	b4:E6	Food Recommendation System Using K-means Clustering and Random Forest Algorithm
+2-s2.0-85099566767	2020	b4	include	b4:include	Smart gym trainer using Human pose estimation
