@@ -143,5 +143,24 @@
     "wos": 766
    }
   }
+ },
+ "scopus_refinement_2026_11_09": {
+  "note": "Scopus only (primary database of the bibliometric analysis); filters as in scopus_wos",
+  "b1v4": {
+   "query": "b1v3 AND NOT TITLE-ABS(retina* OR fundus OR cattle OR cow OR pig OR fish OR livestock OR animal* OR \"computed tomography\" OR gait OR \"action recognition\")",
+   "retrieved": 460,
+   "removed_vs_b1v3": 74,
+   "relevant_lost": 0
+  },
+  "b3v5": {
+   "query": "b3v4 with column 1 + \"order learning\" OR \"ranking loss\" OR \"ranking-based\" OR \"ranking network\" OR \"pair-wise ranking\" OR \"triplet ranking\" OR \"label ranking\" OR \"ranking-CNN\" OR \"learning to compare\"",
+   "retrieved": 115
+  },
+  "b5": {
+   "query": "TITLE-ABS((\"body fat\" OR \"body composition\" OR adiposity OR \"fat mass\" OR \"lean mass\" OR \"fat-free mass\") AND (smartphone OR \"digital anthropometry\" OR \"2D image\" OR \"two-dimensional image\" OR \"digital image\" OR photograph OR \"3D optical\" OR \"three-dimensional optical\" OR \"optical scan\" OR \"optical imaging\") AND (validity OR validation OR agreement OR reliability OR accuracy)) AND NOT b1v3",
+   "retrieved": 58,
+   "included": 18
+  },
+  "tested_and_rejected": "see bibliometric/vocabulary_tests.tsv"
  }
 }

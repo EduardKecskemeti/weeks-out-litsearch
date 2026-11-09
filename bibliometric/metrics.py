@@ -20,9 +20,10 @@ csv.field_size_limit(10**9)
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = 'results/bibliometrics'
 os.makedirs(OUT, exist_ok=True)
-BLOCKS = ['b1v3', 'b2', 'b3v5', 'b4']
-LABEL = {'b1v3': 'b1v3: body composition\nor shape from images', 'b2': 'b2: physique-sport\npreparation',
-         'b3v5': 'b3v5: ranking and ordinal\nmethods on images', 'b4': 'b4: AI in\nbodybuilding'}
+BLOCKS = ['b1v4', 'b2', 'b3v5', 'b4', 'b5']
+LABEL = {'b1v4': 'b1v4: body composition\nor shape from images', 'b2': 'b2: physique-sport\npreparation',
+         'b3v5': 'b3v5: ranking and ordinal\nmethods on images', 'b4': 'b4: AI in\nbodybuilding',
+         'b5': 'b5: validation of\nphoto-based estimates'}
 EXPORT_DATE = '2026-11-07'
 
 # ---------------------------------------------------------------- load
@@ -225,9 +226,9 @@ write_tsv('screening_summary.tsv', ['block', 'retrieved', 'included', 'precision
            for b in BLOCKS] + [('all (unique)', len(ALL), len(INC), round(len(INC) / len(ALL), 2))])
 
 # ---------------------------------------------------------------- figures
-S1, S2, S3, S4 = '#2a78d6', '#eb6834', '#1baf7a', '#eda100'   # categorical slots 1-4 (fixed order)
+S1, S2, S3, S4, S5 = '#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4'   # categorical slots 1-5 (fixed order)
 INK, INK2, GRID = '#0b0b0b', '#52514e', '#e4e3df'
-COL = dict(zip(BLOCKS, [S1, S2, S3, S4]))
+COL = dict(zip(BLOCKS, [S1, S2, S3, S4, S5]))
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 9, 'axes.edgecolor': INK2, 'axes.labelcolor': INK2,
                      'xtick.color': INK2, 'ytick.color': INK2, 'axes.spines.top': False, 'axes.spines.right': False})
 
@@ -237,7 +238,7 @@ def save(fig, name):
     plt.close(fig)
 
 # 1. publications per year, small multiples per block (one axis each, same y-scale)
-fig, axes = plt.subplots(1, 4, figsize=(9.2, 2.4), sharey=True)
+fig, axes = plt.subplots(1, 5, figsize=(10.5, 2.4), sharey=True)
 ymax = max(max(by_year[b].values()) for b in BLOCKS)
 for ax, b in zip(axes, BLOCKS):
     vals = [by_year[b][y] for y in years]

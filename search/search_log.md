@@ -205,7 +205,29 @@ entries were dropped: a generic CNN body-measure paper, a second digital-imaging
 validation study, a female prep study on diet and menstrual-cycle changes and a
 general overview of natural contest preparation.
 
-## 8. Files
+## 8. Refinement for the bibliometric analysis (Scopus, 9 Nov 2026)
+
+Before cleanup, the Scopus blocks were refined with tests of the form
+`(extended AND NOT base) AND filters`, reading the titles of every delta
+(all tests: `bibliometric/vocabulary_tests.tsv`).
+
+1. **b3v4 → b3v5**: nine specific ranking phrases (+25 records, 20 relevant).
+2. **b1v3 → b1v4**: a NOT-block for the main noise sources found at screening
+   (retina, fundus, livestock, fish, animals, CT, gait, action recognition):
+   −74 records, none relevant; precision 0.28 → 0.33.
+3. **New block b5**: b1 requires an ML term, so validation studies of smartphone and
+   2D-photo body-composition apps were missed, including one dataset-2 paper. Widening
+   b1's method column instead would add about 140 records at 0.14–0.20 precision; the
+   separate sub-query adds 58 records, 18 included. Dedicated 3D optical scanner studies
+   (19) were excluded as out of scope (E11, 2D photos only).
+4. **Rejected**: body-composition subterms in b2 (+59, mostly steroids and case reports).
+
+Recall against dataset 2: 44 of 50 retrieved and included (`results/gold_recall.tsv`);
+one miss is not in Scopus and one is dated 2026, so recall is 44/48 = 0.92. The other
+four lack a term from one concept column; widening those columns costs far more noise
+than it recovers.
+
+## 9. Files
 
 | File | Content |
 |---|---|

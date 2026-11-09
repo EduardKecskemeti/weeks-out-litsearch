@@ -1,41 +1,41 @@
 keyword	2016-2020	2021-2025	share_2016-2020	share_2021-2025
-deep learning	13	32	0.126	0.145
-bodybuilding	14	20	0.136	0.091
-body composition	12	15	0.117	0.068
-computer vision	5	21	0.049	0.095
-anthropometry	4	14	0.039	0.064
-machine learning	3	15	0.029	0.068
-resistance training	6	5	0.058	0.023
-obesity	1	10	0.01	0.045
-bodybuilders	4	5	0.039	0.023
-fat loss	4	5	0.039	0.023
-convolutional neural networks	5	4	0.049	0.018
-nutrition	8	0	0.078	0.0
-siamese network	1	7	0.01	0.032
-body mass index	2	6	0.019	0.027
-athletes	3	5	0.029	0.023
-age estimation	5	2	0.049	0.009
-muscle hypertrophy	3	4	0.029	0.018
-diet	3	4	0.029	0.018
-artificial intelligence	2	4	0.019	0.018
-digital anthropometry	0	6	0.0	0.027
-weight loss	2	4	0.019	0.018
-physique	4	2	0.039	0.009
-convolutional neural network	2	3	0.019	0.014
-smartphone	0	5	0.0	0.023
-exercise	1	4	0.01	0.018
-low energy availability	2	3	0.019	0.014
-muscle mass	1	4	0.01	0.018
-cnn	1	4	0.01	0.018
-body fat	2	3	0.019	0.014
-body composition assessment	0	5	0.0	0.023
+deep learning	13	32	0.12	0.137
+body composition	13	22	0.12	0.094
+bodybuilding	14	20	0.13	0.086
+computer vision	5	21	0.046	0.09
+anthropometry	4	16	0.037	0.069
+machine learning	3	15	0.028	0.064
+obesity	2	12	0.019	0.052
+resistance training	6	5	0.056	0.021
+digital anthropometry	0	10	0.0	0.043
+bodybuilders	4	5	0.037	0.021
+convolutional neural networks	5	4	0.046	0.017
+body mass index	3	6	0.028	0.026
+fat loss	4	5	0.037	0.021
+body fat	2	6	0.019	0.026
+nutrition	8	0	0.074	0.0
+siamese network	1	7	0.009	0.03
+smartphone	0	8	0.0	0.034
+athletes	3	5	0.028	0.021
+diet	3	4	0.028	0.017
+muscle hypertrophy	3	4	0.028	0.017
+age estimation	5	2	0.046	0.009
+physique	4	2	0.037	0.009
+fat mass	1	5	0.009	0.021
+artificial intelligence	2	4	0.019	0.017
+weight loss	2	4	0.019	0.017
+body composition assessment	1	5	0.009	0.021
+body fat percentage	0	5	0.0	0.021
+cnn	1	4	0.009	0.017
+exercise	1	4	0.009	0.017
+mobile health	1	4	0.009	0.017
+muscle mass	1	4	0.009	0.017
+low energy availability	2	3	0.019	0.013
+fat-free mass	1	4	0.009	0.017
+convolutional neural network	2	3	0.019	0.013
+3d scanning	0	4	0.0	0.017
+3d reconstruction	1	3	0.009	0.013
 facial images	2	2	0.019	0.009
-fat-free mass	1	3	0.01	0.014
-body fat percentage	0	4	0.0	0.018
-fat mass	1	3	0.01	0.014
-dxa	1	3	0.01	0.014
-mobile health	0	4	0.0	0.018
-human body	3	1	0.029	0.005
-feature extraction	1	3	0.01	0.014
-silhouette	3	1	0.029	0.005
-3d reconstruction	1	3	0.01	0.014
+dxa	1	3	0.009	0.013
+human body	3	1	0.028	0.004
+silhouette	3	1	0.028	0.004

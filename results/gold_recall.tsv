@@ -1,0 +1,51 @@
+openalex_id	doi	year	scopus_blocks	decision	note	title
+W4406560775	10.1038/s41746-024-01380-6	2025	b1v4	include		Advances in the estimation of body fat percentage using an artificial intelligence 2D-photo method
+2-s2.0-105033233271	10.1109/cascon66301.2025.00093	2025	b1v4	include		Multimodal AI for Body Fat Estimation: Computer Vision and Anthropometry with DEXA Benchmarks
+W4405130883	10.1016/j.patrec.2024.11.029	2024	b1v4	include		New advances in body composition assessment with ShapedNet: A single image deep regression approach
+W4391319367	10.1002/jbio.202300518	2024	b1v4	include		Body composition estimates using a 2D image analysis system across different environmental conditions: An agreement study
+W4388998386	10.1038/s41598-023-48055-y	2023	b5	include		Equations for smartphone prediction of adiposity and appendicular lean mass in youth soccer players
+W4283698854	10.1038/s41746-022-00628-3	2022	b1v4	include		Smartphone camera based assessment of adiposity: a validation study
+W4307983833	10.3390/s22218365	2022	b1v4	include		Digital Single-Image Smartphone Assessment of Total Body Fat and Abdominal Fat Using Machine Learning
+W4298009065	10.1016/j.clnu.2022.09.014	2022	b1v4	include		Visual body composition assessment methods: A 4-compartment model comparison of smartphone-based artificial intelligence for body composition estimation in healthy adults
+W4310945073	10.1111/jhn.13113	2022	b1v4	include		Validity and reliability of a mobile digital imaging analysis trained by a four‐compartment model
+W4210408071	10.1016/j.orcp.2021.12.006	2022	b1v4	include		Agreement of anthropometric and body composition measures predicted from 2D smartphone images and body impedance scales with criterion methods
+W4288725097	10.1038/s41746-022-00654-1	2022	b1v4	include		Silhouette images enable estimation of body fat distribution and associated cardiometabolic risk
+W3136997174	10.1038/s41430-021-00899-1	2021	b1v4	include		Validity of a 3-compartment body composition model using body volume derived from a novel 2-dimensional image analysis program
+W3204454242	10.1016/j.jocd.2021.08.004	2021	b1v4	include		Agreement Between A 2-Dimensional Digital Image-Based 3-Compartment Body Composition Model and Dual Energy X-Ray Absorptiometry for The Estimation of Relative Adiposity
+W3134607774	10.3390/ijerph18052413	2021	b1v4	include		Utilizing a Novel 2D Image Processing System for Relating Body Composition Metrics to Performance in Collegiate Female Rowers
+W3088241220	10.1002/mp.14492	2020	b1v4	include		Predicting 3D body shape and body composition from conventional 2D photography
+W4414140955	10.1109/icmew68306.2025.11152053	2025	b1v4	include		SinBMI: Estimating BMI from a Single Image
+W4403428415	10.1038/s41598-024-73270-6	2024		not retrieved	in Scopus; no method term (b1v4 column 3)	Detection of body shape changes in obesity monitoring using image processing techniques
+W4316813278	10.2352/ei.2023.35.9.ipas-297	2023	b1v4	include		AInBody: Are you in shape? - An integrated deep learning model that tracks your body measurement
+W4210506757	10.1109/tmm.2022.3147945	2022	b1v4	include		Estimating Human Weight From a Single Image
+W4312809617	10.1109/cvpr52688.2022.00274	2022	b1v4	include		Accurate 3D Body Shape Regression using Metric and Semantic Attributes
+W2921366310	10.1109/tifs.2019.2904840	2019	b1v4	include		Body Weight Analysis From Human Body Images
+W2604892024	10.1609/icwsm.v11i1.14923	2017	b1v4	include		Face-to-BMI: Using Computer Vision to Infer Body Mass Index on Social Media
+W2562703451	10.1109/3dv.2016.19	2016	b1v4	include		HS-Nets: Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks
+W4416427900	10.1016/j.peh.2025.100404	2025		not retrieved	outside window (Scopus dates it 2026)	Lean body mass and maximal strength changes during physique contest preparation and recovery: A case series
+W4395475252	10.1519/jsc.0000000000004697	2024	b2	include		Do Muscle Mass and Body Fat Differ Between Elite and Amateur Natural Physique Athletes on Competition Day? A Preliminary, Cross-Sectional, Anthropometric Study
+W4318924240	10.1519/jsc.0000000000004155	2023	b2	include		Body Composition of Competitive Bodybuilders: A Systematic Review of Published Data and Recommendations for Future Work
+W3170010726	10.1186/s13102-021-00296-y	2021	b2	include		Peak week recommendations for bodybuilders: an evidence based approach
+W3135987593	10.3390/nu13041075	2021		not retrieved	in Scopus; no physique-population term (b2 column 1)	Come Back Skinfolds, All Is Forgiven: A Narrative Review of the Efficacy of Common Body Composition Methods in Applied Sports Practice
+W3083020748	10.1519/jsc.0000000000003816	2020	b2	include		Alterations in Body Composition, Resting Metabolic Rate, Muscular Strength, and Eating Behavior in Response to Natural Bodybuilding Competition Preparation: A Case Study
+W2884416564	10.1519/jsc.0000000000002758	2018	b2	include		Changes in Body Composition and Neuromuscular Performance Through Preparation, 2 Competitions, and a Recovery Period in an Experienced Female Physique Athlete
+W2885154880	10.1249/mss.0000000000001749	2018	b2	include		Fat-free Mass Characteristics of Muscular Physique Athletes
+W2916033170	10.1519/jsc.0000000000002831	2018	b2	include		Body Composition Assessment in Male and Female Bodybuilders: A 4-Compartment Model Comparison of Dual-Energy X-Ray Absorptiometry and Impedance-Based Devices
+W2743499154	10.1123/ijsnem.2017-0064	2017	b2	include		Case Study: Unfavorable But Transient Physiological Changes During Contest Preparation in a Drug-Free Male Bodybuilder
+W2617815591	10.1123/ijsnem.2016-0332	2017	b2	include		Negative Consequences of Low Energy Availability in Natural Male Bodybuilding: A Review
+2-s2.0-105010231457		2025	b3v5	include		RANKING-AWARE ADAPTER FOR TEXT-DRIVEN IMAGE ORDERING WITH CLIP
+W4400262610	10.1016/j.media.2024.103262	2024	b3v5	include		Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
+W4404531451	10.1007/978-3-031-72904-1_16	2024	b3v5	include		Made to Order: Discovering Monotonic Temporal Changes via Self-supervised Video Ordering
+W4388946775	10.1038/s41592-023-02083-8	2023		not retrieved	in Scopus; no ranking/ordinal term (b3v5 column 1)	Uncovering developmental time and tempo using deep learning
+W4312771329	10.1109/cvpr52688.2022.01820	2022	b3v5	include		Moving Window Regression: A Novel Approach to Ordinal Regression
+W7133198852	10.52202/068431-2559	2022	b3v5	include		OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression
+W3014080415	10.1038/s41746-020-0255-1	2020	b3v5	include		Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging
+W3097760447	10.1016/j.patrec.2020.11.008	2020	b3v5	include		Rank consistent ordinal regression for neural networks with application to age estimation
+W3082445835	10.1007/978-3-030-59716-0_24	2020	b3v5	include		Longitudinal Image Registration with Temporal-Order and Subject-Specificity Discrimination
+W2949208911	10.1109/cvpr.2019.00487	2019	b3v5	include		Soft Labels for Ordinal Regression
+W2798655965	10.1109/cvpr.2018.00093	2018		not retrieved	in Scopus; no progression/target term (b3v5 column 2)	A Constrained Deep Neural Network for Ordinal Regression
+W2440214111	10.1109/cvpr.2016.532	2016	b3v5	include		Ordinal Regression with Multiple Output CNN for Age Estimation
+2-s2.0-84938517255	10.1007/s11042-015-2826-8	2016	b3v5	include		A new image-based immersive tool for dementia diagnosis using pairwise ranking and learning
+W4411569237	10.63180/jjic.thestap.2025.1.3	2025		not retrieved	not indexed in Scopus	The Role of Artificial Intelligence in Bodybuilding: A Systematic Review of Applications, Challenges, and Future Prospects
+2-s2.0-105036592018	10.1109/iconscept66142.2025.11436820	2025	b1v4	include		Deep Learning Based Pageant Placement System
+W4406860654	10.1109/cicn63059.2024.10847504	2024	b4	include		Steroid and Non-Steroid Bodybuilder Classification Using Deep-Learning

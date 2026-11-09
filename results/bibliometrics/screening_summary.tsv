@@ -1,6 +1,7 @@
 block	retrieved	included	precision
-b1v3	534	152	0.28
+b1v4	460	152	0.33
 b2	176	95	0.54
 b3v5	115	70	0.61
 b4	10	6	0.6
-all (unique)	835	323	0.39
+b5	58	18	0.31
+all (unique)	819	341	0.42

@@ -1,6 +1,10 @@
 link	citing->cited	n
-authors_in_more_than_one_block		4
-citations	b1v3->b1v3	179
-citations	b1v3->b2	4
+authors_in_more_than_one_block		37
+citations	b1v4->b1v4	179
+citations	b1v4->b2	4
+citations	b1v4->b5	44
 citations	b2->b2	364
 citations	b3v5->b3v5	71
+citations	b5->b1v4	54
+citations	b5->b2	1
+citations	b5->b5	30

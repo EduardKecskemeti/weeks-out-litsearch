@@ -1,24 +1,33 @@
 """Apply screening_decisions.py to the licensed Scopus exports -> results/screening_scopus.tsv (EID, title, decision)."""
 import csv, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
-from screening_decisions import INCLUDE, EXCLUDE_CODE, DEFAULT_EXCLUDE, EXCL_RULES
+from screening_decisions import INCLUDE, EXCLUDE_CODE, DEFAULT_EXCLUDE, EXCL_RULES, NOT_BLOCK
 csv.field_size_limit(10**9)
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-BLOCKS = ['b1v3', 'b2', 'b3v5', 'b4']
+BLOCKS = ['b1v4', 'b2', 'b3v5', 'b4', 'b5']
 # b3v5 = b3v4 export (7 Nov 2026) followed by the records the added ranking phrases bring in (9 Nov 2026)
 with open('licensed/scopus_ta/scopus_b3v5.csv', 'w', encoding='utf-8-sig', newline='') as out:
     parts = [list(csv.reader(open(f'licensed/scopus_ta/{n}.csv', encoding='utf-8-sig'))) for n in ('scopus_b3v4', 'scopus_b3v5_added')]
     assert parts[0][0] == parts[1][0]
     w = csv.writer(out, quoting=csv.QUOTE_ALL)
     w.writerows(parts[0] + parts[1][1:])
+# b1v4 = b1v3 export without the records the NOT-block removes (decisions keep their b1v3 positions)
+b1 = list(csv.reader(open('licensed/scopus_ta/scopus_b1v3.csv', encoding='utf-8-sig')))
+ti, ab = b1[0].index('Title'), b1[0].index('Abstract')
+keep = [i for i, r in enumerate(b1[1:]) if not re.search(NOT_BLOCK, r[ti] + ' ' + r[ab], re.I)]
+assert len(b1) - 1 - len(keep) == 74 and not set(INCLUDE['b1v3']) - set(keep)
+with open('licensed/scopus_ta/scopus_b1v4.csv', 'w', encoding='utf-8-sig', newline='') as out:
+    csv.writer(out, quoting=csv.QUOTE_ALL).writerows([b1[0]] + [b1[1 + i] for i in keep])
+POS = {'b1v4': keep}   # file row -> position used in screening_decisions
+KEY = {'b1v4': 'b1v3'}
 recs = {}
 for b in BLOCKS:
     rows = list(csv.DictReader(open(f'licensed/scopus_ta/scopus_{b}.csv', encoding='utf-8-sig')))
-    assert max(INCLUDE[b]) < len(rows)
-    for i, r in enumerate(rows):
-        if i in INCLUDE[b]:
+    for j, r in enumerate(rows):
+        i, k = (POS[b][j] if b in POS else j), KEY.get(b, b)
+        if i in INCLUDE[k]:
             d = 'include'
-        elif b == 'b1v3':
+        elif k == 'b1v3':
             t = r['Title'].lower()
             d = next((c for c, p in EXCL_RULES if re.search(p, t)), 'E6')
         else:

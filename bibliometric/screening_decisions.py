@@ -15,6 +15,13 @@ Inclusion criteria
   b3v5  ranking, ordinal regression, Siamese/pairwise comparison or temporal
         ordering applied to images to estimate progression, severity, age or order
   b4    AI / machine learning applied to bodybuilding or resistance training
+  b5    validation of photographic (2D photo / smartphone camera) body-composition
+        estimates against reference methods (added 9 Nov 2026); dedicated 3D
+        optical scanners are out of scope here (E11, decision of 9 Nov 2026)
+
+Block b1v4 = b1v3 AND NOT NOT_BLOCK (9 Nov 2026). The NOT-block removes 74 of the
+534 b1v3 records (Scopus count = local count), none of them included, so b1v3
+decisions are kept by position and the 74 are dropped as not retrieved.
 
 Exclusion codes
   E1 non-human subject (animals, plants, objects)
@@ -27,6 +34,7 @@ Exclusion codes
   E8 other sport or non-physique population (b2, b4)
   E9 clinical/longitudinal imaging without a ranking or ordinal method (b3v5)
   E10 not a research contribution (encyclopedia entry, technical report)
+  E11 non-photographic body imaging: dedicated 3D optical/surface scanners (b5)
 For b1v3 the exclusion code was assigned from the title with keyword rules
 (EXCL_RULES below) after the include/exclude decision was made by hand.
 """
@@ -51,6 +59,9 @@ INCLUDE = {
              43, 44, 45, 47, 48, 50, 51, 53, 55, 57, 60, 61, 62, 64, 65, 66, 68, 71, 73, 74, 75, 77, 78, 85, 86,
              90, 91, 92, 93, 95, 97, 98, 100, 101, 103, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114},
     'b4': {0, 1, 2, 3, 7, 9},
+    # b5: positions in licensed/scopus_ta/scopus_b5.csv (exported 9 Nov 2026, 58 records);
+    # smartphone-camera captures count as photographic, also when they build a 3D avatar
+    'b5': {2, 3, 5, 8, 9, 10, 11, 12, 15, 16, 23, 34, 36, 37, 46, 48, 49, 51},
 }
 
 EXCLUDE_CODE = {
@@ -61,8 +72,18 @@ EXCLUDE_CODE = {
            15: 'E10'},
     'b3v5': {i: 'E6' for i in (1, 12, 28, 39, 42, 52, 54, 56, 70, 79, 80, 94, 96, 99, 102, 104)},
     'b4': {5: 'E8'},
+    'b5': {**{i: 'E11' for i in (1, 4, 6, 7, 17, 19, 20, 28, 31, 33, 38, 39, 40, 42, 43, 44, 47, 52, 57)},
+           **{i: 'E1' for i in (18, 32, 41)},
+           **{i: 'E2' for i in (54,)},
+           **{i: 'E3' for i in (24, 29)},
+           **{i: 'E5' for i in (27, 53, 55)}},
 }
-DEFAULT_EXCLUDE = {'b2': 'E6', 'b3v5': 'E9', 'b4': 'E6'}
+DEFAULT_EXCLUDE = {'b2': 'E6', 'b3v5': 'E9', 'b4': 'E6', 'b5': 'E6'}
+
+# b1v3 -> b1v4: records whose title or abstract match this are no longer retrieved
+NOT_BLOCK = r'\b(retina\w*|fundus|cattle|cows?|pigs?|fish(es)?|livestock|animal\w*|computed tomography|gaits?|action recognition)\b'
+NOT_BLOCK_SCOPUS = ('TITLE-ABS(retina* OR fundus OR cattle OR cow OR pig OR fish OR livestock OR animal* '
+                    'OR "computed tomography" OR gait OR "action recognition")')
 
 # b1v3: code from the title, first matching rule wins, otherwise E6
 EXCL_RULES = [

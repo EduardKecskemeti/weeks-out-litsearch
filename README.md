@@ -139,17 +139,23 @@ published version. Every removed record and its rule: `results/removed_records.t
 ## Bibliometric analysis (Scopus, task 2)
 
 The quantitative analysis uses **Scopus as primary database** (title + abstract
-queries, 2016–2025; exported 7 Nov 2026, ranking block extended 9 Nov 2026).
+queries, 2016–2025; exported 7 Nov 2026; refined 9 Nov 2026: ranking block extended,
+NOT-block on b1, new validation sub-query b5).
 
 | Step | Records |
 |---|---|
-| Retrieved: b1v3 534, b2 176, b3v5 115, b4 10 (unique EIDs) | 835 |
-| Excluded at title/abstract screening | −512 |
-| **Screened set** | **323** |
+| Retrieved: b1v4 460, b2 176, b3v5 115, b4 10, b5 58 (unique EIDs) | 819 |
+| Excluded at title/abstract screening | −478 |
+| **Screened set** | **341** |
+
+Recall against the 50 papers of dataset 2: 44 retrieved and included; of the 6 misses one is
+not in Scopus and one is dated 2026, so recall on the 48 that could be found is 0.92
+(`results/gold_recall.tsv`, `bibliometric/gold_recall.py`).
 
 - `bibliometric/keyword_matrix.md`: keyword matrices with MeSH and ACM CCS mapping
 - `bibliometric/vocabulary_tests.tsv`: candidate terms from the vocabularies tested
-  in Scopus; one adopted (specific ranking phrases: block b3v4 → b3v5, +25 records)
+  in Scopus; adopted: specific ranking phrases (b3v4 → b3v5, +25 records), NOT-block
+  on b1 (b1v3 → b1v4, −74 records, 0 relevant lost), validation sub-query b5 (+58)
 - `bibliometric/screening_decisions.py`: inclusion criteria, exclusion codes, decisions
 - `results/screening_scopus.tsv`: decision per record (EID, title, reason code)
 - `results/bibliometrics/`: performance metrics (TP, NCA, TC, h, g, i10 …), year,
