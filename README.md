@@ -139,15 +139,17 @@ published version. Every removed record and its rule: `results/removed_records.t
 ## Bibliometric analysis (Scopus, task 2)
 
 The quantitative analysis uses **Scopus as primary database** (title + abstract
-queries, 2016–2025, exported 7 Nov 2026).
+queries, 2016–2025; exported 7 Nov 2026, ranking block extended 9 Nov 2026).
 
 | Step | Records |
 |---|---|
-| Retrieved (4 blocks, unique EIDs) | 810 |
-| Excluded at title/abstract screening | −507 |
-| **Screened set** | **303** |
+| Retrieved: b1v3 534, b2 176, b3v5 115, b4 10 (unique EIDs) | 835 |
+| Excluded at title/abstract screening | −512 |
+| **Screened set** | **323** |
 
 - `bibliometric/keyword_matrix.md`: keyword matrices with MeSH and ACM CCS mapping
+- `bibliometric/vocabulary_tests.tsv`: candidate terms from the vocabularies tested
+  in Scopus; one adopted (specific ranking phrases: block b3v4 → b3v5, +25 records)
 - `bibliometric/screening_decisions.py`: inclusion criteria, exclusion codes, decisions
 - `results/screening_scopus.tsv`: decision per record (EID, title, reason code)
 - `results/bibliometrics/`: performance metrics (TP, NCA, TC, h, g, i10 …), year,

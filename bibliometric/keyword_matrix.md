@@ -11,7 +11,7 @@ Descriptors were looked up on 8 Nov 2026.
 |---|---|---|---|
 | **MeSH / ACM CCS** | Body Composition (D001823) → narrower Body Fat Distribution (D050218; entry: body fat patterning) → Adiposity (D050154). Anthropometry (D000886) → narrower Body Mass Index (D015992; entry: Quetelet index), Body Weights and Measures. Somatotypes (D013008; entries: body shape, body type, body build, somatotype) | Photography (D010781) → narrower Photogrammetry, Image Enhancement. Image Processing, Computer-Assisted (D007091; entries: digital image processing, computer-assisted image analysis). Mobile Applications (D063731; entry: smartphone apps). CCS: Computing methodologies → Artificial intelligence → Computer vision → Image and video acquisition; Computer vision representations → Image representations | Machine Learning (D000069550; entry: transfer learning) → narrower Deep Learning (D000077321; entry: hierarchical learning). Neural Networks, Computer (D016571; entries: perceptrons, connectionist models; narrower: convolutional neural networks). CCS: Computing methodologies → Machine learning → Machine learning approaches → Neural networks; Learning paradigms → Supervised learning → Supervised learning by regression |
 | **Used in query** | body fat, body composition, adiposity, body shape, physique, body mass index, anthropometry, anthropometric | photograph, photo, 2D image, single image, RGB image, smartphone, computer vision, image-based, silhouette, digital anthropometry | deep learning, machine learning, neural network, convolutional, artificial intelligence, computer vision, automated, 2D image, two-dimensional |
-| **Candidates (to test)** | body build, body type, somatotype, body fat distribution | image analysis, image processing, digital image, mobile application, photogrammetry | transfer learning |
+| **Candidates (tested 9 Nov 2026: rejected, see vocabulary_tests.tsv)** | body build, body type, somatotype, body fat distribution | image analysis, image processing, digital image, mobile application, photogrammetry | transfer learning |
 
 ## b2: body composition in physique-sport preparation
 
@@ -19,15 +19,15 @@ Descriptors were looked up on 8 Nov 2026.
 |---|---|---|
 | **MeSH** | Weight Lifting (D014891; entry: **Bodybuilding**); broader: Sports. There is no separate descriptor for bodybuilding. | Body Composition (D001823); Caloric Restriction (D031204; entries: low-calorie diet, calorie-restricted diet) |
 | **Used in query** | bodybuilder, bodybuilding, physique athlete, physique competitor, physique competition, contest preparation, competition preparation | body composition, body fat, fat loss, weight loss, energy restriction, lean mass, fat mass |
-| **Candidates (to test)** | weight lifting (broader: also powerlifting and Olympic weightlifting) | caloric restriction, calorie restriction, low-calorie diet |
+| **Candidates (tested 9 Nov 2026: rejected, see vocabulary_tests.tsv)** | weight lifting (broader: also powerlifting and Olympic weightlifting) | caloric restriction, calorie restriction, low-calorie diet |
 
-## b3v4: order, rank and progression learned from images
+## b3v5: order, rank and progression learned from images
 
 | | Column 1: method | Column 2: target | Column 3: data |
 |---|---|---|---|
 | **MeSH / ACM CCS** | CCS: Information systems → Information retrieval → Retrieval models and ranking → Learning to rank; Computing methodologies → Machine learning → Learning paradigms → Supervised learning → Ranking, Learning to rank, Supervised learning by regression. "Siamese network" is in neither vocabulary. | MeSH Disease Progression (D018450; entries: clinical course, clinical progression) | MeSH Photography (D010781); CCS Computer vision |
 | **Used in query** | ordinal regression, learning to rank, pairwise ranking, siamese network, siamese neural network, temporal order, image ordering | longitudinal, progression, age estimation, temporal change, disease severity | image, images, photograph, imaging |
-| **Candidates (to test)** | ranking (broader) | clinical course | |
+| **Candidates (tested 9 Nov 2026, see vocabulary_tests.tsv)** | ranking (broader): rejected; specific phrases order learning, ranking loss, ranking-based, ranking network, pair-wise ranking, triplet ranking, label ranking, ranking-CNN, learning to compare: **adopted (b3v5)** | clinical course: no effect | |
 
 ## b4: AI applied to bodybuilding
 

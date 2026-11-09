@@ -4,7 +4,13 @@ sys.path.insert(0, os.path.dirname(__file__))
 from screening_decisions import INCLUDE, EXCLUDE_CODE, DEFAULT_EXCLUDE, EXCL_RULES
 csv.field_size_limit(10**9)
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-BLOCKS = ['b1v3', 'b2', 'b3v4', 'b4']
+BLOCKS = ['b1v3', 'b2', 'b3v5', 'b4']
+# b3v5 = b3v4 export (7 Nov 2026) followed by the records the added ranking phrases bring in (9 Nov 2026)
+with open('licensed/scopus_ta/scopus_b3v5.csv', 'w', encoding='utf-8-sig', newline='') as out:
+    parts = [list(csv.reader(open(f'licensed/scopus_ta/{n}.csv', encoding='utf-8-sig'))) for n in ('scopus_b3v4', 'scopus_b3v5_added')]
+    assert parts[0][0] == parts[1][0]
+    w = csv.writer(out, quoting=csv.QUOTE_ALL)
+    w.writerows(parts[0] + parts[1][1:])
 recs = {}
 for b in BLOCKS:
     rows = list(csv.DictReader(open(f'licensed/scopus_ta/scopus_{b}.csv', encoding='utf-8-sig')))

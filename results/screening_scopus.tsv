@@ -709,96 +709,121 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85182709632	2024	b2	E8	b2:E8	Monitoring training, performance, biomarkers, and psychological state throughout a competitive season: a case study of a triathlete
 2-s2.0-105012468708	2025	b2	include	b2:include	Competition preparation does not exacerbate mood states of university natural bodybuilders
 2-s2.0-85144875073	2023	b2	E7	b2:E7	Changes in Health-related Parameters Associated with Sports Performance Enhancement Drugs
-2-s2.0-85210812251	2025	b3v4	include	b3v4:include	Made to Order: Discovering Monotonic Temporal Changes via Self-supervised Video Ordering
-2-s2.0-85168006390	2023	b3v4	E6	b3v4:E6	An attention-based multiscale transformer network for remote sensing image change detection
-2-s2.0-85139795312	2022	b3v4	E9	b3v4:E9	A dynamic and expandable Digital 3D-Atlas MAKER for monitoring the temporal changes in tissue growth during hindbrain morphogenesis
-2-s2.0-85125894664	2022	b3v4	include	b3v4:include	Quantifying prognosis severity of COVID-19 patients from deep learning based analysis of CT chest images
-2-s2.0-85141538810	2022	b3v4	include	b3v4:include	Moving Window Regression: A Novel Approach to Ordinal Regression
-2-s2.0-85172924092	2023	b3v4	include	b3v4:include	DFU-Helper: An Innovative Framework for Longitudinal Diabetic Foot Ulcer Diseases Evaluation Using Deep Learning
-2-s2.0-105013627517	2025	b3v4	include	b3v4:include	Longitudinal CE-MRI-based Siamese network with machine learning to predict tumor response in HCC after DEB-TACE
-2-s2.0-85044254010	2017	b3v4	include	b3v4:include	Soft-margin mixture of regressions
-2-s2.0-105010700164	2025	b3v4	E9	b3v4:E9	A Novel MRI-Based Approach to Peripheral Refraction and Prediction of Myopia Progression
-2-s2.0-85218687376	2025	b3v4	E9	b3v4:E9	Enlarged perivascular spaces as vascular health indicators: correlations with clinical and imaging data in young and middle-age stroke patients
-2-s2.0-85092585639	2020	b3v4	include	b3v4:include	Convolutional neural network-based ordinal regression for brain age prediction from MRI scans
-2-s2.0-85197756654	2024	b3v4	include	b3v4:include	Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
-2-s2.0-85194413076	2024	b3v4	E6	b3v4:E6	A Multi-Information Fusion Method for Repetitive Tunnel Disease Detection
-2-s2.0-105031374707	2025	b3v4	include	b3v4:include	Lightweight Siamese CapsNet-LSTM Framework for Prognostic Pulmonary Disease Detection
-2-s2.0-85192624115	2024	b3v4	E9	b3v4:E9	CT abnormalities 3 and 12 months after hospitalization for COVID-19 and association with disease severity: A prospective cohort study
-2-s2.0-85130618600	2022	b3v4	E9	b3v4:E9	Integrated Health Record Viewers and Reduction in Duplicate Medical Imaging: Retrospective Observational Analysis
-2-s2.0-85212615923	2025	b3v4	include	b3v4:include	Multi-modal imaging-based pseudotime analysis of alzheimer progression∗
-2-s2.0-85191162014	2023	b3v4	include	b3v4:include	Learning-to-Rank Meets Language: Boosting Language-Driven Ordering Alignment for Ordinal Classification
-2-s2.0-85076089880	2019	b3v4	E9	b3v4:E9	Peripapillary sparing with near infrared autofluorescence correlates with electroretinographic findings in patients with Stargardt disease
-2-s2.0-85070205282	2019	b3v4	E9	b3v4:E9	Evaluation Of Atherosclerosis Severity Based On Carotid Artery Intima-Media Thickness Changes: A New Diagnostic Criterion
-2-s2.0-85078989302	2020	b3v4	E9	b3v4:E9	SIXTO OBRADOR SENEC PRIZE 2019: Utility of diffusion tensor imaging as a prognostic tool in moderate to severe traumatic brain injury. Part II: Longitudinal analysis of DTI metrics and its association with patient's outcome; [PREMIO SIXTO OBRADOR SENEC 2019: El uso de la secuencia Tensor de difusión como herramienta pronóstica en los pacientes con traumatismo craneoencefálico grave y moderado. Parte II: Análisis longitudinal de las características del Tensor de difusión y su relación con la evolución de los pacientes]
-2-s2.0-85086624543	2020	b3v4	E9	b3v4:E9	The dynamics of biomarkers across the clinical spectrum of Alzheimer's disease
-2-s2.0-105008285359	2025	b3v4	E9	b3v4:E9	Deep Medullary Vein Integrity and Relationships with Small Vessel Disease and Interstitial Diffusivity Measures in Patients with a Recent Small Subcortical Infarct
-2-s2.0-85187232952	2024	b3v4	include	b3v4:include	Prediction of Visual Field Progression with Baseline and Longitudinal Structural Measurements Using Deep Learning
-2-s2.0-85164825706	2023	b3v4	E9	b3v4:E9	The Natural Sequence in Which Subclinical Inflamed Joint Tissues Subside or Progress to Rheumatoid Arthritis: A Study of Serial MRIs in the TREAT EARLIER Trial
-2-s2.0-84986275803	2016	b3v4	include	b3v4:include	Ordinal regression with multiple output CNN for age estimation
-2-s2.0-85088418597	2020	b3v4	include	b3v4:include	Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging
-2-s2.0-105004575029	2025	b3v4	include	b3v4:include	Deep Learning Framework for Analysis of Longitudinal MRI Studies
-2-s2.0-105004033873	2025	b3v4	E6	b3v4:E6	Deep Learning Technology for Classification of Thyroid Nodules Using Multi-View Ultrasound Images: Potential Benefits and Challenges in Clinical Application
-2-s2.0-85200697934	2024	b3v4	include	b3v4:include	Age-Related Face Recognition Using Siamese Networks and Vision Transformers
-2-s2.0-85095969946	2020	b3v4	include	b3v4:include	Rank consistent ordinal regression for neural networks with application to age estimation
-2-s2.0-85162901518	2023	b3v4	E9	b3v4:E9	Cerebral arterial air emboli on immediate post-endovascular treatment CT are associated with poor short- and long-term clinical outcomes in acute ischaemic stroke patients
-2-s2.0-85073888338	2019	b3v4	include	b3v4:include	Efficient video indexing for monitoring disease activity and progression in the upper gastrointestinal tract
-2-s2.0-105054609845	2025	b3v4	include	b3v4:include	Multi-modal Siamese Ensemble for Neovascular AMD Classification and Prediction from Optical Coherence Tomography
-2-s2.0-85132027792	2022	b3v4	include	b3v4:include	Quantifying Inter-hemispheric Differences in Parkinson’s Disease Using Siamese Networks
-2-s2.0-85114079129	2020	b3v4	include	b3v4:include	Automated assessment and tracking of COVID-19 pulmonary disease severity on chest radiographs using convolutional siamese neural networks
-2-s2.0-105023169345	2025	b3v4	include	b3v4:include	EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting
-2-s2.0-85201438540	2024	b3v4	E9	b3v4:E9	Revolutionizing tumor detection and classification in multimodality imaging based on deep learning approaches: Methods, applications and limitations
-2-s2.0-85101773859	2022	b3v4	include	b3v4:include	Convolutional Ordinal Regression Forest for Image Ordinal Estimation
-2-s2.0-105016019817	2025	b3v4	E6	b3v4:E6	GSTM-SCD: Graph-enhanced spatio-temporal state space model for semantic change detection in multi-temporal remote sensing images
-2-s2.0-105007734062	2025	b3v4	include	b3v4:include	Development and validation of an MRI spatiotemporal interaction model for early noninvasive prediction of neoadjuvant chemotherapy response in breast cancer: a multicentre study
-2-s2.0-85133480610	2022	b3v4	include	b3v4:include	Face Attribute Analysis Method Based on Self-Supervised Siamese Network
-2-s2.0-85192793451	2024	b3v4	E6	b3v4:E6	Testing for longitudinal bidirectional associations between self-compassion, self-criticism, and positive body image components
-2-s2.0-85200867347	2024	b3v4	include	b3v4:include	A multi-view mask contrastive learning graph convolutional neural network for age estimation
-2-s2.0-85135933616	2022	b3v4	include	b3v4:include	Deep Bayesian Active-Learning-to-Rank for Endoscopic Image Data
-2-s2.0-85122539019	2021	b3v4	include	b3v4:include	An ensemble learning method based on ordinal regression for COVID-19 diagnosis from chest CT
-2-s2.0-85072747676	2019	b3v4	E9	b3v4:E9	Longitudinal analysis of corpus callosum diffusion tensor imaging metrics and its association with neurological outcome
-2-s2.0-85125736992	2022	b3v4	include	b3v4:include	Automatic Estimation of Ulcerative Colitis Severity by Learning to Rank with Calibration
-2-s2.0-85078796553	2019	b3v4	include	b3v4:include	Soft labels for ordinal regression
-2-s2.0-85169178839	2023	b3v4	E9	b3v4:E9	Racial, Ethnic, and Socioeconomic Disparities in Glaucoma Onset and Severity in a Diverse Nationwide Cohort in the United States
-2-s2.0-85126078877	2022	b3v4	include	b3v4:include	Prediction of knee osteoarthritis progression using radiological descriptors obtained from bone texture analysis and Siamese neural networks: data from OAI and MOST cohorts
-2-s2.0-85034584426	2018	b3v4	include	b3v4:include	Joint gender classification and age estimation by nearly orthogonalizing their semantic spaces
-2-s2.0-85164962968	2023	b3v4	E6	b3v4:E6	Repurposing Artificial Intelligence Tools for Disease Modeling: Case Study of Face Recognition Deficits in Neurodegenerative Diseases
-2-s2.0-85146055594	2023	b3v4	include	b3v4:include	Ensembling shallow siamese architectures to assess functional asymmetry in Alzheimer's disease progression
-2-s2.0-105010831296	2025	b3v4	E6	b3v4:E6	Surface Wave Multi-parameter Waveform Inversion Imaging Based on Partial Convolutional Siamese Network
-2-s2.0-84938517255	2016	b3v4	include	b3v4:include	A new image-based immersive tool for dementia diagnosis using pairwise ranking and learning
-2-s2.0-85103985426	2021	b3v4	E6	b3v4:E6	Diffusion property and functional connectivity of superior longitudinal fasciculus underpin human metacognition
-2-s2.0-85092733513	2020	b3v4	include	b3v4:include	Longitudinal Image Registration with Temporal-Order and Subject-Specificity Discrimination
-2-s2.0-85059799680	2018	b3v4	E9	b3v4:E9	Tomographic Biomarkers Predicting Progression to Fibrosis in Treated Neovascular Age-Related Macular Degeneration: A Multimodal Imaging Study
-2-s2.0-105037131135	2025	b3v4	E9	b3v4:E9	Automated Advanced Acne Lesion Analysis and Monitoring with Artificial Intelligence
-2-s2.0-85099312870	2020	b3v4	include	b3v4:include	Predicting Brain Degeneration with a Multimodal Siamese Neural Network *
-2-s2.0-84994123709	2016	b3v4	include	b3v4:include	Plus Disease in Retinopathy of Prematurity: Improving Diagnosis by Ranking Disease Severity and Using Quantitative Image Analysis
-2-s2.0-105007063071	2024	b3v4	include	b3v4:include	Regional deep atrophy: Using temporal information to automatically identify regions associated with Alzheimer’s disease progression from longitudinal MRI
-2-s2.0-85210274556	2025	b3v4	E9	b3v4:E9	Functional outcome after infectious encephalitis: a longitudinal multicentre prospective cohort study
-2-s2.0-85123223134	2021	b3v4	include	b3v4:include	Deep lesion tracker: Monitoring lesions in 4D longitudinal imaging studies
-2-s2.0-105012855764	2025	b3v4	include	b3v4:include	Longitudinal structural MRI-based deep learning and radiomics features for predicting Alzheimer’s disease progression
-2-s2.0-105010231457	2025	b3v4	include	b3v4:include	RANKING-AWARE ADAPTER FOR TEXT-DRIVEN IMAGE ORDERING WITH CLIP
-2-s2.0-85072935260	2019	b3v4	E9	b3v4:E9	Live cell imaging to assess the dynamics of metaphase timing and cell fate following mitotic spindle perturbations
-2-s2.0-85156140069	2022	b3v4	include	b3v4:include	OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression
-2-s2.0-105018255704	2025	b3v4	E9	b3v4:E9	Limited effects of non-steroidal anti-inflammatory drugs (NSAIDs) on imaging outcomes in osteoarthritis: observational data from the osteoarthritis initiative (OAI)
-2-s2.0-105013488128	2025	b3v4	E6	b3v4:E6	Long Range CCTV-Based Context-Aware Petroglyphs Surface Change Classification Using Dual Attention-Guided Pyramid Siamese Network
-2-s2.0-85161340357	2023	b3v4	include	b3v4:include	Using deep learning–derived image features in radiologic time series to make personalised predictions: proof of concept in colonic transit data
-2-s2.0-105005708913	2025	b3v4	E9	b3v4:E9	Validation of retroactively derived T1 relaxation values from 3D T1-weighted images with clinical and MRI measures of disability in multiple sclerosis
-2-s2.0-85178575474	2024	b3v4	include	b3v4:include	Leveraging Longitudinal Data for Cardiomegaly and Change Detection in Chest Radiography
-2-s2.0-85171540806	2023	b3v4	include	b3v4:include	DFU-SIAM a Novel Diabetic Foot Ulcer Classification With Deep Learning
-2-s2.0-85215664191	2025	b3v4	include	b3v4:include	The Benefits of Ordinal Regression Under Domain Shift
-2-s2.0-105010014410	2025	b3v4	E9	b3v4:E9	Arterial, Venous, and Cerebrospinal Fluid Flow and Pulsatility in Stroke-Related Cerebral Small Vessel Disease: A Longitudinal Analysis
-2-s2.0-105014852800	2025	b3v4	include	b3v4:include	Real-time age-range recognition and gender identification system through facial recognition
-2-s2.0-85099486716	2021	b3v4	include	b3v4:include	A Deep Learning Model for the Accurate and Reliable Classification of Disc Degeneration Based on MRI Data
-2-s2.0-85175332596	2023	b3v4	E6	b3v4:E6	Deep learning-based markerless lung tumor tracking in stereotactic radiotherapy using Siamese networks
-2-s2.0-85038571661	2017	b3v4	E6	b3v4:E6	Learning Dynamic Siamese Network for Visual Object Tracking
-2-s2.0-85185783580	2024	b3v4	E9	b3v4:E9	Live-cell imaging defines a threshold in CDK activity at the G2/M transition
-2-s2.0-85113290682	2021	b3v4	E9	b3v4:E9	Muscle architecture is associated with muscle fat replacement in Duchenne and Becker muscular dystrophies
-2-s2.0-85054563739	2018	b3v4	E9	b3v4:E9	Modeling and prediction of clinical symptom trajectories in Alzheimer’s disease using longitudinal data
-2-s2.0-85149267392	2023	b3v4	E9	b3v4:E9	Sequential structural and functional change in geographic atrophy on multimodal imaging in non-exudative age-related macular degeneration
-2-s2.0-85054356547	2018	b3v4	include	b3v4:include	Accurate age estimation using multi-task Siamese network-based deep metric learning for frontal face images
-2-s2.0-85179642986	2023	b3v4	include	b3v4:include	GIRUS-net: A Multimodal Deep Learning Model Identifying Imaging and Genetic Biomarkers Linked to Alzheimer's Disease Severity
-2-s2.0-85185623036	2024	b3v4	E9	b3v4:E9	Biomarker Changes during 20 Years Preceding Alzheimer's Disease
-2-s2.0-85159544230	2023	b3v4	E9	b3v4:E9	Dysconnectivity in Schizophrenia Revisited: Abnormal Temporal Organization of Dynamic Functional Connectivity in Patients With a First Episode of Psychosis
-2-s2.0-85049655532	2019	b3v4	E9	b3v4:E9	Follow-up infarct volume as a mediator of endovascular treatment effect on functional outcome in ischaemic stroke
+2-s2.0-85210812251	2025	b3v5	include	b3v5:include	Made to Order: Discovering Monotonic Temporal Changes via Self-supervised Video Ordering
+2-s2.0-85168006390	2023	b3v5	E6	b3v5:E6	An attention-based multiscale transformer network for remote sensing image change detection
+2-s2.0-85139795312	2022	b3v5	E9	b3v5:E9	A dynamic and expandable Digital 3D-Atlas MAKER for monitoring the temporal changes in tissue growth during hindbrain morphogenesis
+2-s2.0-85125894664	2022	b3v5	include	b3v5:include	Quantifying prognosis severity of COVID-19 patients from deep learning based analysis of CT chest images
+2-s2.0-85141538810	2022	b3v5	include	b3v5:include	Moving Window Regression: A Novel Approach to Ordinal Regression
+2-s2.0-85172924092	2023	b3v5	include	b3v5:include	DFU-Helper: An Innovative Framework for Longitudinal Diabetic Foot Ulcer Diseases Evaluation Using Deep Learning
+2-s2.0-105013627517	2025	b3v5	include	b3v5:include	Longitudinal CE-MRI-based Siamese network with machine learning to predict tumor response in HCC after DEB-TACE
+2-s2.0-85044254010	2017	b3v5	include	b3v5:include	Soft-margin mixture of regressions
+2-s2.0-105010700164	2025	b3v5	E9	b3v5:E9	A Novel MRI-Based Approach to Peripheral Refraction and Prediction of Myopia Progression
+2-s2.0-85218687376	2025	b3v5	E9	b3v5:E9	Enlarged perivascular spaces as vascular health indicators: correlations with clinical and imaging data in young and middle-age stroke patients
+2-s2.0-85092585639	2020	b3v5	include	b3v5:include	Convolutional neural network-based ordinal regression for brain age prediction from MRI scans
+2-s2.0-85197756654	2024	b3v5	include	b3v5:include	Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
+2-s2.0-85194413076	2024	b3v5	E6	b3v5:E6	A Multi-Information Fusion Method for Repetitive Tunnel Disease Detection
+2-s2.0-105031374707	2025	b3v5	include	b3v5:include	Lightweight Siamese CapsNet-LSTM Framework for Prognostic Pulmonary Disease Detection
+2-s2.0-85192624115	2024	b3v5	E9	b3v5:E9	CT abnormalities 3 and 12 months after hospitalization for COVID-19 and association with disease severity: A prospective cohort study
+2-s2.0-85130618600	2022	b3v5	E9	b3v5:E9	Integrated Health Record Viewers and Reduction in Duplicate Medical Imaging: Retrospective Observational Analysis
+2-s2.0-85212615923	2025	b3v5	include	b3v5:include	Multi-modal imaging-based pseudotime analysis of alzheimer progression∗
+2-s2.0-85191162014	2023	b3v5	include	b3v5:include	Learning-to-Rank Meets Language: Boosting Language-Driven Ordering Alignment for Ordinal Classification
+2-s2.0-85076089880	2019	b3v5	E9	b3v5:E9	Peripapillary sparing with near infrared autofluorescence correlates with electroretinographic findings in patients with Stargardt disease
+2-s2.0-85070205282	2019	b3v5	E9	b3v5:E9	Evaluation Of Atherosclerosis Severity Based On Carotid Artery Intima-Media Thickness Changes: A New Diagnostic Criterion
+2-s2.0-85078989302	2020	b3v5	E9	b3v5:E9	SIXTO OBRADOR SENEC PRIZE 2019: Utility of diffusion tensor imaging as a prognostic tool in moderate to severe traumatic brain injury. Part II: Longitudinal analysis of DTI metrics and its association with patient's outcome; [PREMIO SIXTO OBRADOR SENEC 2019: El uso de la secuencia Tensor de difusión como herramienta pronóstica en los pacientes con traumatismo craneoencefálico grave y moderado. Parte II: Análisis longitudinal de las características del Tensor de difusión y su relación con la evolución de los pacientes]
+2-s2.0-85086624543	2020	b3v5	E9	b3v5:E9	The dynamics of biomarkers across the clinical spectrum of Alzheimer's disease
+2-s2.0-105008285359	2025	b3v5	E9	b3v5:E9	Deep Medullary Vein Integrity and Relationships with Small Vessel Disease and Interstitial Diffusivity Measures in Patients with a Recent Small Subcortical Infarct
+2-s2.0-85187232952	2024	b3v5	include	b3v5:include	Prediction of Visual Field Progression with Baseline and Longitudinal Structural Measurements Using Deep Learning
+2-s2.0-85164825706	2023	b3v5	E9	b3v5:E9	The Natural Sequence in Which Subclinical Inflamed Joint Tissues Subside or Progress to Rheumatoid Arthritis: A Study of Serial MRIs in the TREAT EARLIER Trial
+2-s2.0-84986275803	2016	b3v5	include	b3v5:include	Ordinal regression with multiple output CNN for age estimation
+2-s2.0-85088418597	2020	b3v5	include	b3v5:include	Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging
+2-s2.0-105004575029	2025	b3v5	include	b3v5:include	Deep Learning Framework for Analysis of Longitudinal MRI Studies
+2-s2.0-105004033873	2025	b3v5	E6	b3v5:E6	Deep Learning Technology for Classification of Thyroid Nodules Using Multi-View Ultrasound Images: Potential Benefits and Challenges in Clinical Application
+2-s2.0-85200697934	2024	b3v5	include	b3v5:include	Age-Related Face Recognition Using Siamese Networks and Vision Transformers
+2-s2.0-85095969946	2020	b3v5	include	b3v5:include	Rank consistent ordinal regression for neural networks with application to age estimation
+2-s2.0-85162901518	2023	b3v5	E9	b3v5:E9	Cerebral arterial air emboli on immediate post-endovascular treatment CT are associated with poor short- and long-term clinical outcomes in acute ischaemic stroke patients
+2-s2.0-85073888338	2019	b3v5	include	b3v5:include	Efficient video indexing for monitoring disease activity and progression in the upper gastrointestinal tract
+2-s2.0-105054609845	2025	b3v5	include	b3v5:include	Multi-modal Siamese Ensemble for Neovascular AMD Classification and Prediction from Optical Coherence Tomography
+2-s2.0-85132027792	2022	b3v5	include	b3v5:include	Quantifying Inter-hemispheric Differences in Parkinson’s Disease Using Siamese Networks
+2-s2.0-85114079129	2020	b3v5	include	b3v5:include	Automated assessment and tracking of COVID-19 pulmonary disease severity on chest radiographs using convolutional siamese neural networks
+2-s2.0-105023169345	2025	b3v5	include	b3v5:include	EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting
+2-s2.0-85201438540	2024	b3v5	E9	b3v5:E9	Revolutionizing tumor detection and classification in multimodality imaging based on deep learning approaches: Methods, applications and limitations
+2-s2.0-85101773859	2022	b3v5	include	b3v5:include	Convolutional Ordinal Regression Forest for Image Ordinal Estimation
+2-s2.0-105016019817	2025	b3v5	E6	b3v5:E6	GSTM-SCD: Graph-enhanced spatio-temporal state space model for semantic change detection in multi-temporal remote sensing images
+2-s2.0-105007734062	2025	b3v5	include	b3v5:include	Development and validation of an MRI spatiotemporal interaction model for early noninvasive prediction of neoadjuvant chemotherapy response in breast cancer: a multicentre study
+2-s2.0-85133480610	2022	b3v5	include	b3v5:include	Face Attribute Analysis Method Based on Self-Supervised Siamese Network
+2-s2.0-85192793451	2024	b3v5	E6	b3v5:E6	Testing for longitudinal bidirectional associations between self-compassion, self-criticism, and positive body image components
+2-s2.0-85200867347	2024	b3v5	include	b3v5:include	A multi-view mask contrastive learning graph convolutional neural network for age estimation
+2-s2.0-85135933616	2022	b3v5	include	b3v5:include	Deep Bayesian Active-Learning-to-Rank for Endoscopic Image Data
+2-s2.0-85122539019	2021	b3v5	include	b3v5:include	An ensemble learning method based on ordinal regression for COVID-19 diagnosis from chest CT
+2-s2.0-85072747676	2019	b3v5	E9	b3v5:E9	Longitudinal analysis of corpus callosum diffusion tensor imaging metrics and its association with neurological outcome
+2-s2.0-85125736992	2022	b3v5	include	b3v5:include	Automatic Estimation of Ulcerative Colitis Severity by Learning to Rank with Calibration
+2-s2.0-85078796553	2019	b3v5	include	b3v5:include	Soft labels for ordinal regression
+2-s2.0-85169178839	2023	b3v5	E9	b3v5:E9	Racial, Ethnic, and Socioeconomic Disparities in Glaucoma Onset and Severity in a Diverse Nationwide Cohort in the United States
+2-s2.0-85126078877	2022	b3v5	include	b3v5:include	Prediction of knee osteoarthritis progression using radiological descriptors obtained from bone texture analysis and Siamese neural networks: data from OAI and MOST cohorts
+2-s2.0-85034584426	2018	b3v5	include	b3v5:include	Joint gender classification and age estimation by nearly orthogonalizing their semantic spaces
+2-s2.0-85164962968	2023	b3v5	E6	b3v5:E6	Repurposing Artificial Intelligence Tools for Disease Modeling: Case Study of Face Recognition Deficits in Neurodegenerative Diseases
+2-s2.0-85146055594	2023	b3v5	include	b3v5:include	Ensembling shallow siamese architectures to assess functional asymmetry in Alzheimer's disease progression
+2-s2.0-105010831296	2025	b3v5	E6	b3v5:E6	Surface Wave Multi-parameter Waveform Inversion Imaging Based on Partial Convolutional Siamese Network
+2-s2.0-84938517255	2016	b3v5	include	b3v5:include	A new image-based immersive tool for dementia diagnosis using pairwise ranking and learning
+2-s2.0-85103985426	2021	b3v5	E6	b3v5:E6	Diffusion property and functional connectivity of superior longitudinal fasciculus underpin human metacognition
+2-s2.0-85092733513	2020	b3v5	include	b3v5:include	Longitudinal Image Registration with Temporal-Order and Subject-Specificity Discrimination
+2-s2.0-85059799680	2018	b3v5	E9	b3v5:E9	Tomographic Biomarkers Predicting Progression to Fibrosis in Treated Neovascular Age-Related Macular Degeneration: A Multimodal Imaging Study
+2-s2.0-105037131135	2025	b3v5	E9	b3v5:E9	Automated Advanced Acne Lesion Analysis and Monitoring with Artificial Intelligence
+2-s2.0-85099312870	2020	b3v5	include	b3v5:include	Predicting Brain Degeneration with a Multimodal Siamese Neural Network *
+2-s2.0-84994123709	2016	b3v5	include	b3v5:include	Plus Disease in Retinopathy of Prematurity: Improving Diagnosis by Ranking Disease Severity and Using Quantitative Image Analysis
+2-s2.0-105007063071	2024	b3v5	include	b3v5:include	Regional deep atrophy: Using temporal information to automatically identify regions associated with Alzheimer’s disease progression from longitudinal MRI
+2-s2.0-85210274556	2025	b3v5	E9	b3v5:E9	Functional outcome after infectious encephalitis: a longitudinal multicentre prospective cohort study
+2-s2.0-85123223134	2021	b3v5	include	b3v5:include	Deep lesion tracker: Monitoring lesions in 4D longitudinal imaging studies
+2-s2.0-105012855764	2025	b3v5	include	b3v5:include	Longitudinal structural MRI-based deep learning and radiomics features for predicting Alzheimer’s disease progression
+2-s2.0-105010231457	2025	b3v5	include	b3v5:include	RANKING-AWARE ADAPTER FOR TEXT-DRIVEN IMAGE ORDERING WITH CLIP
+2-s2.0-85072935260	2019	b3v5	E9	b3v5:E9	Live cell imaging to assess the dynamics of metaphase timing and cell fate following mitotic spindle perturbations
+2-s2.0-85156140069	2022	b3v5	include	b3v5:include	OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression
+2-s2.0-105018255704	2025	b3v5	E9	b3v5:E9	Limited effects of non-steroidal anti-inflammatory drugs (NSAIDs) on imaging outcomes in osteoarthritis: observational data from the osteoarthritis initiative (OAI)
+2-s2.0-105013488128	2025	b3v5	E6	b3v5:E6	Long Range CCTV-Based Context-Aware Petroglyphs Surface Change Classification Using Dual Attention-Guided Pyramid Siamese Network
+2-s2.0-85161340357	2023	b3v5	include	b3v5:include	Using deep learning–derived image features in radiologic time series to make personalised predictions: proof of concept in colonic transit data
+2-s2.0-105005708913	2025	b3v5	E9	b3v5:E9	Validation of retroactively derived T1 relaxation values from 3D T1-weighted images with clinical and MRI measures of disability in multiple sclerosis
+2-s2.0-85178575474	2024	b3v5	include	b3v5:include	Leveraging Longitudinal Data for Cardiomegaly and Change Detection in Chest Radiography
+2-s2.0-85171540806	2023	b3v5	include	b3v5:include	DFU-SIAM a Novel Diabetic Foot Ulcer Classification With Deep Learning
+2-s2.0-85215664191	2025	b3v5	include	b3v5:include	The Benefits of Ordinal Regression Under Domain Shift
+2-s2.0-105010014410	2025	b3v5	E9	b3v5:E9	Arterial, Venous, and Cerebrospinal Fluid Flow and Pulsatility in Stroke-Related Cerebral Small Vessel Disease: A Longitudinal Analysis
+2-s2.0-105014852800	2025	b3v5	include	b3v5:include	Real-time age-range recognition and gender identification system through facial recognition
+2-s2.0-85099486716	2021	b3v5	include	b3v5:include	A Deep Learning Model for the Accurate and Reliable Classification of Disc Degeneration Based on MRI Data
+2-s2.0-85175332596	2023	b3v5	E6	b3v5:E6	Deep learning-based markerless lung tumor tracking in stereotactic radiotherapy using Siamese networks
+2-s2.0-85038571661	2017	b3v5	E6	b3v5:E6	Learning Dynamic Siamese Network for Visual Object Tracking
+2-s2.0-85185783580	2024	b3v5	E9	b3v5:E9	Live-cell imaging defines a threshold in CDK activity at the G2/M transition
+2-s2.0-85113290682	2021	b3v5	E9	b3v5:E9	Muscle architecture is associated with muscle fat replacement in Duchenne and Becker muscular dystrophies
+2-s2.0-85054563739	2018	b3v5	E9	b3v5:E9	Modeling and prediction of clinical symptom trajectories in Alzheimer’s disease using longitudinal data
+2-s2.0-85149267392	2023	b3v5	E9	b3v5:E9	Sequential structural and functional change in geographic atrophy on multimodal imaging in non-exudative age-related macular degeneration
+2-s2.0-85054356547	2018	b3v5	include	b3v5:include	Accurate age estimation using multi-task Siamese network-based deep metric learning for frontal face images
+2-s2.0-85179642986	2023	b3v5	include	b3v5:include	GIRUS-net: A Multimodal Deep Learning Model Identifying Imaging and Genetic Biomarkers Linked to Alzheimer's Disease Severity
+2-s2.0-85185623036	2024	b3v5	E9	b3v5:E9	Biomarker Changes during 20 Years Preceding Alzheimer's Disease
+2-s2.0-85159544230	2023	b3v5	E9	b3v5:E9	Dysconnectivity in Schizophrenia Revisited: Abnormal Temporal Organization of Dynamic Functional Connectivity in Patients With a First Episode of Psychosis
+2-s2.0-85049655532	2019	b3v5	E9	b3v5:E9	Follow-up infarct volume as a mediator of endovascular treatment effect on functional outcome in ischaemic stroke
+2-s2.0-85092713362	2020	b3v5	include	b3v5:include	Brain Age Estimation from MRI Using a Two-Stage Cascade Network with Ranking Loss
+2-s2.0-85172150985	2023	b3v5	include	b3v5:include	SFCNEXT: A Simple Fully Convolutional Network for Effective Brain Age Estimation with Small Sample Size
+2-s2.0-85126309379	2021	b3v5	include	b3v5:include	DEEP REPULSIVE CLUSTERING OF ORDERED DATA BASED ON ORDER-IDENTITY DECOMPOSITION
+2-s2.0-85192677206	2023	b3v5	include	b3v5:include	Order Learning - An Overview
+2-s2.0-85191860967	2024	b3v5	E6	b3v5:E6	Oral Cannabidiol for Seborrheic Dermatitis in Patients With Parkinson Disease: Randomized Clinical Trial
+2-s2.0-85007497605	2017	b3v5	include	b3v5:include	Human Facial Age Estimation by Cost-Sensitive Label Ranking and Trace Norm Regularization
+2-s2.0-85151038141	2023	b3v5	E6	b3v5:E6	High-content analysis of testicular toxicity of BPA and its selected analogs in mouse spermatogonial, Sertoli cells, and Leydig cells revealed BPAF induced unique multinucleation phenotype associated with the increased DNA synthesis
+2-s2.0-85180797252	2024	b3v5	include	b3v5:include	A ranking-based multi-scale feature calibration network for nuclear cataract grading in AS-OCT images
+2-s2.0-85196003499	2024	b3v5	include	b3v5:include	Automatic diagnosis of myopic maculopathy using continuous severity ranking labels
+2-s2.0-85132820066	2022	b3v5	E6	b3v5:E6	Computational integration of renal histology and urinary proteomics using neural networks
+2-s2.0-105018451032	2025	b3v5	include	b3v5:include	A Two-Stage Framework with Ordinal Constraints for Age Estimation from Retinal Fundus Images
+2-s2.0-85217275346	2024	b3v5	include	b3v5:include	RoRankNet: Modeling Ordinal Progression in Alzheimer's Disease with Plackett-Luce Ranking and Hard Instance Learning
+2-s2.0-85047154947	2018	b3v5	E6	b3v5:E6	Hyperspectral quantification of wheat resistance to Fusarium head blight: comparison of two Fusarium species
+2-s2.0-85173699557	2024	b3v5	include	b3v5:include	Artificial intelligence quantifying endoscopic severity of ulcerative colitis in gradation scale
+2-s2.0-85136296457	2022	b3v5	E6	b3v5:E6	Exploring Links Between Psychosis and Frontotemporal Dementia Using Multimodal Machine Learning
+2-s2.0-85163157926	2022	b3v5	include	b3v5:include	Geometric Order Learning for Rank Estimation
+2-s2.0-84960253542	2016	b3v5	include	b3v5:include	A novel disease severity prediction scheme via big pair-wise ranking and learning techniques using image-based personal clinical data
+2-s2.0-85045298739	2017	b3v5	include	b3v5:include	Deep embedding network for robust age estimation
+2-s2.0-85044301083	2017	b3v5	include	b3v5:include	Using ranking-CNN for age estimation
+2-s2.0-85097347419	2019	b3v5	include	b3v5:include	Bone Age Assessment Based on Rank-Monotonicity Enhanced Ranking CNN
+2-s2.0-85039789814	2018	b3v5	include	b3v5:include	Deep Age Estimation: From Classification to Ranking
+2-s2.0-85066792257	2019	b3v5	include	b3v5:include	Scale-varying triplet ranking with classification loss for facial age estimation
+2-s2.0-85116477975	2021	b3v5	include	b3v5:include	Longitudinal Self-supervision to Disentangle Inter-patient Variability from Disease Progression
+2-s2.0-85189345638	2023	b3v5	include	b3v5:include	Learning to Compare Longitudinal Images
+2-s2.0-85173561108	2023	b3v5	include	b3v5:include	Age-Group Estimation of Facial Images Using Multi-task Ranking CNN
 2-s2.0-105046506867	2025	b4	include	b4:include	Comparative analysis of tensiomyographic and isokinetic assessments of the rectus abdominis and erector spinae in bodybuilding trainees with nonspecific low back pain
 2-s2.0-105019346153	2025	b4	include	b4:include	Real-Time Biomechanical Squat and Deadlift Posture Analysis Using Google Machine Learning Kit
 2-s2.0-85116444421	2022	b4	include	b4:include	A Framework for Intelligent Fitness Guiding System

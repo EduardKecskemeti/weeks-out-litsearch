@@ -10,7 +10,7 @@ csv.field_size_limit(10**9)
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 dec = {l.split('\t')[0]: l.split('\t')[3] for l in open('results/screening_scopus.tsv', encoding='utf-8').read().strip().split('\n')[1:]}
 seen, rows, header = set(), [], None
-for b in ['b1v3', 'b2', 'b3v4', 'b4']:
+for b in ['b1v3', 'b2', 'b3v5', 'b4']:
     rd = csv.DictReader(open(f'licensed/scopus_ta/scopus_{b}.csv', encoding='utf-8-sig'))
     header = header or rd.fieldnames
     for r in rd:

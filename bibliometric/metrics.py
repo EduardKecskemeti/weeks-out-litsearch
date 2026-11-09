@@ -20,9 +20,9 @@ csv.field_size_limit(10**9)
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = 'results/bibliometrics'
 os.makedirs(OUT, exist_ok=True)
-BLOCKS = ['b1v3', 'b2', 'b3v4', 'b4']
+BLOCKS = ['b1v3', 'b2', 'b3v5', 'b4']
 LABEL = {'b1v3': 'b1v3: body composition\nor shape from images', 'b2': 'b2: physique-sport\npreparation',
-         'b3v4': 'b3v4: ranking and ordinal\nmethods on images', 'b4': 'b4: AI in\nbodybuilding'}
+         'b3v5': 'b3v5: ranking and ordinal\nmethods on images', 'b4': 'b4: AI in\nbodybuilding'}
 EXPORT_DATE = '2026-11-07'
 
 # ---------------------------------------------------------------- load

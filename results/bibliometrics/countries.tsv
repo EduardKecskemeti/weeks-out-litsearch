@@ -1,16 +1,16 @@
 country	TP_whole_count	TC	corresponding_author	SCP	MCP
-USA	94	3476	52	41	11
-China	41	1375	26	20	6
+USA	100	3837	53	42	11
+China	51	1496	34	27	7
 India	24	129	11	11	0
 UK	21	398	14	7	7
 Brazil	20	133	14	8	6
+Korea	18	235	13	13	0
 Australia	15	282	10	8	2
-Korea	14	182	11	11	0
+France	12	459	7	4	3
 Spain	11	134	8	5	3
-France	11	438	6	3	3
+Japan	10	64	6	5	1
 Finland	10	110	9	4	5
 Germany	9	212	4	2	2
-Japan	9	37	5	5	0
 Italy	8	214	4	2	2
 New Zealand	8	222	3	0	3
 Canada	6	131	4	3	1
@@ -21,6 +21,7 @@ Netherlands	4	24	2	2	0
 Belgium	4	137	2	1	1
 Iran	4	28	4	3	1
 Malaysia	4	13	1	1	0
+Singapore	3	44	1	1	0
 Qatar	3	136	1	0	1
 Slovakia	3	16	1	1	0
 Hong Kong	3	46	2	0	2
@@ -28,4 +29,3 @@ South Africa	3	20	3	2	1
 Chile	3	4	1	1	0
 Ireland	3	10	1	1	0
 Ukraine	3	16	2	1	1
-Sweden	3	130	1	1	0
