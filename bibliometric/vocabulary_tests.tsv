@@ -1,0 +1,11 @@
+block	column	added_terms	source	new_records_scopus	judged_relevant_by_title	precision_of_new	decision
+b1v3	1 body measure	"body build" OR "body type" OR somatotype OR "body fat distribution"	MeSH Somatotypes, Body Fat Distribution	28	4	0.14	rejected (below block precision 0.28)
+b1v3	2 image source	"image analysis" OR "image processing" OR "digital image"	MeSH Image Processing, Computer-Assisted	92	7	0.08	rejected (mostly CT/MRI/retina, livestock)
+b1v3	2 image source	"mobile application" OR photogrammetry	MeSH Mobile Applications, Photogrammetry	28	4	0.14	rejected (mostly facial photogrammetry, diet apps)
+b1v3	3 method	"transfer learning"	MeSH Machine Learning (entry term)	2	1	0.50	rejected (negligible effect)
+b2	1 population	"weight lifting"	MeSH Weight Lifting (broader; entry term Bodybuilding)	11	0	0.00	rejected (other populations)
+b2	2 outcome	"caloric restriction" OR "calorie restriction" OR "low-calorie diet"	MeSH Caloric Restriction	1	0	0.00	rejected
+b3v4	1 method	ranking	ACM CCS Ranking (broader)	147	20	0.14	rejected (clinical scores, plant disease)
+b3v4	1 method	"order learning" OR "ranking loss" OR "ranking-based" OR "ranking network" OR "pair-wise ranking" OR "triplet ranking" OR "label ranking" OR "ranking-CNN" OR "learning to compare"	ACM CCS Ranking / Learning to rank, phrased as in relevant titles	25	17	0.68	ADOPTED (block b3v5)
+b3v4	2 target	"clinical course"	MeSH Disease Progression (entry term)	0	0	-	no effect
+b4	2 method	"neural network" OR convolutional OR "image processing"	MeSH Neural Networks, Computer	2	0	0.00	rejected (food calorie estimation)
