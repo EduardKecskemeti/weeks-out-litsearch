@@ -316,6 +316,8 @@ for r in INC:
         if e != r['EID'] and t in ref:
             links[(first_block[r['EID']], first_block[e])] += 1
 rows = [('authors_in_more_than_one_block', '', sum(1 for v in au_blocks.values() if len(v) > 1))]
+rows += [('authors_in_blocks', '+'.join(sorted(k)), n) for k, n in
+         sorted(collections.Counter(frozenset(v) for v in au_blocks.values() if len(v) > 1).items(), key=lambda x: -x[1])]
 rows += [('citations', f'{a}->{b}', n) for (a, b), n in sorted(links.items())]
 write_tsv('block_links.tsv', ['link', 'citing->cited', 'n'], rows)
 print('block links', rows)
