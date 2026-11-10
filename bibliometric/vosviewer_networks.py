@@ -4,7 +4,7 @@
   counting of co-occurrence, scores = average publication year and average citations
 - results/vosviewer/countries_coauthorship.json: countries with >= 3 papers, links = papers
   co-authored by both countries
-Layout and clustering are left to VOSviewer (default VOS parameters). Aggregates only.
+Only the largest connected component is kept. Layout and clustering are left to VOSviewer (default VOS parameters). Aggregates only.
 """
 import csv, collections, itertools, json, os, re
 csv.field_size_limit(10**9)
@@ -18,6 +18,23 @@ assert len(R) == len(final)
 def network(sets, years, cites, min_occ, terms):
     occ = collections.Counter(k for s in sets for k in s)
     keep = sorted(k for k, v in occ.items() if v >= min_occ)
+    # largest connected component only, as VOSviewer desktop does by default
+    adj = collections.defaultdict(set)
+    for s in sets:
+        s = [k for k in s if k in keep]
+        for a, b in itertools.combinations(s, 2):
+            adj[a].add(b); adj[b].add(a)
+    comps, seen = [], set()
+    for k in keep:
+        if k in seen:
+            continue
+        stack, comp = [k], set()
+        while stack:
+            x = stack.pop()
+            if x not in comp:
+                comp.add(x); stack.extend(adj[x] - comp)
+        seen |= comp; comps.append(comp)
+    keep = sorted(max(comps, key=len))
     idx = {k: i + 1 for i, k in enumerate(keep)}
     yr, ct = collections.defaultdict(list), collections.defaultdict(list)
     link = collections.Counter()

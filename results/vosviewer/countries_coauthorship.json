@@ -68,19 +68,6 @@
 },
 {
 "id": 6,
-"label": "India",
-"weights": {
-"Documents": 6,
-"Links": 0,
-"Total link strength": 0
-},
-"scores": {
-"Avg. pub. year": 2023.83,
-"Avg. citations": 0.83
-}
-},
-{
-"id": 7,
 "label": "Italy",
 "weights": {
 "Documents": 8,
@@ -93,33 +80,7 @@
 }
 },
 {
-"id": 8,
-"label": "Japan",
-"weights": {
-"Documents": 4,
-"Links": 0,
-"Total link strength": 0
-},
-"scores": {
-"Avg. pub. year": 2023.25,
-"Avg. citations": 6.25
-}
-},
-{
-"id": 9,
-"label": "Korea",
-"weights": {
-"Documents": 12,
-"Links": 0,
-"Total link strength": 0
-},
-"scores": {
-"Avg. pub. year": 2022.08,
-"Avg. citations": 16.83
-}
-},
-{
-"id": 10,
+"id": 7,
 "label": "New Zealand",
 "weights": {
 "Documents": 6,
@@ -132,7 +93,7 @@
 }
 },
 {
-"id": 11,
+"id": 8,
 "label": "Portugal",
 "weights": {
 "Documents": 3,
@@ -145,7 +106,7 @@
 }
 },
 {
-"id": 12,
+"id": 9,
 "label": "Spain",
 "weights": {
 "Documents": 8,
@@ -158,20 +119,7 @@
 }
 },
 {
-"id": 13,
-"label": "Switzerland",
-"weights": {
-"Documents": 4,
-"Links": 0,
-"Total link strength": 0
-},
-"scores": {
-"Avg. pub. year": 2020.0,
-"Avg. citations": 60.0
-}
-},
-{
-"id": 14,
+"id": 10,
 "label": "UK",
 "weights": {
 "Documents": 14,
@@ -184,7 +132,7 @@
 }
 },
 {
-"id": 15,
+"id": 11,
 "label": "USA",
 "weights": {
 "Documents": 71,
@@ -200,17 +148,17 @@
 "links": [
 {
 "source_id": 1,
-"target_id": 15,
+"target_id": 11,
 "strength": 1
 },
 {
 "source_id": 2,
-"target_id": 11,
+"target_id": 8,
 "strength": 2
 },
 {
 "source_id": 2,
-"target_id": 15,
+"target_id": 11,
 "strength": 2
 },
 {
@@ -220,57 +168,57 @@
 },
 {
 "source_id": 4,
-"target_id": 14,
+"target_id": 10,
 "strength": 1
 },
 {
 "source_id": 4,
-"target_id": 15,
+"target_id": 11,
 "strength": 5
 },
 {
 "source_id": 5,
-"target_id": 15,
+"target_id": 11,
 "strength": 2
 },
 {
-"source_id": 7,
-"target_id": 12,
+"source_id": 6,
+"target_id": 9,
 "strength": 3
 },
 {
-"source_id": 7,
-"target_id": 15,
+"source_id": 6,
+"target_id": 11,
 "strength": 5
 },
 {
-"source_id": 10,
-"target_id": 12,
+"source_id": 7,
+"target_id": 9,
 "strength": 1
 },
 {
-"source_id": 10,
-"target_id": 14,
+"source_id": 7,
+"target_id": 10,
 "strength": 3
 },
 {
-"source_id": 10,
-"target_id": 15,
+"source_id": 7,
+"target_id": 11,
 "strength": 4
 },
 {
-"source_id": 11,
-"target_id": 15,
+"source_id": 8,
+"target_id": 11,
 "strength": 1
 },
 {
-"source_id": 12,
-"target_id": 15,
+"source_id": 9,
+"target_id": 11,
 "strength": 4
 },
 {
-"source_id": 14,
-"target_id": 15,
+"source_id": 10,
+"target_id": 11,
 "strength": 4
 }
 ]
