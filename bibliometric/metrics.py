@@ -27,10 +27,11 @@ LABEL = {'b1v4': 'b1v4: body composition\nor shape from images', 'b2': 'b2: phys
 EXPORT_DATE = '2026-11-07'
 
 # ---------------------------------------------------------------- load
-decision = {}
+decision, stage1 = {}, {}
 for line in open('results/screening_scopus.tsv', encoding='utf-8').read().strip().split('\n')[1:]:
     f = line.split('\t')
     decision[f[0]] = f[3]
+    stage1[f[0]] = f[6]
 recs = {}
 for b in BLOCKS:
     for r in csv.DictReader(open(f'licensed/scopus_ta/scopus_{b}.csv', encoding='utf-8-sig')):
@@ -44,7 +45,7 @@ CLEAN = 'licensed/analysis/scopus_included_cleaned.csv'
 CLEANED = os.path.exists(CLEAN)
 if CLEANED:
     cl = {r['EID']: r for r in csv.DictReader(open(CLEAN, encoding='utf-8-sig'))}
-    assert set(cl) == {r['EID'] for r in INC}, 'cleaned export does not match the included set'
+    assert {r['EID'] for r in INC} <= set(cl), 'cleaned export does not cover the included set'
     for r in INC:
         for col in ('Author Keywords', 'Index Keywords', 'Affiliations', 'Source title'):
             r[col] = cl[r['EID']][col]
@@ -231,10 +232,12 @@ scr = collections.Counter()
 for r in ALL:
     for b in r['blocks']:
         scr[(b, 'retrieved')] += 1
+        scr[(b, 'stage1')] += stage1[r['EID']] == 'include'
         scr[(b, 'included')] += decision[r['EID']] == 'include'
-write_tsv('screening_summary.tsv', ['block', 'retrieved', 'included', 'precision'],
-          [(b, scr[(b, 'retrieved')], scr[(b, 'included')], round(scr[(b, 'included')] / scr[(b, 'retrieved')], 2))
-           for b in BLOCKS] + [('all (unique)', len(ALL), len(INC), round(len(INC) / len(ALL), 2))])
+n1 = sum(stage1[r['EID']] == 'include' for r in ALL)
+write_tsv('screening_summary.tsv', ['block', 'retrieved', 'stage1_included', 'included', 'precision'],
+          [(b, scr[(b, 'retrieved')], scr[(b, 'stage1')], scr[(b, 'included')], round(scr[(b, 'included')] / scr[(b, 'retrieved')], 2))
+           for b in BLOCKS] + [('all (unique)', len(ALL), n1, len(INC), round(len(INC) / len(ALL), 2))])
 
 # ---------------------------------------------------------------- figures
 S1, S2, S3, S4, S5 = '#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4'   # categorical slots 1-5 (fixed order)

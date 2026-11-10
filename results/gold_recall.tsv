@@ -20,7 +20,7 @@ W4316813278	10.2352/ei.2023.35.9.ipas-297	2023	b1v4	include		AInBody: Are you in
 W4210506757	10.1109/tmm.2022.3147945	2022	b1v4	include		Estimating Human Weight From a Single Image
 W4312809617	10.1109/cvpr52688.2022.00274	2022	b1v4	include		Accurate 3D Body Shape Regression using Metric and Semantic Attributes
 W2921366310	10.1109/tifs.2019.2904840	2019	b1v4	include		Body Weight Analysis From Human Body Images
-W2604892024	10.1609/icwsm.v11i1.14923	2017	b1v4	include		Face-to-BMI: Using Computer Vision to Infer Body Mass Index on Social Media
+W2604892024	10.1609/icwsm.v11i1.14923	2017	b1v4	E12		Face-to-BMI: Using Computer Vision to Infer Body Mass Index on Social Media
 W2562703451	10.1109/3dv.2016.19	2016	b1v4	include		HS-Nets: Estimating Human Body Shape from Silhouettes with Convolutional Neural Networks
 W4416427900	10.1016/j.peh.2025.100404	2025		not retrieved	outside window (Scopus dates it 2026)	Lean body mass and maximal strength changes during physique contest preparation and recovery: A case series
 W4395475252	10.1519/jsc.0000000000004697	2024	b2	include		Do Muscle Mass and Body Fat Differ Between Elite and Amateur Natural Physique Athletes on Competition Day? A Preliminary, Cross-Sectional, Anthropometric Study
@@ -32,7 +32,7 @@ W2884416564	10.1519/jsc.0000000000002758	2018	b2	include		Changes in Body Compos
 W2885154880	10.1249/mss.0000000000001749	2018	b2	include		Fat-free Mass Characteristics of Muscular Physique Athletes
 W2916033170	10.1519/jsc.0000000000002831	2018	b2	include		Body Composition Assessment in Male and Female Bodybuilders: A 4-Compartment Model Comparison of Dual-Energy X-Ray Absorptiometry and Impedance-Based Devices
 W2743499154	10.1123/ijsnem.2017-0064	2017	b2	include		Case Study: Unfavorable But Transient Physiological Changes During Contest Preparation in a Drug-Free Male Bodybuilder
-W2617815591	10.1123/ijsnem.2016-0332	2017	b2	include		Negative Consequences of Low Energy Availability in Natural Male Bodybuilding: A Review
+W2617815591	10.1123/ijsnem.2016-0332	2017	b2	E12		Negative Consequences of Low Energy Availability in Natural Male Bodybuilding: A Review
 2-s2.0-105010231457		2025	b3v5	include		RANKING-AWARE ADAPTER FOR TEXT-DRIVEN IMAGE ORDERING WITH CLIP
 W4400262610	10.1016/j.media.2024.103262	2024	b3v5	include		Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
 W4404531451	10.1007/978-3-031-72904-1_16	2024	b3v5	include		Made to Order: Discovering Monotonic Temporal Changes via Self-supervised Video Ordering

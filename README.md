@@ -145,8 +145,10 @@ NOT-block on b1, new validation sub-query b5).
 | Step | Records |
 |---|---|
 | Retrieved: b1v4 460, b2 176, b3v5 115, b4 10, b5 58 (unique EIDs) | 819 |
-| Excluded at title/abstract screening | −498 |
-| **Screened set** | **321** |
+| Excluded at title/abstract screening (stage 1, block criteria) | −498 |
+| Stage-1 set | 321 |
+| Excluded as not core-relevant (stage 2, two reviewers in ASReview, κ 0.27; `results/screening_validation.md`) | −139 |
+| **Final set** | **182** |
 
 Scope is ordinary 2D photographs: depth-camera, 3D-scanner and point-cloud studies are
 excluded (code E11, 39 records; decision of 10 Nov 2026).

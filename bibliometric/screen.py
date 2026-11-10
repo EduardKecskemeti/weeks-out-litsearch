@@ -39,12 +39,21 @@ for b in BLOCKS:
 for x in recs.values():
     inc = any(d.endswith(':include') for d in x['decisions'])
     x['final'] = 'include' if inc else x['decisions'][0].split(':')[1]
+# stage 2 (10 Nov 2026): core relevance to the project, two reviewers in ASReview (kappa 0.27);
+# after discussion the criterion of reviewer 2 (Claude) was adopted for the final set
+CORE = {l.split('\t')[1] for l in open('results/screening_validation_asreview.tsv', encoding='utf-8').read().split('\n')[1:]
+        if l and l.split('\t')[4] == '1'}
+for x in recs.values():
+    x['stage1'] = x['final']
+    if x['final'] == 'include' and x['eid'] not in CORE:
+        x['final'] = 'E12'
+assert sum(x['final'] == 'include' for x in recs.values()) == len(CORE)
 os.makedirs('results', exist_ok=True)
 with open('results/screening_scopus.tsv', 'w', encoding='utf-8', newline='\n') as f:
-    f.write('eid\tyear\tblocks\tdecision\tper_block\ttitle\n')
+    f.write('eid\tyear\tblocks\tdecision\tper_block\ttitle\tstage1\n')
     for x in recs.values():
         f.write('\t'.join([x['eid'], x['year'], '+'.join(x['blocks']), x['final'], ' '.join(x['decisions']),
-                           re.sub(r'\s+', ' ', x['title'])]) + '\n')
+                           re.sub(r'\s+', ' ', x['title']), x['stage1']]) + '\n')
 import collections
 print('records', len(recs), collections.Counter(x['final'] for x in recs.values()))
 for b in BLOCKS:

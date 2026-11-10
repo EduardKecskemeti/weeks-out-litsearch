@@ -1,7 +1,7 @@
-block	retrieved	included	precision
-b1v4	460	132	0.29
-b2	176	95	0.54
-b3v5	115	70	0.61
-b4	10	6	0.6
-b5	58	18	0.31
-all (unique)	819	321	0.39
+block	retrieved	stage1_included	included	precision
+b1v4	460	132	71	0.15
+b2	176	95	43	0.24
+b3v5	115	70	49	0.43
+b4	10	6	1	0.1
+b5	58	18	18	0.31
+all (unique)	819	321	182	0.22

@@ -34,6 +34,7 @@ Exclusion codes
   E8 other sport or non-physique population (b2, b4)
   E9 clinical/longitudinal imaging without a ranking or ordinal method (b3v5)
   E10 not a research contribution (encyclopedia entry, technical report)
+  E12 stage 2: not core-relevant to the project (results/screening_validation.md)
   E11 non-photographic body imaging: depth cameras, 3D scanners, point clouds or
       range images as the input (b1v3 and b5; scope is ordinary 2D photos only,
       decision of 10 Nov 2026; smartphone-photo apps and photogrammetry stay included)

@@ -26,5 +26,6 @@ than from random error:
   ranking, ordinal and Siamese comparison methods in any image domain, including
   medical imaging.
 
-Next: write the criterion down per block, re-screen the 118 disagreements together,
-and report the consensus set.
+Resolution (10 Nov 2026): after discussion, reviewer EK adopted Claude's criterion as the
+one that matches the project's method; the final set is Claude's 182 relevant records
+(decision code E12 for the other 139, applied in `bibliometric/screen.py`).
