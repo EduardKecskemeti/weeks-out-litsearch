@@ -38,6 +38,16 @@ for b in BLOCKS:
         x['blocks'].append(b)
 ALL = list(recs.values())
 INC = [r for r in ALL if decision[r['EID']] == 'include']
+# OpenRefine cleanup (10 Nov 2026): keywords, affiliations (institution + country) and
+# source titles of the included records come from the cleaned export when it exists
+CLEAN = 'licensed/analysis/scopus_included_cleaned.csv'
+CLEANED = os.path.exists(CLEAN)
+if CLEANED:
+    cl = {r['EID']: r for r in csv.DictReader(open(CLEAN, encoding='utf-8-sig'))}
+    assert set(cl) == {r['EID'] for r in INC}, 'cleaned export does not match the included set'
+    for r in INC:
+        for col in ('Author Keywords', 'Index Keywords', 'Affiliations', 'Source title'):
+            r[col] = cl[r['EID']][col]
 # a record included through one block may also sit in another block where it was excluded;
 # for per-block figures, count a record under each block in which it was retrieved
 def block_of(r):
@@ -163,12 +173,13 @@ for r in INC:
 write_tsv('countries.tsv', ['country', 'TP_whole_count', 'TC', 'corresponding_author', 'SCP', 'MCP'],
           [(c, n, ctry_c[c], corr[c], scp[c], mcp[c]) for c, n in ctry.most_common(30)])
 
-# affiliations (uncleaned: name variants are merged only after the OpenRefine step)
+# institutions (after OpenRefine: one entry per institution and paper)
 aff = collections.Counter()
 for r in INC:
     for a in {x.strip() for x in r['Affiliations'].split(';') if x.strip()}:
         aff[a] += 1
-write_tsv('top_affiliations_uncleaned.tsv', ['affiliation', 'TP'], aff.most_common(30))
+write_tsv('top_institutions.tsv' if CLEANED else 'top_affiliations_uncleaned.tsv',
+          ['institution' if CLEANED else 'affiliation', 'TP'], aff.most_common(30))
 
 # authors by Scopus author ID (avoids most name-variant problems)
 name_of, au_tp, au_tc = {}, collections.Counter(), collections.Counter()

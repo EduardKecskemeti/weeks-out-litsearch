@@ -1,9 +1,9 @@
 keyword	papers
 human	123
 adult	89
-male	88
-female	88
 humans	88
+female	88
+male	88
 article	78
 body composition	75
 anthropometry	69
@@ -23,11 +23,10 @@ major clinical study	28
 convolutional neural networks	27
 human bodies	26
 caloric intake	24
-body mass index	23
-absorptiometry, photon	23
 photon absorptiometry	23
-dual energy x ray absorptiometry	23
+body mass index	23
 fat free mass	23
+dual energy x ray absorptiometry	23
 human experiment	23
 body shapes	23
 body fat	22
@@ -39,3 +38,4 @@ image segmentation	20
 deep neural networks	20
 hosiery manufacture	19
 learning systems	19
+regression analysis	18

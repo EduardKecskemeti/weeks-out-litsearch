@@ -151,6 +151,8 @@ NOT-block on b1, new validation sub-query b5).
 Scope is ordinary 2D photographs: depth-camera, 3D-scanner and point-cloud studies are
 excluded (code E11, 39 records; decision of 10 Nov 2026).
 
+Data cleaning in OpenRefine (keywords, affiliations, sources): `bibliometric/openrefine/README.md`.
+
 Recall against the 50 papers of dataset 2: 44 retrieved and included; of the 6 misses one is
 not in Scopus and one is dated 2026, so recall on the 48 that could be found is 0.92
 (`results/gold_recall.tsv`, `bibliometric/gold_recall.py`).
