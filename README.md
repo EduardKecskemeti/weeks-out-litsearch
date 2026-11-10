@@ -145,8 +145,11 @@ NOT-block on b1, new validation sub-query b5).
 | Step | Records |
 |---|---|
 | Retrieved: b1v4 460, b2 176, b3v5 115, b4 10, b5 58 (unique EIDs) | 819 |
-| Excluded at title/abstract screening | −478 |
-| **Screened set** | **341** |
+| Excluded at title/abstract screening | −498 |
+| **Screened set** | **321** |
+
+Scope is ordinary 2D photographs: depth-camera, 3D-scanner and point-cloud studies are
+excluded (code E11, 39 records; decision of 10 Nov 2026).
 
 Recall against the 50 papers of dataset 2: 44 retrieved and included; of the 6 misses one is
 not in Scopus and one is dated 2026, so recall on the 48 that could be found is 0.92

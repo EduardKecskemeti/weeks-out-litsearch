@@ -27,6 +27,8 @@ for b in BLOCKS:
         i, k = (POS[b][j] if b in POS else j), KEY.get(b, b)
         if i in INCLUDE[k]:
             d = 'include'
+        elif k == 'b1v3' and i in EXCLUDE_CODE['b1v3']:
+            d = EXCLUDE_CODE['b1v3'][i]
         elif k == 'b1v3':
             t = r['Title'].lower()
             d = next((c for c, p in EXCL_RULES if re.search(p, t)), 'E6')

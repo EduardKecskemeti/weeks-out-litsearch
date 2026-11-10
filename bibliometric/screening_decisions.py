@@ -34,7 +34,9 @@ Exclusion codes
   E8 other sport or non-physique population (b2, b4)
   E9 clinical/longitudinal imaging without a ranking or ordinal method (b3v5)
   E10 not a research contribution (encyclopedia entry, technical report)
-  E11 non-photographic body imaging: dedicated 3D optical/surface scanners (b5)
+  E11 non-photographic body imaging: depth cameras, 3D scanners, point clouds or
+      range images as the input (b1v3 and b5; scope is ordinary 2D photos only,
+      decision of 10 Nov 2026; smartphone-photo apps and photogrammetry stay included)
 For b1v3 the exclusion code was assigned from the title with keyword rules
 (EXCL_RULES below) after the include/exclude decision was made by hand.
 """
@@ -78,6 +80,11 @@ EXCLUDE_CODE = {
            **{i: 'E3' for i in (24, 29)},
            **{i: 'E5' for i in (27, 53, 55)}},
 }
+# b1v3 positions moved from INCLUDE to E11 on 10 Nov 2026 (2D-only scope)
+B1_3D = (12, 104, 115, 120, 176, 233, 235, 239, 295, 320, 349, 350, 360, 378, 418, 469, 485, 512, 525, 527)
+INCLUDE['b1v3'] -= set(B1_3D)
+EXCLUDE_CODE['b1v3'] = {i: 'E11' for i in B1_3D}
+
 DEFAULT_EXCLUDE = {'b2': 'E6', 'b3v5': 'E9', 'b4': 'E6', 'b5': 'E6'}
 
 # b1v3 -> b1v4: records whose title or abstract match this are no longer retrieved

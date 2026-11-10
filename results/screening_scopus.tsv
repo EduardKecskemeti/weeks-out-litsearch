@@ -9,7 +9,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85216531497	2024	b1v4	E2	b1v4:E2	Implementing Deep Learning Pipeline Toward Explainable Osteoporosis Detection Using Knee Radiographs
 2-s2.0-85202754194	2024	b1v4	include	b1v4:include	AdaBoost algorithm for the recognition of young women’s body shapes based on 2D images; [Algoritmul AdaBoost pentru recunoașterea formelor corpului persoanelor tinere de sex feminin pe baza imaginilor 2D]
 2-s2.0-85176560752	2023	b1v4	include	b1v4:include	Fluid-Dependent Single-Frequency Bioelectrical Impedance Fat Mass Estimates Compared to Digital Imaging and Dual X-ray Absorptiometry
-2-s2.0-85093868541	2020	b1v4	include	b1v4:include	3D Human Body Shape and Pose Estimation from Depth Image
+2-s2.0-85093868541	2020	b1v4	E11	b1v4:E11	3D Human Body Shape and Pose Estimation from Depth Image
 2-s2.0-85073598453	2019	b1v4	E6	b1v4:E6	A study on 3D virtual body formation and deformation by body shape analysis
 2-s2.0-85122047279	2021	b1v4	E3	b1v4:E3	MeTRAbs: Metric-Scale Truncation-Robust Heatmaps for Absolute 3D Human Pose Estimation
 2-s2.0-85101692692	2021	b1v4	include	b1v4:include	Utilizing a novel 2d image processing system for relating body composition metrics to performance in collegiate female rowers
@@ -90,7 +90,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85195171113	2024	b1v4	E4	b1v4:E4	Machine learning-based clothing recommendation system for women: case study of Lady's confecciones
 2-s2.0-85137933638	2022	b1v4	E3	b1v4:E3	Infant upper body 3D kinematics estimated using a commercial RGB-D sensor and a deep neural network tracking processing tool
 2-s2.0-85126132294	2022	b1v4	E4	b1v4:E4	Creating and Reenacting Controllable 3D Humans with Differentiable Rendering
-2-s2.0-85170702978	2024	b1v4	include	b1v4:include	An innovative method for human height estimation combining video images and 3D laser scanning
+2-s2.0-85170702978	2024	b1v4	E11	b1v4:E11	An innovative method for human height estimation combining video images and 3D laser scanning
 2-s2.0-105000695419	2025	b1v4	E4	b1v4:E4	GRD: Garment Reconstruction and Draping with Preserved Design Based on 2D Image
 2-s2.0-85184745901	2024	b1v4	E5	b1v4:E5	Smartphone Applications to Prevent Type 2 Diabetes: A Systematic Review and Meta-Analysis
 2-s2.0-85169703567	2023	b1v4	E5	b1v4:E5	Protocol of a parallel, randomized controlled trial on the effects of a novel personalized nutrition approach by artificial intelligence in real world scenario
@@ -99,11 +99,11 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-105028967670	2025	b1v4	E6	b1v4:E6	Proximity Based Real Time Alert System for Construction Sites Using Monocular Depth Estimation
 2-s2.0-85184281063	2024	b1v4	include	b1v4:include	Mass Estimation in Body Photography for Obesity Assessment Using Deep Learning and Linear Regression
 2-s2.0-85057223955	2018	b1v4	include	b1v4:include	Using computer vision to study the effects of BMI on online popularity and weight-based homophily
-2-s2.0-85097313731	2020	b1v4	include	b1v4:include	Efficient Body Registration Using Single-View Range Imaging and Generic Shape Templates
+2-s2.0-85097313731	2020	b1v4	E11	b1v4:E11	Efficient Body Registration Using Single-View Range Imaging and Generic Shape Templates
 2-s2.0-85120346239	2022	b1v4	E5	b1v4:E5	Practical Computer Vision Application to Compute Total Body Surface Area Burn: Reappraising a Fundamental Burn Injury Formula in the Modern Era
 2-s2.0-85206872428	2024	b1v4	E6	b1v4:E6	Sleep prediction using data from oximeter, accelerometer and snoring for portable monitor obstructive sleep apnea diagnosis
 2-s2.0-85113258269	2021	b1v4	E6	b1v4:E6	Foot-surface-structure analysis using a smartphone-based 3D foot scanner
-2-s2.0-85122510216	2021	b1v4	include	b1v4:include	Height Estimation of Children under Five Years using Depth Images
+2-s2.0-85122510216	2021	b1v4	E11	b1v4:E11	Height Estimation of Children under Five Years using Depth Images
 2-s2.0-85200512078	2024	b1v4	E6	b1v4:E6	Managing safety of the human on the factory floor: a computer vision fusion approach
 2-s2.0-85216076253	2024	b1v4	include	b1v4:include	Distilling CLIP with Dual Guidance for Learning Discriminative Human Body Shape Representation
 2-s2.0-85175076542	2022	b1v4	include	b1v4:include	Automatic Estimation of Anthropometric Human Body Measurements
@@ -154,7 +154,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-105022521431	2025	b1v4	E6	b1v4:E6	A novel approach of developing machine learning based models for the prediction of facial dimensions from dental parameters
 2-s2.0-85121341294	2021	b1v4	include	b1v4:include	Monocular 3d body shape reconstruction under clothing
 2-s2.0-85141832653	2022	b1v4	include	b1v4:include	Anthropometric Measurements with 2D Images
-2-s2.0-85105115996	2022	b1v4	include	b1v4:include	3DBodyNet: Fast Reconstruction of 3D Animatable Human Body Shape from a Single Commodity Depth Camera
+2-s2.0-85105115996	2022	b1v4	E11	b1v4:E11	3DBodyNet: Fast Reconstruction of 3D Animatable Human Body Shape from a Single Commodity Depth Camera
 2-s2.0-85121414116	2021	b1v4	E3	b1v4:E3	Unsupervised Human Pose Estimation through Transforming Shape Templates
 2-s2.0-85089233411	2020	b1v4	E6	b1v4:E6	A Minimal Personalization of Dynamic Binaural Synthesis with Mixed Structural Modeling and Scattering Delay Networks
 2-s2.0-85101549746	2021	b1v4	E6	b1v4:E6	Towards secure fitness framework based on iot-enabled blockchain network integrated with machine learning algorithms
@@ -206,12 +206,12 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-105015215037	2025	b1v4	E6	b1v4:E6	Objective Severity Classification of Unilateral Cleft Lip Nasal Deformity Using Nostril Width, Alar Facial Symmetry Ratio, and Columellar Angle to Justify Surgical Outcomes
 2-s2.0-105018472536	2025	b1v4	include	b1v4:include	Assistive System for Monitoring Malnutrition in Children: MalnoCare
 2-s2.0-85182576616	2023	b1v4	include	b1v4:include	Malnutrition Detection using Deep Learning Models
-2-s2.0-85047965761	2019	b1v4	include	b1v4:include	3-D Reconstruction of Human Body Shape from a Single Commodity Depth Camera
+2-s2.0-85047965761	2019	b1v4	E11	b1v4:E11	3-D Reconstruction of Human Body Shape from a Single Commodity Depth Camera
 2-s2.0-85128531710	2023	b1v4	E6	b1v4:E6	3D human body reconstruction based on SMPL model
-2-s2.0-85161462353	2022	b1v4	include	b1v4:include	Inception Network for Anthropometric Body Measurements Estimation from Structured Point Clouds
+2-s2.0-85161462353	2022	b1v4	E11	b1v4:E11	Inception Network for Anthropometric Body Measurements Estimation from Structured Point Clouds
 2-s2.0-85165943829	2024	b1v4	include	b1v4:include	Adjustable method based on body parts for improving the accuracy of 3D reconstruction in visually important body parts from silhouettes
 2-s2.0-85142329656	2022	b1v4	E2	b1v4:E2	Development of a Spine X-Ray-Based Fracture Prediction Model Using a Deep Learning Algorithm
-2-s2.0-85193806106	2023	b1v4	include	b1v4:include	Human Body Shape Completion with Implicit Shape and Flow Learning
+2-s2.0-85193806106	2023	b1v4	E11	b1v4:E11	Human Body Shape Completion with Implicit Shape and Flow Learning
 2-s2.0-105005723858	2025	b1v4	E6	b1v4:E6	3D human mesh recovery with learned gradient
 2-s2.0-85118188258	2021	b1v4	include	b1v4:include	Parametric Shape Estimation of Human Body under Wide Clothing
 2-s2.0-85175365213	2023	b1v4	E6	b1v4:E6	Using Generative Artificial Intelligence Tools in Cosmetic Surgery: A Study on Rhinoplasty, Facelifts, and Blepharoplasty Procedures
@@ -259,7 +259,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85218215006	2024	b1v4	E5	b1v4:E5	An AI-Driven Framework for Personalized Diet Generation and Nutrition Suggestions Using Machine Leaming, Computer Vision and NLP
 2-s2.0-85075024090	2019	b1v4	include	b1v4:include	Towards Accurate 3D Human Body Reconstruction from Silhouettes
 2-s2.0-85191501568	2025	b1v4	E6	b1v4:E6	Automated facial landmark measurement using machine learning: A feasibility study
-2-s2.0-85185557331	2023	b1v4	include	b1v4:include	RGB-D Image-Based Deep Neural Network Body Shape Classifier
+2-s2.0-85185557331	2023	b1v4	E11	b1v4:E11	RGB-D Image-Based Deep Neural Network Body Shape Classifier
 2-s2.0-85130503947	2022	b1v4	E6	b1v4:E6	Unintended Consequences when the Engineering Design Team is Noninclusive: An Exploration of the Literature
 2-s2.0-85097082605	2020	b1v4	include	b1v4:include	3D Human Shape Reconstruction from a Polarization Image
 2-s2.0-105019582604	2025	b1v4	E1	b1v4:E1	AI-Based Image Profiling and Detection for the Beetle Byte Quintet Using Vision Transformer (ViT) in Advanced Stored Product Infestation Monitoring
@@ -277,7 +277,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-105044705554	2025	b1v4	E4	b1v4:E4	StyleSnap: Revolutionizing Fashion with Virtual Try-On Technology
 2-s2.0-85170640585	2023	b1v4	include	b1v4:include	Development and validation of an accurate smartphone application for measuring waist-to-hip circumference ratio
 2-s2.0-85186746325	2023	b1v4	include	b1v4:include	Refining Human 3D Reconstruction from 2D Images
-2-s2.0-85145030732	2023	b1v4	include	b1v4:include	A Template-Based Method for Automatic Anthropometric Measurements from Multiple 3D Scans
+2-s2.0-85145030732	2023	b1v4	E11	b1v4:E11	A Template-Based Method for Automatic Anthropometric Measurements from Multiple 3D Scans
 2-s2.0-85123737452	2022	b1v4	include	b1v4:include	Agreement of anthropometric and body composition measures predicted from 2D smartphone images and body impedance scales with criterion methods
 2-s2.0-85082503672	2019	b1v4	include	b1v4:include	What face and body shapes can tell us about height
 2-s2.0-85150507618	2023	b1v4	E2	b1v4:E2	Image-Based Biological Heart Age Estimation Reveals Differential Aging Patterns Across Cardiac Chambers
@@ -301,8 +301,8 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85203699118	2024	b1v4	E3	b1v4:E3	Physique-Driven Human Activity Recognition with Ensemble Learning
 2-s2.0-85072976051	2018	b1v4	E6	b1v4:E6	Pellet shape classification using deep neural networks
 2-s2.0-85064122869	2018	b1v4	E6	b1v4:E6	In-situ shadowgraph imaging
-2-s2.0-85105984779	2022	b1v4	include	b1v4:include	Estimating somatotype from a single-camera 3D body scanning system
-2-s2.0-85138126698	2022	b1v4	include	b1v4:include	Liver Fat Assessment with Body Shape
+2-s2.0-85105984779	2022	b1v4	E11	b1v4:E11	Estimating somatotype from a single-camera 3D body scanning system
+2-s2.0-85138126698	2022	b1v4	E11	b1v4:E11	Liver Fat Assessment with Body Shape
 2-s2.0-85062839297	2018	b1v4	E6	b1v4:E6	Constitution Identification of Tongue Image Based on CNN
 2-s2.0-85120988884	2021	b1v4	E6	b1v4:E6	THUNDR: Transformer-based 3D HUmaN Reconstruction with Markers
 2-s2.0-85128638726	2022	b1v4	E6	b1v4:E6	Deep models of superficial face judgments
@@ -311,7 +311,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85141124982	2022	b1v4	E1	b1v4:E1	Genetic analysis of digital image derived morphometric traits of black tiger shrimp (Penaeus monodon) by incorporating G × E investigations
 2-s2.0-85136875946	2022	b1v4	E5	b1v4:E5	Exploring an Artificial Intelligence–Based, Gamified Phone App Prototype to Track and Improve Food Choices of Adolescent Girls in Vietnam: Acceptability, Usability, and Likeability Study
 2-s2.0-85141779773	2022	b1v4	include	b1v4:include	OSSO: Obtaining Skeletal Shape from Outside
-2-s2.0-85212620568	2024	b1v4	include	b1v4:include	Anthropometric Landmark Detection Network via Geodesic Heatmap on 3D Human Scan
+2-s2.0-85212620568	2024	b1v4	E11	b1v4:E11	Anthropometric Landmark Detection Network via Geodesic Heatmap on 3D Human Scan
 2-s2.0-85125313309	2021	b1v4	include	b1v4:include	A Convolutional Neural Network-based Framework for the Assessment of Human Muscles
 2-s2.0-85082475988	2019	b1v4	E6	b1v4:E6	HumanMeshNet: Polygonal mesh recovery of humans
 2-s2.0-85060534065	2019	b1v4	E5	b1v4:E5	Illustration of Measurement Error Models for Reducing Bias in Nutrition and Obesity Research Using 2-D Body Composition Data
@@ -322,7 +322,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85134879544	2022	b1v4	include	b1v4:include	Silhouette images enable estimation of body fat distribution and associated cardiometabolic risk
 2-s2.0-85093948137	2020	b1v4	E6	b1v4:E6	Prediction of Personal Cardiovascular Risk using Machine Learning for Smartphone Applications
 2-s2.0-85199491415	2024	b1v4	E6	b1v4:E6	An Embeddable Implicit IUVD Representation for Part-Based 3D Human Surface Reconstruction
-2-s2.0-85113342631	2021	b1v4	include	b1v4:include	Deep Learning-Based Automated Extraction of Anthropometric Measurements from a Single 3-D Scan
+2-s2.0-85113342631	2021	b1v4	E11	b1v4:E11	Deep Learning-Based Automated Extraction of Anthropometric Measurements from a Single 3-D Scan
 2-s2.0-85053504535	2018	b1v4	E2	b1v4:E2	Airway increase after open bite closure with temporary anchorage devices for intrusion of the upper posteriors: Evidence from 2D cephalometric measurements and 3D magnetic resonance imaging
 2-s2.0-85181917116	2024	b1v4	include	b1v4:include	Development of a Non-Contact Sensor System for Converting 2D Images into 3D Body Data: A Deep Learning Approach to Monitor Obesity and Body Shape in Individuals in Their 20s and 30s
 2-s2.0-85135289978	2021	b1v4	E6	b1v4:E6	Automated Generation of Custom Fit PPE Inserts: For Respiratory Masks Using 2D and 3D Anthropometric Data
@@ -352,7 +352,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85150985434	2023	b1v4	E6	b1v4:E6	TSCom-Net: Coarse-to-Fine 3D Textured Shape Completion Network
 2-s2.0-85090625003	2020	b1v4	E6	b1v4:E6	Face Classification in Adults and Minors: An Approach based on Facial Anthropometry
 2-s2.0-85167712778	2023	b1v4	E3	b1v4:E3	A Deep Learning Dual-Stream Framework for Fall Detection
-2-s2.0-85100647964	2021	b1v4	include	b1v4:include	3D standard avatar creation of Korean women in their twenties and thirties by body types for apparel industry
+2-s2.0-85100647964	2021	b1v4	E11	b1v4:E11	3D standard avatar creation of Korean women in their twenties and thirties by body types for apparel industry
 2-s2.0-85072566113	2019	b1v4	E5	b1v4:E5	Human body reshaping and its application using multiple RGB-D sensors
 2-s2.0-105017112805	2025	b1v4	E4	b1v4:E4	PhyDeformer: High-Quality Non-Rigid Garment Registration with Physics-Awareness
 2-s2.0-85105864650	2021	b1v4	E3	b1v4:E3	Physique-Based Human Activity Recognition Using Ensemble Learning and Smartphone Sensors
@@ -400,7 +400,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85089677126	2020	b1v4	E6	b1v4:E6	Estimating sex and age from a face: a forensic approach using machine learning based on photo-anthropometric indexes of the Brazilian population
 2-s2.0-105010455249	2025	b1v4	E6	b1v4:E6	Using Fuzzy C-Means clustering and PCA in public health: A machine learning approach to combat CVD and obesity
 2-s2.0-85115196124	2021	b1v4	E3	b1v4:E3	A Feature Fusion Model for Person Identification Using Top-view Image
-2-s2.0-85079008463	2020	b1v4	include	b1v4:include	Categorization of lower body shapes of abdominal obese men using a script-based 3D body measurement software
+2-s2.0-85079008463	2020	b1v4	E11	b1v4:E11	Categorization of lower body shapes of abdominal obese men using a script-based 3D body measurement software
 2-s2.0-85164490566	2023	b1v4	E6	b1v4:E6	Abdominal fat quantification using convolutional networks
 2-s2.0-85146276826	2023	b1v4	include	b1v4:include	Evaluation of automated anthropometrics produced by smartphone-based machine learning: a comparison with traditional anthropometric assessments
 2-s2.0-85218817459	2025	b1v4	E6	b1v4:E6	Functionally characterizing obesity-susceptibility genes using CRISPR/Cas9, in vivo imaging and deep learning
@@ -413,7 +413,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-85184939036	2023	b1v4	include	b1v4:include	PatchBMI-Net: Lightweight Facial Patch-based Ensemble for BMI Prediction
 2-s2.0-105018893155	2025	b1v4	E3	b1v4:E3	Anatomy-Based Assessment of Spinal Posture Using IMU Sensors and Machine Learning
 2-s2.0-85160448990	2023	b1v4	E3	b1v4:E3	Scene-Aware 3D Multi-Human Motion Capture from a Single Camera
-2-s2.0-85099883191	2020	b1v4	include	b1v4:include	Feature Bridging Networks for 3D Human Body Shape Estimation from a Single Depth Map
+2-s2.0-85099883191	2020	b1v4	E11	b1v4:E11	Feature Bridging Networks for 3D Human Body Shape Estimation from a Single Depth Map
 2-s2.0-85185879028	2023	b1v4	include	b1v4:include	Cloth2Body: Generating 3D Human Body Mesh from 2D Clothing
 2-s2.0-85059861693	2019	b1v4	include	b1v4:include	A New Female Body Segmentation and Feature Localisation Method for Image-Based Anthropometry
 2-s2.0-85122896778	2022	b1v4	E3	b1v4:E3	Mobile Health App for Adolescents: Motion Sensor Data and Deep Learning Technique to Examine the Relationship between Obesity and Walking Patterns
@@ -438,7 +438,7 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-84962426706	2016	b1v4	E6	b1v4:E6	Single-camera automatic landmarking for people recognition with an ensemble of regression trees
 2-s2.0-85019148902	2016	b1v4	include	b1v4:include	Predicting privileged information for height estimation
 2-s2.0-84986255641	2016	b1v4	E6	b1v4:E6	Linear shape deformation models with local support using graph-based structured matrix factorisation
-2-s2.0-85027858545	2017	b1v4	include	b1v4:include	Two-stage model fitting approach for human body shape estimation from a single depth image
+2-s2.0-85027858545	2017	b1v4	E11	b1v4:E11	Two-stage model fitting approach for human body shape estimation from a single depth image
 2-s2.0-85032348001	2017	b1v4	E6	b1v4:E6	Vision-based safety vest detection in a construction scene
 2-s2.0-84977097941	2016	b1v4	E3	b1v4:E3	Reconstruction of human behavior and movement feature recognition based on the video image
 2-s2.0-85008481896	2016	b1v4	E3	b1v4:E3	The effect of ongoing feedback on physical activity levels following an exercise intervention in older adults: A randomised controlled trial protocol
@@ -450,9 +450,9 @@ eid	year	blocks	decision	per_block	title
 2-s2.0-84969667382	2016	b1v4	include	b1v4:include	Feature Extraction from 2D Images for Body Composition Analysis
 2-s2.0-85021879725	2017	b1v4	E3	b1v4:E3	Multi-modal uniform deep learning for RGB-D person re-identification
 2-s2.0-85029160273	2017	b1v4	include	b1v4:include	Automatic measurement of anthropometric dimensions using frontal and lateral silhouettes
-2-s2.0-84959441365	2017	b1v4	include	b1v4:include	Template deformation-based 3-D reconstruction of full human body scans from low-cost depth cameras
+2-s2.0-84959441365	2017	b1v4	E11	b1v4:E11	Template deformation-based 3-D reconstruction of full human body scans from low-cost depth cameras
 2-s2.0-85018379031	2016	b1v4	E6	b1v4:E6	A novel age estimation of facial image using KLT
-2-s2.0-85025697768	2017	b1v4	include	b1v4:include	Automatic RBG-depth-pressure anthropometric analysis and individualised sleep solution prescription
+2-s2.0-85025697768	2017	b1v4	E11	b1v4:E11	Automatic RBG-depth-pressure anthropometric analysis and individualised sleep solution prescription
 2-s2.0-85009493289	2017	b1v4	include	b1v4:include	On the extraction of anthropometric parameters by visual and non-visual means
 2-s2.0-85013016911	2017	b1v4	E6	b1v4:E6	Comparative analysis of PRID algorithms based on results ambiguity evaluation
 2-s2.0-84952979054	2016	b1v4	E6	b1v4:E6	Normative anthropometric analysis and aesthetic indication of the ocular region for young Chinese adults

@@ -222,6 +222,9 @@ Before cleanup, the Scopus blocks were refined with tests of the form
    (19) were excluded as out of scope (E11, 2D photos only).
 4. **Rejected**: body-composition subterms in b2 (+59, mostly steroids and case reports).
 
+On 10 Nov 2026 the 2D-only rule was also applied to b1v4: 20 included depth-camera,
+3D-scan and point-cloud studies were re-coded E11 (included set 341 → 321).
+
 Recall against dataset 2: 44 of 50 retrieved and included (`results/gold_recall.tsv`);
 one miss is not in Scopus and one is dated 2026, so recall is 44/48 = 0.92. The other
 four lack a term from one concept column; widening those columns costs far more noise

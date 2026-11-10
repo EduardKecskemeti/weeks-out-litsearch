@@ -44,7 +44,7 @@ b5 is a separate, narrow sub-query; its records not already in b1v3 were exporte
 | **MeSH** | Body Composition (D001823), Adiposity (D050154) | Photography (D010781), Mobile Applications (D063731); "digital anthropometry" has no descriptor | Reproducibility of Results, Validation Study (publication type) |
 | **Used in query** | body fat, body composition, adiposity, fat mass, lean mass, fat-free mass | smartphone, digital anthropometry, 2D image, two-dimensional image, digital image, photograph, 3D optical, three-dimensional optical, optical scan, optical imaging | validity, validation, agreement, reliability, accuracy |
 
-Screening: dedicated 3D optical scanners are excluded (E11, 2D photos only); smartphone-camera
+Screening: dedicated 3D optical scanners are excluded (E11, 2D photos only; applied to b1v4 too on 10 Nov 2026); smartphone-camera
 captures count as photographic even when they build a 3D avatar.
 
 ## b4: AI applied to bodybuilding
@@ -59,6 +59,6 @@ convolutional, image processing.
 MeSH/Emtree index terms attached to the **included** Scopus records (number of
 records), which confirm the mapping above:
 
-- b1v3/b1v4 (152 included): Anthropometry 64, Deep Learning 45, Body Composition 35, Body Mass Index 20, Body Weight 20, Machine Learning 14, Smartphone 12, Artificial Intelligence 11, Photography 8, Somatotypes 6, Mobile Applications 5
+- b1v4 (132 included, 2D-only scope): Anthropometry 47, Deep Learning 35, Body Mass Index 19, Body Composition 18, Body Weight 15, Machine Learning 12, Smartphone 7, Artificial Intelligence 7, Photography 6, Mobile Applications 5
 - b2 (95 included): Body Composition 68, Weight Lifting 35, Resistance Training 34, Athletes 31, Body Weight 21, Body Image 15, Anthropometry 15, Weight Loss 10, Caloric Restriction 9
 - b3v4 (50 included): Deep Learning 31, Diagnostic Imaging 11, Disease Progression 6
