@@ -1,0 +1,1742 @@
+{
+"network": {
+"items": [
+{
+"id": 1,
+"label": "2d image",
+"weights": {
+"Occurrences": 3,
+"Links": 2,
+"Total link strength": 3
+},
+"scores": {
+"Avg. pub. year": 2023.67,
+"Avg. citations": 7.0
+}
+},
+{
+"id": 2,
+"label": "3d",
+"weights": {
+"Occurrences": 3,
+"Links": 7,
+"Total link strength": 9
+},
+"scores": {
+"Avg. pub. year": 2022.33,
+"Avg. citations": 4.33
+}
+},
+{
+"id": 3,
+"label": "3d from single images",
+"weights": {
+"Occurrences": 3,
+"Links": 1,
+"Total link strength": 2
+},
+"scores": {
+"Avg. pub. year": 2020.0,
+"Avg. citations": 157.67
+}
+},
+{
+"id": 4,
+"label": "3d scanning",
+"weights": {
+"Occurrences": 3,
+"Links": 5,
+"Total link strength": 11
+},
+"scores": {
+"Avg. pub. year": 2024.0,
+"Avg. citations": 9.0
+}
+},
+{
+"id": 5,
+"label": "age estimation",
+"weights": {
+"Occurrences": 3,
+"Links": 3,
+"Total link strength": 4
+},
+"scores": {
+"Avg. pub. year": 2018.33,
+"Avg. citations": 30.0
+}
+},
+{
+"id": 6,
+"label": "anthropometric features",
+"weights": {
+"Occurrences": 3,
+"Links": 2,
+"Total link strength": 2
+},
+"scores": {
+"Avg. pub. year": 2021.0,
+"Avg. citations": 26.33
+}
+},
+{
+"id": 7,
+"label": "anthropometric measurements",
+"weights": {
+"Occurrences": 3,
+"Links": 6,
+"Total link strength": 7
+},
+"scores": {
+"Avg. pub. year": 2023.0,
+"Avg. citations": 3.33
+}
+},
+{
+"id": 8,
+"label": "anthropometry",
+"weights": {
+"Occurrences": 12,
+"Links": 16,
+"Total link strength": 23
+},
+"scores": {
+"Avg. pub. year": 2022.92,
+"Avg. citations": 10.42
+}
+},
+{
+"id": 9,
+"label": "bioelectrical impedance analysis",
+"weights": {
+"Occurrences": 3,
+"Links": 7,
+"Total link strength": 7
+},
+"scores": {
+"Avg. pub. year": 2022.67,
+"Avg. citations": 18.0
+}
+},
+{
+"id": 10,
+"label": "body composition",
+"weights": {
+"Occurrences": 25,
+"Links": 28,
+"Total link strength": 56
+},
+"scores": {
+"Avg. pub. year": 2021.84,
+"Avg. citations": 18.04
+}
+},
+{
+"id": 11,
+"label": "body composition assessment",
+"weights": {
+"Occurrences": 6,
+"Links": 9,
+"Total link strength": 20
+},
+"scores": {
+"Avg. pub. year": 2021.83,
+"Avg. citations": 25.17
+}
+},
+{
+"id": 12,
+"label": "body fat",
+"weights": {
+"Occurrences": 6,
+"Links": 11,
+"Total link strength": 18
+},
+"scores": {
+"Avg. pub. year": 2022.67,
+"Avg. citations": 16.33
+}
+},
+{
+"id": 13,
+"label": "body fat percentage",
+"weights": {
+"Occurrences": 5,
+"Links": 10,
+"Total link strength": 10
+},
+"scores": {
+"Avg. pub. year": 2023.4,
+"Avg. citations": 5.4
+}
+},
+{
+"id": 14,
+"label": "body mass index",
+"weights": {
+"Occurrences": 3,
+"Links": 3,
+"Total link strength": 3
+},
+"scores": {
+"Avg. pub. year": 2019.0,
+"Avg. citations": 10.67
+}
+},
+{
+"id": 15,
+"label": "bodybuilders",
+"weights": {
+"Occurrences": 4,
+"Links": 9,
+"Total link strength": 10
+},
+"scores": {
+"Avg. pub. year": 2019.25,
+"Avg. citations": 28.75
+}
+},
+{
+"id": 16,
+"label": "bodybuilding",
+"weights": {
+"Occurrences": 17,
+"Links": 15,
+"Total link strength": 34
+},
+"scores": {
+"Avg. pub. year": 2021.94,
+"Avg. citations": 17.53
+}
+},
+{
+"id": 17,
+"label": "competition",
+"weights": {
+"Occurrences": 3,
+"Links": 7,
+"Total link strength": 9
+},
+"scores": {
+"Avg. pub. year": 2021.0,
+"Avg. citations": 38.67
+}
+},
+{
+"id": 18,
+"label": "computer vision",
+"weights": {
+"Occurrences": 14,
+"Links": 14,
+"Total link strength": 25
+},
+"scores": {
+"Avg. pub. year": 2022.36,
+"Avg. citations": 3.43
+}
+},
+{
+"id": 19,
+"label": "computer-aided diagnosis",
+"weights": {
+"Occurrences": 4,
+"Links": 4,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2021.75,
+"Avg. citations": 14.5
+}
+},
+{
+"id": 20,
+"label": "contest preparation",
+"weights": {
+"Occurrences": 4,
+"Links": 7,
+"Total link strength": 9
+},
+"scores": {
+"Avg. pub. year": 2020.0,
+"Avg. citations": 45.75
+}
+},
+{
+"id": 21,
+"label": "convolutional neural network",
+"weights": {
+"Occurrences": 13,
+"Links": 12,
+"Total link strength": 22
+},
+"scores": {
+"Avg. pub. year": 2021.23,
+"Avg. citations": 54.46
+}
+},
+{
+"id": 22,
+"label": "deep learning",
+"weights": {
+"Occurrences": 26,
+"Links": 20,
+"Total link strength": 36
+},
+"scores": {
+"Avg. pub. year": 2022.04,
+"Avg. citations": 36.65
+}
+},
+{
+"id": 23,
+"label": "diet",
+"weights": {
+"Occurrences": 4,
+"Links": 5,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2020.25,
+"Avg. citations": 19.75
+}
+},
+{
+"id": 24,
+"label": "dieting",
+"weights": {
+"Occurrences": 4,
+"Links": 9,
+"Total link strength": 12
+},
+"scores": {
+"Avg. pub. year": 2018.0,
+"Avg. citations": 45.25
+}
+},
+{
+"id": 25,
+"label": "digital anthropometry",
+"weights": {
+"Occurrences": 11,
+"Links": 13,
+"Total link strength": 30
+},
+"scores": {
+"Avg. pub. year": 2023.0,
+"Avg. citations": 18.64
+}
+},
+{
+"id": 26,
+"label": "dual-energy x-ray absorptiometry",
+"weights": {
+"Occurrences": 8,
+"Links": 17,
+"Total link strength": 23
+},
+"scores": {
+"Avg. pub. year": 2022.12,
+"Avg. citations": 17.0
+}
+},
+{
+"id": 27,
+"label": "endoscopic image dataset",
+"weights": {
+"Occurrences": 3,
+"Links": 3,
+"Total link strength": 7
+},
+"scores": {
+"Avg. pub. year": 2022.67,
+"Avg. citations": 7.67
+}
+},
+{
+"id": 28,
+"label": "fat loss",
+"weights": {
+"Occurrences": 6,
+"Links": 9,
+"Total link strength": 17
+},
+"scores": {
+"Avg. pub. year": 2021.0,
+"Avg. citations": 17.0
+}
+},
+{
+"id": 29,
+"label": "fat mass",
+"weights": {
+"Occurrences": 6,
+"Links": 9,
+"Total link strength": 13
+},
+"scores": {
+"Avg. pub. year": 2021.67,
+"Avg. citations": 28.5
+}
+},
+{
+"id": 30,
+"label": "fat-free mass",
+"weights": {
+"Occurrences": 5,
+"Links": 8,
+"Total link strength": 11
+},
+"scores": {
+"Avg. pub. year": 2022.0,
+"Avg. citations": 26.4
+}
+},
+{
+"id": 31,
+"label": "human body",
+"weights": {
+"Occurrences": 3,
+"Links": 1,
+"Total link strength": 1
+},
+"scores": {
+"Avg. pub. year": 2020.67,
+"Avg. citations": 6.67
+}
+},
+{
+"id": 32,
+"label": "human shape estimation",
+"weights": {
+"Occurrences": 3,
+"Links": 3,
+"Total link strength": 4
+},
+"scores": {
+"Avg. pub. year": 2020.33,
+"Avg. citations": 33.67
+}
+},
+{
+"id": 33,
+"label": "lean body mass",
+"weights": {
+"Occurrences": 3,
+"Links": 5,
+"Total link strength": 5
+},
+"scores": {
+"Avg. pub. year": 2021.0,
+"Avg. citations": 3.0
+}
+},
+{
+"id": 34,
+"label": "learning to rank",
+"weights": {
+"Occurrences": 3,
+"Links": 3,
+"Total link strength": 7
+},
+"scores": {
+"Avg. pub. year": 2022.67,
+"Avg. citations": 7.67
+}
+},
+{
+"id": 35,
+"label": "machine learning",
+"weights": {
+"Occurrences": 12,
+"Links": 17,
+"Total link strength": 25
+},
+"scores": {
+"Avg. pub. year": 2022.75,
+"Avg. citations": 51.08
+}
+},
+{
+"id": 36,
+"label": "mobile health",
+"weights": {
+"Occurrences": 5,
+"Links": 7,
+"Total link strength": 16
+},
+"scores": {
+"Avg. pub. year": 2021.0,
+"Avg. citations": 25.8
+}
+},
+{
+"id": 37,
+"label": "multi-task learning",
+"weights": {
+"Occurrences": 3,
+"Links": 6,
+"Total link strength": 6
+},
+"scores": {
+"Avg. pub. year": 2020.67,
+"Avg. citations": 19.33
+}
+},
+{
+"id": 38,
+"label": "muscle hypertrophy",
+"weights": {
+"Occurrences": 4,
+"Links": 6,
+"Total link strength": 9
+},
+"scores": {
+"Avg. pub. year": 2022.5,
+"Avg. citations": 9.0
+}
+},
+{
+"id": 39,
+"label": "muscle mass",
+"weights": {
+"Occurrences": 3,
+"Links": 6,
+"Total link strength": 7
+},
+"scores": {
+"Avg. pub. year": 2023.67,
+"Avg. citations": 10.33
+}
+},
+{
+"id": 40,
+"label": "neural networks",
+"weights": {
+"Occurrences": 3,
+"Links": 5,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2019.67,
+"Avg. citations": 10.0
+}
+},
+{
+"id": 41,
+"label": "nutrition",
+"weights": {
+"Occurrences": 5,
+"Links": 10,
+"Total link strength": 14
+},
+"scores": {
+"Avg. pub. year": 2019.2,
+"Avg. citations": 40.2
+}
+},
+{
+"id": 42,
+"label": "nutritional assessment",
+"weights": {
+"Occurrences": 3,
+"Links": 6,
+"Total link strength": 10
+},
+"scores": {
+"Avg. pub. year": 2022.33,
+"Avg. citations": 24.33
+}
+},
+{
+"id": 43,
+"label": "obesity",
+"weights": {
+"Occurrences": 11,
+"Links": 14,
+"Total link strength": 31
+},
+"scores": {
+"Avg. pub. year": 2022.27,
+"Avg. citations": 20.09
+}
+},
+{
+"id": 44,
+"label": "optical imaging",
+"weights": {
+"Occurrences": 3,
+"Links": 7,
+"Total link strength": 11
+},
+"scores": {
+"Avg. pub. year": 2023.67,
+"Avg. citations": 18.67
+}
+},
+{
+"id": 45,
+"label": "ordinal regression",
+"weights": {
+"Occurrences": 5,
+"Links": 3,
+"Total link strength": 4
+},
+"scores": {
+"Avg. pub. year": 2022.0,
+"Avg. citations": 89.4
+}
+},
+{
+"id": 46,
+"label": "physique",
+"weights": {
+"Occurrences": 4,
+"Links": 7,
+"Total link strength": 11
+},
+"scores": {
+"Avg. pub. year": 2020.75,
+"Avg. citations": 36.75
+}
+},
+{
+"id": 47,
+"label": "physique athletes",
+"weights": {
+"Occurrences": 3,
+"Links": 6,
+"Total link strength": 6
+},
+"scores": {
+"Avg. pub. year": 2019.33,
+"Avg. citations": 31.67
+}
+},
+{
+"id": 48,
+"label": "protein",
+"weights": {
+"Occurrences": 3,
+"Links": 2,
+"Total link strength": 2
+},
+"scores": {
+"Avg. pub. year": 2020.0,
+"Avg. citations": 37.33
+}
+},
+{
+"id": 49,
+"label": "resistance training",
+"weights": {
+"Occurrences": 6,
+"Links": 8,
+"Total link strength": 16
+},
+"scores": {
+"Avg. pub. year": 2019.33,
+"Avg. citations": 22.67
+}
+},
+{
+"id": 50,
+"label": "siamese network",
+"weights": {
+"Occurrences": 5,
+"Links": 3,
+"Total link strength": 5
+},
+"scores": {
+"Avg. pub. year": 2023.6,
+"Avg. citations": 15.0
+}
+},
+{
+"id": 51,
+"label": "silhouette",
+"weights": {
+"Occurrences": 3,
+"Links": 6,
+"Total link strength": 6
+},
+"scores": {
+"Avg. pub. year": 2020.33,
+"Avg. citations": 39.0
+}
+},
+{
+"id": 52,
+"label": "smartphone",
+"weights": {
+"Occurrences": 6,
+"Links": 9,
+"Total link strength": 23
+},
+"scores": {
+"Avg. pub. year": 2023.17,
+"Avg. citations": 17.83
+}
+},
+{
+"id": 53,
+"label": "smartphone application",
+"weights": {
+"Occurrences": 3,
+"Links": 7,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2023.67,
+"Avg. citations": 10.67
+}
+}
+],
+"links": [
+{
+"source_id": 1,
+"target_id": 10,
+"strength": 2
+},
+{
+"source_id": 1,
+"target_id": 53,
+"strength": 1
+},
+{
+"source_id": 2,
+"target_id": 8,
+"strength": 1
+},
+{
+"source_id": 2,
+"target_id": 10,
+"strength": 2
+},
+{
+"source_id": 2,
+"target_id": 18,
+"strength": 1
+},
+{
+"source_id": 2,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 2,
+"target_id": 26,
+"strength": 2
+},
+{
+"source_id": 2,
+"target_id": 40,
+"strength": 1
+},
+{
+"source_id": 2,
+"target_id": 53,
+"strength": 1
+},
+{
+"source_id": 3,
+"target_id": 22,
+"strength": 2
+},
+{
+"source_id": 4,
+"target_id": 10,
+"strength": 1
+},
+{
+"source_id": 4,
+"target_id": 12,
+"strength": 3
+},
+{
+"source_id": 4,
+"target_id": 25,
+"strength": 2
+},
+{
+"source_id": 4,
+"target_id": 44,
+"strength": 2
+},
+{
+"source_id": 4,
+"target_id": 52,
+"strength": 3
+},
+{
+"source_id": 5,
+"target_id": 21,
+"strength": 2
+},
+{
+"source_id": 5,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 5,
+"target_id": 37,
+"strength": 1
+},
+{
+"source_id": 6,
+"target_id": 18,
+"strength": 1
+},
+{
+"source_id": 6,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 7,
+"target_id": 18,
+"strength": 2
+},
+{
+"source_id": 7,
+"target_id": 21,
+"strength": 1
+},
+{
+"source_id": 7,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 7,
+"target_id": 25,
+"strength": 1
+},
+{
+"source_id": 7,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 7,
+"target_id": 36,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 10,
+"strength": 5
+},
+{
+"source_id": 8,
+"target_id": 12,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 13,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 16,
+"strength": 2
+},
+{
+"source_id": 8,
+"target_id": 18,
+"strength": 2
+},
+{
+"source_id": 8,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 25,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 28,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 33,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 38,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 39,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 40,
+"strength": 2
+},
+{
+"source_id": 8,
+"target_id": 42,
+"strength": 1
+},
+{
+"source_id": 8,
+"target_id": 43,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 10,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 12,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 16,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 26,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 29,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 30,
+"strength": 1
+},
+{
+"source_id": 9,
+"target_id": 47,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 12,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 15,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 16,
+"strength": 6
+},
+{
+"source_id": 10,
+"target_id": 18,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 23,
+"strength": 2
+},
+{
+"source_id": 10,
+"target_id": 25,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 26,
+"strength": 4
+},
+{
+"source_id": 10,
+"target_id": 28,
+"strength": 3
+},
+{
+"source_id": 10,
+"target_id": 29,
+"strength": 2
+},
+{
+"source_id": 10,
+"target_id": 30,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 33,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 38,
+"strength": 2
+},
+{
+"source_id": 10,
+"target_id": 39,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 41,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 42,
+"strength": 3
+},
+{
+"source_id": 10,
+"target_id": 43,
+"strength": 5
+},
+{
+"source_id": 10,
+"target_id": 44,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 48,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 49,
+"strength": 3
+},
+{
+"source_id": 10,
+"target_id": 51,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 52,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 53,
+"strength": 2
+},
+{
+"source_id": 11,
+"target_id": 13,
+"strength": 1
+},
+{
+"source_id": 11,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 11,
+"target_id": 25,
+"strength": 4
+},
+{
+"source_id": 11,
+"target_id": 26,
+"strength": 1
+},
+{
+"source_id": 11,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 11,
+"target_id": 36,
+"strength": 4
+},
+{
+"source_id": 11,
+"target_id": 37,
+"strength": 1
+},
+{
+"source_id": 11,
+"target_id": 43,
+"strength": 4
+},
+{
+"source_id": 11,
+"target_id": 52,
+"strength": 3
+},
+{
+"source_id": 12,
+"target_id": 25,
+"strength": 2
+},
+{
+"source_id": 12,
+"target_id": 29,
+"strength": 1
+},
+{
+"source_id": 12,
+"target_id": 30,
+"strength": 2
+},
+{
+"source_id": 12,
+"target_id": 39,
+"strength": 1
+},
+{
+"source_id": 12,
+"target_id": 44,
+"strength": 2
+},
+{
+"source_id": 12,
+"target_id": 47,
+"strength": 1
+},
+{
+"source_id": 12,
+"target_id": 52,
+"strength": 3
+},
+{
+"source_id": 13,
+"target_id": 15,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 26,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 29,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 30,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 37,
+"strength": 1
+},
+{
+"source_id": 13,
+"target_id": 53,
+"strength": 1
+},
+{
+"source_id": 14,
+"target_id": 18,
+"strength": 1
+},
+{
+"source_id": 14,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 14,
+"target_id": 43,
+"strength": 1
+},
+{
+"source_id": 15,
+"target_id": 17,
+"strength": 1
+},
+{
+"source_id": 15,
+"target_id": 20,
+"strength": 1
+},
+{
+"source_id": 15,
+"target_id": 24,
+"strength": 2
+},
+{
+"source_id": 15,
+"target_id": 33,
+"strength": 1
+},
+{
+"source_id": 15,
+"target_id": 41,
+"strength": 1
+},
+{
+"source_id": 15,
+"target_id": 46,
+"strength": 1
+},
+{
+"source_id": 15,
+"target_id": 47,
+"strength": 1
+},
+{
+"source_id": 16,
+"target_id": 17,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 20,
+"strength": 1
+},
+{
+"source_id": 16,
+"target_id": 23,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 24,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 26,
+"strength": 1
+},
+{
+"source_id": 16,
+"target_id": 28,
+"strength": 4
+},
+{
+"source_id": 16,
+"target_id": 33,
+"strength": 1
+},
+{
+"source_id": 16,
+"target_id": 38,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 39,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 41,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 46,
+"strength": 2
+},
+{
+"source_id": 16,
+"target_id": 49,
+"strength": 4
+},
+{
+"source_id": 17,
+"target_id": 20,
+"strength": 1
+},
+{
+"source_id": 17,
+"target_id": 24,
+"strength": 1
+},
+{
+"source_id": 17,
+"target_id": 41,
+"strength": 1
+},
+{
+"source_id": 17,
+"target_id": 46,
+"strength": 2
+},
+{
+"source_id": 17,
+"target_id": 49,
+"strength": 1
+},
+{
+"source_id": 18,
+"target_id": 21,
+"strength": 2
+},
+{
+"source_id": 18,
+"target_id": 22,
+"strength": 5
+},
+{
+"source_id": 18,
+"target_id": 25,
+"strength": 2
+},
+{
+"source_id": 18,
+"target_id": 26,
+"strength": 1
+},
+{
+"source_id": 18,
+"target_id": 35,
+"strength": 3
+},
+{
+"source_id": 18,
+"target_id": 36,
+"strength": 1
+},
+{
+"source_id": 18,
+"target_id": 40,
+"strength": 2
+},
+{
+"source_id": 18,
+"target_id": 43,
+"strength": 1
+},
+{
+"source_id": 19,
+"target_id": 21,
+"strength": 1
+},
+{
+"source_id": 19,
+"target_id": 22,
+"strength": 1
+},
+{
+"source_id": 19,
+"target_id": 27,
+"strength": 3
+},
+{
+"source_id": 19,
+"target_id": 34,
+"strength": 3
+},
+{
+"source_id": 20,
+"target_id": 24,
+"strength": 1
+},
+{
+"source_id": 20,
+"target_id": 41,
+"strength": 2
+},
+{
+"source_id": 20,
+"target_id": 46,
+"strength": 2
+},
+{
+"source_id": 20,
+"target_id": 47,
+"strength": 1
+},
+{
+"source_id": 21,
+"target_id": 22,
+"strength": 5
+},
+{
+"source_id": 21,
+"target_id": 32,
+"strength": 2
+},
+{
+"source_id": 21,
+"target_id": 35,
+"strength": 4
+},
+{
+"source_id": 21,
+"target_id": 37,
+"strength": 1
+},
+{
+"source_id": 21,
+"target_id": 41,
+"strength": 1
+},
+{
+"source_id": 21,
+"target_id": 45,
+"strength": 1
+},
+{
+"source_id": 21,
+"target_id": 50,
+"strength": 1
+},
+{
+"source_id": 21,
+"target_id": 51,
+"strength": 1
+},
+{
+"source_id": 22,
+"target_id": 26,
+"strength": 2
+},
+{
+"source_id": 22,
+"target_id": 27,
+"strength": 1
+},
+{
+"source_id": 22,
+"target_id": 31,
+"strength": 1
+},
+{
+"source_id": 22,
+"target_id": 34,
+"strength": 1
+},
+{
+"source_id": 22,
+"target_id": 35,
+"strength": 3
+},
+{
+"source_id": 22,
+"target_id": 37,
+"strength": 1
+},
+{
+"source_id": 22,
+"target_id": 40,
+"strength": 2
+},
+{
+"source_id": 22,
+"target_id": 45,
+"strength": 2
+},
+{
+"source_id": 22,
+"target_id": 50,
+"strength": 3
+},
+{
+"source_id": 23,
+"target_id": 28,
+"strength": 1
+},
+{
+"source_id": 23,
+"target_id": 33,
+"strength": 1
+},
+{
+"source_id": 23,
+"target_id": 49,
+"strength": 2
+},
+{
+"source_id": 24,
+"target_id": 28,
+"strength": 1
+},
+{
+"source_id": 24,
+"target_id": 41,
+"strength": 2
+},
+{
+"source_id": 24,
+"target_id": 46,
+"strength": 1
+},
+{
+"source_id": 24,
+"target_id": 47,
+"strength": 1
+},
+{
+"source_id": 24,
+"target_id": 49,
+"strength": 1
+},
+{
+"source_id": 25,
+"target_id": 26,
+"strength": 1
+},
+{
+"source_id": 25,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 25,
+"target_id": 36,
+"strength": 4
+},
+{
+"source_id": 25,
+"target_id": 43,
+"strength": 4
+},
+{
+"source_id": 25,
+"target_id": 44,
+"strength": 2
+},
+{
+"source_id": 25,
+"target_id": 52,
+"strength": 5
+},
+{
+"source_id": 26,
+"target_id": 29,
+"strength": 2
+},
+{
+"source_id": 26,
+"target_id": 30,
+"strength": 1
+},
+{
+"source_id": 26,
+"target_id": 37,
+"strength": 1
+},
+{
+"source_id": 26,
+"target_id": 40,
+"strength": 1
+},
+{
+"source_id": 26,
+"target_id": 42,
+"strength": 1
+},
+{
+"source_id": 26,
+"target_id": 43,
+"strength": 1
+},
+{
+"source_id": 26,
+"target_id": 51,
+"strength": 1
+},
+{
+"source_id": 26,
+"target_id": 53,
+"strength": 1
+},
+{
+"source_id": 27,
+"target_id": 34,
+"strength": 3
+},
+{
+"source_id": 28,
+"target_id": 38,
+"strength": 2
+},
+{
+"source_id": 28,
+"target_id": 39,
+"strength": 1
+},
+{
+"source_id": 28,
+"target_id": 41,
+"strength": 1
+},
+{
+"source_id": 28,
+"target_id": 49,
+"strength": 3
+},
+{
+"source_id": 29,
+"target_id": 30,
+"strength": 3
+},
+{
+"source_id": 29,
+"target_id": 35,
+"strength": 1
+},
+{
+"source_id": 29,
+"target_id": 48,
+"strength": 1
+},
+{
+"source_id": 29,
+"target_id": 53,
+"strength": 1
+},
+{
+"source_id": 30,
+"target_id": 47,
+"strength": 1
+},
+{
+"source_id": 30,
+"target_id": 53,
+"strength": 1
+},
+{
+"source_id": 32,
+"target_id": 43,
+"strength": 1
+},
+{
+"source_id": 32,
+"target_id": 51,
+"strength": 1
+},
+{
+"source_id": 35,
+"target_id": 36,
+"strength": 1
+},
+{
+"source_id": 35,
+"target_id": 41,
+"strength": 1
+},
+{
+"source_id": 35,
+"target_id": 43,
+"strength": 2
+},
+{
+"source_id": 35,
+"target_id": 45,
+"strength": 1
+},
+{
+"source_id": 35,
+"target_id": 50,
+"strength": 1
+},
+{
+"source_id": 35,
+"target_id": 52,
+"strength": 1
+},
+{
+"source_id": 36,
+"target_id": 43,
+"strength": 3
+},
+{
+"source_id": 36,
+"target_id": 52,
+"strength": 2
+},
+{
+"source_id": 38,
+"target_id": 39,
+"strength": 1
+},
+{
+"source_id": 38,
+"target_id": 49,
+"strength": 1
+},
+{
+"source_id": 41,
+"target_id": 46,
+"strength": 2
+},
+{
+"source_id": 42,
+"target_id": 43,
+"strength": 3
+},
+{
+"source_id": 42,
+"target_id": 44,
+"strength": 1
+},
+{
+"source_id": 42,
+"target_id": 51,
+"strength": 1
+},
+{
+"source_id": 43,
+"target_id": 44,
+"strength": 1
+},
+{
+"source_id": 43,
+"target_id": 51,
+"strength": 1
+},
+{
+"source_id": 43,
+"target_id": 52,
+"strength": 3
+},
+{
+"source_id": 44,
+"target_id": 52,
+"strength": 2
+},
+{
+"source_id": 46,
+"target_id": 49,
+"strength": 1
+}
+]
+}
+}

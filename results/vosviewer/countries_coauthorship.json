@@ -1,0 +1,278 @@
+{
+"network": {
+"items": [
+{
+"id": 1,
+"label": "Australia",
+"weights": {
+"Documents": 8,
+"Links": 1,
+"Total link strength": 1
+},
+"scores": {
+"Avg. pub. year": 2020.38,
+"Avg. citations": 24.12
+}
+},
+{
+"id": 2,
+"label": "Brazil",
+"weights": {
+"Documents": 14,
+"Links": 2,
+"Total link strength": 4
+},
+"scores": {
+"Avg. pub. year": 2022.57,
+"Avg. citations": 5.29
+}
+},
+{
+"id": 3,
+"label": "Canada",
+"weights": {
+"Documents": 3,
+"Links": 1,
+"Total link strength": 1
+},
+"scores": {
+"Avg. pub. year": 2023.0,
+"Avg. citations": 16.67
+}
+},
+{
+"id": 4,
+"label": "China",
+"weights": {
+"Documents": 23,
+"Links": 3,
+"Total link strength": 7
+},
+"scores": {
+"Avg. pub. year": 2020.96,
+"Avg. citations": 51.52
+}
+},
+{
+"id": 5,
+"label": "France",
+"weights": {
+"Documents": 8,
+"Links": 1,
+"Total link strength": 2
+},
+"scores": {
+"Avg. pub. year": 2021.75,
+"Avg. citations": 48.5
+}
+},
+{
+"id": 6,
+"label": "India",
+"weights": {
+"Documents": 6,
+"Links": 0,
+"Total link strength": 0
+},
+"scores": {
+"Avg. pub. year": 2023.83,
+"Avg. citations": 0.83
+}
+},
+{
+"id": 7,
+"label": "Italy",
+"weights": {
+"Documents": 8,
+"Links": 2,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2021.25,
+"Avg. citations": 23.88
+}
+},
+{
+"id": 8,
+"label": "Japan",
+"weights": {
+"Documents": 4,
+"Links": 0,
+"Total link strength": 0
+},
+"scores": {
+"Avg. pub. year": 2023.25,
+"Avg. citations": 6.25
+}
+},
+{
+"id": 9,
+"label": "Korea",
+"weights": {
+"Documents": 12,
+"Links": 0,
+"Total link strength": 0
+},
+"scores": {
+"Avg. pub. year": 2022.08,
+"Avg. citations": 16.83
+}
+},
+{
+"id": 10,
+"label": "New Zealand",
+"weights": {
+"Documents": 6,
+"Links": 3,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2021.67,
+"Avg. citations": 24.33
+}
+},
+{
+"id": 11,
+"label": "Portugal",
+"weights": {
+"Documents": 3,
+"Links": 2,
+"Total link strength": 3
+},
+"scores": {
+"Avg. pub. year": 2023.33,
+"Avg. citations": 3.0
+}
+},
+{
+"id": 12,
+"label": "Spain",
+"weights": {
+"Documents": 8,
+"Links": 3,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2023.0,
+"Avg. citations": 12.12
+}
+},
+{
+"id": 13,
+"label": "Switzerland",
+"weights": {
+"Documents": 4,
+"Links": 0,
+"Total link strength": 0
+},
+"scores": {
+"Avg. pub. year": 2020.0,
+"Avg. citations": 60.0
+}
+},
+{
+"id": 14,
+"label": "UK",
+"weights": {
+"Documents": 14,
+"Links": 3,
+"Total link strength": 8
+},
+"scores": {
+"Avg. pub. year": 2020.93,
+"Avg. citations": 21.21
+}
+},
+{
+"id": 15,
+"label": "USA",
+"weights": {
+"Documents": 71,
+"Links": 9,
+"Total link strength": 28
+},
+"scores": {
+"Avg. pub. year": 2021.34,
+"Avg. citations": 48.63
+}
+}
+],
+"links": [
+{
+"source_id": 1,
+"target_id": 15,
+"strength": 1
+},
+{
+"source_id": 2,
+"target_id": 11,
+"strength": 2
+},
+{
+"source_id": 2,
+"target_id": 15,
+"strength": 2
+},
+{
+"source_id": 3,
+"target_id": 4,
+"strength": 1
+},
+{
+"source_id": 4,
+"target_id": 14,
+"strength": 1
+},
+{
+"source_id": 4,
+"target_id": 15,
+"strength": 5
+},
+{
+"source_id": 5,
+"target_id": 15,
+"strength": 2
+},
+{
+"source_id": 7,
+"target_id": 12,
+"strength": 3
+},
+{
+"source_id": 7,
+"target_id": 15,
+"strength": 5
+},
+{
+"source_id": 10,
+"target_id": 12,
+"strength": 1
+},
+{
+"source_id": 10,
+"target_id": 14,
+"strength": 3
+},
+{
+"source_id": 10,
+"target_id": 15,
+"strength": 4
+},
+{
+"source_id": 11,
+"target_id": 15,
+"strength": 1
+},
+{
+"source_id": 12,
+"target_id": 15,
+"strength": 4
+},
+{
+"source_id": 14,
+"target_id": 15,
+"strength": 4
+}
+]
+}
+}
