@@ -27,7 +27,7 @@
    "authors_in_h_core": 369,
    "authors_in_i10": 1799,
    "authors_per_paper": 5.55,
-   "international_coauthorship": 0.266
+   "international_coauthorship": 0.265
   },
   "screened set (included)": {
    "TP": 182,
@@ -52,7 +52,7 @@
    "authors_in_h_core": 211,
    "authors_in_i10": 445,
    "authors_per_paper": 5.41,
-   "international_coauthorship": 0.247
+   "international_coauthorship": 0.242
   },
   "b1v4 included": {
    "TP": 71,
@@ -77,7 +77,7 @@
    "authors_in_h_core": 84,
    "authors_in_i10": 156,
    "authors_per_paper": 5.04,
-   "international_coauthorship": 0.183
+   "international_coauthorship": 0.169
   },
   "b2 included": {
    "TP": 43,

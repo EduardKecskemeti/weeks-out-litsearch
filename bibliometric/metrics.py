@@ -64,7 +64,9 @@ def country_of(aff):
     c = aff.rsplit(',', 1)[-1].strip()
     return {'United States': 'USA', 'United Kingdom': 'UK', 'Russian Federation': 'Russia',
             'South Korea': 'Korea', 'Republic of Korea': 'Korea', 'Viet Nam': 'Vietnam',
-            'Czech Republic': 'Czechia', 'Taiwan': 'Taiwan'}.get(c, c)
+            'Czech Republic': 'Czechia', 'Taiwan': 'Taiwan',
+            # two Scopus affiliations without a country (both in the USA)
+            'Washington University': 'USA', 'Texas A and M International University': 'USA'}.get(c, c)
 
 def countries(r):
     """Countries per author from 'Authors with affiliations' (one entry per author)."""

@@ -9,33 +9,33 @@ anthropometry	1	11	0.017	0.089
 digital anthropometry	0	11	0.0	0.089
 obesity	2	9	0.034	0.073
 dual-energy x-ray absorptiometry	3	5	0.052	0.04
-smartphone	0	6	0.0	0.048
-body fat	1	5	0.017	0.04
-body composition assessment	1	5	0.017	0.04
-resistance training	4	2	0.069	0.016
-fat loss	3	3	0.052	0.024
 fat mass	1	5	0.017	0.04
-body fat percentage	0	5	0.0	0.04
-ordinal regression	2	3	0.034	0.024
-mobile health	1	4	0.017	0.032
+body composition assessment	1	5	0.017	0.04
+body fat	1	5	0.017	0.04
+fat loss	3	3	0.052	0.024
+smartphone	0	6	0.0	0.048
+resistance training	4	2	0.069	0.016
 nutrition	5	0	0.086	0.0
-siamese network	1	4	0.017	0.032
+body fat percentage	0	5	0.0	0.04
 fat-free mass	1	4	0.017	0.032
+mobile health	1	4	0.017	0.032
+ordinal regression	2	3	0.034	0.024
+siamese network	1	4	0.017	0.032
 diet	2	2	0.034	0.016
-dieting	4	0	0.069	0.0
-physique	2	2	0.034	0.016
 contest preparation	3	1	0.052	0.008
+muscle hypertrophy	1	3	0.017	0.024
+dieting	4	0	0.069	0.0
 computer-aided diagnosis	1	3	0.017	0.024
 bodybuilders	2	2	0.034	0.016
-muscle hypertrophy	1	3	0.017	0.024
-3d from single images	2	1	0.034	0.008
+physique	2	2	0.034	0.016
 body mass index	2	1	0.034	0.008
-anthropometric measurements	0	3	0.0	0.024
-human body	2	1	0.034	0.008
-2d image	0	3	0.0	0.024
-3d	1	2	0.017	0.016
-anthropometric features	1	2	0.017	0.016
-neural networks	2	1	0.034	0.008
 bioelectrical impedance analysis	1	2	0.017	0.016
-nutritional assessment	1	2	0.017	0.016
+neural networks	2	1	0.034	0.008
 human shape estimation	1	2	0.017	0.016
+3d from single images	2	1	0.034	0.008
+human body	2	1	0.034	0.008
+3d	1	2	0.017	0.016
+anthropometric measurements	0	3	0.0	0.024
+2d image	0	3	0.0	0.024
+nutritional assessment	1	2	0.017	0.016
+anthropometric features	1	2	0.017	0.016
